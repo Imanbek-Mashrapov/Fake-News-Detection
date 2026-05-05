@@ -1,0 +1,1673 @@
+2026-05-05 13:47:04,580 [master] INFO ======================================================================
+2026-05-05 13:47:04,580 [master] INFO KYRGYZ FAKE NEWS DATASET COLLECTOR
+2026-05-05 13:47:04,580 [master] INFO ======================================================================
+2026-05-05 13:47:04,868 [master] INFO Running scraper: scraper_24kg
+2026-05-05 13:47:04,868 [master] INFO ============================================================
+2026-05-05 13:47:04,868 [master] INFO 24.KG KYRGYZ SCRAPER
+2026-05-05 13:47:04,868 [master] INFO ============================================================
+2026-05-05 13:47:04,870 [master] INFO Fetching page 1: https://24.kg/kyrgyzcha/page_1/
+2026-05-05 13:47:05,698 [master] INFO   → Running total: 56 unique links
+2026-05-05 13:47:06,701 [master] INFO Fetching page 2: https://24.kg/kyrgyzcha/page_2/
+2026-05-05 13:47:07,263 [master] INFO   → Running total: 106 unique links
+2026-05-05 13:47:08,270 [master] INFO Fetching page 3: https://24.kg/kyrgyzcha/page_3/
+2026-05-05 13:47:08,812 [master] INFO   → Running total: 156 unique links
+2026-05-05 13:47:09,813 [master] INFO Fetching page 4: https://24.kg/kyrgyzcha/page_4/
+2026-05-05 13:47:10,551 [master] INFO   → Running total: 206 unique links
+2026-05-05 13:47:11,554 [master] INFO Fetching page 5: https://24.kg/kyrgyzcha/page_5/
+2026-05-05 13:47:12,101 [master] INFO   → Running total: 257 unique links
+2026-05-05 13:47:13,102 [master] INFO Fetching page 6: https://24.kg/kyrgyzcha/page_6/
+2026-05-05 13:47:13,730 [master] INFO   → Running total: 308 unique links
+2026-05-05 13:47:14,733 [master] INFO Fetching page 7: https://24.kg/kyrgyzcha/page_7/
+2026-05-05 13:47:15,322 [master] INFO   → Running total: 359 unique links
+2026-05-05 13:47:16,324 [master] INFO Fetching page 8: https://24.kg/kyrgyzcha/page_8/
+2026-05-05 13:47:16,948 [master] INFO   → Running total: 410 unique links
+2026-05-05 13:47:17,950 [master] INFO Fetching page 9: https://24.kg/kyrgyzcha/page_9/
+2026-05-05 13:47:18,569 [master] INFO   → Running total: 461 unique links
+2026-05-05 13:47:19,571 [master] INFO Fetching page 10: https://24.kg/kyrgyzcha/page_10/
+2026-05-05 13:47:20,248 [master] INFO   → Running total: 512 unique links
+2026-05-05 13:47:21,249 [master] INFO Fetching page 11: https://24.kg/kyrgyzcha/page_11/
+2026-05-05 13:47:22,042 [master] INFO   → Running total: 563 unique links
+2026-05-05 13:47:23,048 [master] INFO Fetching page 12: https://24.kg/kyrgyzcha/page_12/
+2026-05-05 13:47:23,618 [master] INFO   → Running total: 614 unique links
+2026-05-05 13:47:24,618 [master] INFO Fetching page 13: https://24.kg/kyrgyzcha/page_13/
+2026-05-05 13:47:25,183 [master] INFO   → Running total: 665 unique links
+2026-05-05 13:47:26,190 [master] INFO Fetching page 14: https://24.kg/kyrgyzcha/page_14/
+2026-05-05 13:47:27,029 [master] INFO   → Running total: 716 unique links
+2026-05-05 13:47:28,037 [master] INFO Fetching page 15: https://24.kg/kyrgyzcha/page_15/
+2026-05-05 13:47:28,675 [master] INFO   → Running total: 767 unique links
+2026-05-05 13:47:29,676 [master] INFO Fetching page 16: https://24.kg/kyrgyzcha/page_16/
+2026-05-05 13:47:30,267 [master] INFO   → Running total: 818 unique links
+2026-05-05 13:47:31,275 [master] INFO Fetching page 17: https://24.kg/kyrgyzcha/page_17/
+2026-05-05 13:47:31,821 [master] INFO   → Running total: 869 unique links
+2026-05-05 13:47:32,823 [master] INFO Fetching page 18: https://24.kg/kyrgyzcha/page_18/
+2026-05-05 13:47:33,494 [master] INFO   → Running total: 920 unique links
+2026-05-05 13:47:34,496 [master] INFO Fetching page 19: https://24.kg/kyrgyzcha/page_19/
+2026-05-05 13:47:35,181 [master] INFO   → Running total: 971 unique links
+2026-05-05 13:47:36,182 [master] INFO Fetching page 20: https://24.kg/kyrgyzcha/page_20/
+2026-05-05 13:47:36,848 [master] INFO   → Running total: 1022 unique links
+2026-05-05 13:47:37,850 [master] INFO Total links collected: 1022
+2026-05-05 13:47:37,852 [master] INFO Scraping (1/150): https://24.kg/kyrgyzcha/371554_bugun_butkul_duynoluk_kitep_kunu_kitep_tuuraluu_oylor/
+2026-05-05 13:47:38,582 [master] INFO   ✓ Бүгүн бүткүл дүйнөлүк китеп күнү: Китеп тууралуу ойлор
+2026-05-05 13:47:41,083 [master] INFO Scraping (2/150): https://24.kg/kyrgyzcha/page_11/
+2026-05-05 13:47:41,905 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:47:44,407 [master] INFO Scraping (2/150): https://24.kg/kyrgyzcha/372072_28-aprelge_karata_aba_yirayyi/
+2026-05-05 13:47:44,748 [master] INFO   ✓ 28-апрелге карата аба ырайы
+2026-05-05 13:47:47,250 [master] INFO Scraping (3/150): https://24.kg/kyrgyzcha/365616_sotsialdyik_kelishim_programmasyina_katyishuu_uchun_1min_825_aryiz_tushtu/
+2026-05-05 13:47:48,077 [master] INFO   ✓ «Социалдык келишим» программасына катышуу үчүн 1 миң 825 арыз түштү
+2026-05-05 13:47:50,591 [master] INFO Scraping (4/150): https://24.kg/kyrgyzcha/370662_bshk_chyingyiz_aydarbekovdun_deputattyikka_talapkerligin_jokko_chyigardyi/
+2026-05-05 13:47:52,482 [master] INFO   ✓ БШК Чыңгыз Айдарбековдун депутаттыкка талапкерлигин жокко чыгарды
+2026-05-05 13:47:54,984 [master] INFO Scraping (5/150): https://24.kg/kyrgyzcha/368397_paydaluu_kenesh_suunun_organizmge_kanday_taasiri_bar/
+2026-05-05 13:47:55,353 [master] INFO   ✓ Пайдалуу кеңеш: Суунун организмге кандай таасири бар?
+2026-05-05 13:47:57,855 [master] INFO Scraping (6/150): https://24.kg/kyrgyzcha/367506_kyirgyiz_elartisti_teatr_jana_kino_akteru_abdyikalyik_akmatovgo_jazyilgan_nekrolog/
+2026-05-05 13:47:58,656 [master] INFO   ✓ Кыргыз эл артисти, театр жана кино актеру Абдыкалык Акматовго жазылган
+2026-05-05 13:48:01,168 [master] INFO Scraping (7/150): https://24.kg/kyrgyzcha/366149_byiyyil_bishkektegi_eki_seyil_bagyi_ondop-tuzoodon_otot/
+2026-05-05 13:48:02,447 [master] INFO   ✓ Быйыл Бишкектеги эки сейил багы оңдоп-түзөөдөн өтөт
+2026-05-05 13:48:04,964 [master] INFO Scraping (8/150): https://24.kg/kyrgyzcha/371058_kyirgyizstanda_uluu_ata_mekendik_sogushtun_24ardageri_kaldyi/
+2026-05-05 13:48:07,153 [master] INFO   ✓ Кыргызстанда Улуу Ата Мекендик согуштун 24 ардагери калды
+2026-05-05 13:48:09,655 [master] INFO Scraping (9/150): https://24.kg/kyrgyzcha/367514_jakyinkyi_chyigyish_buunun_bash_katchyisyi_diplomatiyalyik_suyloshuulordu_bashtoogo_chakyirdyi/
+2026-05-05 13:48:10,033 [master] INFO   ✓ Жакынкы Чыгыш: БУУнун баш катчысы дипломатиялык сүйлөшүүлөрдү баштоого
+2026-05-05 13:48:12,535 [master] INFO Scraping (10/150): https://24.kg/kyrgyzcha/page_20/
+2026-05-05 13:48:13,091 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:48:15,591 [master] INFO Scraping (10/150): https://24.kg/kyrgyzcha/369014_aziya_chempionatyi_bugun_grek-rim_kuroshu_boyuncha_meldeshter_bashtalat/
+2026-05-05 13:48:15,907 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:48:18,423 [master] INFO Scraping (10/150): https://24.kg/kyrgyzcha/365866_jknyin_murdagyi_deputatyi_kuvanyichbek_kongantiev_10-mayga_cheyin_kamakka_alyindyi/
+2026-05-05 13:48:19,783 [master] INFO   ✓ ЖКнын мурдагы депутаты Куванычбек Конгантиев 10-майга чейин камакка ал
+2026-05-05 13:48:22,296 [master] INFO Scraping (11/150): https://24.kg/kyrgyzcha/367204_orto-tokoy_gesinin_kurulushu_akyirkyi_baskyichyina_ottu/
+2026-05-05 13:48:24,226 [master] INFO   ✓ Орто-Токой ГЭСинин курулушу акыркы баскычына өттү
+2026-05-05 13:48:26,739 [master] INFO Scraping (12/150): https://24.kg/kyrgyzcha/370249_sonku_eki_jumada_jugushtuu_oorular_oorukanasyina_kene_chakkan_41adam_kayryilgan/
+2026-05-05 13:48:28,771 [master] INFO   ✓ Соңку эки жумада жугуштуу оорулар ооруканасына кене чаккан 41 адам кай
+2026-05-05 13:48:31,273 [master] INFO Scraping (13/150): https://24.kg/kyrgyzcha/371683_bugun_bishkekte_jash_manaschyilardyin_respublikalyik_karoo-syinagyi_bashtalat/
+2026-05-05 13:48:32,774 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:48:35,274 [master] INFO Scraping (13/150): https://24.kg/kyrgyzcha/369407_aziya_chempionatyi_bugun_kilemge_ayperi_bashtagan_balban_kyizdar_chyigyishat/
+2026-05-05 13:48:35,719 [master] INFO   ✓ Азия чемпионаты: Бүгүн килемге Айпери баштаган балбан кыздар чыгышат
+2026-05-05 13:48:38,220 [master] INFO Scraping (14/150): https://24.kg/kyrgyzcha/367085_bishkekte_manas_madaniy_borboru_kurula_bashtadyi/
+2026-05-05 13:48:38,789 [master] INFO   ✓ Бишкекте «Манас» маданий борбору курула баштады
+2026-05-05 13:48:41,290 [master] INFO Scraping (15/150): https://24.kg/kyrgyzcha/368367_iranga_kol_saluu_arab_aymagyi_194_milliard_dollarga_cheyin_jogotushu_mumkun/
+2026-05-05 13:48:41,647 [master] INFO   ✓ Иранга кол салуу. Араб аймагы 194 миллиард долларга чейин жоготушу мүм
+2026-05-05 13:48:44,159 [master] INFO Scraping (16/150): https://24.kg/kyrgyzcha/370109_byiyyil_onuchchakan_gidroelektrostantsiya_ishke_kirgizilet/
+2026-05-05 13:48:44,667 [master] INFO   ✓ Быйыл он үч чакан гидроэлектростанция ишке киргизилет
+2026-05-05 13:48:47,168 [master] INFO Scraping (17/150): https://24.kg/kyrgyzcha/372385_bishkekte_olbos_polk_jurushuno_uruksat_berildi_ish-chara_9-mayda_otot/
+2026-05-05 13:48:49,317 [master] INFO   ✓ Бишкекте «Өлбөс полк» жүрүшүнө уруксат берилди: Иш-чара 9-майда өтөт
+2026-05-05 13:48:51,819 [master] INFO Scraping (18/150): https://24.kg/kyrgyzcha/371801_44uy_kooptuu_abalda_okm_bashchyisyi_aksyidagyi_kooptuu_tilkelerdi_kyidyirdyi/
+2026-05-05 13:48:52,216 [master] INFO   ✓ 44 үй кооптуу абалда: ӨКМ башчысы Аксыдагы кооптуу тилкелерди кыдырды
+2026-05-05 13:48:54,719 [master] INFO Scraping (19/150): https://24.kg/kyrgyzcha/366503_paydaluu_kenesh_bolmo_guldorunun_jalbyiraktaryi_emnege_sargayat/
+2026-05-05 13:48:57,645 [master] INFO   ✓ Пайдалуу кеңеш: Бөлмө гүлдөрүнүн жалбырактары эмнеге саргайат?
+2026-05-05 13:49:00,158 [master] INFO Scraping (20/150): https://24.kg/kyrgyzcha/page_21/
+2026-05-05 13:49:01,779 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:49:04,293 [master] INFO Scraping (20/150): https://24.kg/kyrgyzcha/368451_ukmk_uchmedreseni_jaap_diniy_okuu_jaylardagyi_myiyzam_buzuulardyi_anyiktadyi/
+2026-05-05 13:49:04,706 [master] INFO   ✓ УКМК үч медресени жаап, диний окуу жайлардагы мыйзам бузууларды аныкта
+2026-05-05 13:49:07,207 [master] INFO Scraping (21/150): https://24.kg/kyrgyzcha/365214_bugun_bishkektin_ayryim_jerlerinde_ubaktyiluu_suu_ochurulot/
+2026-05-05 13:49:09,097 [master] INFO   ✓ Бүгүн Бишкектин айрым жерлеринде убактылуу суу өчүрүлөт
+2026-05-05 13:49:11,608 [master] INFO Scraping (22/150): https://24.kg/kyrgyzcha/367677_kyirgyizstandyik_turistter_uchun_ozbekstan_populyarduu_bagyit_boydon_kaluuda/
+2026-05-05 13:49:17,309 [master] INFO   ✓ Кыргызстандык туристтер үчүн Өзбекстан популярдуу багыт бойдон калууда
+2026-05-05 13:49:19,812 [master] INFO Scraping (23/150): https://24.kg/kyrgyzcha/370336_sadyir_japarov_ozgon_rayonunun_turgundaryi_menen_jolugushtu_emneler_talkuulandyi/
+2026-05-05 13:49:23,992 [master] INFO   ✓ Садыр Жапаров Өзгөн районунун тургундары менен жолугушту. Эмнелер талк
+2026-05-05 13:49:26,498 [master] INFO Scraping (24/150): https://24.kg/kyrgyzcha/367785_erten_boks_boyuncha_aziya_chempionatyi_bashtalat_kyirgyiz_kuramasyinyin_tizmesi/
+2026-05-05 13:49:34,996 [master] INFO   ✓ Эртең бокс боюнча Азия чемпионаты башталат. Кыргыз курамасынын тизмеси
+2026-05-05 13:49:37,501 [master] INFO Scraping (25/150): https://24.kg/kyrgyzcha/370082_paydaluu_kenesh_jumurtkanyin_negizgi_korkunuchu_aytyildyi/
+2026-05-05 13:49:43,660 [master] INFO   ✓ Пайдалуу кеңеш: Жумуртканын негизги коркунучу айтылды
+2026-05-05 13:49:46,168 [master] INFO Scraping (26/150): https://24.kg/kyrgyzcha/370569_bugunku_dollardyin_kursu/
+2026-05-05 13:49:51,388 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:49:53,891 [master] INFO Scraping (27/150): https://24.kg/kyrgyzcha/370179_paydaluu_kenesh_dayyima_oturup_ishtoo_tameki_cheguudon_dazyiyanduuraak/
+2026-05-05 13:49:55,482 [master] INFO   ✓ Пайдалуу кеңеш: Дайыма отуруп иштөө тамеки чегүүдөн да зыяндуураак
+2026-05-05 13:49:57,987 [master] INFO Scraping (28/150): https://24.kg/kyrgyzcha/369194_door_murasyi_moskvada_semen_chuykovgo_arnalgan_korgozmo_otot/
+2026-05-05 13:49:58,842 [master] INFO   ✓ Доор мурасы: Москвада Семён Чуйковго арналган көргөзмө өтөт
+2026-05-05 13:50:01,344 [master] INFO Scraping (29/150): https://24.kg/kyrgyzcha/370169_bugun_bishkektin_ayryim_jerlerinde_suu_bolboyt/
+2026-05-05 13:50:01,766 [master] INFO   ✓ Бүгүн Бишкектин айрым жерлеринде суу болбойт
+2026-05-05 13:50:04,268 [master] INFO Scraping (30/150): https://24.kg/kyrgyzcha/367934_aziya_chempionatyi_kyirgyizstandyik_bokschulardyin_betteshterinin_yiraattamasyi/
+2026-05-05 13:50:04,806 [master] INFO   ✓ Азия чемпионаты: Кыргызстандык боксчулардын беттештеринин ырааттамасы
+2026-05-05 13:50:07,321 [master] INFO Scraping (31/150): https://24.kg/kyrgyzcha/372296_aydoochulardyin_esine_bishkek_naryin_torugart_unaa_jolu_ubaktyiluu_jabyilat/
+2026-05-05 13:50:08,267 [master] INFO   ✓ Айдоочулардын эсине! Бишкек — Нарын — Торугарт унаа жолу убактылуу жаб
+2026-05-05 13:50:10,769 [master] INFO Scraping (32/150): https://24.kg/kyrgyzcha/371155_bishkekke_148jyil_ala-too_ayantyinda_kontsert_tartuulanat_programma/
+2026-05-05 13:50:13,399 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:50:15,910 [master] INFO Scraping (32/150): https://24.kg/kyrgyzcha/367518_uluttuk_banktyin_eks-toragasyi_melis_turgunbaev_kyirgyizneftegaz_ishi_boyuncha_karmaldyi/
+2026-05-05 13:50:17,822 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:50:20,323 [master] INFO Scraping (32/150): https://24.kg/kyrgyzcha/365830_manas_ordo_muzeyi_3ese_keneytilet_kompleks_egemenduuluk_kununo_karata_achyilat/
+2026-05-05 13:50:23,568 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:50:26,078 [master] INFO Scraping (32/150): https://24.kg/kyrgyzcha/365020_apta_bashyinda_bishkekte_kayradan_suuk_bolot_9-11-martka_karata_aba_yirayyi/
+2026-05-05 13:50:27,233 [master] INFO   ✓ Апта башында Бишкекте кайрадан суук болот. 9-11-мартка карата аба ырай
+2026-05-05 13:50:29,747 [master] INFO Scraping (33/150): https://24.kg/kyrgyzcha/364705_shashyilyish_bildiruu_kar_kochku_tushuu_kooptuulugu_saktaluuda/
+2026-05-05 13:50:32,743 [master] INFO   ✓ Шашылыш билдирүү! Кар көчкү түшүү кооптуулугу сакталууда
+2026-05-05 13:50:35,246 [master] INFO Scraping (34/150): https://24.kg/kyrgyzcha/372145_dolon_ashuusunda_kar_jaap_jatat/
+2026-05-05 13:50:40,020 [master] INFO   ✓ Долон ашуусунда кар жаап жатат
+2026-05-05 13:50:42,521 [master] INFO Scraping (35/150): https://24.kg/kyrgyzcha/366049_duyno_chempionatyi_2026_irandyin_orduna_talapker_komanda_ataldyi/
+2026-05-05 13:50:48,112 [master] INFO   ✓ Дүйнө чемпионаты −2026: Ирандын ордуна талапкер команда аталды
+2026-05-05 13:50:50,614 [master] INFO Scraping (36/150): https://24.kg/kyrgyzcha/364594_bugun_akkalpak_kyirgyiz_murasyi_attuu_jashtar_forumu_otot/
+2026-05-05 13:50:52,859 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:50:55,361 [master] INFO Scraping (36/150): https://24.kg/kyrgyzcha/371389_aziya_kubogu_2027_chuchukulak_tartuu_azemi_9-mayda_otot/
+2026-05-05 13:50:55,706 [master] INFO   ✓ Азия Кубогу −2027: Чучукулак тартуу аземи 9-майда өтөт
+2026-05-05 13:50:58,208 [master] INFO Scraping (37/150): https://24.kg/kyrgyzcha/366726_orozo_2026_erten_bishkekte_38jana_203_avtobustaryi_beker_kyizmat_korsotot/
+2026-05-05 13:51:00,247 [master] INFO   ✓ Орозо −2026: Эртең Бишкекте № 38 жана № 203 автобустары бекер кызмат к
+2026-05-05 13:51:02,753 [master] INFO Scraping (38/150): https://24.kg/kyrgyzcha/365494_bishkekte_kayradan_tamak-ashtan_massalyik_uulanuu_kattaldyi/
+2026-05-05 13:51:03,601 [master] INFO   ✓ Бишкекте кайрадан тамак-аштан массалык уулануу катталды
+2026-05-05 13:51:06,113 [master] INFO Scraping (39/150): https://24.kg/kyrgyzcha/368727_bishkekte_oto_turgan_kurosh_boyuncha_aziya_chempionatyinyin_programmasyi_jaryiyalandyi/
+2026-05-05 13:51:06,432 [master] INFO   ✓ Бишкекте өтө турган күрөш боюнча Азия чемпионатынын программасы жарыял
+2026-05-05 13:51:08,939 [master] INFO Scraping (40/150): https://24.kg/kyrgyzcha/366959_altyin_top_2026_garri_keyn_reytingdin_sap_bashyina_chyiktyi/
+2026-05-05 13:51:11,069 [master] INFO   ✓ Алтын топ −2026: Гарри Кейн рейтингдин сап башына чыкты
+2026-05-05 13:51:13,575 [master] INFO Scraping (41/150): https://24.kg/kyrgyzcha/365852_ayperi_medet_kyizyi_kayradan_olimpiada_chempionu_menen_kilemge_chyigat/
+2026-05-05 13:51:13,896 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:51:16,405 [master] INFO Scraping (41/150): https://24.kg/kyrgyzcha/367792_28-martka_karata_aba_yirayyi/
+2026-05-05 13:51:16,767 [master] INFO   ✓ 28-мартка карата аба ырайы
+2026-05-05 13:51:19,279 [master] INFO Scraping (42/150): https://24.kg/kyrgyzcha/371698_byiyyil_kyirgyizstanda_17chakan_ges_paydalanuuga_berilet/
+2026-05-05 13:51:20,313 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:51:22,815 [master] INFO Scraping (42/150): https://24.kg/kyrgyzcha/371062_birinchi_kvartaldyin_jyiyyintyigyi_boyuncha_kyirgyizstandyin_idpsyi_101_payyizga_ostu/
+2026-05-05 13:51:23,306 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:51:25,816 [master] INFO Scraping (42/150): https://24.kg/kyrgyzcha/369776_bugun_bishkekte_kitep_kununo_arnalgan_okuu_dekadasyi_bashtalat/
+2026-05-05 13:51:26,652 [master] INFO   ✓ Бүгүн Бишкекте Китеп күнүнө арналган Окуу декадасы башталат
+2026-05-05 13:51:29,159 [master] INFO Scraping (43/150): https://24.kg/kyrgyzcha/369573_aziya_chempionatyi_razzak_beyshekeev_kyirgyizstanga_tortunchu_altyin_medaldyi_alyip_keldi/
+2026-05-05 13:51:29,494 [master] INFO   ✓ Азия чемпионаты. Раззак Бейшекеев Кыргызстанга төртүнчү алтын медалды 
+2026-05-05 13:51:31,997 [master] INFO Scraping (44/150): https://24.kg/kyrgyzcha/372306_paydaluu_kenesh_ulgaygan_kurakta_aryiktoonun_syiryi_aytyildyi/
+2026-05-05 13:51:32,315 [master] INFO   ✓ Пайдалуу кеңеш: Улгайган куракта арыктоонун сыры айтылды
+2026-05-05 13:51:34,826 [master] INFO Scraping (45/150): https://24.kg/kyrgyzcha/365698_internet_aldamchyilyigyi_byiltyir_kyirgyiz_jarandaryinan_826_million_som_uurdalgan/
+2026-05-05 13:51:35,267 [master] INFO   ✓ Интернет алдамчылыгы. Былтыр кыргыз жарандарынан 826 миллион сом уурда
+2026-05-05 13:51:37,779 [master] INFO Scraping (46/150): https://24.kg/kyrgyzcha/365571_oshuluttuk_drama_teatryi_bishkekte_gastrolduk_jumalyik_otkorot_programma/
+2026-05-05 13:51:38,177 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:51:40,690 [master] INFO Scraping (46/150): https://24.kg/kyrgyzcha/365747_U-23_kyirgyizstandyin_futbol_boyuncha_kuramasyi_serbiya_jana_albaniya_menen_betteshet/
+2026-05-05 13:51:41,026 [master] INFO   ✓ U-23: Кыргызстандын футбол боюнча курамасы Сербия жана Албания менен б
+2026-05-05 13:51:43,527 [master] INFO Scraping (47/150): https://24.kg/kyrgyzcha/364597_bugun_akkalpak_kunu/
+2026-05-05 13:51:43,840 [master] INFO   ✓ Бүгүн Ак калпак күнү
+2026-05-05 13:51:46,341 [master] INFO Scraping (48/150): https://24.kg/kyrgyzcha/372001_orusiyanyin_korgoo_ministri_rasmiy_saparyi_menen_bishkekke_keldi/
+2026-05-05 13:51:47,032 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:51:49,543 [master] INFO Scraping (48/150): https://24.kg/kyrgyzcha/369468_okm_tooluu_rayondordo_sel_jana_kar_kochku_korkunuchu_bar/
+2026-05-05 13:51:49,926 [master] INFO   ✓ ӨКМ: Тоолуу райондордо сел жана кар көчкү коркунучу бар
+2026-05-05 13:51:52,427 [master] INFO Scraping (49/150): https://24.kg/kyrgyzcha/365457_jogorku_keneshte_janyi_dayyindalgan_ministrler_ant_berishti/
+2026-05-05 13:51:52,764 [master] INFO   ✓ Жогорку Кеңеште жаңы дайындалган министрлер ант беришти
+2026-05-05 13:51:55,267 [master] INFO Scraping (50/150): https://24.kg/kyrgyzcha/365170_byiyyil_kyirgyizstanda_9million_bak_-darak_oturguzuu_plandaluuda/
+2026-05-05 13:51:58,809 [master] INFO   ✓ Быйыл Кыргызстанда 9 миллион бак -дарак отургузуу пландалууда
+2026-05-05 13:52:01,310 [master] INFO Scraping (51/150): https://24.kg/kyrgyzcha/372006_batkende_ayalyin_olturgon_adam_ozjanyin_kyiydyi_besh_bala_jetim_kaldyi/
+2026-05-05 13:52:02,004 [master] INFO   ✓ Баткенде аялын өлтүргөн адам өз жанын кыйды. Беш бала жетим калды
+2026-05-05 13:52:04,505 [master] INFO Scraping (52/150): https://24.kg/kyrgyzcha/368480_2-aprelge_karata_aba_yirayyi/
+2026-05-05 13:52:04,885 [master] INFO   ✓ 2-апрелге карата аба ырайы
+2026-05-05 13:52:07,387 [master] INFO Scraping (53/150): https://24.kg/kyrgyzcha/364570_5-martka_karata_aba_yirayyi/
+2026-05-05 13:52:07,817 [master] INFO   ✓ 5-мартка карата аба ырайы
+2026-05-05 13:52:10,323 [master] INFO Scraping (54/150): https://24.kg/kyrgyzcha/365483_prezident_kelechekte_16jashka_cheyinki_baldar_jolokpuldar_menen_kamsyizdalat/
+2026-05-05 13:52:10,694 [master] INFO   ✓ Президент: «Келечекте 16 жашка чейинки балдар жөлөкпулдар менен камсыз
+2026-05-05 13:52:13,195 [master] INFO Scraping (55/150): https://24.kg/kyrgyzcha/369610_orusiyanyin_vitse-premeri_aleksey_overchuk_kyirgyizstanga_jumushchu_sapar_menen_keldi/
+2026-05-05 13:52:13,853 [master] INFO   ✓ Орусиянын вице-премьери Алексей Оверчук Кыргызстанга жумушчу сапар мен
+2026-05-05 13:52:16,365 [master] INFO Scraping (56/150): https://24.kg/kyrgyzcha/366168_sadyir_japarov_gananyin_tyishkyi_ishter_ministrin_kabyil_aldyi_emneler_talkuulandyi/
+2026-05-05 13:52:17,203 [master] INFO   ✓ Садыр Жапаров Гананын тышкы иштер министрин кабыл алды. Эмнелер талкуу
+2026-05-05 13:52:19,704 [master] INFO Scraping (57/150): https://24.kg/kyrgyzcha/371945_kyitaydyin_korgoo_ministri_ishsaparyi_menen_kyirgyizstanga_keldi/
+2026-05-05 13:52:20,164 [master] INFO   ✓ Кытайдын коргоо министри иш сапары менен Кыргызстанга келди
+2026-05-05 13:52:22,670 [master] INFO Scraping (58/150): https://24.kg/kyrgyzcha/370338_chempiondor_ligasyinyin_jaryim_finalyinyin_algachkyi_juptaryi_anyiktaldyi/
+2026-05-05 13:52:23,027 [master] INFO   ✓ Чемпиондор Лигасынын жарым финалынын алгачкы жуптары аныкталды
+2026-05-05 13:52:25,529 [master] INFO Scraping (59/150): https://24.kg/kyrgyzcha/371570_byiyyil_kyirgyizstan_26minge_jakyin_unaa_importtodu/
+2026-05-05 13:52:25,933 [master] INFO   ✓ Быйыл Кыргызстан 26 миңге жакын унаа импорттоду
+2026-05-05 13:52:28,442 [master] INFO Scraping (60/150): https://24.kg/kyrgyzcha/370386_bishkekte_aldamchyilyikka_shektelgen_jaran_karmaldyi/
+2026-05-05 13:52:28,786 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:52:31,301 [master] INFO Scraping (60/150): https://24.kg/kyrgyzcha/367255_kyirgyizstan_jashyilcha_eksportun_koboytuudo/
+2026-05-05 13:52:33,202 [master] INFO   ✓ Кыргызстан жашылча экспортун көбөйтүүдө
+2026-05-05 13:52:35,704 [master] INFO Scraping (61/150): https://24.kg/kyrgyzcha/366361_bishkek_meriyasyi_jyiluuluk_kachan_ochurulorun_tushundurdu/
+2026-05-05 13:52:36,681 [master] INFO   ✓ Бишкек мэриясы жылуулук качан өчүрүлөрүн түшүндүрдү
+2026-05-05 13:52:39,182 [master] INFO Scraping (62/150): https://24.kg/kyrgyzcha/366487_jogorku_keneshtin_deputatyi_bakyit_tentishev_elumutu_ata_jurt_tobuna_koshuldu/
+2026-05-05 13:52:39,572 [master] INFO   ✓ Жогорку Кеңештин депутаты Бакыт Тентишев «Эл үмүтү — Ата журт» тобуна 
+2026-05-05 13:52:42,078 [master] INFO Scraping (63/150): https://24.kg/kyrgyzcha/369195_bugun_bishkektin_bir_bolugundo_suu_ochurulot/
+2026-05-05 13:52:42,445 [master] INFO   ✓ Бүгүн Бишкектин бир бөлүгүндө суу өчүрүлөт
+2026-05-05 13:52:44,945 [master] INFO Scraping (64/150): https://24.kg/kyrgyzcha/364793_bugunku_dollardyin_kursu/
+2026-05-05 13:52:45,315 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:52:47,816 [master] INFO Scraping (65/150): https://24.kg/kyrgyzcha/372294_bugundon_tarta_bishkektegi_fontandar_ishtey_bashtayt/
+2026-05-05 13:52:49,937 [master] INFO   ✓ Бүгүндөн тарта Бишкектеги фонтандар иштей баштайт
+2026-05-05 13:52:52,441 [master] INFO Scraping (66/150): https://24.kg/kyrgyzcha/366126_chunkurchak_kapchyigayyinda_sporttuk_turizm_boyuncha_achyik_chempionatyi_otot/
+2026-05-05 13:52:53,006 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:52:55,508 [master] INFO Scraping (66/150): https://24.kg/kyrgyzcha/366329_byiyyil_dyiykandarga_37_milliard_somduk_1089_daana_tehnika_berildi/
+2026-05-05 13:52:55,890 [master] INFO   ✓ Быйыл дыйкандарга 3,7 миллиард сомдук 1089 даана техника берилди
+2026-05-05 13:52:58,392 [master] INFO Scraping (67/150): https://24.kg/kyrgyzcha/368265_tosmo_jana_salondor_bishkekte_ala-archa_daryiyasyinyin_jeegindegi_kurulushtar_alyindyi/
+2026-05-05 13:52:59,587 [master] INFO   ✓ Тосмо жана салондор: Бишкекте Ала-Арча дарыясынын жээгиндеги курулушта
+2026-05-05 13:53:02,101 [master] INFO Scraping (68/150): https://24.kg/kyrgyzcha/372843_selden_jabyirkagan_aymaktarda_sanitardyik-epidemiologiyalyik_kyirdaal_turuktuu/
+2026-05-05 13:53:02,717 [master] INFO   ✓ Селден жабыркаган аймактарда санитардык-эпидемиологиялык кырдаал турук
+2026-05-05 13:53:05,223 [master] INFO Scraping (69/150): https://24.kg/kyrgyzcha/369885_bishkekte_altyi_kundon_beri_izdelip_jatkan_ospurumdun_soogu_tabyildyi/
+2026-05-05 13:53:07,279 [master] INFO   ✓ Бишкекте алты күндөн бери изделип жаткан өспүрүмдүн сөөгү табылды
+2026-05-05 13:53:09,791 [master] INFO Scraping (70/150): https://24.kg/kyrgyzcha/365247_bugunku_dollardyin_kursu/
+2026-05-05 13:53:10,184 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:53:12,685 [master] INFO Scraping (71/150): https://24.kg/kyrgyzcha/371014_toktogul_suu_saktagyichyina_tor_salgan_brakonerler_karmaldyi/
+2026-05-05 13:53:14,670 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:53:17,171 [master] INFO Scraping (71/150): https://24.kg/kyrgyzcha/372199_kyirgyizstanda_kurman_ayt_kachan_mayramdalaryi_belgiluu_boldu/
+2026-05-05 13:53:18,265 [master] INFO   ✓ Кыргызстанда Курман айт качан майрамдалары белгилүү болду
+2026-05-05 13:53:20,768 [master] INFO Scraping (72/150): https://24.kg/kyrgyzcha/367025_dachada_komulgon_sook_chuy_oblusunda_kishi_olturuugo_shektuu_karmaldyi/
+2026-05-05 13:53:22,132 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:53:24,641 [master] INFO Scraping (72/150): https://24.kg/kyrgyzcha/372373_chuy_oblusunda_1min_250_gektar_jer_chegirtkeden_kutkaryiluuda/
+2026-05-05 13:53:27,661 [master] INFO   ✓ Чүй облусунда 1 миң 250 гектар жер чегирткеден куткарылууда
+2026-05-05 13:53:30,161 [master] INFO Scraping (73/150): https://24.kg/kyrgyzcha/370791_okm_tooluu_rayondordo_kar_kochku_jana_sel_juruu_korkunuchu_bar/
+2026-05-05 13:53:33,280 [master] INFO   ✓ ӨКМ: Тоолуу райондордо кар көчкү жана сел жүрүү коркунучу бар
+2026-05-05 13:53:35,782 [master] INFO Scraping (74/150): https://24.kg/kyrgyzcha/370685_17-aprelge_karata_aba_yirayyi/
+2026-05-05 13:53:36,144 [master] INFO   ✓ 17-апрелге карата аба ырайы
+2026-05-05 13:53:38,645 [master] INFO Scraping (75/150): https://24.kg/kyrgyzcha/369821_bishkekte_reyd_uchsaatta_tuura_emes_toktotulgan_37unaa_evakuatsiyalandyi/
+2026-05-05 13:53:39,067 [master] INFO   ✓ Бишкекте рейд: Үч саатта туура эмес токтотулган 37 унаа эвакуацияланды
+2026-05-05 13:53:41,572 [master] INFO Scraping (76/150): https://24.kg/kyrgyzcha/369519_jogorku_kenesh_bashkyi_prokuraturanyin_2025-jyilga_karata_otchetun_ugup_eske_aldyi/
+2026-05-05 13:53:42,051 [master] INFO   ✓ Жогорку Кеңеш Башкы прокуратуранын 2025-жылга карата отчетун угуп, эск
+2026-05-05 13:53:44,551 [master] INFO Scraping (77/150): https://24.kg/kyrgyzcha/366138_okm_ashuularda_kar_kochku_tushuusu_mumkun/
+2026-05-05 13:53:44,949 [master] INFO   ✓ ӨКМ: Ашууларда кар көчкү түшүүсү мүмкүн
+2026-05-05 13:53:47,450 [master] INFO Scraping (78/150): https://24.kg/kyrgyzcha/369584_bishkek_biyligi_shaar_turgundardyi_jana_konoktoru_vals_kechesine_chakyirat/
+2026-05-05 13:53:47,779 [master] INFO   ✓ Бишкек бийлиги шаар тургундарды жана коноктору вальс кечесине чакырат
+2026-05-05 13:53:50,281 [master] INFO Scraping (79/150): https://24.kg/kyrgyzcha/366130_kerme-too_meymankanasyi_jana_anyin_235_gektar_jer_tilkesi_mamleketke_kaytaryildyi/
+2026-05-05 13:53:50,664 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:53:53,166 [master] INFO Scraping (79/150): https://24.kg/kyrgyzcha/365254_bugun_bishkektin_jibek_jolu_kochosundogu_kopuronun_bir_tarabyi_achyilat/
+2026-05-05 13:53:54,346 [master] INFO   ✓ Бүгүн Бишкектин Жибек Жолу көчөсүндөгү көпүрөнүн бир тарабы ачылат
+2026-05-05 13:53:56,848 [master] INFO Scraping (80/150): https://24.kg/kyrgyzcha/372878_beksultan_jakievdin_90jyildyigyi_kyirgyiz-kazak_tokmo_akyindaryinyin_aytyishyi_otot/
+2026-05-05 13:53:57,458 [master] INFO   ✓ Бексултан Жакиевдин 90 жылдыгы: Кыргыз-казак төкмө акындарынын айтышы 
+2026-05-05 13:53:59,970 [master] INFO Scraping (81/150): https://24.kg/kyrgyzcha/368555_kyirgyizstanda_turizmdi_onukturuu_boyuncha_mamlekettik_agenttik_tuzuldu/
+2026-05-05 13:54:01,662 [master] INFO   ✓ Кыргызстанда Туризмди өнүктүрүү боюнча мамлекеттик агенттик түзүлдү
+2026-05-05 13:54:04,172 [master] INFO Scraping (82/150): https://24.kg/kyrgyzcha/366842_iranga_kol_saluu_tegeran_dagyi_bir_atkaminerdin_olturulgonun_tastyiktadyi/
+2026-05-05 13:54:05,269 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:54:07,770 [master] INFO Scraping (82/150): https://24.kg/kyrgyzcha/367988_chuy_oblusunda_bangizat_satuuga_shektuu_karmaldyi/
+2026-05-05 13:54:08,144 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:54:10,645 [master] INFO Scraping (82/150): https://24.kg/kyrgyzcha/366107_stambulda_kyirgyiz_kino_kundoru_otot/
+2026-05-05 13:54:11,002 [master] INFO   ✓ Стамбулда Кыргыз кино күндөрү өтөт
+2026-05-05 13:54:13,503 [master] INFO Scraping (83/150): https://24.kg/kyrgyzcha/365748_bugun_bishkek_shaardyik_teatryi_oturguchtar_spektaklin_tartuulayt/
+2026-05-05 13:54:15,504 [master] INFO   ✓ Бүгүн Бишкек шаардык театры «Отургучтар» спектаклин тартуулайт
+2026-05-05 13:54:18,005 [master] INFO Scraping (84/150): https://24.kg/kyrgyzcha/368777_1-klasska_elektronduk_kattoo_eki_kundo_29minge_jakyin_bala_kattaldyi/
+2026-05-05 13:54:18,546 [master] INFO   ✓ 1-класска электрондук каттоо: Эки күндө 29 миңге жакын бала катталды
+2026-05-05 13:54:21,055 [master] INFO Scraping (85/150): https://24.kg/kyrgyzcha/364551_kyirgyizstanda_kurulush_tarmagyindagyi_idp_4385_milliard_somdu_tuzdu/
+2026-05-05 13:54:22,577 [master] INFO   ✓ Кыргызстанда курулуш тармагындагы ИДП 438,5 миллиард сомду түздү
+2026-05-05 13:54:25,079 [master] INFO Scraping (86/150): https://24.kg/kyrgyzcha/364822_dem_alyish_kundoru_bishkekte_azyik-tuluk_jarmankesi_otot/
+2026-05-05 13:54:27,051 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:54:29,555 [master] INFO Scraping (86/150): https://24.kg/kyrgyzcha/366472_bugun_jogorku_keneshte_janyi_deputattar_ant_berishti/
+2026-05-05 13:54:33,394 [master] INFO   ✓ Бүгүн Жогорку Кеңеште жаңы депутаттар ант беришти
+2026-05-05 13:54:35,905 [master] INFO Scraping (87/150): https://24.kg/kyrgyzcha/369351_8-aprelge_karata_aba_yirayyi/
+2026-05-05 13:54:41,177 [master] INFO   ✓ 8-апрелге карата аба ырайы
+2026-05-05 13:54:43,685 [master] INFO Scraping (88/150): https://24.kg/kyrgyzcha/367522_kyirgyizstanda_sonku_sutkada_20dan_ashyik_ort_kyirsyigyi_kattaldyi/
+2026-05-05 13:54:46,010 [master] INFO   ✓ Кыргызстанда соңку суткада 20дан ашык өрт кырсыгы катталды
+2026-05-05 13:54:48,513 [master] INFO Scraping (89/150): https://24.kg/kyrgyzcha/page_16/
+2026-05-05 13:54:49,515 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:54:52,016 [master] INFO Scraping (89/150): https://24.kg/kyrgyzcha/365836_paydaluu_kenesh_uyulduk_telefondu_tuura_kubattoonun_joldoru/
+2026-05-05 13:54:52,383 [master] INFO   ✓ Пайдалуу кеңеш: Уюлдук телефонду туура кубаттоонун жолдору
+2026-05-05 13:54:54,884 [master] INFO Scraping (90/150): https://24.kg/kyrgyzcha/364640_okm_kyirgyizstanda_bir_katar_ashuularda_kar_kochku_korkunuchu_bar/
+2026-05-05 13:54:55,316 [master] INFO   ✓ ӨКМ: Кыргызстанда бир катар ашууларда кар көчкү коркунучу бар
+2026-05-05 13:54:57,817 [master] INFO Scraping (91/150): https://24.kg/kyrgyzcha/365106_kyirgyizstanda_akilbirstin_sanyi_550don_ashtyi/
+2026-05-05 13:54:58,354 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:00,857 [master] INFO Scraping (91/150): https://24.kg/kyrgyzcha/368384_duyno_chempionatyi_2026_evropanyin_16komandasyi_tolugu_menen_jaryiyalandyi/
+2026-05-05 13:55:01,207 [master] INFO   ✓ Дүйнө чемпионаты −2026: Европанын 16 командасы толугу менен жарыяланды
+2026-05-05 13:55:03,711 [master] INFO Scraping (92/150): https://24.kg/kyrgyzcha/367395_izildoolor_ayaktadyi_barskoon-bedel_jolunda_tunnel_kazuu_ishteri_bashtaldyi/
+2026-05-05 13:55:04,649 [master] INFO   ✓ Изилдөөлөр аяктады. Барскоон-Бедел жолунда туннель казуу иштери баштал
+2026-05-05 13:55:07,159 [master] INFO Scraping (93/150): https://24.kg/kyrgyzcha/365573_iran_kurama_komandasyi_2026-jyilkyi_duyno_chempionatyina_katyishuudan_bash_tarttyi/
+2026-05-05 13:55:07,512 [master] INFO   ✓ Иран курама командасы 2026-жылкы Дүйнө чемпионатына катышуудан баш тар
+2026-05-05 13:55:10,017 [master] INFO Scraping (94/150): https://24.kg/kyrgyzcha/364759_UWW_ernazar_akmataliev_duynoluk_reytingde_ekinchi_orunga_kotoruldu/
+2026-05-05 13:55:10,381 [master] INFO   ✓ UWW: Эрназар Акматалиев дүйнөлүк рейтингде экинчи орунга көтөрүлдү
+2026-05-05 13:55:12,889 [master] INFO Scraping (95/150): https://24.kg/kyrgyzcha/365060_toodon_tash_kuladyi_naryin_shaaryindagyi_janyi-jol_jolu_jabyildyi/
+2026-05-05 13:55:15,248 [master] INFO   ✓ Тоодон таш кулады. Нарын шаарындагы Жаңы-Жол жолу жабылды
+2026-05-05 13:55:17,750 [master] INFO Scraping (96/150): https://24.kg/kyrgyzcha/364847_aydoochularga_eskertuu_bishkekti_jana_chuydu_koyuu_tuman_kaptayt/
+2026-05-05 13:55:18,173 [master] INFO   ✓ Айдоочуларга эскертүү! Бишкекти жана Чүйдү коюу туман каптайт
+2026-05-05 13:55:20,676 [master] INFO Scraping (97/150): https://24.kg/kyrgyzcha/364469_byiyyil_kadyir_tun_17-martka_karagan_tunu_belgilenet/
+2026-05-05 13:55:21,824 [master] INFO   ✓ Быйыл Кадыр түн 17-мартка караган түнү белгиленет
+2026-05-05 13:55:24,325 [master] INFO Scraping (98/150): https://24.kg/kyrgyzcha/page_14/
+2026-05-05 13:55:25,149 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:27,650 [master] INFO Scraping (98/150): https://24.kg/kyrgyzcha/368567_kyirgyizstandyin_prokuraturasyi_10jetim_balanyin_ukuktaryin_korgodu/
+2026-05-05 13:55:28,713 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:31,215 [master] INFO Scraping (98/150): https://24.kg/kyrgyzcha/372825_paydaluu_kenesh_kocho_tamaktaryi_emne_uchun_kooptuu_bolushu_mumkun/
+2026-05-05 13:55:31,553 [master] INFO   ✓ Пайдалуу кеңеш: Көчө тамактары эмне үчүн кооптуу болушу мүмкүн?
+2026-05-05 13:55:34,058 [master] INFO Scraping (99/150): https://24.kg/kyrgyzcha/370193_kyirgyizstan_jana_saud_arabiyanyin_tim_bashchyilaryi_jakyinkyi_chyigyishtagyi_abaldyi_talkuuladyi/
+2026-05-05 13:55:34,491 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:36,992 [master] INFO Scraping (99/150): https://24.kg/kyrgyzcha/371007_bugun_bishkektin_ayryim_kocholorundo_suu_ochurulot/
+2026-05-05 13:55:39,267 [master] INFO   ✓ Бүгүн Бишкектин айрым көчөлөрүндө суу өчүрүлөт
+2026-05-05 13:55:41,778 [master] INFO Scraping (100/150): https://24.kg/kyrgyzcha/368123_bugun_bishkektin_7-aprel_kochosunun_bir_bolugu_ubaktyiluu_jabyilat/
+2026-05-05 13:55:43,758 [master] INFO   ✓ Бүгүн Бишкектин 7-апрель көчөсүнүн бир бөлүгү убактылуу жабылат
+2026-05-05 13:55:46,259 [master] INFO Scraping (101/150): https://24.kg/kyrgyzcha/368214_aziya_chempionatyi_2026_bugun_nursultan_asanakunov_ringge_chyigat/
+2026-05-05 13:55:46,605 [master] INFO   ✓ Азия чемпионаты −2026: Бүгүн Нурсултан Асанакунов рингге чыгат
+2026-05-05 13:55:49,106 [master] INFO Scraping (102/150): https://24.kg/kyrgyzcha/365477_sadyir_japarov_korruptsiyaga_karshyi_kuroshto_bir_tuuganyimdyi_daayabaym/
+2026-05-05 13:55:49,498 [master] INFO   ✓ Садыр Жапаров: «Коррупцияга каршы күрөштө бир тууганымды да аябайм»
+2026-05-05 13:55:51,999 [master] INFO Scraping (103/150): https://24.kg/kyrgyzcha/371254_bishkektegi_chyingyiz_aytmatovdun_uy-muzeyi_janyilanat/
+2026-05-05 13:55:52,504 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:55,005 [master] INFO Scraping (103/150): https://24.kg/kyrgyzcha/370283_bshk_ulan_sarievdi_jogorku_keneshtin_deputatyi_dep_taanyidyi/
+2026-05-05 13:55:55,438 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:55:57,940 [master] INFO Scraping (103/150): https://24.kg/kyrgyzcha/366820_bishkekte_ayt_namazyi_okuldu_eski_ayantka_30minden_ashyik_adam_keldi/
+2026-05-05 13:55:59,479 [master] INFO   ✓ Бишкекте айт намазы окулду: Эски аянтка 30 миңден ашык адам келди
+2026-05-05 13:56:01,980 [master] INFO Scraping (104/150): https://24.kg/kyrgyzcha/365530_12-martka_karata_aba_yirayyi/
+2026-05-05 13:56:02,322 [master] INFO   ✓ 12-мартка карата аба ырайы
+2026-05-05 13:56:04,823 [master] INFO Scraping (105/150): https://24.kg/kyrgyzcha/370797_kyirgyizstanda_jumushsuzduktun_jalpyi_dengeeli_37_payyizdyi_tuzot/
+2026-05-05 13:56:06,463 [master] INFO   ✓ Кыргызстанда жумушсуздуктун жалпы деңгээли 3,7 пайызды түзөт
+2026-05-05 13:56:08,965 [master] INFO Scraping (106/150): https://24.kg/kyrgyzcha/367983_kazakstandan_kelgen_25tonna_piyaz_kayra_kaytaryildyi_sebebi/
+2026-05-05 13:56:09,354 [master] INFO   ✓ Казакстандан келген 25 тонна пияз кайра кайтарылды. Себеби
+2026-05-05 13:56:11,858 [master] INFO Scraping (107/150): https://24.kg/kyrgyzcha/370822_elaralyik_turistterdi_tashyigan_poezd_balyikchyidan_bishkekke_keldi/
+2026-05-05 13:56:13,141 [master] INFO   ✓ Эл аралык туристтерди ташыган поезд Балыкчыдан Бишкекке келди
+2026-05-05 13:56:15,652 [master] INFO Scraping (108/150): https://24.kg/kyrgyzcha/365171_10-martka_karata_aba_yirayyi/
+2026-05-05 13:56:16,000 [master] INFO   ✓ 10-мартка карата аба ырайы
+2026-05-05 13:56:18,501 [master] INFO Scraping (109/150): https://24.kg/kyrgyzcha/372155_bugun_togo_ministrler_keneshinin_toragasyi_kyirgyizstanga_ishsaparyi_menen_kelet/
+2026-05-05 13:56:19,040 [master] INFO   ✓ Бүгүн Того министрлер кеңешинин төрагасы Кыргызстанга иш сапары менен 
+2026-05-05 13:56:21,543 [master] INFO Scraping (110/150): https://24.kg/kyrgyzcha/369452_ayyil_charba_ministrligine_63ton_ashyik_atayyin_tehnika_tapshyiryildyi/
+2026-05-05 13:56:21,933 [master] INFO   ✓ Айыл чарба министрлигине 63төн ашык атайын техника тапшырылды
+2026-05-05 13:56:24,435 [master] INFO Scraping (111/150): https://24.kg/kyrgyzcha/371772_bishkek_naryin_torugart_unaa_jolunda_tashtar_tushurulup_kattamga_chektoo_kiret/
+2026-05-05 13:56:26,566 [master] INFO   ✓ Бишкек — Нарын — Торугарт унаа жолунда таштар түшүрүлүп, каттамга чект
+2026-05-05 13:56:29,066 [master] INFO Scraping (112/150): https://24.kg/kyrgyzcha/372413_mayram_kundoruno_karata_bishkek_avtobeketinde_kattamdardyin_sanyi_koboyot/
+2026-05-05 13:56:29,900 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:56:32,401 [master] INFO Scraping (112/150): https://24.kg/kyrgyzcha/368165_uluttuk_bankyi_jyil_bashyinan_beri_valyuta_ryinoguna_beshinchi_jolu_interventsiya_jasadyi/
+2026-05-05 13:56:32,855 [master] INFO   ✓ Улуттук банкы жыл башынан бери валюта рыногуна бешинчи жолу интервенци
+2026-05-05 13:56:35,369 [master] INFO Scraping (113/150): https://24.kg/kyrgyzcha/368126_kitep_kunu_bishkekte_okuu_dekadasyi_otot/
+2026-05-05 13:56:36,059 [master] INFO   ✓ Китеп күнү: Бишкекте окуу декадасы өтөт
+2026-05-05 13:56:38,559 [master] INFO Scraping (114/150): https://24.kg/kyrgyzcha/365792_oshto_korktonduruu_jana_tazaloo_ishembilikteri_kuchotulot/
+2026-05-05 13:56:40,194 [master] INFO   ✓ Ошто көрктөндүрүү жана тазалоо ишембиликтери күчөтүлөт
+2026-05-05 13:56:42,696 [master] INFO Scraping (115/150): https://24.kg/kyrgyzcha/page_15/
+2026-05-05 13:56:43,358 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:56:45,859 [master] INFO Scraping (115/150): https://24.kg/kyrgyzcha/369778_ukrainadagyi_kyirdaal_putin_pasha_mayramyina_karata_eldeshuu_jaryiyaladyi/
+2026-05-05 13:56:47,751 [master] INFO   ✓ Украинадагы кырдаал. Путин Пасха майрамына карата элдешүү жарыялады
+2026-05-05 13:56:50,252 [master] INFO Scraping (116/150): https://24.kg/kyrgyzcha/page_12/
+2026-05-05 13:56:50,962 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:56:53,466 [master] INFO Scraping (116/150): https://24.kg/kyrgyzcha/372587_jenish_kunu_kyirgyizstanda_georgiy_tasmasyi_onoktugu_bashtaldyi/
+2026-05-05 13:56:55,140 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:56:57,645 [master] INFO Scraping (116/150): https://24.kg/kyrgyzcha/368779_jazuuchu_kasyim_kaimovdun_100_jyildyigyina_karata_eskeruu_ish-charasyi_otot/
+2026-05-05 13:56:57,937 [master] INFO   ✓ Жазуучу Касым Каимовдун 100 жылдыгына карата эскерүү иш-чарасы өтөт
+2026-05-05 13:57:00,452 [master] INFO Scraping (117/150): https://24.kg/kyrgyzcha/365021_irandyin_janyi_jogorku_lideri_shaylandyi_altuuraluu_emne_belgiluu/
+2026-05-05 13:57:00,896 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:57:03,402 [master] INFO Scraping (117/150): https://24.kg/kyrgyzcha/372051_kyirgyizstanda_sotsialdyik_kyizmatkerlerdin_aylyigyi_jogoruladyi/
+2026-05-05 13:57:03,858 [master] INFO   ✓ Кыргызстанда социалдык кызматкерлердин айлыгы жогорулады
+2026-05-05 13:57:06,360 [master] INFO Scraping (118/150): https://24.kg/kyrgyzcha/369263_ata-beyitte_aprel_okuyalaryinda_kurman_bolgondor_eskerildi/
+2026-05-05 13:57:08,465 [master] INFO   ✓ «Ата-Бейитте» Апрель окуяларында курман болгондор эскерилди
+2026-05-05 13:57:10,974 [master] INFO Scraping (119/150): https://24.kg/kyrgyzcha/368326_kyirgyiz_drama_teatryinyin_aprel_ayyindagyi_repertuaryi/
+2026-05-05 13:57:12,933 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:57:15,436 [master] INFO Scraping (119/150): https://24.kg/kyrgyzcha/366670_iim_mayramda_arkanday_provokatsiyalar_myiyzam_buzuularga_ubagyinda_bogot_koyulat/
+2026-05-05 13:57:16,002 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:57:18,504 [master] INFO Scraping (119/150): https://24.kg/kyrgyzcha/371604_jogorku_keneshte_zamanbap_koomduk_kabyil_aluu_bolumu_ishke_kirdi/
+2026-05-05 13:57:18,895 [master] INFO   ✓ Жогорку Кеңеште заманбап коомдук кабыл алуу бөлүмү ишке кирди
+2026-05-05 13:57:21,395 [master] INFO Scraping (120/150): https://24.kg/kyrgyzcha/371456_kalktyi_teyloo_borborloru_aldyidagyi_mayram_kundoru_daishteyt/
+2026-05-05 13:57:23,563 [master] INFO   ✓ Калкты тейлөө борборлору алдыдагы майрам күндөрү да иштейт
+2026-05-05 13:57:26,064 [master] INFO Scraping (121/150): https://24.kg/kyrgyzcha/370289_prezident_kara-kuljada_kalktyi_teyloo_boyuna_madaniy_borbordu_achtyi/
+2026-05-05 13:57:26,473 [master] INFO   ✓ Президент Кара-Кулжада Калкты тейлөө боюна маданий борборду ачты
+2026-05-05 13:57:28,974 [master] INFO Scraping (122/150): https://24.kg/kyrgyzcha/371391_jogorku_keneshte_janyi_deputat_ant_berdi/
+2026-05-05 13:57:29,340 [master] INFO   ✓ Жогорку Кеңеште жаңы депутат ант берди
+2026-05-05 13:57:31,847 [master] INFO Scraping (123/150): https://24.kg/kyrgyzcha/366682_bulak_akyisyiz_mobildik_tirkemesi_jrtga_dayardanuuga_jardam_beret/
+2026-05-05 13:57:32,787 [master] INFO   ✓ «Булак» акысыз мобилдик тиркемеси ЖРТга даярданууга жардам берет
+2026-05-05 13:57:35,299 [master] INFO Scraping (124/150): https://24.kg/kyrgyzcha/367066_mahabat_tajibek_kyizyinyin_sotu_7-aprelde_ulanat/
+2026-05-05 13:57:37,443 [master] INFO   ✓ Махабат Тажибек кызынын соту 7-апрелде уланат
+2026-05-05 13:57:39,944 [master] INFO Scraping (125/150): https://24.kg/kyrgyzcha/369609_bishkektegi_korustondorgo_videobaykoo_kameralaryi_ornotulat/
+2026-05-05 13:57:41,637 [master] INFO   ✓ Бишкектеги көрүстөндөргө видеобайкоо камералары орнотулат
+2026-05-05 13:57:44,138 [master] INFO Scraping (126/150): https://24.kg/kyrgyzcha/370079_kubanyichbek_atajanov_jkkudagyi_kyirgyizstandyin_okulu_kyizmatyinan_boshotuldu/
+2026-05-05 13:57:44,672 [master] INFO   ✓ Кубанычбек Атажанов ЖККУдагы Кыргызстандын өкүлү кызматынан бошотулду
+2026-05-05 13:57:47,183 [master] INFO Scraping (127/150): https://24.kg/kyrgyzcha/366798_nooruz_2026_bugun_manas_teatryinda_mayramdyik_saltanat_otot/
+2026-05-05 13:57:47,869 [master] INFO   ✓ Нооруз −2026: Бүгүн Манас театрында майрамдык салтанат өтөт
+2026-05-05 13:57:50,372 [master] INFO Scraping (128/150): https://24.kg/kyrgyzcha/366961_bugun_kyirgyizstanga_chernogoriyanyin_tyishkyi_ishter_ministri_kelet/
+2026-05-05 13:57:50,806 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:57:53,307 [master] INFO Scraping (128/150): https://24.kg/kyrgyzcha/366796_24kg_kyirgyizstandyiktardyi_orozo_ayt_mayramyi_menen_kuttuktayt/
+2026-05-05 13:57:55,347 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:57:57,847 [master] INFO Scraping (128/150): https://24.kg/kyrgyzcha/365038_bugunku_dollardyin_kursu/
+2026-05-05 13:57:58,199 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:58:00,700 [master] INFO Scraping (129/150): https://24.kg/kyrgyzcha/369010_munarbek_seyitbek_uulu_turkiyada_otkon_elaralyik_turnirde_jenuuchusu_boldu/
+2026-05-05 13:58:01,129 [master] INFO   ✓ Мунарбек Сейитбек уулу Түркияда өткөн эл аралык турнирде жеңүүчүсү бол
+2026-05-05 13:58:03,631 [master] INFO Scraping (130/150): https://24.kg/kyrgyzcha/372328_aylyikka_koshumcha_5min_som_prezidenttin_atyinan_kimder_tolom_alat/
+2026-05-05 13:58:04,190 [master] INFO   ✓ Айлыкка кошумча 5 миң сом: Президенттин атынан кимдер төлөм алат?
+2026-05-05 13:58:06,693 [master] INFO Scraping (131/150): https://24.kg/kyrgyzcha/371185_bishkekte_128_adamdyi_kene_chaktyi/
+2026-05-05 13:58:08,586 [master] INFO   ✓ Бишкекте 128 адамды кене чакты
+2026-05-05 13:58:11,100 [master] INFO Scraping (132/150): https://24.kg/kyrgyzcha/368416_jknyin_deputatyi_aydoochuluk_kuboluktu_akyisyiz_almashtyiruu_moonotun_uzartuunu_surandyi/
+2026-05-05 13:58:11,745 [master] INFO   ✓ ЖКнын депутаты айдоочулук күбөлүктү акысыз алмаштыруу мөөнөтүн узартуу
+2026-05-05 13:58:14,252 [master] INFO Scraping (133/150): https://24.kg/kyrgyzcha/369130_aziya_chempionatyi_jaryim_finalga_kimder_chyiktyi/
+2026-05-05 13:58:14,609 [master] INFO   ✓ Азия чемпионаты: Жарым финалга кимдер чыкты?
+2026-05-05 13:58:17,111 [master] INFO Scraping (134/150): https://24.kg/kyrgyzcha/365299_alamudun_rayonundagyi_jer_tilkesi_mamleketke_kaytaryildyi/
+2026-05-05 13:58:17,542 [master] INFO   ✓ Аламүдүн районундагы жер тилкеси мамлекетке кайтарылды
+2026-05-05 13:58:20,044 [master] INFO Scraping (135/150): https://24.kg/kyrgyzcha/369125_bishkek-kant-tokmok_unaa_jolunun_bir_bolugun_keneytuu_ishter_kachan_butot/
+2026-05-05 13:58:21,665 [master] INFO   ✓ Бишкек-Кант-Токмок унаа жолунун бир бөлүгүн кеңейтүү: Иштер качан бүтө
+2026-05-05 13:58:24,181 [master] INFO Scraping (136/150): https://24.kg/kyrgyzcha/365274_orozo_2026_yiyyik_ramazandyin_akyirkyi_10kundugu_bashtaldyi/
+2026-05-05 13:58:24,583 [master] INFO   ✓ Орозо −2026: Ыйык Рамазандын акыркы 10 күндүгү башталды
+2026-05-05 13:58:27,085 [master] INFO Scraping (137/150): https://24.kg/kyrgyzcha/372549_batkende_oruk_byishyip_algachkyi_tushum_jyiynala_bashtadyi/
+2026-05-05 13:58:29,168 [master] INFO   ✓ Баткенде өрүк бышып, алгачкы түшүм жыйнала баштады
+2026-05-05 13:58:31,670 [master] INFO Scraping (138/150): https://24.kg/kyrgyzcha/369891_oshtogu_ak-buura_daryiyasyinan_323_min_tonnadan_ashyik_tashtandyi_chyigaryildyi/
+2026-05-05 13:58:32,134 [master] INFO   ✓ Оштогу Ак-Буура дарыясынан 323 миң тоннадан ашык таштанды чыгарылды
+2026-05-05 13:58:34,638 [master] INFO Scraping (139/150): https://24.kg/kyrgyzcha/368518_akilbirs_VIduynoluk_kochmondor_oyundaryinyin_tumaryi_bolup_tandaldyi/
+2026-05-05 13:58:34,977 [master] INFO   ✓ Ак илбирс VI Дүйнөлүк көчмөндөр оюндарынын тумары болуп тандалды
+2026-05-05 13:58:37,487 [master] INFO Scraping (140/150): https://24.kg/kyrgyzcha/365229_kyirgyizstanda_3ballga_jetken_jer_titiroo_kattaldyi/
+2026-05-05 13:58:37,997 [master] INFO   ✓ Кыргызстанда 3 баллга жеткен жер титирөө катталды
+2026-05-05 13:58:40,500 [master] INFO Scraping (141/150): https://24.kg/kyrgyzcha/372895_bugunku_dollardyin_kursu/
+2026-05-05 13:58:40,897 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:58:43,400 [master] INFO Scraping (142/150): https://24.kg/kyrgyzcha/371632_kyitaydyin_korgoo_ministri_dun_tszyun_rasmiy_sapar_menen_kyirgyizstanga_kelet/
+2026-05-05 13:58:44,253 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:58:46,754 [master] INFO Scraping (142/150): https://24.kg/kyrgyzcha/372652_bugunku_dollardyin_kursu/
+2026-05-05 13:58:47,188 [master] INFO   ✓ Бүгүнкү доллардын курсу
+2026-05-05 13:58:49,689 [master] INFO Scraping (143/150): https://24.kg/kyrgyzcha/371955_bugun_kyirgyizstanda_kuchu_35_ballga_jetken_jer_titiroo_kattaldyi/
+2026-05-05 13:58:50,256 [master] INFO   ✓ Бүгүн Кыргызстанда күчү 3,5 баллга жеткен жер титирөө катталды
+2026-05-05 13:58:52,757 [master] INFO Scraping (144/150): https://24.kg/kyrgyzcha/365652_paydaluu_kenesh_limondordu_kantip_tuura_saktoo_kerek/
+2026-05-05 13:58:53,222 [master] INFO   ✓ Пайдалуу кеңеш: Лимондорду кантип туура сактоо керек?
+2026-05-05 13:58:55,724 [master] INFO Scraping (145/150): https://24.kg/kyrgyzcha/372662_manas_shaaryinda_katuu_jaagan_jamgyirdan_kiyin_turak_jaylardyi_suu_kaptadyi/
+2026-05-05 13:58:57,259 [master] INFO   ✓ Манас шаарында катуу жааган жамгырдан кийин турак жайларды суу каптады
+2026-05-05 13:58:59,761 [master] INFO Scraping (146/150): https://24.kg/kyrgyzcha/372877_chempiondor_ligasyi_bugun_jaryim_finalda_atletiko_menen_arsenal_betteshet/
+2026-05-05 13:59:00,183 [master] INFO   ✓ Чемпиондор лигасы: Бүгүн жарым финалда «Атлетико» менен «Арсенал» бетт
+2026-05-05 13:59:02,684 [master] INFO Scraping (147/150): https://24.kg/kyrgyzcha/364414_umut_bugun_bishkekte_XIIIel_aralyik_jashtardyin_kino_forumu_bashtalat/
+2026-05-05 13:59:03,139 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:59:05,641 [master] INFO Scraping (147/150): https://24.kg/kyrgyzcha/371345_jalpyi_respublikalyik_testirloogo_61min_412_adam_kattaldyi/
+2026-05-05 13:59:06,166 [master] INFO   ✓ Жалпы республикалык тестирлөөгө 61 миң 412 адам катталды
+2026-05-05 13:59:08,668 [master] INFO Scraping (148/150): https://24.kg/kyrgyzcha/372132_bugun_bishkektin_bir_bolugundo_suu_ochurulot/
+2026-05-05 13:59:09,151 [master] INFO   ✗ Skipped (no content or too short)
+2026-05-05 13:59:11,654 [master] INFO Scraping (148/150): https://24.kg/kyrgyzcha/370023_UWW_reytingi_kyirgyizstandyik_balban_razzak_beyshekeev_aldyinkyi_beshtikke_kirdi/
+2026-05-05 13:59:12,083 [master] INFO   ✓ UWW рейтинги: Кыргызстандык балбан Раззак Бейшекеев алдыңкы бештикке к
+2026-05-05 13:59:14,587 [master] INFO Scraping (149/150): https://24.kg/kyrgyzcha/364409_kyirgyizstan_orusiyaga_janyi_unaalardyi_eksporttoo_boyuncha_aldyinkyi_orunda_turat/
+2026-05-05 13:59:15,009 [master] INFO   ✓ Кыргызстан Орусияга жаңы унааларды экспорттоо боюнча алдыңкы орунда ту
+2026-05-05 13:59:17,511 [master] INFO Scraping (150/150): https://24.kg/kyrgyzcha/371943_kyirgyizstandyik_sportchu_erlan_sultangaziev_aziya_chempionatyinda_kumush_medal_uttu/
+2026-05-05 13:59:17,972 [master] INFO   ✓ Кыргызстандык спортчу Эрлан Султангазиев Азия чемпионатында күмүш меда
+2026-05-05 13:59:20,488 [master] INFO 
+Saved 150 articles → 24kg_kyrgyz_data.csv
+2026-05-05 13:59:20,502 [master] INFO   24kg: 150 rows (label=0)
+2026-05-05 13:59:20,510 [master] INFO Running scraper: scraper_azattyk
+2026-05-05 13:59:20,510 [master] INFO ============================================================
+2026-05-05 13:59:20,510 [master] INFO AZATTYK.ORG KYRGYZ SCRAPER
+2026-05-05 13:59:20,510 [master] INFO ============================================================
+2026-05-05 13:59:20,511 [master] INFO Fetching listing page 0: https://www.azattyk.org/news?p=0
+2026-05-05 13:59:21,383 [master] INFO   → Found 12 new links (total: 12)
+2026-05-05 13:59:22,885 [master] INFO Fetching listing page 1: https://www.azattyk.org/news?p=1
+2026-05-05 13:59:23,449 [master] INFO   → Found 12 new links (total: 24)
+2026-05-05 13:59:24,951 [master] INFO Fetching listing page 2: https://www.azattyk.org/news?p=2
+2026-05-05 13:59:25,596 [master] INFO   → Found 10 new links (total: 34)
+2026-05-05 13:59:27,098 [master] INFO Fetching listing page 3: https://www.azattyk.org/news?p=3
+2026-05-05 13:59:27,990 [master] INFO   → Found 12 new links (total: 46)
+2026-05-05 13:59:29,492 [master] INFO Fetching listing page 4: https://www.azattyk.org/news?p=4
+2026-05-05 13:59:30,239 [master] INFO   → Found 12 new links (total: 58)
+2026-05-05 13:59:31,742 [master] INFO Fetching listing page 5: https://www.azattyk.org/news?p=5
+2026-05-05 13:59:32,626 [master] INFO   → Found 12 new links (total: 70)
+2026-05-05 13:59:34,127 [master] INFO Fetching listing page 6: https://www.azattyk.org/news?p=6
+2026-05-05 13:59:34,934 [master] INFO   → Found 12 new links (total: 82)
+2026-05-05 13:59:36,434 [master] INFO Fetching listing page 7: https://www.azattyk.org/news?p=7
+2026-05-05 13:59:37,355 [master] INFO   → Found 12 new links (total: 94)
+2026-05-05 13:59:38,857 [master] INFO Fetching listing page 8: https://www.azattyk.org/news?p=8
+2026-05-05 13:59:39,690 [master] INFO   → Found 12 new links (total: 106)
+2026-05-05 13:59:41,192 [master] INFO Fetching listing page 9: https://www.azattyk.org/news?p=9
+2026-05-05 13:59:42,023 [master] INFO   → Found 12 new links (total: 118)
+2026-05-05 13:59:43,525 [master] INFO Fetching listing page 10: https://www.azattyk.org/news?p=10
+2026-05-05 13:59:44,389 [master] INFO   → Found 12 new links (total: 130)
+2026-05-05 13:59:45,890 [master] INFO Fetching listing page 11: https://www.azattyk.org/news?p=11
+2026-05-05 13:59:46,692 [master] INFO   → Found 12 new links (total: 142)
+2026-05-05 13:59:48,193 [master] INFO Fetching listing page 12: https://www.azattyk.org/news?p=12
+2026-05-05 13:59:48,968 [master] INFO   → Found 12 new links (total: 154)
+2026-05-05 13:59:50,470 [master] INFO Fetching listing page 13: https://www.azattyk.org/news?p=13
+2026-05-05 13:59:51,252 [master] INFO   → Found 12 new links (total: 166)
+2026-05-05 13:59:52,754 [master] INFO Fetching listing page 14: https://www.azattyk.org/news?p=14
+2026-05-05 13:59:53,554 [master] INFO   → Found 12 new links (total: 178)
+2026-05-05 13:59:55,056 [master] INFO Fetching listing page 15: https://www.azattyk.org/news?p=15
+2026-05-05 13:59:55,923 [master] INFO   → Found 12 new links (total: 190)
+2026-05-05 13:59:57,432 [master] INFO Fetching listing page 16: https://www.azattyk.org/news?p=16
+2026-05-05 13:59:58,192 [master] INFO   → Found 12 new links (total: 202)
+2026-05-05 13:59:59,704 [master] INFO Fetching listing page 17: https://www.azattyk.org/news?p=17
+2026-05-05 14:00:00,937 [master] INFO   → Found 12 new links (total: 214)
+2026-05-05 14:00:02,438 [master] INFO Fetching listing page 18: https://www.azattyk.org/news?p=18
+2026-05-05 14:00:03,282 [master] INFO   → Found 12 new links (total: 226)
+2026-05-05 14:00:04,783 [master] INFO Fetching listing page 19: https://www.azattyk.org/news?p=19
+2026-05-05 14:00:05,569 [master] INFO   → Found 12 new links (total: 238)
+2026-05-05 14:00:07,072 [master] INFO Total article links: 238
+2026-05-05 14:00:07,072 [master] INFO Scraping (1/150): https://www.azattyk.org/a/33743403.html
+2026-05-05 14:00:07,785 [master] INFO   ✓ Израилдин соккусунан Ливанда 14 киши мерт болду
+2026-05-05 14:00:10,787 [master] INFO Scraping (2/150): https://www.azattyk.org/a/33744064.html
+2026-05-05 14:00:11,785 [master] INFO   ✓ Трамп катышкан иш-чарада ок чыгарган адамга "президенттин өмүрүнө кол 
+2026-05-05 14:00:14,786 [master] INFO Scraping (3/150): https://www.azattyk.org/a/33746072.html
+2026-05-05 14:00:15,586 [master] INFO   ✓ Иш учурунда дарыгерлерди сабагандарга жазаны күчөтүү сунушталды
+2026-05-05 14:00:18,590 [master] INFO Scraping (4/150): https://www.azattyk.org/a/33737891.html
+2026-05-05 14:00:19,359 [master] INFO   ✓ "Кыргызиндустрия" мамлекеттик ишканасы Президенттин иш башкармасына өт
+2026-05-05 14:00:22,365 [master] INFO Scraping (5/150): https://www.azattyk.org/a/33743500.html
+2026-05-05 14:00:23,100 [master] INFO   ✓ Клара Сооронкулова мурдагы башкы прокурор Зулушевди сотко бере турганы
+2026-05-05 14:00:26,115 [master] INFO Scraping (6/150): https://www.azattyk.org/a/33737759.html
+2026-05-05 14:00:27,034 [master] INFO   ✓ Депутат Сурабалдиева 13 жаштагы кыз Дубайга сойкулукка тартылганын бил
+2026-05-05 14:00:30,036 [master] INFO Scraping (7/150): https://www.azattyk.org/a/33742286.html
+2026-05-05 14:00:30,770 [master] INFO   ✓ Борбор Азия аймагындагы суу-энергетика абалы талкууланды
+2026-05-05 14:00:33,770 [master] INFO Scraping (8/150): https://www.azattyk.org/a/33740695.html
+2026-05-05 14:00:34,526 [master] INFO   ✓ Көк бөрү федерациясынын мурдагы президенти Талас Бегалиев 14 жылга кес
+2026-05-05 14:00:37,527 [master] INFO Scraping (9/150): https://www.azattyk.org/a/33738139.html
+2026-05-05 14:00:38,233 [master] INFO   ✓ Италия Соловьевдун премьер  Мелониге акарат келтиргенине нааразылык би
+2026-05-05 14:00:41,235 [master] INFO Scraping (10/150): https://www.azattyk.org/a/33743363.html
+2026-05-05 14:00:41,929 [master] INFO   ✓ ИИМ коомдук жайларда кайыр сурагандар жоопко тартыларын билдирди
+2026-05-05 14:00:44,933 [master] INFO Scraping (11/150): https://www.azattyk.org/a/33743206.html
+2026-05-05 14:00:45,716 [master] INFO   ✓ Илим Карыпбековго Орусияга кирүүгө өмүр бою тыюу салынды
+2026-05-05 14:00:48,718 [master] INFO Scraping (12/150): https://www.azattyk.org/a/33737748.html
+2026-05-05 14:00:49,579 [master] INFO   ✓ Мамлекеттик сыйлыктардын түрү 46дан 22ге кыскарды
+2026-05-05 14:00:52,592 [master] INFO Scraping (13/150): https://www.azattyk.org/a/33747532.html
+2026-05-05 14:00:53,381 [master] INFO   ✓ Иран Пакистанга АКШ менен сүйлөшүүнүн жаңы планын сунуштады
+2026-05-05 14:00:56,382 [master] INFO Scraping (14/150): https://www.azattyk.org/a/33742684.html
+2026-05-05 14:00:57,081 [master] INFO   ✓ Бишкекте концерт учурунда бомба тууралуу жалган маалымат берген адам к
+2026-05-05 14:01:00,092 [master] INFO Scraping (15/150): https://www.azattyk.org/a/33743223.html
+2026-05-05 14:01:00,885 [master] INFO   ✓ Үлүш жери бар кош бойлуу аялдар жөлөк пул алышат
+2026-05-05 14:01:03,887 [master] INFO Scraping (16/150): https://www.azattyk.org/a/33743226.html
+2026-05-05 14:01:04,729 [master] INFO   ✓ Баткенде жубайлардын өлүмү боюнча кылмыш иши козголду
+2026-05-05 14:01:07,731 [master] INFO Scraping (17/150): https://www.azattyk.org/a/33745314.html
+2026-05-05 14:01:08,967 [master] INFO   ✓ Сөз эркиндиги боюнча жаңы рейтингде Кыргызстан эки баскычка ылдыйлады
+2026-05-05 14:01:11,974 [master] INFO Scraping (18/150): https://www.azattyk.org/a/33737109.html
+2026-05-05 14:01:12,813 [master] INFO   ✓ Даун синдрому бар балдардын ата-энелери коомчулуктан жардам сурады
+2026-05-05 14:01:15,814 [master] INFO Scraping (19/150): https://www.azattyk.org/a/33738045.html
+2026-05-05 14:01:16,614 [master] INFO   ✓ Сакчылар корпусу Ормузда эки кеме кармалганын билдирди
+2026-05-05 14:01:19,615 [master] INFO Scraping (20/150): https://www.azattyk.org/a/33742679.html
+2026-05-05 14:01:20,394 [master] INFO   ✓ Алайда күчү 3 баллдык жер титирөө катталды
+2026-05-05 14:01:23,399 [master] INFO Scraping (21/150): https://www.azattyk.org/a/33745830.html
+2026-05-05 14:01:24,138 [master] INFO   ✓ Былтыр ишкерлерди текшерген 247 кызмат адамы жоопко тартылды
+2026-05-05 14:01:27,139 [master] INFO Scraping (22/150): https://www.azattyk.org/a/33740784.html
+2026-05-05 14:01:27,919 [master] INFO   ✓ Тамчыда көл жээгине кум төгүлүп жатканы тууралуу видео боюнча түшүндүр
+2026-05-05 14:01:30,920 [master] INFO Scraping (23/150): https://www.azattyk.org/a/33737989.html
+2026-05-05 14:01:31,680 [master] INFO   ✓ Ысык-Көл милициясы Дубайда сойкулукка сатылган кыз боюнча маалымат бер
+2026-05-05 14:01:34,682 [master] INFO Scraping (24/150): https://www.azattyk.org/a/33737030.html
+2026-05-05 14:01:35,558 [master] INFO   ✓ Мамлекеттик ишканаларга электр транспорт жабдууларын сатып келүү жобол
+2026-05-05 14:01:38,559 [master] INFO Scraping (25/150): https://www.azattyk.org/a/33744373.html
+2026-05-05 14:01:39,319 [master] INFO   ✓ Түштүк Кореянын мурдагы биринчи айымынын өкүмү 4 жылга узартылды
+2026-05-05 14:01:42,319 [master] INFO Scraping (26/150): https://www.azattyk.org/a/33737741.html
+2026-05-05 14:01:43,453 [master] INFO   ✓ Депутат Өмүрзаков Кыргызстанга сапатсыз азыктар кирип жатканын айтты
+2026-05-05 14:01:46,455 [master] INFO Scraping (27/150): https://www.azattyk.org/a/33737923.html
+2026-05-05 14:01:47,177 [master] INFO   ✓ Садыр Жапаров Борбор Азия өлкөлөрүн суу маселесинде чогуу аракеттенүүг
+2026-05-05 14:01:50,180 [master] INFO Scraping (28/150): https://www.azattyk.org/a/33736978.html
+2026-05-05 14:01:50,981 [master] INFO   ✓ Amnesty International Кыргызстанда журналисттерге басым уланып жатканы
+2026-05-05 14:01:53,997 [master] INFO Scraping (29/150): https://www.azattyk.org/a/33748946.html
+2026-05-05 14:01:54,663 [master] INFO   ✓ Орус армиясынын аба соккусунан Харьковдо алты киши мүрт кетти
+2026-05-05 14:01:57,679 [master] INFO Scraping (30/150): https://www.azattyk.org/a/33746875.html
+2026-05-05 14:01:58,418 [master] INFO   ✓ Нөшөрлөп жааган жаандан улам Манас шаарында да сел жүрдү
+2026-05-05 14:02:01,423 [master] INFO Scraping (31/150): https://www.azattyk.org/a/33744264.html
+2026-05-05 14:02:02,150 [master] INFO   ✓ Туапседеги мунай иштетүүчү заводго үчүнчү жолу сокку урулду
+2026-05-05 14:02:05,152 [master] INFO Scraping (32/150): https://www.azattyk.org/a/33750091.html
+2026-05-05 14:02:05,983 [master] INFO   ✓ Бишкек–Ош жолу: Таш кулаган тилкени тазалоо иштери жүрүүдө
+2026-05-05 14:02:08,983 [master] INFO Scraping (33/150): https://www.azattyk.org/a/33744209.html
+2026-05-05 14:02:09,720 [master] INFO   ✓ Депутат Бекешев паспорт же башка документ алуу эселеп кымбаттаганын ай
+2026-05-05 14:02:12,721 [master] INFO Scraping (34/150): https://www.azattyk.org/a/33748012.html
+2026-05-05 14:02:13,603 [master] INFO   ✓ Путин Кыргыз-орус славян университетинин жаңы кампусун куруу келишимин
+2026-05-05 14:02:16,613 [master] INFO Scraping (35/150): https://www.azattyk.org/a/33743370.html
+2026-05-05 14:02:17,480 [master] INFO   ✓ Ирандын тышкы иштер министри Орусияга барды
+2026-05-05 14:02:20,483 [master] INFO Scraping (36/150): https://www.azattyk.org/a/33740673.html
+2026-05-05 14:02:21,194 [master] INFO   ✓ Аба ырайы: жаан жаайт
+2026-05-05 14:02:24,200 [master] INFO Scraping (37/150): https://www.azattyk.org/a/33747603.html
+2026-05-05 14:02:25,058 [master] INFO   ✓ АКШдан депортация болгон дагы 26 өзбек жараны мекенине кайтты
+2026-05-05 14:02:28,060 [master] INFO Scraping (38/150): https://www.azattyk.org/a/33742794.html
+2026-05-05 14:02:28,892 [master] INFO   ✓ Аба ырайы: айрым жерлерде өткүн өтөт
+2026-05-05 14:02:31,905 [master] INFO Scraping (39/150): https://www.azattyk.org/a/33744444.html
+2026-05-05 14:02:32,707 [master] INFO   ✓ Бириккен Араб Эмирликтери 1-майда ОПЕКтен чыгарын жарыялады
+2026-05-05 14:02:35,709 [master] INFO Scraping (40/150): https://www.azattyk.org/a/33740707.html
+2026-05-05 14:02:36,462 [master] INFO   ✓ Орусия Днепр жана Житомирге сокку урду, бир нече кишинин өмүрү кыйылды
+2026-05-05 14:02:39,464 [master] INFO Scraping (41/150): https://www.azattyk.org/a/33743610.html
+2026-05-05 14:02:40,262 [master] INFO   ✓ Мерц: Американын Иран боюнча так стратегиясы жок
+2026-05-05 14:02:43,269 [master] INFO Scraping (42/150): https://www.azattyk.org/a/33738026.html
+2026-05-05 14:02:43,994 [master] INFO   ✓ Еврошаркет Орусияга каршы санкциялардын 20-пакетин жактырды. Тизмеде К
+2026-05-05 14:02:46,996 [master] INFO Scraping (43/150): https://www.azattyk.org/a/33744067.html
+2026-05-05 14:02:47,728 [master] INFO   ✓ Орунбеков өкмөт BELES автобусун эмнеге сатып албай жатканын айтты
+2026-05-05 14:02:50,730 [master] INFO Scraping (44/150): https://www.azattyk.org/a/33744099.html
+2026-05-05 14:02:51,473 [master] INFO   ✓ Улуттук банк эсептик ченди 12% калтырып, азык-түлүк 10,8% өскөнүн билд
+2026-05-05 14:02:54,475 [master] INFO Scraping (45/150): https://www.azattyk.org/a/33737760.html
+2026-05-05 14:02:55,223 [master] INFO   ✓ УКМК жана ИИМ ортодо тиреш жок экенин, чогуу тазаланып жатканын билдир
+2026-05-05 14:02:58,236 [master] INFO Scraping (46/150): https://www.azattyk.org/a/33748058.html
+2026-05-05 14:02:58,967 [master] INFO   ✓ Орусиянын чабуулунан Одессада эки адам набыт болду
+2026-05-05 14:03:01,974 [master] INFO Scraping (47/150): https://www.azattyk.org/a/33745026.html
+2026-05-05 14:03:02,853 [master] INFO   ✓ Жапония өз кемеси Ормуз кысыгынан өткөнүн билдирди
+2026-05-05 14:03:05,858 [master] INFO Scraping (48/150): https://www.azattyk.org/a/33744153.html
+2026-05-05 14:03:06,585 [master] INFO   ✓ Кыргыз–кытай чек арасы убактылуу жабылат
+2026-05-05 14:03:09,601 [master] INFO Scraping (49/150): https://www.azattyk.org/a/33743431.html
+2026-05-05 14:03:10,296 [master] INFO   ✓ Одессада орус армиясынын соккуларынан 14 киши жабыркады
+2026-05-05 14:03:13,299 [master] INFO Scraping (50/150): https://www.azattyk.org/a/33737782.html
+2026-05-05 14:03:14,121 [master] INFO   ✓ Парламент өкмөт башчынын орун басарлыгына Маматкановдун талапкерлигин 
+2026-05-05 14:03:17,131 [master] INFO Scraping (51/150): https://www.azattyk.org/a/33737003.html
+2026-05-05 14:03:17,844 [master] INFO   ✓ ФБР башчысы Пател The Atlantic басылмасын сотко берди
+2026-05-05 14:03:20,845 [master] INFO Scraping (52/150): https://www.azattyk.org/a/33748005.html
+2026-05-05 14:03:21,536 [master] INFO   ✓ Баткендин сел жүргөн айылдарынан 149 адам эвакуация болду
+2026-05-05 14:03:24,539 [master] INFO Scraping (53/150): https://www.azattyk.org/a/33749056.html
+2026-05-05 14:03:25,343 [master] INFO   ✓ ЖМК: Путин айланасындагы адамдардан чочулоодо
+2026-05-05 14:03:28,344 [master] INFO Scraping (54/150): https://www.azattyk.org/a/33740805.html
+2026-05-05 14:03:29,088 [master] INFO   ✓ Гимн боюнча комиссия жаңыланды, аны мамкатчы Койчиев жетектейт
+2026-05-05 14:03:32,094 [master] INFO Scraping (55/150): https://www.azattyk.org/a/33744901.html
+2026-05-05 14:03:32,816 [master] INFO   ✓ ИИМ Бишкек электр тармактар ишканасынын директорун кармады
+2026-05-05 14:03:35,818 [master] INFO Scraping (56/150): https://www.azattyk.org/a/33741428.html
+2026-05-05 14:03:36,543 [master] INFO   ✓ Ливан менен Израил атышууну дагы үч аптага токтоткону жарыяланды
+2026-05-05 14:03:39,544 [master] INFO Scraping (57/150): https://www.azattyk.org/a/33748665.html
+2026-05-05 14:03:40,362 [master] INFO   ✓ Өкмөт "Бала ырысы" жөлөкпулу үчүн 3 млрд сомдон ашык каражат бөлөт
+2026-05-05 14:03:43,364 [master] INFO Scraping (58/150): https://www.azattyk.org/a/33743212.html
+2026-05-05 14:03:44,083 [master] INFO   ✓ Көк-бөрү федерациясынын президенти кызматтан кетүү боюнча арыз жазды
+2026-05-05 14:03:47,085 [master] INFO Scraping (59/150): https://www.azattyk.org/a/33744091.html
+2026-05-05 14:03:47,777 [master] INFO   ✓ Кыргызстанда ымыркай өлүмү боюнча көрсөткүч өсүүдө
+2026-05-05 14:03:50,778 [master] INFO Scraping (60/150): https://www.azattyk.org/a/33741452.html
+2026-05-05 14:03:51,504 [master] INFO   ✓ Орусия Украинанын эки аймагын ракета жана дрон менен аткылады
+2026-05-05 14:03:54,506 [master] INFO Scraping (61/150): https://www.azattyk.org/a/33740763.html
+2026-05-05 14:03:55,343 [master] INFO   ✓ Орусияда мунай заводдоруна  соккуда бир киши каза таап, өрт чыкты
+2026-05-05 14:03:58,345 [master] INFO Scraping (62/150): https://www.azattyk.org/a/33748542.html
+2026-05-05 14:03:59,093 [master] INFO   ✓ Трамп Ормузда калган бейтарап кемелерди "алып чыга баштаарын" айтты
+2026-05-05 14:04:02,095 [master] INFO Scraping (63/150): https://www.azattyk.org/a/33743641.html
+2026-05-05 14:04:02,905 [master] INFO   ✓ Малиде коргоо министри өлтүрүлдү, орус аскерлери Кидалдан чыгып кетти
+2026-05-05 14:04:05,906 [master] INFO Scraping (64/150): https://www.azattyk.org/a/33748512.html
+2026-05-05 14:04:07,085 [master] INFO   ✓ Зеленский "көмүскө флоттогу" эки орусиялык танкерге сокку урулганын би
+2026-05-05 14:04:10,088 [master] INFO Scraping (65/150): https://www.azattyk.org/a/33744061.html
+2026-05-05 14:04:10,997 [master] INFO   ✓ Бишкек Европа Биримдигинин санкциясын сынга алды
+2026-05-05 14:04:13,998 [master] INFO Scraping (66/150): https://www.azattyk.org/a/33737035.html
+2026-05-05 14:04:14,766 [master] INFO   ✓ Ак-Ордонун тургуну үйүн бузууга келген сот аткаруучулар алдында өз өмү
+2026-05-05 14:04:17,780 [master] INFO Scraping (67/150): https://www.azattyk.org/a/33749647.html
+2026-05-05 14:04:18,547 [master] INFO   ✓ Орусияда чет өлкөлүктөргө мамлекеттик төлөмдөрдү жогорулатуу сунушталд
+2026-05-05 14:04:21,555 [master] INFO Scraping (68/150): https://www.azattyk.org/a/33742764.html
+2026-05-05 14:04:22,282 [master] INFO   ✓ Бишкекте Чернобыл апаатынын 40 жылдыгы эскерилди
+2026-05-05 14:04:25,293 [master] INFO Scraping (69/150): https://www.azattyk.org/a/33747521.html
+2026-05-05 14:04:25,972 [master] INFO   ✓ Экс-депутат Сатыбалдиев коомдук жайда тамеки чеккени үчүн айыпка жыгыл
+2026-05-05 14:04:28,974 [master] INFO Scraping (70/150): https://www.azattyk.org/a/33737829.html
+2026-05-05 14:04:29,723 [master] INFO   ✓ Көмүр экспортун тыюу мөөнөтүн узартуу сунушталды
+2026-05-05 14:04:32,732 [master] INFO Scraping (71/150): https://www.azattyk.org/a/33737219.html
+2026-05-05 14:04:33,467 [master] INFO   ✓ Трамп Иран менен атышууну токтотуу келишимин узарткысы келбей турганын
+2026-05-05 14:04:36,467 [master] INFO Scraping (72/150): https://www.azattyk.org/a/33745058.html
+2026-05-05 14:04:37,172 [master] INFO   ✓ Ошто ыдыкка кабылган милициянын иши боюнча 8 кызматкер тартиптик жазаг
+2026-05-05 14:04:40,187 [master] INFO Scraping (73/150): https://www.azattyk.org/a/33745900.html
+2026-05-05 14:04:40,890 [master] INFO   ✓ Дрон соккусунан кийин Перм мунай станциясында жарылуу болду
+2026-05-05 14:04:43,898 [master] INFO Scraping (74/150): https://www.azattyk.org/a/33737719.html
+2026-05-05 14:04:44,643 [master] INFO   ✓ Жогорку Кеңеште Жээнчороев ант берип, депутаттык кызматка расмий кириш
+2026-05-05 14:04:47,644 [master] INFO Scraping (75/150): https://www.azattyk.org/a/33743203.html
+2026-05-05 14:04:48,534 [master] INFO   ✓ АКШ мамдепартаменти: Өзөктүк энергетика ишеничтүү колдо болушу керек
+2026-05-05 14:04:51,535 [master] INFO Scraping (76/150): https://www.azattyk.org/a/33744097.html
+2026-05-05 14:04:52,285 [master] INFO   ✓ Алайда сел жүрүп, 25 үйдү суу каптады
+2026-05-05 14:04:55,287 [master] INFO Scraping (77/150): https://www.azattyk.org/a/33746084.html
+2026-05-05 14:04:55,997 [master] INFO   ✓ Пезешкиан АКШнын деңиз курчоосу "ийгиликсиз болорун" билдирди
+2026-05-05 14:04:59,002 [master] INFO Scraping (78/150): https://www.azattyk.org/a/33742177.html
+2026-05-05 14:04:59,888 [master] INFO   ✓ CNN: Уиткофф жана Кушнер Иран менен сүйлөшүү үчүн Исламабадга жөнөдү
+2026-05-05 14:05:02,896 [master] INFO Scraping (79/150): https://www.azattyk.org/a/33741459.html
+2026-05-05 14:05:03,707 [master] INFO   ✓ Жеке ветеринарлар ассоциациясы эпизоотиялык абалга кооптонуусун билдир
+2026-05-05 14:05:06,711 [master] INFO Scraping (80/150): https://www.azattyk.org/a/33743358.html
+2026-05-05 14:05:07,568 [master] INFO   ✓ Кыргызстан быйыл коңшу өлкөлөрдөн 4 млрд кВт саат электр энергиясын са
+2026-05-05 14:05:10,570 [master] INFO Scraping (81/150): https://www.azattyk.org/a/33746097.html
+2026-05-05 14:05:11,543 [master] INFO   ✓ Орусияда Кыргызстандын үч жараны өрттөн каза болду
+2026-05-05 14:05:14,544 [master] INFO Scraping (82/150): https://www.azattyk.org/a/33745194.html
+2026-05-05 14:05:15,092 [master] INFO   ✓ "Проект": Кыргызстандагы А7 компаниясынын артында Абрамович турушу ыкт
+2026-05-05 14:05:18,100 [master] INFO Scraping (83/150): https://www.azattyk.org/a/33745828.html
+2026-05-05 14:05:18,837 [master] INFO   ✓ Трамп менен Путин Украина жана Иран маселелерин талкуулашты
+2026-05-05 14:05:21,839 [master] INFO Scraping (84/150): https://www.azattyk.org/a/33744888.html
+2026-05-05 14:05:22,687 [master] INFO   ✓ Камила Талиева үй-бүлөлүк зомбулукту алдын алууну күчөтүү керектигин а
+2026-05-05 14:05:25,689 [master] INFO Scraping (85/150): https://www.azattyk.org/a/33747520.html
+2026-05-05 14:05:26,458 [master] INFO   ✓ Окуу жайларда контрактты көтөрүүгө мораторий киргизилди
+2026-05-05 14:05:29,461 [master] INFO Scraping (86/150): https://www.azattyk.org/a/33744194.html
+2026-05-05 14:05:30,186 [master] INFO   ✓ Сүлүктүдө көмүр кенинде шахта урап, бир киши набыт болду
+2026-05-05 14:05:33,202 [master] INFO Scraping (87/150): https://www.azattyk.org/a/33746009.html
+2026-05-05 14:05:34,047 [master] INFO   ✓ Трамп Бириккен Араб Эмирлигинин ОПЕКтен чыгуу чечимин колдоду
+2026-05-05 14:05:37,062 [master] INFO Scraping (88/150): https://www.azattyk.org/a/33744284.html
+2026-05-05 14:05:37,783 [master] INFO   ✓ Кыргызстанда үч айда жол кырсыгынан 18 баланын өмүрү кыйылды
+2026-05-05 14:05:40,784 [master] INFO Scraping (89/150): https://www.azattyk.org/a/33740832.html
+2026-05-05 14:05:41,553 [master] INFO   ✓ Кремлдин өкүлү Москвада Путин менен Садыр Жапаров жолугарын билдирди
+2026-05-05 14:05:44,555 [master] INFO Scraping (90/150): https://www.azattyk.org/a/33745067.html
+2026-05-05 14:05:45,312 [master] INFO   ✓ Орусия Борбор Азияда бөтөн аскерлердин болушу кабыл алынгыс деп эсепте
+2026-05-05 14:05:48,314 [master] INFO Scraping (91/150): https://www.azattyk.org/a/33743526.html
+2026-05-05 14:05:49,062 [master] INFO   ✓ Казакстанда мыйзамсыз лотереяга айыпталган блогерлерге сот өкүмү чыкты
+2026-05-05 14:05:52,064 [master] INFO Scraping (92/150): https://www.azattyk.org/a/33742222.html
+2026-05-05 14:05:52,826 [master] INFO   ✓ Сурабалдиева Ташиевдин кетишин "мамлекеттик төңкөрүш" аракети менен ба
+2026-05-05 14:05:55,828 [master] INFO Scraping (93/150): https://www.azattyk.org/a/33743300.html
+2026-05-05 14:05:56,703 [master] INFO   ✓ Өкмөттө эл аралык санкцияларга байланыштуу кеңешме өттү
+2026-05-05 14:05:59,706 [master] INFO Scraping (94/150): https://www.azattyk.org/a/33750077.html
+2026-05-05 14:06:00,446 [master] INFO   ✓ Москва менен Санкт-Петербургда 9-майга чейин мобилдик интернет өчүрүлө
+2026-05-05 14:06:03,447 [master] INFO Scraping (95/150): https://www.azattyk.org/a/33743240.html
+2026-05-05 14:06:04,231 [master] INFO   ✓ Садыр Жапаров Ташиевдин “75чилерге” тиешеси бар-жогун тергөө аныктай т
+2026-05-05 14:06:07,244 [master] INFO Scraping (96/150): https://www.azattyk.org/a/33740585.html
+2026-05-05 14:06:08,025 [master] INFO   ✓ ЖК төрагасы мугалимдин маяна маселеси боюнча 300дөй кайрылуу түшкөнүн 
+2026-05-05 14:06:11,026 [master] INFO Scraping (97/150): https://www.azattyk.org/a/33743502.html
+2026-05-05 14:06:11,795 [master] INFO   ✓ Швейцария: Гүлнара Каримовага козголгон иш сотто карала баштады
+2026-05-05 14:06:14,798 [master] INFO Scraping (98/150): https://www.azattyk.org/a/33742782.html
+2026-05-05 14:06:15,511 [master] INFO   ✓ Бишкекте бир жашар баласын сабоого шектүү келин кармалды
+2026-05-05 14:06:18,520 [master] INFO Scraping (99/150): https://www.azattyk.org/a/33736986.html
+2026-05-05 14:06:19,392 [master] INFO   ✓ 22-апрелдин аба ырайы: Көпчүлүк аймактарда жаан жаайт
+2026-05-05 14:06:22,394 [master] INFO Scraping (100/150): https://www.azattyk.org/a/33747536.html
+2026-05-05 14:06:23,100 [master] INFO   ✓ Амангелдиев санкцияга тиешеси бар компаниялардын каттоосу жокко чыгары
+2026-05-05 14:06:26,100 [master] INFO Scraping (101/150): https://www.azattyk.org/a/33744278.html
+2026-05-05 14:06:26,843 [master] INFO   ✓ Иранда интернет өчүрүлгөнүнө 60 күн болду
+2026-05-05 14:06:29,845 [master] INFO Scraping (102/150): https://www.azattyk.org/a/33743349.html
+2026-05-05 14:06:30,597 [master] INFO   ✓ Касымалиев Кытайдын коргоо министри менен эки өлкө алакасын талкуулады
+2026-05-05 14:06:33,599 [master] INFO Scraping (103/150): https://www.azattyk.org/a/33745422.html
+2026-05-05 14:06:34,430 [master] INFO   ✓ БУУ: Жаңжал курчугандан бери Иранда кеминде 21 киши дарга асылды
+2026-05-05 14:06:37,431 [master] INFO Scraping (104/150): https://www.azattyk.org/a/33740702.html
+2026-05-05 14:06:38,190 [master] INFO   ✓ Ош облсоту: Сайпидинов камакта, иши келерки аптада каралат
+2026-05-05 14:06:41,197 [master] INFO Scraping (105/150): https://www.azattyk.org/a/33747711.html
+2026-05-05 14:06:42,007 [master] INFO   ✓ Баткен районунда селден улам өзгөчө кырдаал режими жарыяланды
+2026-05-05 14:06:45,009 [master] INFO Scraping (106/150): https://www.azattyk.org/a/33745834.html
+2026-05-05 14:06:45,751 [master] INFO   ✓ Израил Газага гумжардам ташып бараткан кемелерди кармады
+2026-05-05 14:06:48,753 [master] INFO Scraping (107/150): https://www.azattyk.org/a/33737086.html
+2026-05-05 14:06:49,472 [master] INFO   ✓ "Жалал-Абад" эл аралык финансы борборун түзүү мыйзам долбоору парламен
+2026-05-05 14:06:52,488 [master] INFO Scraping (108/150): https://www.azattyk.org/a/33740556.html
+2026-05-05 14:06:53,277 [master] INFO   ✓ АКШ Ирандан согушту токтотуу боюнча "бирдиктүү" сунуш күтүп жатканын б
+2026-05-05 14:06:56,279 [master] INFO Scraping (109/150): https://www.azattyk.org/a/33745875.html
+2026-05-05 14:06:57,011 [master] INFO   ✓ Одессада Орусиянын чабуулунан жабыркагандар саны 20га жетти
+2026-05-05 14:07:00,012 [master] INFO Scraping (110/150): https://www.azattyk.org/a/33748547.html
+2026-05-05 14:07:00,784 [master] INFO   ✓ Кинотеатрларда тыюу салынган "Өч 2"  тасмасын интернеттен көрсөтүүгө у
+2026-05-05 14:07:03,788 [master] INFO Scraping (111/150): https://www.azattyk.org/a/33742265.html
+2026-05-05 14:07:04,663 [master] INFO   ✓ Украин дрондору Екатеринбургга чабуул койду, жараат алгандар бар
+2026-05-05 14:07:07,666 [master] INFO Scraping (112/150): https://www.azattyk.org/a/33746868.html
+2026-05-05 14:07:08,424 [master] INFO   ✓ Украинада Одесса, Орусияда Туапсе кайрадан дрон чабуулуна кабылды
+2026-05-05 14:07:11,426 [master] INFO Scraping (113/150): https://www.azattyk.org/a/33744082.html
+2026-05-05 14:07:12,200 [master] INFO   ✓ Акыйкатчы: Алимент өндүрүү маселеси жапырт социалдык көйгөйгө айланууд
+2026-05-05 14:07:15,203 [master] INFO Scraping (114/150): https://www.azattyk.org/a/33744268.html
+2026-05-05 14:07:15,934 [master] INFO   ✓ Бишкек: Мэрия курган алгачкы көп кабаттуу унаа жай сынга алынууда
+2026-05-05 14:07:18,934 [master] INFO Scraping (115/150): https://www.azattyk.org/a/33743265.html
+2026-05-05 14:07:19,707 [master] INFO   ✓ Аба ырайы: Көпчүлүк аймактарда жаан жаайт
+2026-05-05 14:07:22,708 [master] INFO Scraping (116/150): https://www.azattyk.org/a/33737947.html
+2026-05-05 14:07:23,464 [master] INFO   ✓ Бишкекте чет элдик жаранды өлтүрүүгө шектүүлөр кармалды
+2026-05-05 14:07:26,481 [master] INFO Scraping (117/150): https://www.azattyk.org/a/33744923.html
+2026-05-05 14:07:27,387 [master] INFO   ✓ Украинада дрон соккусунан адам өмүрү кыйылды, жараат алгандар бар
+2026-05-05 14:07:30,391 [master] INFO Scraping (118/150): https://www.azattyk.org/a/33750070.html
+2026-05-05 14:07:31,220 [master] INFO   ✓ БАЭ Ирандын дрон жана ракета чабуулуна кабылганын кабарлады
+2026-05-05 14:07:34,222 [master] INFO Scraping (119/150): https://www.azattyk.org/a/33741748.html
+2026-05-05 14:07:35,922 [master] INFO   ✓ NYT: Можтаба Хаменеиге кеп бут салып, пластикалык операция жасоо керек
+2026-05-05 14:07:38,923 [master] INFO Scraping (120/150): https://www.azattyk.org/a/33737038.html
+2026-05-05 14:07:39,767 [master] INFO   ✓ Иран парламентинин төрагасы согушта Тегеран "жаңы карталарын" чыгарары
+2026-05-05 14:07:42,767 [master] INFO Scraping (121/150): https://www.azattyk.org/a/33744425.html
+2026-05-05 14:07:43,502 [master] INFO   ✓ Мунайдын баасы өсүп, баррели 111 долларга жетти
+2026-05-05 14:07:46,504 [master] INFO Scraping (122/150): https://www.azattyk.org/a/33737808.html
+2026-05-05 14:07:47,333 [master] INFO   ✓ 23-апрелдин аба ырайы: Жаан жаап, күн күркүрөйт
+2026-05-05 14:07:50,335 [master] INFO Scraping (123/150): https://www.azattyk.org/a/33736964.html
+2026-05-05 14:07:51,104 [master] INFO   ✓ Орусиянын "көзөмөл реестрине" кирген кыргыз жарандарынын саны 93 миңде
+2026-05-05 14:07:54,111 [master] INFO Scraping (124/150): https://www.azattyk.org/a/33745836.html
+2026-05-05 14:07:54,862 [master] INFO   ✓ Агартуу министрлиги мектеп окуучуларынын формасын өзгөртүүсүз калтырды
+2026-05-05 14:07:57,872 [master] INFO Scraping (125/150): https://www.azattyk.org/a/33743296.html
+2026-05-05 14:07:58,727 [master] INFO   ✓ "Түндүк" аркылуу 261 миң адам өзүнө насыя алууга тыюу салды
+2026-05-05 14:08:01,729 [master] INFO Scraping (126/150): https://www.azattyk.org/a/33746870.html
+2026-05-05 14:08:02,445 [master] INFO   ✓ Амангелдиев "Керемет Банк" АКШ менен Британиянын санкциясынан чыгышы ы
+2026-05-05 14:08:05,448 [master] INFO Scraping (127/150): https://www.azattyk.org/a/33741780.html
+2026-05-05 14:08:06,294 [master] INFO   ✓ Орусия менен Украина туткун  айырбаштады
+2026-05-05 14:08:09,298 [master] INFO Scraping (128/150): https://www.azattyk.org/a/33741595.html
+2026-05-05 14:08:10,121 [master] INFO   ✓ Кыргызстанда чет элдик студенттерди кабыл алуу борбору түзүлдү
+2026-05-05 14:08:13,132 [master] INFO Scraping (129/150): https://www.azattyk.org/a/33741775.html
+2026-05-05 14:08:13,928 [master] INFO   ✓ Тажикстандын үч банкы Евробиримдиктин санкциялык тизмесинен чыгарылды
+2026-05-05 14:08:16,930 [master] INFO Scraping (130/150): https://www.azattyk.org/a/33737773.html
+2026-05-05 14:08:17,673 [master] INFO   ✓ Самарада дрон чабуулунан кабат үйдүн кире бериши урап, 11 киши жараат 
+2026-05-05 14:08:20,675 [master] INFO Scraping (131/150): https://www.azattyk.org/a/33746173.html
+2026-05-05 14:08:21,385 [master] INFO   ✓ Хаменеи Иран Ормуз кысыгын коргой турганын билдирди
+2026-05-05 14:08:24,387 [master] INFO Scraping (132/150): https://www.azattyk.org/a/33740597.html
+2026-05-05 14:08:25,101 [master] INFO   ✓ Менчик мектептердин окутуу акысын тескөө сунушталды
+2026-05-05 14:08:28,104 [master] INFO Scraping (133/150): https://www.azattyk.org/a/33737280.html
+2026-05-05 14:08:28,814 [master] INFO   ✓ Сот аткаруу кызматы Ак-Ордодогу мыйзамсыз делген үйлөрдү бузуу боюнча 
+2026-05-05 14:08:31,823 [master] INFO Scraping (134/150): https://www.azattyk.org/a/33743251.html
+2026-05-05 14:08:32,659 [master] INFO   ✓ Президент Жапаров жакындары жеке бизнес менен гана алектенерин билдирд
+2026-05-05 14:08:35,667 [master] INFO Scraping (135/150): https://www.azattyk.org/a/33746865.html
+2026-05-05 14:08:36,806 [master] INFO   ✓ Кыргызстанда 1-майдан тартып электр энергиясы 27 тыйынга кымбаттады
+2026-05-05 14:08:39,818 [master] INFO Scraping (136/150): https://www.azattyk.org/a/33743343.html
+2026-05-05 14:08:40,578 [master] INFO   ✓ Элчи Эдил Байсалов президенттин эл аралык демилгелер боюнча атайын өкү
+2026-05-05 14:08:43,594 [master] INFO Scraping (137/150): https://www.azattyk.org/a/33740651.html
+2026-05-05 14:08:44,296 [master] INFO   ✓ Ош шаарында Oxford мектебин ачуу тууралуу сүйлөшүү жүрдү
+2026-05-05 14:08:47,303 [master] INFO Scraping (138/150): https://www.azattyk.org/a/33747602.html
+2026-05-05 14:08:48,104 [master] INFO   ✓ Польшада тыңчылыкка айыпталган казакстандык дипломат бошотулду
+2026-05-05 14:08:51,110 [master] INFO Scraping (139/150): https://www.azattyk.org/a/33744318.html
+2026-05-05 14:08:51,898 [master] INFO   ✓ Аракчи Орусияга “колдоо” жана “тилектештик” үчүн ыраазычылык айтты
+2026-05-05 14:08:54,899 [master] INFO Scraping (140/150): https://www.azattyk.org/a/33742290.html
+2026-05-05 14:08:55,661 [master] INFO   ✓ Баткен шаарына Алымкул аталыктын айкели тургузулат
+2026-05-05 14:08:58,662 [master] INFO Scraping (141/150): https://www.azattyk.org/a/33737124.html
+2026-05-05 14:08:59,585 [master] INFO   ✓ Гросси Иран боюнча келишим МАГАТЭнин катышуусунда түзүлүшү керек экени
+2026-05-05 14:09:02,599 [master] INFO Scraping (142/150): https://www.azattyk.org/a/33748010.html
+2026-05-05 14:09:03,343 [master] INFO   ✓ Иранда түрмөдө отурган Наргиз Мохаммади ооруканага которулду
+2026-05-05 14:09:06,355 [master] INFO Scraping (143/150): https://www.azattyk.org/a/33745101.html
+2026-05-05 14:09:07,108 [master] INFO   ✓ Перм крайында өнөр жай ишканасына сокку урулду
+2026-05-05 14:09:10,110 [master] INFO Scraping (144/150): https://www.azattyk.org/a/33747007.html
+2026-05-05 14:09:10,980 [master] INFO   ✓ 11-майдан тартып жергиликтүү бийлик эл менен жолугушууларды өткөрө баш
+2026-05-05 14:09:13,981 [master] INFO Scraping (145/150): https://www.azattyk.org/a/33744200.html
+2026-05-05 14:09:14,725 [master] INFO   ✓ Булак: Президент Трамп Ирандын соңку сунушуна канааттанган жок
+2026-05-05 14:09:17,726 [master] INFO Scraping (146/150): https://www.azattyk.org/a/33748685.html
+2026-05-05 14:09:18,460 [master] INFO   ✓ Өкмөттө жер-жерлердеги соңку сел кырсыктары талкууланды
+2026-05-05 14:09:21,476 [master] INFO Scraping (147/150): https://www.azattyk.org/a/33748627.html
+2026-05-05 14:09:22,204 [master] INFO   ✓ Москвада көп кабаттуу үйгө дрон тийди
+2026-05-05 14:09:25,205 [master] INFO Scraping (148/150): https://www.azattyk.org/a/33749637.html
+2026-05-05 14:09:25,790 [master] INFO   ✓ Ормуз кысыгындагы абал курч бойдон экени кабарланды
+2026-05-05 14:09:28,791 [master] INFO Scraping (149/150): https://www.azattyk.org/a/33741535.html
+2026-05-05 14:09:29,769 [master] INFO   ✓ Алайдагы ата-энелер менен мугалимдер жаңжалы боюнча маалымат берилди
+2026-05-05 14:09:32,770 [master] INFO Scraping (150/150): https://www.azattyk.org/a/33737731.html
+2026-05-05 14:09:33,682 [master] INFO   ✓ Мамлекеттик катчы Оштогу тергөө абагынын имаратын музейге айлантууну с
+2026-05-05 14:09:36,689 [master] INFO 
+Saved 150 articles → azattyk_kyrgyz_data.csv
+2026-05-05 14:09:36,693 [master] INFO   azattyk: 150 rows (label=0)
+2026-05-05 14:09:36,698 [master] INFO Running scraper: scraper_sputnik
+2026-05-05 14:09:36,698 [master] INFO ============================================================
+2026-05-05 14:09:36,699 [master] INFO SPUTNIK.KG KYRGYZ SCRAPER
+2026-05-05 14:09:36,699 [master] INFO ============================================================
+2026-05-05 14:09:36,700 [master] INFO Fetching page 1: https://sputnik.kg/news/?page=1
+2026-05-05 14:09:37,650 [master] INFO   → 36 new links (total: 36)
+2026-05-05 14:09:39,158 [master] INFO Fetching page 2: https://sputnik.kg/news/?page=2
+2026-05-05 14:09:39,874 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:41,375 [master] INFO Fetching page 3: https://sputnik.kg/news/?page=3
+2026-05-05 14:09:42,048 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:43,550 [master] INFO Fetching page 4: https://sputnik.kg/news/?page=4
+2026-05-05 14:09:44,254 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:45,755 [master] INFO Fetching page 5: https://sputnik.kg/news/?page=5
+2026-05-05 14:09:46,460 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:47,966 [master] INFO Fetching page 6: https://sputnik.kg/news/?page=6
+2026-05-05 14:09:48,676 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:50,178 [master] INFO Fetching page 7: https://sputnik.kg/news/?page=7
+2026-05-05 14:09:50,845 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:52,359 [master] INFO Fetching page 8: https://sputnik.kg/news/?page=8
+2026-05-05 14:09:53,098 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:54,600 [master] INFO Fetching page 9: https://sputnik.kg/news/?page=9
+2026-05-05 14:09:55,233 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:56,736 [master] INFO Fetching page 10: https://sputnik.kg/news/?page=10
+2026-05-05 14:09:57,416 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:09:58,918 [master] INFO Fetching page 11: https://sputnik.kg/news/?page=11
+2026-05-05 14:09:59,654 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:10:01,156 [master] INFO Fetching page 12: https://sputnik.kg/news/?page=12
+2026-05-05 14:10:01,902 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:10:03,403 [master] INFO Fetching page 13: https://sputnik.kg/news/?page=13
+2026-05-05 14:10:04,050 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:10:05,557 [master] INFO Fetching page 14: https://sputnik.kg/news/?page=14
+2026-05-05 14:10:06,254 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:10:07,759 [master] INFO Fetching page 15: https://sputnik.kg/news/?page=15
+2026-05-05 14:10:08,494 [master] INFO   → 0 new links (total: 36)
+2026-05-05 14:10:09,996 [master] INFO Total article links: 36
+2026-05-05 14:10:09,996 [master] INFO Scraping (1/150): https://sputnik.kg/20260504/1101114442.html
+2026-05-05 14:10:11,025 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 11:00
+2026-05-05 14:10:16,026 [master] INFO Scraping (2/150): https://sputnik.kg/20260421/1100906838.html
+2026-05-05 14:10:17,032 [master] INFO   ✓ Баткенде "Айгүл гүлү" эл аралык фестивалы өтөт. Иш-чараны дүйнөлүк дең
+2026-05-05 14:10:22,036 [master] INFO Scraping (3/150): https://sputnik.kg/20260505/1101125976.html
+2026-05-05 14:10:23,078 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 09:00
+2026-05-05 14:10:28,080 [master] INFO Scraping (4/150): https://sputnik.kg/20250715/1095310801.html
+2026-05-05 14:10:29,073 [master] INFO   ✗ Skipped (too short or no content)
+2026-05-05 14:10:34,083 [master] INFO Scraping (4/150): https://sputnik.kg/20260505/1101128562.html
+2026-05-05 14:10:35,108 [master] INFO   ✓ Ветеринардык дары каражаттары Россиядан келет — лабораториялардын абал
+2026-05-05 14:10:40,108 [master] INFO Scraping (5/150): https://sputnik.kg/20260504/1101120910.html
+2026-05-05 14:10:41,180 [master] INFO   ✗ Skipped (too short or no content)
+2026-05-05 14:10:46,182 [master] INFO Scraping (5/150): https://sputnik.kg/20230201/1074546257.html
+2026-05-05 14:10:47,235 [master] INFO   ✓ Cookie колдонуу жана автоматтык логирлөө саясаты
+2026-05-05 14:10:52,246 [master] INFO Scraping (6/150): https://sputnik.kg/20260504/1101118860.html
+2026-05-05 14:10:53,220 [master] INFO   ✓ Климакс: белгилери, кооптуулугу жана алдын алуу жолдору
+2026-05-05 14:10:58,224 [master] INFO Scraping (7/150): https://sputnik.kg/20260505/kayguul-militsiyasynyn-kyzmatkeri-suuga-sekirgen-kyzdy-saktap-kaldy-1101128213.html
+2026-05-05 14:10:59,145 [master] INFO   ✓ Кайгуул милициянын кызматкери сууга секирген чет элдик кызды сактап ка
+2026-05-05 14:11:04,147 [master] INFO Scraping (8/150): https://sputnik.kg/20260504/1101113044.html
+2026-05-05 14:11:04,431 [master] INFO   ✓ Кыргызстандын жапайы жоогазындары: жоголуп кетүү коркунучу жана аларды
+2026-05-05 14:11:09,434 [master] INFO Scraping (9/150): https://sputnik.kg/20260504/1101120641.html
+2026-05-05 14:11:09,716 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 17:00
+2026-05-05 14:11:14,717 [master] INFO Scraping (10/150): https://sputnik.kg/20260504/rossiya-ok-atylbaj-turganyn-zhar-saldy-1101124646.html
+2026-05-05 14:11:15,761 [master] INFO   ✓ Россия Жеңиш күнүнүн урматына ок атылбай турганын жар салды
+2026-05-05 14:11:20,763 [master] INFO Scraping (11/150): https://sputnik.kg/20260504/oshto-tashtandy-ishtetuuchu-zavod-kurulat-1101120282.html
+2026-05-05 14:11:21,788 [master] INFO   ✓ Ошто таштанды иштетип электр энергиясын өндүргөн завод курула баштады.
+2026-05-05 14:11:26,789 [master] INFO Scraping (12/150): https://sputnik.kg/20260505/tegeran-akshnyn-araketin-kunoolodu-1101130927.html
+2026-05-05 14:11:27,754 [master] INFO   ✓ "БАЭдеги мунай аймактарын өрттөдү". Тегеран АКШнын кылгандарын ачыктап
+2026-05-05 14:11:32,755 [master] INFO Scraping (13/150): https://sputnik.kg/20260421/1100906167.html
+2026-05-05 14:11:33,706 [master] INFO   ✓ ЕАЭБдеги транспорттук-логистикалык интеграция кандай абалда — транспор
+2026-05-05 14:11:38,708 [master] INFO Scraping (14/150): https://sputnik.kg/20260501/1101081579.html
+2026-05-05 14:11:39,904 [master] INFO   ✓ Кызматкердин укугу — биринчи орунда: бүгүнкү күндө кесиптик бирликтерд
+2026-05-05 14:11:44,906 [master] INFO Scraping (15/150): https://sputnik.kg/20260504/selge-bajlanyshtuu-keneshme-1101119352.html
+2026-05-05 14:11:45,932 [master] INFO   ✓ Өкмөттө Ош, Жалал-Абад жана Баткендеги селге байланыштуу кеңешме өттү
+2026-05-05 14:11:50,933 [master] INFO Scraping (16/150): https://sputnik.kg/20260504/sejshel-araldaryna-baruuga-ehmi-viza-talap-kylynbajt-1101117029.html
+2026-05-05 14:11:51,911 [master] INFO   ✓ Кыргызстан менен Сейшел Аралдары өз ара визасыз режим киргизүүдө
+2026-05-05 14:11:56,913 [master] INFO Scraping (17/150): https://sputnik.kg/20260504/1101116315.html
+2026-05-05 14:11:57,852 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 13:00
+2026-05-05 14:12:02,861 [master] INFO Scraping (18/150): https://sputnik.kg/20260505/1101130721.html
+2026-05-05 14:12:03,871 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 13:00
+2026-05-05 14:12:08,884 [master] INFO Scraping (19/150): https://sputnik.kg/20260504/1101122376.html
+2026-05-05 14:12:09,906 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 19:00
+2026-05-05 14:12:14,908 [master] INFO Scraping (20/150): https://sputnik.kg/20260505/1101126245.html
+2026-05-05 14:12:15,984 [master] INFO   ✓ Баш мыйзамга 33 жыл: Конституция — туруктуулуктун негизи
+2026-05-05 14:12:20,984 [master] INFO Scraping (21/150): https://sputnik.kg/20260504/chet-ehldik-turistter-kumtor-1101121984.html
+2026-05-05 14:12:22,020 [master] INFO   ✓ Кумтөрчүлөр көчкү алдында калган беш чет элдик туристти аман алып калы
+2026-05-05 14:12:27,027 [master] INFO Scraping (22/150): https://sputnik.kg/20260505/1101127973.html
+2026-05-05 14:12:27,981 [master] INFO   ✓ Мугалимдердин айлыгы көтөрүлдү — ал кантип эсептелет?
+2026-05-05 14:12:32,990 [master] INFO Scraping (23/150): https://sputnik.kg/20260504/5-mayga-karata-aba-yrayy-1101117694.html
+2026-05-05 14:12:34,180 [master] INFO   ✓ 5-майга карата аба ырайы
+2026-05-05 14:12:39,182 [master] INFO Scraping (24/150): https://sputnik.kg/20230201/1074537452.html
+2026-05-05 14:12:40,371 [master] INFO   ✓ Купуялык саясаты( 2023 ред.)
+2026-05-05 14:12:45,372 [master] INFO Scraping (25/150): https://sputnik.kg/20260504/mas-aydoochularga-chara-kuchotulot-1101115559.html
+2026-05-05 14:12:46,286 [master] INFO   ✓ Адам өлүмүнө себепкер болгон мас айдоочу эми 10 жылга кесилиши мүмкүн
+2026-05-05 14:12:51,292 [master] INFO Scraping (26/150): https://sputnik.kg/20260504/zelenskij-menen-mindichtin-koz-boemochulugu-1101115692.html
+2026-05-05 14:12:52,395 [master] INFO   ✓ Зеленский менен Миндичтин көз боемочулугу канчалык жайылганы айтылды
+2026-05-05 14:12:57,405 [master] INFO Scraping (27/150): https://sputnik.kg/20260504/1101122645.html
+2026-05-05 14:12:58,351 [master] INFO   ✓ Бизнес кеңешчи учактагы экинчи учкучтайбы?
+2026-05-05 14:13:03,360 [master] INFO Scraping (28/150): https://sputnik.kg/20260504/1101112775.html
+2026-05-05 14:13:04,363 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 09:00
+2026-05-05 14:13:09,365 [master] INFO Scraping (29/150): https://sputnik.kg/20260505/bishkekte-9-mayga-karata-otchu-ish-charalardyn-tizmesi-1101128652.html
+2026-05-05 14:13:10,664 [master] INFO   ✓ Бишкекте Жеңиш күнүнө карата бир топ иш-чаралар өтөт. Тизме
+2026-05-05 14:13:15,677 [master] INFO Scraping (30/150): https://sputnik.kg/20260504/rossiyadan-ulam-kazakstanga-kysym-korsotuu-chekhiya-1101118228.html
+2026-05-05 14:13:16,814 [master] INFO   ✓ Чехия премьери: ТИМ Казакстанга кысым көрсөтүүмдү өтүнүп таң калтырды
+2026-05-05 14:13:21,816 [master] INFO Scraping (31/150): https://sputnik.kg/20260504/1101118591.html
+2026-05-05 14:13:22,792 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 15:00
+2026-05-05 14:13:27,805 [master] INFO Scraping (32/150): https://sputnik.kg/20260505/1101127695.html
+2026-05-05 14:13:28,878 [master] INFO   ✓ Жаңылыктар. Чыгарылыш 11:00
+2026-05-05 14:13:33,886 [master] INFO Scraping (33/150): https://sputnik.kg/20260504/kyrgyz-foreline-suroo-talap-ostu-1101116615.html
+2026-05-05 14:13:34,905 [master] INFO   ✓ Кыргыз форелине чет өлкөдө суроо-талап өсүп жатат
+2026-05-05 14:13:39,906 [master] INFO Scraping (34/150): https://sputnik.kg/20260505/zhaparov-bash-miyzam-kunu-menen-eldi-kuttuktady-1101126781.html
+2026-05-05 14:13:40,928 [master] INFO   ✓ Ар бир беренени урматтоо — милдетибиз. Жапаров Баш мыйзам күнү менен э
+2026-05-05 14:13:45,934 [master] INFO 
+Saved 34 articles → sputnik_kyrgyz_data.csv
+2026-05-05 14:13:45,937 [master] INFO   sputnik: 34 rows (label=0)
+2026-05-05 14:13:45,940 [master] INFO Running scraper: scraper_kaktus
+2026-05-05 14:13:45,940 [master] INFO ============================================================
+2026-05-05 14:13:45,940 [master] INFO KAKTUS.MEDIA KYRGYZ SCRAPER
+2026-05-05 14:13:45,940 [master] INFO ============================================================
+2026-05-05 14:13:45,940 [master] INFO Fetching page 1: https://kaktus.media/ky/
+2026-05-05 14:13:46,778 [master] INFO   → 88 new links (total: 88)
+2026-05-05 14:13:47,783 [master] INFO Fetching page 2: https://kaktus.media/ky/?page=2
+2026-05-05 14:13:48,516 [master] INFO   → 0 new links (total: 88)
+2026-05-05 14:13:48,516 [master] INFO No new links — stopping.
+2026-05-05 14:13:48,516 [master] INFO Total links: 88
+2026-05-05 14:13:48,516 [master] INFO Scraping (1/150): https://kaktus.media/doc/545432_chast_bishkeka_ostanetsia_na_nedelu_bez_gaza_rayon_daty.html
+2026-05-05 14:13:49,277 [master] INFO   ✓ Часть Бишкека останется на неделю без газа (район, даты)
+2026-05-05 14:13:52,280 [master] INFO Scraping (2/150): https://kaktus.media/doc/545544_gryzovik_s_pricepom_vrezalsia_v_drygoy_gryzovik_na_trasse_bishkek_naryn_torygart_video.html
+2026-05-05 14:13:53,053 [master] INFO   ✓ Грузовик с прицепом врезался в другой грузовик на трассе Бишкек - Нары
+2026-05-05 14:13:56,055 [master] INFO Scraping (3/150): https://kaktus.media/doc/545493_shtormovoe_predyprejdenie_iz_za_livney_v_gorah_kyrgyzstana_vozmojny_selevye_iavleniia.html
+2026-05-05 14:13:56,805 [master] INFO   ✓ Штормовое предупреждение! Из-за ливней в горах Кыргызстана возможны се
+2026-05-05 14:13:59,808 [master] INFO Scraping (4/150): https://kaktus.media/doc/545566_kyrgyzstan_i_seyshely_podpisali_soglashenie_o_bezvizovom_rejime.html
+2026-05-05 14:14:00,673 [master] INFO   ✓ Кыргызстан и Сейшелы подписали соглашение о безвизовом режиме
+2026-05-05 14:14:03,676 [master] INFO Scraping (5/150): https://kaktus.media/doc/545580_unye_kyrgyzstanki_zaniali_vtoroe_mesto_na_tyrnire_po_esteticheskoy_gimnastike_v_parije.html
+2026-05-05 14:14:04,413 [master] INFO   ✓ Юные кыргызстанки заняли второе место на турнире по эстетической гимна
+2026-05-05 14:14:07,416 [master] INFO Scraping (6/150): https://kaktus.media/doc/545422_nikolay_baskov_lube_i_blestiashie_vystypiat_v_karakole_na_koncerte_ko_dnu_pobedy_9_maia.html
+2026-05-05 14:14:08,184 [master] INFO   ✓ Николай Басков, "Любэ" и "Блестящие" выступят в Караколе на концерте к
+2026-05-05 14:14:11,185 [master] INFO Scraping (7/150): https://kaktus.media/doc/545590_v_karakolskom_zooparke_poiavilsia_kengyry_albinos._video.html
+2026-05-05 14:14:11,926 [master] INFO   ✓ В Каракольском зоопарке появился кенгуру-альбинос. Видео
+2026-05-05 14:14:14,927 [master] INFO Scraping (8/150): https://kaktus.media/doc/543525_remont_dorog_i_teplosetey._kakie_trassy_zakryty_v_bishkeke_obnovleno_30_aprelia_.html
+2026-05-05 14:14:15,859 [master] INFO   ✓ Ремонт дорог и теплосетей. Какие трассы закрыты в Бишкеке (обновлено 3
+2026-05-05 14:14:18,861 [master] INFO Scraping (9/150): https://kaktus.media/doc/545594_doklad_molodogo_yrologa_iz_kyrgyzstana_priznali_lychshim_na_mejdynarodnom_kongresse.html
+2026-05-05 14:14:19,780 [master] INFO   ✓ Доклад молодого уролога из Кыргызстана признали лучшим на международно
+2026-05-05 14:14:22,782 [master] INFO Scraping (10/150): https://kaktus.media/doc/545556_v_aeroporty_almaty_posle_silnogo_dojdia_protekla_krysha_video.html
+2026-05-05 14:14:23,531 [master] INFO   ✓ В аэропорту Алматы после сильного дождя протекла крыша (видео)
+2026-05-05 14:14:26,533 [master] INFO Scraping (11/150): https://kaktus.media/doc/543885_kfc_football_cup_2026:_vash_moment_nastal.html
+2026-05-05 14:14:27,280 [master] INFO   ✓ KFC FOOTBALL CUP 2026: ваш момент настал!
+2026-05-05 14:14:30,281 [master] INFO Scraping (12/150): https://kaktus.media/doc/544354_nytriciolog_rasskazala_chto_vliiaet_na_zdorove_kishechnika.html
+2026-05-05 14:14:31,104 [master] INFO   ✓ Нутрициолог рассказала, что влияет на здоровье кишечника
+2026-05-05 14:14:34,106 [master] INFO Scraping (13/150): https://kaktus.media/doc/545257_kyda_obrashatsia_s_zabolevshim_rebenkom_v_prazdnichnye_dni_informaciia_foms.html
+2026-05-05 14:14:35,301 [master] INFO   ✓ Куда обращаться с заболевшим ребенком в праздничные дни? Информация ФО
+2026-05-05 14:14:38,302 [master] INFO Scraping (14/150): https://kaktus.media/doc/545015_vody_vse_menshe_chto_bydet_s_energetikoy_kyrgyzstana_i_kak_nam_sotrydnichat_s_sosediami.html
+2026-05-05 14:14:39,541 [master] INFO   ✓ Воды все меньше? Что будет с энергетикой Кыргызстана и как нам сотрудн
+2026-05-05 14:14:42,550 [master] INFO Scraping (15/150): https://kaktus.media/doc/545172_severnaia_obezdnaia._kak_stroiat_novyu_transportnyu_razviazky_i_k_chemy_eto_privelo_video.html
+2026-05-05 14:14:43,348 [master] INFO   ✓ Северная объездная. Как строят новую транспортную развязку и к чему эт
+2026-05-05 14:14:46,350 [master] INFO Scraping (16/150): https://kaktus.media/doc/545542_amangeldiev:_keremet_bank_mojet_vyyti_iz_pod_sankciy_ssha_i_velikobritanii.html
+2026-05-05 14:14:47,164 [master] INFO   ✓ Амангельдиев: "Керемет Банк" может выйти из-под санкций США и Великобр
+2026-05-05 14:14:50,167 [master] INFO Scraping (17/150): https://kaktus.media/doc/545569_zelenskiy:_v_kremle_opasautsia_chto_ykrainskie_drony_proletiat_nad_krasnoy_ploshadu_9_maia.html
+2026-05-05 14:14:51,008 [master] INFO   ✓ Зеленский: В Кремле опасаются, что украинские дроны пролетят над Красн
+2026-05-05 14:14:54,021 [master] INFO Scraping (18/150): https://kaktus.media/doc/545573_v_bishkeke_zaderjali_podozrevaemyu_v_moshennichestve_na_40_tys..html
+2026-05-05 14:14:54,791 [master] INFO   ✓ В Бишкеке задержали подозреваемую в мошенничестве на $40 тыс.
+2026-05-05 14:14:57,793 [master] INFO Scraping (19/150): https://kaktus.media/doc/545391_gotova_li_shkola_k_rebenky_principy_obycheniia_i_miagkoy_adaptacii_v_shkole_edison.html
+2026-05-05 14:14:59,510 [master] INFO   ✓ Готова ли школа к ребенку? Принципы обучения и мягкой адаптации в школ
+2026-05-05 14:15:02,521 [master] INFO Scraping (20/150): https://kaktus.media/doc/545593_trydno_hodit_v_dojd._bishkekchane_pojalovalis_na_dorogi_okolo_kydaybergena_video.html
+2026-05-05 14:15:03,311 [master] INFO   ✓ "Трудно ходить в дождь". Бишкекчане пожаловались на дороги около "Куда
+2026-05-05 14:15:06,314 [master] INFO Scraping (21/150): https://kaktus.media/doc/545200_kak_bydyt_rabotat_bolnicy_i_skoraia_pomosh_na_dlinnyh_mayskih_vyhodnyh.html
+2026-05-05 14:15:07,242 [master] INFO   ✓ Как будут работать больницы и скорая помощь на длинных майских выходны
+2026-05-05 14:15:10,244 [master] INFO Scraping (22/150): https://kaktus.media/doc/545497_vozle_cholpon_aty_nashli_drevnie_kyrgannye_zahoroneniia.html
+2026-05-05 14:15:11,060 [master] INFO   ✓ Возле Чолпон-Аты нашли древние курганные захоронения
+2026-05-05 14:15:14,063 [master] INFO Scraping (23/150): https://kaktus.media/doc/534245_bangkok_pattayia:_kak_vybrat_otel_rayon_i_chto_posmotret.html
+2026-05-05 14:15:14,934 [master] INFO   ✓ Бангкок + Паттайя: как выбрать отель, район и что посмотреть
+2026-05-05 14:17:09,081 [master] INFO Scraping (24/150): https://kaktus.media/doc/545578_gossekretar_ssha_marko_rybio_vystypil_v_kachestve_didjeia_na_svadbe_video.html
+2026-05-05 14:17:10,330 [master] INFO   ✓ Госсекретарь США Марко Рубио выступил в качестве диджея на свадьбе (ви
+2026-05-05 14:17:13,332 [master] INFO Scraping (25/150): https://kaktus.media/doc/545429_zao_mpc_elkart_rasshiriaet_partnerstvo_na_mejdynarodnom_rynke.html
+2026-05-05 14:17:14,229 [master] INFO   ✓ ЗАО "МПЦ" ("Элкарт") расширяет партнерство на международном рынке
+2026-05-05 14:17:17,230 [master] INFO Scraping (26/150): https://kaktus.media/doc/544962_14_letnemy_chyngyzy_s_agressivnym_rakom_srochno_nyjna_pomosh_s_operaciey_video.html
+2026-05-05 14:17:18,016 [master] INFO   ✓ 14-летнему Чынгызу с агрессивным раком срочно нужна помощь с операцией
+2026-05-05 14:17:21,017 [master] INFO Scraping (27/150): https://kaktus.media/doc/545515_v_bishkeke_proydet_riad_meropriiatiy_ko_dnu_pobedy.html
+2026-05-05 14:17:21,839 [master] INFO   ✓ В Бишкеке пройдет ряд мероприятий ко Дню Победы
+2026-05-05 14:17:24,844 [master] INFO Scraping (28/150): https://kaktus.media/doc/545288_zarplaty_ychiteley_vyrosli._chto_izmenilos_i_skolko_bydyt_polychat_pedagogi_kartochki.html
+2026-05-05 14:17:25,727 [master] INFO   ✓ Зарплаты учителей выросли. Что изменилось и сколько будут получать пед
+2026-05-05 14:17:28,729 [master] INFO Scraping (29/150): https://kaktus.media/doc/545587_rossiia_i_ykraina_obiavili_rejimy_prekrasheniia_ognia_s_raznymi_ysloviiami_i_srokami.html
+2026-05-05 14:17:29,508 [master] INFO   ✓ Россия и Украина объявили режимы прекращения огня с разными условиями 
+2026-05-05 14:17:32,509 [master] INFO Scraping (30/150): https://kaktus.media/doc/545434_central_asia_capital_zavershil_restavraciu_pamiatnika_general_mayory_panfilovy.html
+2026-05-05 14:17:33,265 [master] INFO   ✓ Central Asia Capital завершил реставрацию памятника генерал-майору Пан
+2026-05-05 14:17:36,268 [master] INFO Scraping (31/150): https://kaktus.media/doc/545588_sadyr_japarov_pozdravil_kyrgyzstancev_s_dnem_konstitycii.html
+2026-05-05 14:17:37,338 [master] INFO   ✓ Садыр Жапаров поздравил кыргызстанцев с Днем Конституции
+2026-05-05 14:17:40,339 [master] INFO Scraping (32/150): https://kaktus.media/doc/545591_v_germanii_avtomobil_vehal_v_tolpy_v_centre_goroda_est_pogibshie.html
+2026-05-05 14:17:41,108 [master] INFO   ✓ В Германии автомобиль въехал в толпу в центре города, есть погибшие
+2026-05-05 14:17:44,111 [master] INFO Scraping (33/150): https://kaktus.media/doc/545570_kasymaliev_provel_soveshanie_po_povody_shoda_seley_na_uge_kyrgyzstana.html
+2026-05-05 14:17:44,876 [master] INFO   ✓ Касымалиев провел совещание по поводу схода селей на юге Кыргызстана
+2026-05-05 14:17:47,878 [master] INFO Scraping (34/150): https://kaktus.media/doc/545058_jenshina_obviniaet_myja_v_razvratnyh_deystviiah_v_otnoshenii_ih_obshey_piatiletney_docheri.html
+2026-05-05 14:17:48,820 [master] INFO   ✓ Женщина  обвиняет мужа в развратных действиях в отношении их общей пят
+2026-05-05 14:17:51,822 [master] INFO Scraping (35/150): https://kaktus.media/doc/545581_oblachno_mestami_dojdi._prognoz_pogody_v_bishkeke_i_po_kyrgyzstany.html
+2026-05-05 14:17:52,616 [master] INFO   ✓ Облачно, местами дожди. Прогноз погоды в Бишкеке и по Кыргызстану
+2026-05-05 14:17:55,618 [master] INFO Scraping (36/150): https://kaktus.media/doc/545150_rysskiy_teatr_dramy_im._ch._aytmatova_predstavil_repertyar_na_may.html
+2026-05-05 14:17:56,544 [master] INFO   ✗ Skipped
+2026-05-05 14:17:59,551 [master] INFO Scraping (36/150): https://kaktus.media/doc/545561_po_ylicam_nevozmojno_proyti:_bishkek_snova_topit_posle_dojdia_video.html
+2026-05-05 14:18:00,322 [master] INFO   ✓ По улицам невозможно пройти: Бишкек снова топит после дождя (видео)
+2026-05-05 14:18:03,327 [master] INFO Scraping (37/150): https://kaktus.media/doc/545425_2_11_maia_v_chasti_bishkeka_otkluchat_svet_spisok_ylic.html
+2026-05-05 14:18:04,136 [master] INFO   ✓ 2-11 мая в части Бишкека отключат свет (список улиц)
+2026-05-05 14:18:07,141 [master] INFO Scraping (38/150): https://kaktus.media/doc/545562_shakira_sobrala_21_mln_zriteley_na_besplatnom_koncerte_v_rio_de_janeyro_video.html
+2026-05-05 14:18:07,949 [master] INFO   ✓ Шакира собрала 2,1 млн зрителей на бесплатном концерте в Рио-де-Жанейр
+2026-05-05 14:18:10,950 [master] INFO Scraping (39/150): https://kaktus.media/doc/545169_vajno_znat._foms_o_poriadke_okazaniia_medicinskoy_pomoshi_vo_vremia_mayskih_prazdnikov.html
+2026-05-05 14:18:11,722 [master] INFO   ✓ Важно знать. ФОМС о порядке оказания медицинской помощи во время майск
+2026-05-05 14:18:14,723 [master] INFO Scraping (40/150): https://kaktus.media/doc/545259_pynkty_propyska_na_granice_s_kitaem_bydyt_vremenno_zakryty._daty.html
+2026-05-05 14:18:15,626 [master] INFO   ✓ Пункты пропуска на границе с Китаем будут временно закрыты. Даты
+2026-05-05 14:18:18,629 [master] INFO Scraping (41/150): https://kaktus.media/doc/545334_glamyrnyy_kemping:_kyrgyzstan_aktivnee_vsego_razvivaet_perspektivnyy_rynok.html
+2026-05-05 14:18:19,400 [master] INFO   ✓ Гламурный кэмпинг: Кыргызстан активнее всего развивает перспективный р
+2026-05-05 14:18:22,403 [master] INFO Scraping (42/150): https://kaktus.media/doc/545564_minstroy_ispytyvaet_beton_s_bazaltovym_voloknom_video.html
+2026-05-05 14:18:23,144 [master] INFO   ✓ Минстрой испытывает бетон с базальтовым волокном (видео)
+2026-05-05 14:18:26,156 [master] INFO Scraping (43/150): https://kaktus.media/doc/545527_v_karakol_vezyt_30_novyh_avtobysov._kogda_oni_vyydyt_na_linii.html
+2026-05-05 14:18:27,062 [master] INFO   ✓ В Каракол везут 30 новых автобусов. Когда они выйдут на линии?
+2026-05-05 14:18:30,066 [master] INFO Scraping (44/150): https://kaktus.media/doc/543794_pochemy_voznikaet_pelenochnyy_dermatit_i_kak_zashitit_kojy_rebenka_otvety_pediatra.html
+2026-05-05 14:18:30,817 [master] INFO   ✓ Почему возникает пеленочный дерматит и как защитить кожу ребенка? Отве
+2026-05-05 14:18:33,819 [master] INFO Scraping (45/150): https://kaktus.media/doc/545164_ekskluzivnoe_intervu_s_prezidentom._o_zolote_fevralskih_sobytiiah_tashieve_i_ego_seme.html
+2026-05-05 14:18:34,580 [master] INFO   ✓ Эксклюзивное интервью с президентом. О золоте, февральских событиях, Т
+2026-05-05 14:18:37,583 [master] INFO Scraping (46/150): https://kaktus.media/doc/545413_kak_bydyt_rabotat_cony_osoo_gazprom_kyrgyzstan_na_dlinnyh_vyhodnyh_grafik_i_adresa.html
+2026-05-05 14:18:38,536 [master] INFO   ✓ Как будут работать ЦОНы ОсОО "Газпром Кыргызстан" на длинных выходных 
+2026-05-05 14:18:41,538 [master] INFO Scraping (47/150): https://kaktus.media/doc/545596_v_bishkeke_otkroetsia_vystavka_hydojnicy_ayi_ibraimovoy_pamiat_zemli._kyrgyzskie_istorii.html
+2026-05-05 14:18:42,409 [master] INFO   ✓ В Бишкеке откроется выставка художницы Айи Ибраимовой "Память земли. К
+2026-05-05 14:18:45,411 [master] INFO Scraping (48/150): https://kaktus.media/doc/545584_na_issyk_kyle_spasli_tyrista_iz_italii_popavshego_pod_laviny_video.html
+2026-05-05 14:18:46,125 [master] INFO   ✓ На Иссык-Куле спасли туриста из Италии, попавшего под лавину (видео)
+2026-05-05 14:18:49,126 [master] INFO Scraping (49/150): https://kaktus.media/doc/545388_energetiki_pereydyt_na_ysilennyy_rejim_raboty_v_prazdnichnye_dni_maia._telefony_slyjb.html
+2026-05-05 14:18:49,899 [master] INFO   ✓ Энергетики перейдут на усиленный режим работы в праздничные дни мая. Т
+2026-05-05 14:18:52,901 [master] INFO Scraping (50/150): https://kaktus.media/doc/545571_kasymaliev_provel_soveshanie_po_voprosam_razvitiia_zdravoohraneniia.html
+2026-05-05 14:18:53,641 [master] INFO   ✓ Касымалиев провел совещание по вопросам развития здравоохранения
+2026-05-05 14:18:56,642 [master] INFO Scraping (51/150): https://kaktus.media/doc/545450_vesna_i_detskiy_travmatizm._chto_nyjno_pomnit_roditeliam.html
+2026-05-05 14:18:57,527 [master] INFO   ✓ Весна и детский травматизм. Что нужно помнить родителям
+2026-05-05 14:19:00,528 [master] INFO Scraping (52/150): https://kaktus.media/doc/545350_na_mayskie_prazdniki_iz_bishkeka_pystiat_bolshe_avtobysov_i_bysov_na_issyk_kyl_i_v_naryn.html
+2026-05-05 14:19:01,264 [master] INFO   ✓ На майские праздники из Бишкека пустят больше автобусов и бусов на Исс
+2026-05-05 14:19:04,271 [master] INFO Scraping (53/150): https://kaktus.media/doc/545343_bytik_oteli_centralnoy_azii:_chto_eto_takoe_i_chto_predlagaet_region.html
+2026-05-05 14:19:05,027 [master] INFO   ✓ Бутик-отели Центральной Азии: что это такое и что предлагает регион
+2026-05-05 14:19:08,039 [master] INFO Scraping (54/150): https://kaktus.media/doc/545579_v_kyrgyzstane_yjestochaut_nakazanie_za_pianoe_vojdenie_video.html
+2026-05-05 14:19:08,770 [master] INFO   ✓ В Кыргызстане ужесточают наказание за пьяное вождение (видео)
+2026-05-05 14:19:11,774 [master] INFO Scraping (55/150): https://kaktus.media/doc/543968_v_kyrgyzstane_ojidaut_povysheniia_cen_na_gsm._chto_proishodit_i_chto_delat.html
+2026-05-05 14:19:13,035 [master] INFO   ✓ В Кыргызстане ожидают повышения цен на ГСМ. Что происходит и что делат
+2026-05-05 14:19:16,039 [master] INFO Scraping (56/150): https://kaktus.media/doc/545545_call_centr:_zasohshee_derevo_vozle_ostanovki_mojet_ypast_v_luboy_moment_video.html
+2026-05-05 14:19:16,783 [master] INFO   ✓ Call-центр: засохшее дерево возле остановки может упасть в любой момен
+2026-05-05 14:19:19,785 [master] INFO Scraping (57/150): https://kaktus.media/doc/545252_kakie_meropriiatiia_proydyt_v_bishkeke_9_maia.html
+2026-05-05 14:19:20,575 [master] INFO   ✓ Какие мероприятия пройдут в Бишкеке 9 Мая?
+2026-05-05 14:19:23,588 [master] INFO Scraping (58/150): https://kaktus.media/doc/545273_v_bishkeke_propal_69_letniy_myjchina._ego_ishyt_rodnye.html
+2026-05-05 14:19:24,399 [master] INFO   ✓ В Бишкеке пропал 69-летний мужчина. Его ищут родные
+2026-05-05 14:19:27,405 [master] INFO Scraping (59/150): https://kaktus.media/doc/462046_pravila_kommentirovaniia.html
+2026-05-05 14:19:28,153 [master] INFO   ✓ Правила комментирования
+2026-05-05 14:19:31,154 [master] INFO Scraping (60/150): https://kaktus.media/doc/545558_v_tashkente_posle_silnogo_dojdia_zatopilo_ylicy_i_chast_stancii_metro_video.html
+2026-05-05 14:19:31,901 [master] INFO   ✓ В Ташкенте после сильного дождя затопило улицы и часть станции метро (
+2026-05-05 14:19:34,902 [master] INFO Scraping (61/150): https://kaktus.media/doc/545572_minzdrav_napomnil_kak_pravilno_myt_ovoshi_i_frykty.html
+2026-05-05 14:19:35,684 [master] INFO   ✓ Минздрав напомнил, как правильно мыть овощи и фрукты
+2026-05-05 14:19:38,686 [master] INFO Scraping (62/150): https://kaktus.media/doc/545554_na_ploshadi_ala_too_proydet_myzykalnyy_vecher.html
+2026-05-05 14:19:39,446 [master] INFO   ✓ На площади Ала-Тоо пройдет музыкальный вечер
+2026-05-05 14:19:42,448 [master] INFO Scraping (63/150): https://kaktus.media/doc/545595_smi:_vspyshka_predpolagaemoy_hantavirysnoy_infekcii_zablokirovala_kryiznyy_layner.html
+2026-05-05 14:19:43,197 [master] INFO   ✓ СМИ: Вспышка предполагаемой хантавирусной инфекции заблокировала круиз
+2026-05-05 14:19:46,199 [master] INFO Scraping (64/150): https://kaktus.media/doc/545585_na_issyk_kyle_ochistili_bereg_i_dno_ozera_ot_mysora_i_brakonerskih_setey.html
+2026-05-05 14:19:47,113 [master] INFO   ✓ На Иссык-Куле очистили берег и дно озера от мусора и браконьерских сет
+2026-05-05 14:19:50,127 [master] INFO Scraping (65/150): https://kaktus.media/doc/534277_otdyh_na_shri_lanke:_glavnyy_gid_dlia_kyrgyzstancev.html
+2026-05-05 14:19:51,066 [master] INFO   ✓ Отдых на Шри-Ланке: главный гид для кыргызстанцев
+2026-05-05 14:19:54,077 [master] INFO Scraping (66/150): https://kaktus.media/doc/545586_smi:_ssha_i_iran_vozobnovili_ataki_v_persidskom_zalive.html
+2026-05-05 14:19:54,907 [master] INFO   ✓ СМИ: США и Иран возобновили атаки в Персидском заливе
+2026-05-05 14:19:57,909 [master] INFO Scraping (67/150): https://kaktus.media/doc/545563_jiteli_doma_na_ylice_ibraimova_pojalovalis_na_podtoplenie._otvet_merii_video.html
+2026-05-05 14:19:58,795 [master] INFO   ✓ Жители дома на улице Ибраимова пожаловались на подтопление. Ответ мэри
+2026-05-05 14:20:01,796 [master] INFO Scraping (68/150): https://kaktus.media/doc/545491_vpervye_v_bishkeke_cirk_uriia_nikylina_bez_jivotnyh.html
+2026-05-05 14:20:02,547 [master] INFO   ✓ Впервые в Бишкеке цирк Юрия Никулина без животных
+2026-05-05 14:20:05,549 [master] INFO Scraping (69/150): https://kaktus.media/doc/545576_v_bishkeke_y_cyma_vo_vremia_dojdia_zatopilo_trotyar_video.html
+2026-05-05 14:20:06,316 [master] INFO   ✓ В Бишкеке у ЦУМа во время дождя затопило тротуар (видео)
+2026-05-05 14:20:09,318 [master] INFO Scraping (70/150): https://kaktus.media/doc/545250_stala_izvestna_predvaritelnaia_data_kyrman_ayta.html
+2026-05-05 14:20:10,108 [master] INFO   ✓ Стала известна предварительная дата Курман айта
+2026-05-05 14:20:13,109 [master] INFO Scraping (71/150): https://kaktus.media/doc/545592_v_kitae_pri_vzryve_na_fabrike_feyerverkov_pogib_21_chelovek_video.html
+2026-05-05 14:20:13,891 [master] INFO   ✓ В Китае при взрыве на фабрике фейерверков погиб 21 человек (видео)
+2026-05-05 14:20:16,892 [master] INFO Scraping (72/150): https://kaktus.media/doc/536005_otdyh_v_niachange:_oteli_ekskyrsii_rekomendacii.html
+2026-05-05 14:20:17,803 [master] INFO   ✓ Отдых в Нячанге: отели, экскурсии, рекомендации
+2026-05-05 14:20:20,805 [master] INFO Scraping (73/150): https://kaktus.media/doc/545020_napominaem:_v_mae_kyrgyzstancev_jdyt_dlinnye_kanikyly.html
+2026-05-05 14:20:21,653 [master] INFO   ✓ Напоминаем: в мае кыргызстанцев ждут длинные каникулы
+2026-05-05 14:20:24,654 [master] INFO Scraping (74/150): https://kaktus.media/doc/545538_zastroyshiky_vynesli_predyprejdenie_za_sbros_stroitelnogo_mysora_s_verhnih_etajey.html
+2026-05-05 14:20:25,393 [master] INFO   ✓ Застройщику вынесли предупреждение за сброс строительного мусора с вер
+2026-05-05 14:20:28,395 [master] INFO Scraping (75/150): https://kaktus.media/doc/545541_model_iz_kyrgyzstana_poiavilas_v_filme_diavol_nosit_prada_2.html
+2026-05-05 14:20:29,142 [master] INFO   ✓ Модель из Кыргызстана появилась в фильме "Дьявол носит Prada-2"
+2026-05-05 14:20:32,144 [master] INFO Scraping (76/150): https://kaktus.media/doc/545577_na_mayskih_kanikylah_bydyt_rabotat_14_filialov_gosagentstva_po_zemelnym_resyrsam.html
+2026-05-05 14:20:32,904 [master] INFO   ✓ На майских каникулах будут работать 14 филиалов Госагентства по земель
+2026-05-05 14:20:35,905 [master] INFO Scraping (77/150): https://kaktus.media/doc/545188_riad_otdeleniy_ynaa_bydyt_rabotat_v_mayskie_vyhodnye._grafik.html
+2026-05-05 14:20:36,733 [master] INFO   ✓ Ряд отделений "Унаа" будут работать в майские выходные. График
+2026-05-05 14:20:39,734 [master] INFO Scraping (78/150): https://kaktus.media/doc/535813_otdyh_v_goa:_gid_dlia_kyrgyzstancev_o_glavnom_tyristicheskom_meste_indii.html
+2026-05-05 14:20:40,560 [master] INFO   ✓ Отдых в Гоа: гид для кыргызстанцев о главном туристическом месте Индии
+2026-05-05 14:20:43,562 [master] INFO Scraping (79/150): https://kaktus.media/doc/545567_razvedka_odnoy_iz_stran_es:_vladimir_pytin_boitsia_pokysheniia_i_perevorota.html
+2026-05-05 14:20:44,848 [master] INFO   ✓ Разведка одной из стран ЕС: Владимир Путин боится покушения и переворо
+2026-05-05 14:20:47,863 [master] INFO Scraping (80/150): https://kaktus.media/doc/545575_na_avtosportivnom_meropriiatii_v_gansi_voditel_sbil_zritelia_video.html
+2026-05-05 14:20:48,602 [master] INFO   ✓ На автоспортивном мероприятии в "Ганси" водитель сбил зрителя (видео)
+2026-05-05 14:20:51,604 [master] INFO Scraping (81/150): https://kaktus.media/doc/544870_cony_bydyt_rabotat_v_mayskie_prazdniki._grafik.html
+2026-05-05 14:20:52,354 [master] INFO   ✓ ЦОНы будут работать в майские праздники. График
+2026-05-05 14:20:55,357 [master] INFO Scraping (82/150): https://kaktus.media/doc/545060_gosmonopoliia_na_medobrazovanie_i_akkreditaciia_vyzov._chto_ob_etom_izvestno_na_segodnia.html
+2026-05-05 14:20:56,100 [master] INFO   ✓ Госмонополия на медобразование и аккредитация вузов. Что об этом извес
+2026-05-05 14:20:59,102 [master] INFO Scraping (83/150): https://kaktus.media/doc/545559_v_sele_gavrilovka_proizoshlo_jestkoe_dtp_video.html
+2026-05-05 14:21:00,233 [master] INFO   ✓ В селе Гавриловка произошло жесткое ДТП (видео)
+2026-05-05 14:21:03,242 [master] INFO Scraping (84/150): https://kaktus.media/doc/338956_gid_kaktus._chastnye_shkoly_bishkeka_s_effektivnymi_tehnologiiami_obycheniia.html
+2026-05-05 14:21:04,091 [master] INFO   ✓ Гид Kaktus. Частные школы Бишкека с эффективными технологиями обучения
+2026-05-05 14:21:07,092 [master] INFO Scraping (85/150): https://kaktus.media/doc/545031_artisty_teatra_opery_i_baleta_vystypiat_v_treh_gorodah_kyrgyzstana._programma_gastroley.html
+2026-05-05 14:21:07,926 [master] INFO   ✓ Артисты театра оперы и балета выступят в трех городах Кыргызстана. Про
+2026-05-05 14:21:10,927 [master] INFO Scraping (86/150): https://kaktus.media/doc/545568_v_bishkeke_zaderjali_podozrevaemyh_v_kraje_akkymyliatorov_s_gryzovyh_avto.html
+2026-05-05 14:21:11,656 [master] INFO   ✓ В Бишкеке задержали подозреваемых в краже аккумуляторов с грузовых авт
+2026-05-05 14:21:14,671 [master] INFO Scraping (87/150): https://kaktus.media/doc/545404_vnimanie_na_remont_zakryvaetsia_ychastok_ylicy_gogolia.html
+2026-05-05 14:21:15,442 [master] INFO   ✓ Внимание! На ремонт закрывается участок улицы Гоголя
+2026-05-05 14:21:18,450 [master] INFO 
+Saved 87 articles → kaktus_kyrgyz_data.csv
+2026-05-05 14:21:18,450 [master] INFO   kaktus: 87 rows (label=0)
+2026-05-05 14:21:18,466 [master] INFO Running scraper: scraper_factcheck
+2026-05-05 14:21:18,466 [master] INFO ============================================================
+2026-05-05 14:21:18,466 [master] INFO FACTCHECK.KG SCRAPER
+2026-05-05 14:21:18,466 [master] INFO ============================================================
+2026-05-05 14:21:18,466 [master] INFO Fetching listing page 1: https://factcheck.kg/category/factcheck/
+2026-05-05 14:21:19,973 [master] INFO   → 26 new links (total: 26)
+2026-05-05 14:21:21,473 [master] INFO Fetching listing page 2: https://factcheck.kg/category/factcheck/page/2/
+2026-05-05 14:21:22,565 [master] INFO   → 1 new links (total: 27)
+2026-05-05 14:21:24,072 [master] INFO Fetching listing page 3: https://factcheck.kg/category/factcheck/page/3/
+2026-05-05 14:21:25,178 [master] INFO   → 1 new links (total: 28)
+2026-05-05 14:21:26,679 [master] INFO Fetching listing page 4: https://factcheck.kg/category/factcheck/page/4/
+2026-05-05 14:21:27,766 [master] INFO   → 12 new links (total: 40)
+2026-05-05 14:21:29,273 [master] INFO Fetching listing page 5: https://factcheck.kg/category/factcheck/page/5/
+2026-05-05 14:21:30,412 [master] INFO   → 12 new links (total: 52)
+2026-05-05 14:21:31,914 [master] INFO Fetching listing page 6: https://factcheck.kg/category/factcheck/page/6/
+2026-05-05 14:21:33,115 [master] INFO   → 11 new links (total: 63)
+2026-05-05 14:21:34,617 [master] INFO Fetching listing page 7: https://factcheck.kg/category/factcheck/page/7/
+2026-05-05 14:21:35,621 [master] INFO   → 11 new links (total: 74)
+2026-05-05 14:21:37,134 [master] INFO Fetching listing page 8: https://factcheck.kg/category/factcheck/page/8/
+2026-05-05 14:21:38,216 [master] INFO   → 10 new links (total: 84)
+2026-05-05 14:21:39,718 [master] INFO Fetching listing page 9: https://factcheck.kg/category/factcheck/page/9/
+2026-05-05 14:21:40,991 [master] INFO   → 12 new links (total: 96)
+2026-05-05 14:21:42,493 [master] INFO Fetching listing page 10: https://factcheck.kg/category/factcheck/page/10/
+2026-05-05 14:21:43,463 [master] INFO   → 12 new links (total: 108)
+2026-05-05 14:21:44,970 [master] INFO Fetching listing page 11: https://factcheck.kg/category/factcheck/page/11/
+2026-05-05 14:21:46,107 [master] INFO   → 11 new links (total: 119)
+2026-05-05 14:21:47,609 [master] INFO Fetching listing page 12: https://factcheck.kg/category/factcheck/page/12/
+2026-05-05 14:21:48,574 [master] INFO   → 11 new links (total: 130)
+2026-05-05 14:21:50,075 [master] INFO Fetching listing page 13: https://factcheck.kg/category/factcheck/page/13/
+2026-05-05 14:21:51,301 [master] INFO   → 10 new links (total: 140)
+2026-05-05 14:21:52,802 [master] INFO Fetching listing page 14: https://factcheck.kg/category/factcheck/page/14/
+2026-05-05 14:21:53,939 [master] INFO   → 11 new links (total: 151)
+2026-05-05 14:21:55,444 [master] INFO Fetching listing page 15: https://factcheck.kg/category/factcheck/page/15/
+2026-05-05 14:21:56,419 [master] INFO   → 10 new links (total: 161)
+2026-05-05 14:21:57,921 [master] INFO Fetching listing page 16: https://factcheck.kg/category/factcheck/page/16/
+2026-05-05 14:21:59,001 [master] INFO   → 11 new links (total: 172)
+2026-05-05 14:22:00,503 [master] INFO Fetching listing page 17: https://factcheck.kg/category/factcheck/page/17/
+2026-05-05 14:22:01,488 [master] INFO   → 10 new links (total: 182)
+2026-05-05 14:22:02,990 [master] INFO Fetching listing page 18: https://factcheck.kg/category/factcheck/page/18/
+2026-05-05 14:22:04,100 [master] INFO   → 11 new links (total: 193)
+2026-05-05 14:22:05,602 [master] INFO Fetching listing page 19: https://factcheck.kg/category/factcheck/page/19/
+2026-05-05 14:22:06,581 [master] INFO   → 10 new links (total: 203)
+2026-05-05 14:22:08,083 [master] INFO Fetching listing page 20: https://factcheck.kg/category/factcheck/page/20/
+2026-05-05 14:22:09,178 [master] INFO   → 11 new links (total: 214)
+2026-05-05 14:22:10,685 [master] INFO Fetching listing page 21: https://factcheck.kg/category/factcheck/page/21/
+2026-05-05 14:22:11,660 [master] INFO   → 10 new links (total: 224)
+2026-05-05 14:22:13,170 [master] INFO Fetching listing page 22: https://factcheck.kg/category/factcheck/page/22/
+2026-05-05 14:22:14,310 [master] INFO   → 11 new links (total: 235)
+2026-05-05 14:22:15,816 [master] INFO Fetching listing page 23: https://factcheck.kg/category/factcheck/page/23/
+2026-05-05 14:22:16,894 [master] INFO   → 10 new links (total: 245)
+2026-05-05 14:22:18,397 [master] INFO Fetching listing page 24: https://factcheck.kg/category/factcheck/page/24/
+2026-05-05 14:22:19,407 [master] INFO   → 10 new links (total: 255)
+2026-05-05 14:22:20,910 [master] INFO Fetching listing page 25: https://factcheck.kg/category/factcheck/page/25/
+2026-05-05 14:22:22,141 [master] INFO   → 11 new links (total: 266)
+2026-05-05 14:22:23,643 [master] INFO Fetching listing page 26: https://factcheck.kg/category/factcheck/page/26/
+2026-05-05 14:22:24,616 [master] INFO   → 10 new links (total: 276)
+2026-05-05 14:22:26,117 [master] INFO Fetching listing page 27: https://factcheck.kg/category/factcheck/page/27/
+2026-05-05 14:22:27,245 [master] INFO   → 11 new links (total: 287)
+2026-05-05 14:22:28,746 [master] INFO Fetching listing page 28: https://factcheck.kg/category/factcheck/page/28/
+2026-05-05 14:22:29,866 [master] INFO   → 10 new links (total: 297)
+2026-05-05 14:22:31,380 [master] INFO Fetching listing page 29: https://factcheck.kg/category/factcheck/page/29/
+2026-05-05 14:22:32,580 [master] INFO   → 11 new links (total: 308)
+2026-05-05 14:22:34,086 [master] INFO Fetching listing page 30: https://factcheck.kg/category/factcheck/page/30/
+2026-05-05 14:22:35,218 [master] INFO   → 10 new links (total: 318)
+2026-05-05 14:22:36,719 [master] INFO Fetching listing page 31: https://factcheck.kg/category/factcheck/page/31/
+2026-05-05 14:22:37,841 [master] INFO   → 10 new links (total: 328)
+2026-05-05 14:22:39,350 [master] INFO Fetching listing page 32: https://factcheck.kg/category/factcheck/page/32/
+2026-05-05 14:22:40,430 [master] INFO   → 11 new links (total: 339)
+2026-05-05 14:22:41,941 [master] INFO Fetching listing page 33: https://factcheck.kg/category/factcheck/page/33/
+2026-05-05 14:22:43,029 [master] INFO   → 10 new links (total: 349)
+2026-05-05 14:22:44,543 [master] INFO Fetching listing page 34: https://factcheck.kg/category/factcheck/page/34/
+2026-05-05 14:22:45,505 [master] INFO   → 10 new links (total: 359)
+2026-05-05 14:22:47,005 [master] INFO Fetching listing page 35: https://factcheck.kg/category/factcheck/page/35/
+2026-05-05 14:22:48,092 [master] INFO   → 11 new links (total: 370)
+2026-05-05 14:22:49,594 [master] INFO Fetching listing page 36: https://factcheck.kg/category/factcheck/page/36/
+2026-05-05 14:22:50,553 [master] INFO   → 10 new links (total: 380)
+2026-05-05 14:22:52,055 [master] INFO Fetching listing page 37: https://factcheck.kg/category/factcheck/page/37/
+2026-05-05 14:22:53,139 [master] INFO   → 10 new links (total: 390)
+2026-05-05 14:22:54,642 [master] INFO Fetching listing page 38: https://factcheck.kg/category/factcheck/page/38/
+2026-05-05 14:22:55,663 [master] INFO   → 11 new links (total: 401)
+2026-05-05 14:22:57,165 [master] INFO Fetching listing page 39: https://factcheck.kg/category/factcheck/page/39/
+2026-05-05 14:22:58,417 [master] INFO   → 10 new links (total: 411)
+2026-05-05 14:22:59,931 [master] INFO Fetching listing page 40: https://factcheck.kg/category/factcheck/page/40/
+2026-05-05 14:23:01,023 [master] INFO   → 11 new links (total: 422)
+2026-05-05 14:23:02,534 [master] INFO Fetching listing page 41: https://factcheck.kg/category/factcheck/page/41/
+2026-05-05 14:23:03,535 [master] INFO   → 10 new links (total: 432)
+2026-05-05 14:23:05,036 [master] INFO Fetching listing page 42: https://factcheck.kg/category/factcheck/page/42/
+2026-05-05 14:23:06,131 [master] INFO   → 11 new links (total: 443)
+2026-05-05 14:23:07,644 [master] INFO Fetching listing page 43: https://factcheck.kg/category/factcheck/page/43/
+2026-05-05 14:23:08,686 [master] INFO   → 10 new links (total: 453)
+2026-05-05 14:23:10,189 [master] INFO Fetching listing page 44: https://factcheck.kg/category/factcheck/page/44/
+2026-05-05 14:23:11,292 [master] INFO   → 10 new links (total: 463)
+2026-05-05 14:23:12,799 [master] INFO Fetching listing page 45: https://factcheck.kg/category/factcheck/page/45/
+2026-05-05 14:23:13,886 [master] INFO   → 11 new links (total: 474)
+2026-05-05 14:23:15,388 [master] INFO Fetching listing page 46: https://factcheck.kg/category/factcheck/page/46/
+2026-05-05 14:23:16,355 [master] INFO   → 10 new links (total: 484)
+2026-05-05 14:23:17,858 [master] INFO Fetching listing page 47: https://factcheck.kg/category/factcheck/page/47/
+2026-05-05 14:23:19,072 [master] INFO   → 10 new links (total: 494)
+2026-05-05 14:23:20,575 [master] INFO Fetching listing page 48: https://factcheck.kg/category/factcheck/page/48/
+2026-05-05 14:23:21,702 [master] INFO   → 11 new links (total: 505)
+2026-05-05 14:23:23,204 [master] INFO Fetching listing page 49: https://factcheck.kg/category/factcheck/page/49/
+2026-05-05 14:23:24,199 [master] INFO   → 10 new links (total: 515)
+2026-05-05 14:23:25,700 [master] INFO Fetching listing page 50: https://factcheck.kg/category/factcheck/page/50/
+2026-05-05 14:23:26,779 [master] INFO   → 10 new links (total: 525)
+2026-05-05 14:23:28,282 [master] INFO Fetching listing page 51: https://factcheck.kg/category/factcheck/page/51/
+2026-05-05 14:23:29,370 [master] INFO   → 11 new links (total: 536)
+2026-05-05 14:23:30,872 [master] INFO Fetching listing page 52: https://factcheck.kg/category/factcheck/page/52/
+2026-05-05 14:23:31,980 [master] INFO   → 10 new links (total: 546)
+2026-05-05 14:23:33,482 [master] INFO Fetching listing page 53: https://factcheck.kg/category/factcheck/page/53/
+2026-05-05 14:23:34,482 [master] INFO   → 10 new links (total: 556)
+2026-05-05 14:23:35,984 [master] INFO Fetching listing page 54: https://factcheck.kg/category/factcheck/page/54/
+2026-05-05 14:23:37,274 [master] INFO   → 11 new links (total: 567)
+2026-05-05 14:23:38,777 [master] INFO Fetching listing page 55: https://factcheck.kg/category/factcheck/page/55/
+2026-05-05 14:23:39,976 [master] INFO   → 10 new links (total: 577)
+2026-05-05 14:23:41,490 [master] INFO Fetching listing page 56: https://factcheck.kg/category/factcheck/page/56/
+2026-05-05 14:23:42,463 [master] INFO   → 11 new links (total: 588)
+2026-05-05 14:23:43,973 [master] INFO Fetching listing page 57: https://factcheck.kg/category/factcheck/page/57/
+2026-05-05 14:23:45,413 [master] INFO   → 10 new links (total: 598)
+2026-05-05 14:23:46,921 [master] INFO Fetching listing page 58: https://factcheck.kg/category/factcheck/page/58/
+2026-05-05 14:23:48,029 [master] INFO   → 10 new links (total: 608)
+2026-05-05 14:23:49,536 [master] INFO Fetching listing page 59: https://factcheck.kg/category/factcheck/page/59/
+2026-05-05 14:23:50,515 [master] INFO   → 11 new links (total: 619)
+2026-05-05 14:23:52,017 [master] INFO Fetching listing page 60: https://factcheck.kg/category/factcheck/page/60/
+2026-05-05 14:23:53,098 [master] INFO   → 10 new links (total: 629)
+2026-05-05 14:23:54,599 [master] INFO Fetching listing page 61: https://factcheck.kg/category/factcheck/page/61/
+2026-05-05 14:23:55,703 [master] INFO   → 10 new links (total: 639)
+2026-05-05 14:23:57,206 [master] INFO Fetching listing page 62: https://factcheck.kg/category/factcheck/page/62/
+2026-05-05 14:23:58,208 [master] INFO   → 10 new links (total: 649)
+2026-05-05 14:23:59,709 [master] INFO Fetching listing page 63: https://factcheck.kg/category/factcheck/page/63/
+2026-05-05 14:24:00,704 [master] INFO   → 10 new links (total: 659)
+2026-05-05 14:24:02,205 [master] INFO Fetching listing page 64: https://factcheck.kg/category/factcheck/page/64/
+2026-05-05 14:24:03,359 [master] INFO   → 11 new links (total: 670)
+2026-05-05 14:24:04,860 [master] INFO Fetching listing page 65: https://factcheck.kg/category/factcheck/page/65/
+2026-05-05 14:24:06,066 [master] INFO   → 10 new links (total: 680)
+2026-05-05 14:24:07,568 [master] INFO Fetching listing page 66: https://factcheck.kg/category/factcheck/page/66/
+2026-05-05 14:24:08,531 [master] INFO   → 11 new links (total: 691)
+2026-05-05 14:24:10,032 [master] INFO Fetching listing page 67: https://factcheck.kg/category/factcheck/page/67/
+2026-05-05 14:24:11,025 [master] INFO   → 10 new links (total: 701)
+2026-05-05 14:24:12,532 [master] INFO Fetching listing page 68: https://factcheck.kg/category/factcheck/page/68/
+2026-05-05 14:24:13,602 [master] INFO   → 11 new links (total: 712)
+2026-05-05 14:24:15,111 [master] INFO Fetching listing page 69: https://factcheck.kg/category/factcheck/page/69/
+2026-05-05 14:24:16,207 [master] INFO   → 10 new links (total: 722)
+2026-05-05 14:24:17,710 [master] INFO Fetching listing page 70: https://factcheck.kg/category/factcheck/page/70/
+2026-05-05 14:24:18,684 [master] INFO   → 10 new links (total: 732)
+2026-05-05 14:24:20,186 [master] INFO Fetching listing page 71: https://factcheck.kg/category/factcheck/page/71/
+2026-05-05 14:24:21,419 [master] INFO   → 11 new links (total: 743)
+2026-05-05 14:24:22,922 [master] INFO Fetching listing page 72: https://factcheck.kg/category/factcheck/page/72/
+2026-05-05 14:24:24,020 [master] INFO   → 9 new links (total: 752)
+2026-05-05 14:24:25,522 [master] INFO Fetching listing page 73: https://factcheck.kg/category/factcheck/page/73/
+2026-05-05 14:24:26,492 [master] INFO   → 11 new links (total: 763)
+2026-05-05 14:24:28,004 [master] INFO Fetching listing page 74: https://factcheck.kg/category/factcheck/page/74/
+2026-05-05 14:24:29,126 [master] INFO   → 10 new links (total: 773)
+2026-05-05 14:24:30,633 [master] INFO Fetching listing page 75: https://factcheck.kg/category/factcheck/page/75/
+2026-05-05 14:24:32,255 [master] INFO   → 11 new links (total: 784)
+2026-05-05 14:24:33,771 [master] INFO Fetching listing page 76: https://factcheck.kg/category/factcheck/page/76/
+2026-05-05 14:24:34,853 [master] INFO   → 10 new links (total: 794)
+2026-05-05 14:24:36,362 [master] INFO Fetching listing page 77: https://factcheck.kg/category/factcheck/page/77/
+2026-05-05 14:24:37,333 [master] INFO   → 10 new links (total: 804)
+2026-05-05 14:24:38,841 [master] INFO Fetching listing page 78: https://factcheck.kg/category/factcheck/page/78/
+2026-05-05 14:24:39,941 [master] INFO   → 11 new links (total: 815)
+2026-05-05 14:24:41,442 [master] INFO Fetching listing page 79: https://factcheck.kg/category/factcheck/page/79/
+2026-05-05 14:24:42,483 [master] INFO   → 10 new links (total: 825)
+2026-05-05 14:24:43,986 [master] INFO Fetching listing page 80: https://factcheck.kg/category/factcheck/page/80/
+2026-05-05 14:24:45,101 [master] INFO   → 11 new links (total: 836)
+2026-05-05 14:24:46,603 [master] INFO Fetching listing page 81: https://factcheck.kg/category/factcheck/page/81/
+2026-05-05 14:24:47,584 [master] INFO   → 10 new links (total: 846)
+2026-05-05 14:24:49,088 [master] INFO Fetching listing page 82: https://factcheck.kg/category/factcheck/page/82/
+2026-05-05 14:24:50,166 [master] INFO   → 10 new links (total: 856)
+2026-05-05 14:24:51,678 [master] INFO Fetching listing page 83: https://factcheck.kg/category/factcheck/page/83/
+2026-05-05 14:24:52,645 [master] INFO   → 11 new links (total: 867)
+2026-05-05 14:24:54,154 [master] INFO Fetching listing page 84: https://factcheck.kg/category/factcheck/page/84/
+2026-05-05 14:24:55,263 [master] INFO   → 10 new links (total: 877)
+2026-05-05 14:24:56,769 [master] INFO Fetching listing page 85: https://factcheck.kg/category/factcheck/page/85/
+2026-05-05 14:24:57,874 [master] INFO   → 10 new links (total: 887)
+2026-05-05 14:24:59,376 [master] INFO Fetching listing page 86: https://factcheck.kg/category/factcheck/page/86/
+2026-05-05 14:25:00,387 [master] INFO   → 10 new links (total: 897)
+2026-05-05 14:25:01,889 [master] INFO Fetching listing page 87: https://factcheck.kg/category/factcheck/page/87/
+2026-05-05 14:25:02,962 [master] INFO   → 11 new links (total: 908)
+2026-05-05 14:25:04,470 [master] INFO Fetching listing page 88: https://factcheck.kg/category/factcheck/page/88/
+2026-05-05 14:25:05,656 [master] INFO   → 10 new links (total: 918)
+2026-05-05 14:25:07,165 [master] INFO Fetching listing page 89: https://factcheck.kg/category/factcheck/page/89/
+2026-05-05 14:25:08,244 [master] INFO   → 11 new links (total: 929)
+2026-05-05 14:25:09,757 [master] INFO Fetching listing page 90: https://factcheck.kg/category/factcheck/page/90/
+2026-05-05 14:25:10,845 [master] INFO   → 11 new links (total: 940)
+2026-05-05 14:25:12,346 [master] INFO Fetching listing page 91: https://factcheck.kg/category/factcheck/page/91/
+2026-05-05 14:25:13,314 [master] INFO   → 11 new links (total: 951)
+2026-05-05 14:25:14,823 [master] INFO Fetching listing page 92: https://factcheck.kg/category/factcheck/page/92/
+2026-05-05 14:25:15,967 [master] INFO   → 10 new links (total: 961)
+2026-05-05 14:25:17,468 [master] INFO Fetching listing page 93: https://factcheck.kg/category/factcheck/page/93/
+2026-05-05 14:25:18,673 [master] INFO   → 11 new links (total: 972)
+2026-05-05 14:25:20,184 [master] INFO Fetching listing page 94: https://factcheck.kg/category/factcheck/page/94/
+2026-05-05 14:25:21,460 [master] INFO   → 12 new links (total: 984)
+2026-05-05 14:25:22,961 [master] INFO Fetching listing page 95: https://factcheck.kg/category/factcheck/page/95/
+2026-05-05 14:25:24,060 [master] INFO   → 11 new links (total: 995)
+2026-05-05 14:25:25,562 [master] INFO Fetching listing page 96: https://factcheck.kg/category/factcheck/page/96/
+2026-05-05 14:25:26,536 [master] INFO   → 11 new links (total: 1006)
+2026-05-05 14:25:28,038 [master] INFO Fetching listing page 97: https://factcheck.kg/category/factcheck/page/97/
+2026-05-05 14:25:29,005 [master] INFO   → 10 new links (total: 1016)
+2026-05-05 14:25:30,507 [master] INFO Fetching listing page 98: https://factcheck.kg/category/factcheck/page/98/
+2026-05-05 14:25:31,613 [master] INFO   → 11 new links (total: 1027)
+2026-05-05 14:25:33,115 [master] INFO Fetching listing page 99: https://factcheck.kg/category/factcheck/page/99/
+2026-05-05 14:25:34,192 [master] INFO   → 10 new links (total: 1037)
+2026-05-05 14:25:35,693 [master] INFO Fetching listing page 100: https://factcheck.kg/category/factcheck/page/100/
+2026-05-05 14:25:36,678 [master] INFO   → 10 new links (total: 1047)
+2026-05-05 14:25:38,179 [master] INFO Total article links: 1047
+2026-05-05 14:25:38,179 [master] INFO Scraping (1): https://factcheck.kg/smi-tadzhikistana-myagko-osveshhali-prigranichnyj-konflikt-nepravda-ot-chinovnika-mid-rt/
+2026-05-05 14:25:39,187 [master] INFO   [FAKE] СМИ Таджикистана «мягко» освещали приграничный конфликт? Неправда
+2026-05-05 14:25:43,188 [master] INFO Scraping (2): https://factcheck.kg/vooruzhennyj-tazhikskij-general-s-voennymi-vtorgsya-v-selo-maksat/
+2026-05-05 14:25:44,805 [master] INFO   [UNCERTAIN] Вооруженные таджикские военные во главе с генералом вторглись в с
+2026-05-05 14:25:48,819 [master] INFO Scraping (3): https://factcheck.kg/starye-novye-deputaty-bgk-iz-kakih-staryh-partij-prishli-deputaty-v-novyj-sozyv/
+2026-05-05 14:25:49,849 [master] INFO   [UNCERTAIN] «Эмгек»— из десяти прошедших кандидатов почти половина уже работа
+2026-05-05 14:25:53,850 [master] INFO Scraping (4): https://factcheck.kg/v-padenii-rublya-vinovaty-migranty-proveryaem/
+2026-05-05 14:25:54,934 [master] INFO   [FAKE] «Мигранты и их диаспоры в России скупают в наших банках десятки м
+2026-05-05 14:25:58,935 [master] INFO Scraping (5): https://factcheck.kg/vtoraya-popytka-alkogolnoj-monopolii-gosudarstva-nachalas-s-zaderzhanij-i-podarkov-rassledovanie-analitika/
+2026-05-05 14:26:00,129 [master] INFO   [UNCERTAIN] Таким образом ни страна фирмы, ни ее официальные хозяева неизвест
+2026-05-05 14:26:04,135 [master] INFO Scraping (6): https://factcheck.kg/gulya-almambetova-zavershaetsya-proekt-na-22-mln-evro-stroitelstvo-sortirovochnogo-zavoda-ostanovleno-iz-za-pandemii/
+2026-05-05 14:26:05,074 [master] INFO   [UNCERTAIN] Гуля Алмамбетова: Завершается проект на 22 млн евро. Строительств
+2026-05-05 14:26:09,085 [master] INFO Scraping (7): https://factcheck.kg/papa-rimskij-postavil-lajk-na-otkrovennoe-foto-modeli-pravda/
+2026-05-05 14:26:10,301 [master] INFO   [REAL] Папа римский поставил лайк на откровенное фото модели? Полуправда
+2026-05-05 14:26:14,302 [master] INFO Scraping (8): https://factcheck.kg/iz-kakih-partij-dejstvuyushhie-deputaty-pojdut-kandidatami-v-odnomandatnye-okruga/
+2026-05-05 14:26:15,480 [master] INFO   [UNCERTAIN] Больше всего одномандатников баллотируется среди тех, кто сейчас 
+2026-05-05 14:26:19,483 [master] INFO Scraping (9): https://factcheck.kg/pochti-1-5-mln-somov-v-den-skolko-nalogoplatelshhiki-tratyat-na-soderzhanie-goskanalov/
+2026-05-05 14:26:20,735 [master] INFO   [UNCERTAIN] Почти 1.5 млн сомов в ДЕНЬ: сколько налогоплательщики тратят на с
+2026-05-05 14:26:24,744 [master] INFO Scraping (10): https://factcheck.kg/manipulyaczii-i-plagiat-v-zakonoproekte-gulshat-asylbaevoj-o-manipulirovanii-informacziej/
+2026-05-05 14:26:25,848 [master] INFO   [UNCERTAIN] Актуальность данного законопроекта обусловлена тем, что действующ
+2026-05-05 14:26:29,850 [master] INFO Scraping (11): https://factcheck.kg/vlasti-ssha-obyavili-chrezvychajnuyu-situacziyu-v-oblasti-zdravoohraneniya-iz-za-ospy-obezyan-proveryaem/
+2026-05-05 14:26:30,950 [master] INFO   [REAL] «Мы готовы вывести наш ответ на новый уровень в борьбе с этим вир
+2026-05-05 14:26:34,953 [master] INFO Scraping (12): https://factcheck.kg/minzdrav-kr-utverzhdaet-chto-ospa-obezyan-aerozolnaya-infekcziya-proveryaem/
+2026-05-05 14:26:36,069 [master] INFO   [UNCERTAIN] «Хотя тесный физический контакт является известным фактором риска
+2026-05-05 14:26:40,071 [master] INFO Scraping (13): https://factcheck.kg/mozg-mozhet-raspoznavat-dipfejki-luchshe-chem-glaza-proveryaem/
+2026-05-05 14:26:41,204 [master] INFO   [FAKE] «Хотя уровень точности мозга в этом исследовании низок — 54% — он
+2026-05-05 14:26:45,218 [master] INFO Scraping (14): https://factcheck.kg/zhenishbek-bajguttiev-u-nas-vsego-6-zemel-prigodny-dlya-selhoz-deyatelnosti-ne-schitaya-pastbishh-pravda/
+2026-05-05 14:26:46,266 [master] INFO   [REAL] Женишбек Байгуттиев У нас всего 6% земель пригодны для сельхоз де
+2026-05-05 14:26:50,280 [master] INFO Scraping (15): https://factcheck.kg/https-factcheck-kg-rozygrysh-ot-kumtora-k-30-letiyu-k-kompanii-fejk-ili-pravda/
+2026-05-05 14:26:51,362 [master] INFO   [UNCERTAIN] Розыгрыш от Кумтора к 30-летию к компании. Фейк или правда?
+2026-05-05 14:26:55,372 [master] INFO Scraping (16): https://factcheck.kg/ocherednaya-chistaya-deklaracziya-deputatka-sultanbekova-skryla-ot-nalogovoj-biznes/
+2026-05-05 14:26:56,393 [master] INFO   [UNCERTAIN] Очередная «чистая» декларация: Депутатка Султанбекова скрыла от н
+2026-05-05 14:27:00,399 [master] INFO Scraping (17): https://factcheck.kg/proverka-sluchaev-koronavirusa-po-soobshheniyam-v-soczialnyh-setyah-na-24-03-2020/
+2026-05-05 14:27:01,458 [master] INFO   [FAKE] Проверка случаев коронавируса по сообщениям в социальных сетях на
+2026-05-05 14:27:05,468 [master] INFO Scraping (18): https://factcheck.kg/obratnaya-svyaz/
+2026-05-05 14:27:06,476 [master] INFO   ✗ Skipped
+2026-05-05 14:27:10,478 [master] INFO Scraping (18): https://factcheck.kg/germaniya-uvelichivaet-eksport-v-kyrgyzstan-kakie-tovary-na-pike-populyarnosti/
+2026-05-05 14:27:11,559 [master] INFO   [UNCERTAIN] «Немецкий экспорт автомобилей и запчастей (синий) в Кыргызстан вы
+2026-05-05 14:27:15,561 [master] INFO Scraping (19): https://factcheck.kg/tri-deputata-gorkenesha-osha-poluchili-mandaty-nezakonno/
+2026-05-05 14:27:16,546 [master] INFO   [UNCERTAIN] Так, председатель Ошской территориальной комиссии Урмат Аттокуров
+2026-05-05 14:27:20,547 [master] INFO Scraping (20): https://factcheck.kg/uchenye-nashli-dokazatelstva-laboratornogo-proishozhdeniya-covid-19-proveryaem/
+2026-05-05 14:27:21,805 [master] INFO   [REAL] В итоге никаких доказательств правоты ученых этот ресурс не предо
+2026-05-05 14:27:25,806 [master] INFO Scraping (21): https://factcheck.kg/nurzhigit-kadyrbekov-yjman-nuru-u-nashego-politobedineniya-na-tekushhih-vyborah-net-shtaba-nepravda/
+2026-05-05 14:27:26,867 [master] INFO   [UNCERTAIN] Нуржигит Кадырбеков, «Ыйман нуру»: «У нашего политобъединения на 
+2026-05-05 14:27:30,868 [master] INFO Scraping (22): https://factcheck.kg/video-na-kotorom-yakoby-taliby-zabirayut-maloletnyuyu-devochku-dlya-vstupleniya-v-brak-staroe/
+2026-05-05 14:27:31,933 [master] INFO   [FAKE] “Пусть забирает! Отдайте ему! Ты не трогай!”
+2026-05-05 14:27:35,935 [master] INFO Scraping (23): https://factcheck.kg/moskva-sdaet-poziczii-almaty-nazvan-samym-dorogim-gorodom-sng/
+2026-05-05 14:27:37,026 [master] INFO   [UNCERTAIN] Москва сдает позиции? Алматы назван «самым дорогим» городом СНГ
+2026-05-05 14:27:41,028 [master] INFO Scraping (24): https://factcheck.kg/manipulyacziya-prezident-horvatii-ne-ostanavlival-vakczinacziyu-v-strane/
+2026-05-05 14:27:42,118 [master] INFO   [FAKE] Манипуляция: Президент Хорватии не останавливал вакцинацию в стра
+2026-05-05 14:27:46,119 [master] INFO Scraping (25): https://factcheck.kg/mirlan-orozbaev-uluu-zhurt-nashi-grazhdane-iz-za-graniczy-vysylayut-ezhegodno-bolee-2-mlrd-strana-dolzhna-byla-uzhe-davno-podnyatsya-nedokazuemo/
+2026-05-05 14:27:47,188 [master] INFO   [REAL] Мирлан Орозбаев, «Улуу журт»: «Наши граждане из-за границы высыла
+2026-05-05 14:27:51,189 [master] INFO Scraping (26): https://factcheck.kg/v-mediczinskih-maskah-obnaruzheny-chervi-nanochasticzy-nepravda/
+2026-05-05 14:27:52,281 [master] INFO   [FAKE] В медицинских масках обнаружены черви (наночастицы) — неправда
+2026-05-05 14:27:56,283 [master] INFO Scraping (27): https://factcheck.kg/kyrgyzstan-otkazyvalsya-ot-peregovorov-s-tadzhikskoj-storonoj-nepravda/
+2026-05-05 14:27:57,342 [master] INFO   [UNCERTAIN] Напомним, что ранее мы ужеопровергали утверждения таджикских СМИо
+2026-05-05 14:28:01,345 [master] INFO Scraping (28): https://factcheck.kg/deputaty-30-let-nazad-i-sejchas-kak-izmenilsya-kachestvennyj-sostav/
+2026-05-05 14:28:02,441 [master] INFO   [REAL] Со скандальными высказываниями депутатов вы можете ознакомиться п
+2026-05-05 14:28:06,446 [master] INFO Scraping (29): https://factcheck.kg/2023/01/
+2026-05-05 14:28:07,757 [master] INFO   [UNCERTAIN] Месяц:January 2023
+2026-05-05 14:28:11,758 [master] INFO Scraping (30): https://factcheck.kg/videochek-devushka-hotela-sdelat-selfi-i-upala-v-lavu/
+2026-05-05 14:28:12,780 [master] INFO   [FAKE] Текст, сопровождавший публикацию, был с шуточным подтекстом: ”На 
+2026-05-05 14:28:16,791 [master] INFO Scraping (31): https://factcheck.kg/investiczii-na-1-mlrd-kak-direktor-gosrynka-turatali-bazar-cherez-gchp-vzyal-ego-v-arendu-na-49-let/
+2026-05-05 14:28:17,897 [master] INFO   [UNCERTAIN] Рынок«Кара-Суу»находится на юге Кыргызстана и является одним из с
+2026-05-05 14:28:21,909 [master] INFO Scraping (32): https://factcheck.kg/stat-deputatami-parlamenta-hotyat-pochti-400-bezrabotnyh/
+2026-05-05 14:28:23,126 [master] INFO   [UNCERTAIN] Всего ЦИКзарегистрировала списки кандидатов 21-й партии — в совок
+2026-05-05 14:28:27,127 [master] INFO Scraping (33): https://factcheck.kg/ulukbek-karybek-uulu-el-umutu-v-nashej-partii-net-ni-staryh-politikov-ni-detej-politikov-nepravda/
+2026-05-05 14:28:28,194 [master] INFO   [UNCERTAIN] Улукбек Карыбек уулу, «Эл Умуту»: «В нашей партии нет ни старых п
+2026-05-05 14:28:32,195 [master] INFO Scraping (34): https://factcheck.kg/faktchek-meriya-ignoriruet-proekt-gchp-po-resheniyu-transportnyh-problem-s-2017-goda/
+2026-05-05 14:28:33,240 [master] INFO   [REAL] «Однако, по неизвестным причинам, мэрия до сих пор не определилас
+2026-05-05 14:28:37,245 [master] INFO Scraping (35): https://factcheck.kg/category/factcheck/factchekkr/
+2026-05-05 14:28:38,191 [master] INFO   [UNCERTAIN] Factcheck в КР
+2026-05-05 14:28:42,193 [master] INFO Scraping (36): https://factcheck.kg/kyrgyz-tro-ya-llc-pervaya-kompaniya-iz-kyrgyzstana-kotoraya-voshla-v-sankczionnyj-spisok-ssha-chto-o-nej-izvestno/
+2026-05-05 14:28:43,312 [master] INFO   [UNCERTAIN] Что известно о кыргызстанской компании, которая вошла в санкционн
+2026-05-05 14:28:47,321 [master] INFO Scraping (37): https://factcheck.kg/pustye-kapsuly-essenczial-forte-n/
+2026-05-05 14:28:48,466 [master] INFO   [REAL] Пустые капсулы Эссенциал Форте Н
+2026-05-05 14:28:52,468 [master] INFO Scraping (38): https://factcheck.kg/elochnye-ukrasheniya-za-5-mln-somov-tendery-merii-vyigryvaet-odna-i-ta-zhe-kompaniya/
+2026-05-05 14:28:53,437 [master] INFO   [UNCERTAIN] Отметим, что ОсОО “Аманат транс” в 2019 году уже выигрвала тендер
+2026-05-05 14:28:57,438 [master] INFO Scraping (39): https://factcheck.kg/baktybek-kalmamatov-gosudarstvo-imeet-potenczial-proizvodit-200-mlrd-kvt-chasov-v-god-no-segodnya-my-proizvodim-menee-15-mlrd-kvt-chasov-polupravda/
+2026-05-05 14:28:58,632 [master] INFO   [REAL] Бактыбек Калмаматов: Государство имеет потенциал производить 200 
+2026-05-05 14:29:02,634 [master] INFO Scraping (40): https://factcheck.kg/category/factcheck/factworld/
+2026-05-05 14:29:03,695 [master] INFO   [UNCERTAIN] Factcheck в Мире
+2026-05-05 14:29:07,697 [master] INFO Scraping (41): https://factcheck.kg/ocherednaya-afera-komu-pravitelstvo-doverit-tecz-bishkeka/
+2026-05-05 14:29:09,015 [master] INFO   [UNCERTAIN] “Hampton Resources Limitedявляется единственным торговым представ
+2026-05-05 14:29:13,018 [master] INFO Scraping (42): https://factcheck.kg/novaya-glava-minzdrava-s-2021-goda-nigde-ne-rabotala/
+2026-05-05 14:29:14,038 [master] INFO   [REAL] Factcheck.kg ознакомился сбиографиейновой руководительницы ведомс
+2026-05-05 14:29:18,047 [master] INFO Scraping (43): https://factcheck.kg/czitata-chek-sadyr-zhaparov-proczitiroval-cherchillya-no-cherchill-takogo-ne-govoril/
+2026-05-05 14:29:19,093 [master] INFO   [UNCERTAIN] Цитата-чек: Садыр Жапаров процитировал Черчилля, но Черчилль тако
+2026-05-05 14:29:23,094 [master] INFO Scraping (44): https://factcheck.kg/rasizm-v-slovah-orunbekova-razbiraemsya-kto-na-fotografii-i-gde-byl-sdelan-snimok/
+2026-05-05 14:29:24,229 [master] INFO   [UNCERTAIN] Расизм в словах Орунбекова. Разбираемся, кто на фотографии и где 
+2026-05-05 14:29:28,231 [master] INFO Scraping (45): https://factcheck.kg/rossiya-privyazala-rubl-k-zolotu-nepravda/
+2026-05-05 14:29:29,318 [master] INFO   [FAKE] «Банк России в целях обеспечения сбалансированности спроса и пред
+2026-05-05 14:29:33,318 [master] INFO Scraping (46): https://www.facebook.com/factcheck.kg
+2026-05-05 14:29:34,118 [master] WARNING Failed https://www.facebook.com/factcheck.kg: 400 Client Error: Bad Request for url: https://www.facebook.com/factcheck.kg
+2026-05-05 14:29:34,118 [master] INFO   ✗ Skipped
+2026-05-05 14:29:38,122 [master] INFO Scraping (46): https://factcheck.kg/metapnevmovirus-opasnee-koronavirusa-proveryaem/
+2026-05-05 14:29:39,312 [master] INFO   [UNCERTAIN] Метапневмовирус опаснее коронавируса? Проверяем
+2026-05-05 14:29:43,313 [master] INFO Scraping (47): https://factcheck.kg/chto-izvestno-ob-organizacziyah-podpisavshih-zayavlenie-o-zaprete-tiktok-v-kyrgyzstane/
+2026-05-05 14:29:44,379 [master] INFO   [REAL] Что известно об организациях, подписавших заявление о запрете Тик
+2026-05-05 14:29:48,383 [master] INFO Scraping (48): https://factcheck.kg/czitata-chek-tetcher-predlagala-zabrat-u-rebenka-morozhennoe-proveryaem/
+2026-05-05 14:29:49,465 [master] INFO   [REAL] “Один из главных споров нашего времени касается того, сколько ваш
+2026-05-05 14:29:53,469 [master] INFO Scraping (49): https://factcheck.kg/czitata-chek-tolstoj-dejstvitelno-pisal-o-svoej-leni-v-dnevnikah/
+2026-05-05 14:29:54,603 [master] INFO   [REAL] Цитата-чек: Толстой действительно писал о своей лени в дневниках
+2026-05-05 14:29:58,607 [master] INFO Scraping (50): https://factcheck.kg/shutku-adahana-madumarova-vydali-za-skandalnuyu-czitatu-dnya/
+2026-05-05 14:29:59,740 [master] INFO   [UNCERTAIN] «Шутку с долей правды» Адахана Мадумарова выдали за скандальную ц
+2026-05-05 14:30:03,742 [master] INFO Scraping (51): https://factcheck.kg/indeks-doveriya-naseleniya-k-ministerstvu-soczrazvitiya-vozros-na-17-za-gody-pravleniya-ulukbeka-kochkorova-nepravda/
+2026-05-05 14:30:04,756 [master] INFO   [REAL] Индекс доверия населения к министерству соцразвития возрос на 17%
+2026-05-05 14:30:08,757 [master] INFO Scraping (52): https://factcheck.kg/obvalilsya-potolok-chi-kompanii-prinimali-uchastie-v-rekonstrukczii-aeroporta-osh/
+2026-05-05 14:30:09,847 [master] INFO   [UNCERTAIN] «Наш контракт предусматривал 24-месячную гарантию. Что касается к
+2026-05-05 14:30:13,847 [master] INFO Scraping (53): https://factcheck.kg/v-kazahstane-legalizovali-eskort-uslugi-razbiraemsya/
+2026-05-05 14:30:14,940 [master] INFO   [UNCERTAIN] В Казахстане легализовали эскорт услуги? Разбираемся
+2026-05-05 14:30:18,943 [master] INFO Scraping (54): https://factcheck.kg/vakczinirovannyj-chelovek-stanovitsya-nositelem-covid-19-i-istochaet-iz-sebya-virus-fejk/
+2026-05-05 14:30:20,140 [master] INFO   [FAKE] “Это означает, что вакцина против COVID-19 не может вызвать забол
+2026-05-05 14:30:24,142 [master] INFO Scraping (55): https://factcheck.kg/2020/05/
+2026-05-05 14:30:25,176 [master] INFO   [UNCERTAIN] Месяц:May 2020
+2026-05-05 14:30:29,183 [master] INFO Scraping (56): https://factcheck.kg/kakova-rol-kyrgyzstana-v-parallelnom-importe-rossii/
+2026-05-05 14:30:30,291 [master] INFO   [FAKE] «Нет признаков того, что массовый поток немецкого экспорта в Цент
+2026-05-05 14:30:34,298 [master] INFO Scraping (57): https://factcheck.kg/tak-li-velika-blagotvoritelnaya-deyatelnost-leo-messi-kak-o-nej-govoryat-proveryaem/
+2026-05-05 14:30:35,436 [master] INFO   [REAL] В 2014 году фондом Лионеля Месси былопожертвовано $135 тысячгоспи
+2026-05-05 14:30:39,441 [master] INFO Scraping (58): https://factcheck.kg/vse-taki-30-ili-40-mln-somov-sobral-minzdrav-dlya-zapuska-altyn-balalyk-proveryaem/
+2026-05-05 14:30:40,570 [master] INFO   [UNCERTAIN] Все таки 30 или 40 млн сомов собрал Минздрав для запуска «Алтын б
+2026-05-05 14:30:44,577 [master] INFO Scraping (59): https://factcheck.kg/akuly-evolyuczionirovali-i-stali-vyhodit-na-sushu/
+2026-05-05 14:30:45,615 [master] INFO   [REAL] Акулы эволюционировали и стали выходить на сушу
+2026-05-05 14:30:49,616 [master] INFO Scraping (60): https://factcheck.kg/2023/06/
+2026-05-05 14:30:50,669 [master] INFO   [UNCERTAIN] Месяц:June 2023
+2026-05-05 14:30:54,670 [master] INFO Scraping (61): https://factcheck.kg/ocherednoj-prognoz-dolgoj-holodnoj-zimy-stoit-li-emu-verit/
+2026-05-05 14:30:55,845 [master] INFO   [UNCERTAIN] Очередной прогноз долгой холодной зимы. Стоит ли ему верить?
+2026-05-05 14:30:59,846 [master] INFO Scraping (62): https://factcheck.kg/zemlya-parka-pozhar-otravlenie-smert-istoriya-czentra-otdyha-ala-too/
+2026-05-05 14:31:00,969 [master] INFO   [UNCERTAIN] Она – ресторатор идочьнародного кыргызского писателя Сагындыка Ом
+2026-05-05 14:31:04,970 [master] INFO Scraping (63): https://factcheck.kg/sultanbekov-zayavil-chto-vneshnij-dolg-za-god-vyros-na-950-mln-proveryaem/
+2026-05-05 14:31:06,138 [master] INFO   [FAKE] Султанбеков заявил, что внешний долг за год вырос на $950 млн. Пр
+2026-05-05 14:31:10,144 [master] INFO Scraping (64): https://factcheck.kg/shojgu-vruchil-medal-devochke-kotoraya-donesla-na-otcza-uklonista-proveryaem/
+2026-05-05 14:31:11,237 [master] INFO   [UNCERTAIN] “В тот день Саша и Давид ехали на тренировку. До занятия оставалс
+2026-05-05 14:31:15,240 [master] INFO Scraping (65): https://factcheck.kg/ahunbaj-koshoev-mekenchil-el-my-sami-napisali-predvybornuyu-programmu-partii-a-ne-skopirovali-nepravda/
+2026-05-05 14:31:16,191 [master] INFO   [REAL] Ахунбай Кошоев, «Мекенчил Эл»: «Мы сами написали предвыборную про
+2026-05-05 14:31:20,192 [master] INFO Scraping (66): https://factcheck.kg/chto-izvestno-pro-kompanii-kotorye-sobirayutsya-stroit-musoropererabatyvayushhij-zavod-v-bishkeke/
+2026-05-05 14:31:21,693 [master] INFO   [UNCERTAIN] «Стоимость проекта разнится. Одна предлагает $50 млн, другая − $3
+2026-05-05 14:31:25,694 [master] INFO Scraping (67): https://factcheck.kg/nad-kaaboj-ne-sposobny-letat-samolety-i-pticzy-proveryaem/
+2026-05-05 14:31:26,811 [master] INFO   [REAL] “А так как это центр тяжести, то естественно притягивает магнитны
+2026-05-05 14:31:30,812 [master] INFO Scraping (68): https://factcheck.kg/shvecziya-otkazalas-ot-borby-s-koronavirusom-fejk/
+2026-05-05 14:31:32,046 [master] INFO   [FAKE] Швеция отказалась от борьбы с коронавирусом — фейк?
+2026-05-05 14:31:36,048 [master] INFO Scraping (69): https://factcheck.kg/alabuga-kak-kyrgyzstanok-privlekayut-na-rabotu-v-meste-sborki-iranskih-dronov/
+2026-05-05 14:31:37,091 [master] INFO   [UNCERTAIN] “ОЭЗ «Алабуга» вошла в число самых эффективных особых экономическ
+2026-05-05 14:31:41,093 [master] INFO Scraping (70): https://factcheck.kg/uchastniki-mitinga-protiv-kaktus-media-kto-oni/
+2026-05-05 14:31:43,135 [master] INFO   [UNCERTAIN] Участники митинга против Kaktus.media — кто они
+2026-05-05 14:31:47,136 [master] INFO Scraping (71): https://factcheck.kg/ochen-zhal-skazochnyj-snimok-iz-bosteri-s-molniej-i-dvumya-radugami-fotofejk/
+2026-05-05 14:31:48,170 [master] INFO   [REAL] Иссык-Куль. Село Бостери.pic.twitter.com/OmuAdR5YFa— Kamil Ruziev
+2026-05-05 14:31:52,172 [master] INFO Scraping (72): https://factcheck.kg/yaponskim-studentam-i-shkolnikam-zapreshheno-krasit-volosy/
+2026-05-05 14:31:53,098 [master] INFO   [REAL] Японским студентам и школьникам запрещено красить волосы?
+2026-05-05 14:31:57,101 [master] INFO Scraping (73): https://factcheck.kg/faktchek-kitaj-stolknulsya-s-novoj-volnoj-zabolevaemosti-covid-19/
+2026-05-05 14:31:58,160 [master] INFO   [REAL] Фактчек: Китай столкнулся с новой волной заболеваемости COVID-19
+2026-05-05 14:32:02,162 [master] INFO Scraping (74): https://factcheck.kg/2024/12/
+2026-05-05 14:32:03,187 [master] INFO   [REAL] Месяц:December 2024
+2026-05-05 14:32:07,189 [master] INFO Scraping (75): https://factcheck.kg/kanybek-imanaliev-segodnya-po-dannym-pisa-my-zanimaem-62-mesto-lozh/
+2026-05-05 14:32:08,287 [master] INFO   [REAL] Каныбек Иманалиев: Сегодня по данным PISA мы занимаем 62 место — 
+2026-05-05 14:32:12,288 [master] INFO Scraping (76): https://factcheck.kg/dimash-kudajbergenov-rodom-iz-kazahskogo-plemeni-kyrgyz-pravda/
+2026-05-05 14:32:13,226 [master] INFO   [REAL] Димаш Кудайбергенов родом из казахского племени кыргыз?
+2026-05-05 14:32:17,227 [master] INFO Scraping (77): https://factcheck.kg/vse-svoi-kakie-imeyutsya-rodstvennye-svyazi-v-bolshoj-politike/
+2026-05-05 14:32:18,337 [master] INFO   [UNCERTAIN] Все свои. Какие имеются родственные связи в большой политике
+2026-05-05 14:32:22,338 [master] INFO Scraping (78): https://factcheck.kg/vybory-v-bgk-pochemu-czik-dolzhen-otkazat-partii-yntymak-v-registraczii/
+2026-05-05 14:32:23,585 [master] INFO   [REAL] Выборы в БГК: почему ЦИК должна отказать партии “Ынтымак” в регис
+2026-05-05 14:32:27,587 [master] INFO Scraping (79): https://factcheck.kg/skolko-let-na-samom-dele-zhenshhine-proveryaem/
+2026-05-05 14:32:28,632 [master] INFO   [UNCERTAIN] Сколько лет на самом деле женщине? Проверяем
+2026-05-05 14:32:32,639 [master] INFO Scraping (80): https://factcheck.kg/reczept-ot-koronavirusa-v-sovetskih-gazetah-proveryaem/
+2026-05-05 14:32:33,600 [master] INFO   [FAKE] Рецепт от коронавируса в советских газетах? Проверяем
+2026-05-05 14:32:37,615 [master] INFO Scraping (81): https://factcheck.kg/7440-2/
+2026-05-05 14:32:38,642 [master] INFO   [REAL] Самаган Асанов, «Багыт»: «Внешний долг Кыргызстана составляет 4 м
+2026-05-05 14:32:42,655 [master] INFO Scraping (82): https://factcheck.kg/na-kumtore-ne-ostalos-zapasov-zolota-nepravda/
+2026-05-05 14:32:43,702 [master] INFO   [REAL] На Кумторе не осталось запасов золота? Неправда
+2026-05-05 14:32:47,704 [master] INFO Scraping (83): https://factcheck.kg/letuchaya-mysh-s-filippin-mozhet-dostigat-chelovecheskih-razmerov-proveryaem/
+2026-05-05 14:32:48,776 [master] INFO   [FAKE] Летучая мышь с Филиппин может достигать человеческих размеров? Пр
+2026-05-05 14:32:52,777 [master] INFO Scraping (84): https://factcheck.kg/kazahstan-perebrasyvaet-vojska-v-ukrainu-nepravda/
+2026-05-05 14:32:53,867 [master] INFO   [UNCERTAIN] «Для проведения практических занятий с учащимися Военного колледж
+2026-05-05 14:32:57,868 [master] INFO Scraping (85): https://factcheck.kg/verhovnyj-muftij-kyrgyzstana-imitiroval-vakczinacziyu-proveryaem/
+2026-05-05 14:32:59,072 [master] INFO   [FAKE] Муфтий Кыргызстана имитировал вакцинацию? Проверяем
+2026-05-05 14:33:03,087 [master] INFO Scraping (86): https://factcheck.kg/povysit-li-topolinyj-puh-zarazhaemost-koronavirusom-ne-dokazano/
+2026-05-05 14:33:04,141 [master] INFO   [REAL] Повысит ли тополиный пух заражаемость коронавирусом? — Не доказан
+2026-05-05 14:33:08,144 [master] INFO Scraping (87): https://factcheck.kg/faktchek-pochemu-policziya-izbivaet-passazhirov-v-metro/
+2026-05-05 14:33:09,200 [master] INFO   [UNCERTAIN] Фактчек. Почему полиция избивает пассажиров в метро?
+2026-05-05 14:33:13,206 [master] INFO Scraping (88): https://factcheck.kg/v-parlamente-novye-deputaty-chto-o-nih-izvestno/
+2026-05-05 14:33:14,457 [master] INFO   [UNCERTAIN] В парламенте новые депутаты. Что о них известно?
+2026-05-05 14:33:18,465 [master] INFO Scraping (89): https://factcheck.kg/kak-rossijskie-biznesmeny-kontroliruyut-sajt-zakupok-dlya-gospredpriyatij/
+2026-05-05 14:33:19,557 [master] INFO   [UNCERTAIN] Как российские бизнесмены контролируют сайт закупок для госпредпр
+2026-05-05 14:33:23,572 [master] INFO Scraping (90): https://factcheck.kg/kartina-okazalas-shutkoj-stalin-nikogda-ne-byl-na-issyk-kule/
+2026-05-05 14:33:24,752 [master] INFO   [UNCERTAIN] «Легенда», по словам автора, такова: «всемирно-известный художник
+2026-05-05 14:33:28,753 [master] INFO Scraping (91): https://factcheck.kg/kanczler-germanii-bismark-zagovoril-v-internete-cherez-100-let-posle-smerti/
+2026-05-05 14:33:29,888 [master] INFO   [FAKE] Когда Бисмарк говорил о “мы”, он имел в виду Пруссию и Германию. 
+2026-05-05 14:33:33,902 [master] INFO Scraping (92): https://factcheck.kg/uregulirovaniya-internet-prostranstva-v-zakonoproekte-o-smi/
+2026-05-05 14:33:34,951 [master] INFO   [UNCERTAIN] При этом результатом подобных исследований должно стать не доскон
+2026-05-05 14:33:38,965 [master] INFO Scraping (93): https://factcheck.kg/v-avstralii-chislo-smertej-ot-koronavirusa-uvelichilos-v-desyatki-raz/
+2026-05-05 14:33:40,173 [master] INFO   [REAL] В Австралии число смертей от коронавируса увеличилось в десятки р
+2026-05-05 14:33:44,174 [master] INFO Scraping (94): https://factcheck.kg/narushenie-pravil-agitaczii-spikerom-parlamenta-dastanom-dzhumabekovym/
+2026-05-05 14:33:45,308 [master] INFO   [REAL] Нарушение правил агитации спикером парламента Дастаном Джумабеков
+2026-05-05 14:33:49,310 [master] INFO Scraping (95): https://factcheck.kg/prezidentskij-detskij-sad-pokupaet-proektor-za-570-tysyach-somov/
+2026-05-05 14:33:50,393 [master] INFO   [UNCERTAIN] Также выяснилось, что впервыеинтерактивный видеопроекторпоказали 
+2026-05-05 14:33:54,395 [master] INFO Scraping (96): https://factcheck.kg/ocherednoe-neizvestnoe-nauke-sushhestvo-nepravda/
+2026-05-05 14:33:55,639 [master] INFO   [REAL] Очередное неизвестное науке существо? Неправда
+2026-05-05 14:33:59,651 [master] INFO Scraping (97): https://factcheck.kg/2021/03/
+2026-05-05 14:34:00,718 [master] INFO   [UNCERTAIN] Месяц:March 2021
+2026-05-05 14:34:04,729 [master] INFO Scraping (98): https://factcheck.kg/predznamenovanie-katastrofy-ili-obychnoe-yavlenie-pochemu-molniya-udarila-v-statuyu-hrista-iskupitelya-proveryaem/
+2026-05-05 14:34:05,856 [master] INFO   [UNCERTAIN] ПоданнымБразильского института космических исследований (Inpe), к
+2026-05-05 14:34:09,858 [master] INFO Scraping (99): https://factcheck.kg/kadrovye-perestanovki-predprinimateli-tehnologi-prodyusery-i-slesari-teper-krupnye-rukovoditeli-2/
+2026-05-05 14:34:10,911 [master] INFO   [UNCERTAIN] Кадровые перестановки: предприниматели, технологи, продюсеры и сл
+2026-05-05 14:34:14,917 [master] INFO Scraping (100): https://factcheck.kg/kanczler-germanii-otkazalas-vakczinirovatsya-astrazeneca-proveryaem/
+2026-05-05 14:34:15,961 [master] INFO   [FAKE] Канцлер Германии отказалась вакцинироваться AstraZeneca? Проверяе
+2026-05-05 14:34:19,967 [master] INFO Scraping (101): https://factcheck.kg/govorit-o-chudodejstvennyh-svojstvah-lekarstva-mesencure-poka-rano/
+2026-05-05 14:34:21,149 [master] INFO   [UNCERTAIN] Говорить о «чудодейственных свойствах» лекарства MesenCure пока р
+2026-05-05 14:34:25,150 [master] INFO Scraping (102): https://factcheck.kg/gvozdi-v-kapsulah-lekarstva-enterofuril/
+2026-05-05 14:34:26,209 [master] INFO   [UNCERTAIN] Гвозди в капсулах лекарства Энтерофурил?
+2026-05-05 14:34:30,211 [master] INFO Scraping (103): https://factcheck.kg/letayushhij-korabl-illyuziya-ili-fotomontazh/
+2026-05-05 14:34:31,133 [master] INFO   [FAKE] Летающий корабль – иллюзия или фотомонтаж?
+2026-05-05 14:34:35,135 [master] INFO Scraping (104): https://factcheck.kg/pryamoj-ugrozy-napast-na-tadzhikistan-so-storony-talibov-poka-ne-postupalo/
+2026-05-05 14:34:36,165 [master] INFO   [REAL] Прямой угрозы напасть на Таджикистан со стороны талибов пока не п
+2026-05-05 14:34:40,176 [master] INFO Scraping (105): https://factcheck.kg/evropu-nakryvaet-obezyanya-ospa-proveryaem/
+2026-05-05 14:34:41,125 [master] INFO   [REAL] Впервые данный вирус обнаружили в 1970 году в десяти африканских 
+2026-05-05 14:34:45,126 [master] INFO Scraping (106): https://factcheck.kg/bogatye-amerikanczy-hotyat-obuchat-svoih-detej-po-sovetskim-uchebnikam-matematiki-proveryaem/
+2026-05-05 14:34:46,091 [master] INFO   [REAL] “Обучение математике по советской учебной программе приобретает в
+2026-05-05 14:34:50,101 [master] INFO Scraping (107): https://factcheck.kg/sushhestvuet-li-ugroza-pandemii-bubonnoj-chumy-net/
+2026-05-05 14:34:51,168 [master] INFO   [REAL] Существует ли угроза пандемии бубонной чумы? Нет
+2026-05-05 14:34:55,168 [master] INFO Scraping (108): https://factcheck.kg/boroda-uvelichivaet-v-tysyachu-raz-risk-podhvatit-koronavirus-proveryaem/
+2026-05-05 14:34:56,123 [master] INFO   [UNCERTAIN] “Причина риска заражения из-за волос бороды или длинных усов – за
+2026-05-05 14:35:00,124 [master] INFO Scraping (109): https://factcheck.kg/novyj-glava-tamozhni-krupnyj-biznesmen-i-hozyain-parka-silk-way/
+2026-05-05 14:35:01,610 [master] INFO   [UNCERTAIN] Новый глава Таможни — крупный бизнесмен и хозяин парка Silk Way
+2026-05-05 14:35:05,611 [master] INFO Scraping (110): https://factcheck.kg/klony-kak-svyazany-partii-bizdin-kyrgyzstan-i-mekenim-kyrgyzstan/
+2026-05-05 14:35:06,922 [master] INFO   [UNCERTAIN] Напомним, «Кыргыз каганат» — это строительная компания, входит в 
+2026-05-05 14:35:10,923 [master] INFO Scraping (111): https://factcheck.kg/sotrudniki-gosohrany-agitiruyut-za-sadyra-zhaparova/
+2026-05-05 14:35:12,059 [master] INFO   [FAKE] Сотрудники Госохраны агитируют за Садыра Жапарова?
+2026-05-05 14:35:16,060 [master] INFO Scraping (112): https://factcheck.kg/s-kem-kyrgyzstan-sobiraetsya-podpisyvat-dogovor-na-2-3-mlrd/
+2026-05-05 14:35:17,138 [master] INFO   [UNCERTAIN] С кем Кыргызстан собирается подписывать договор на 2.3 млрд$?
+2026-05-05 14:35:21,140 [master] INFO Scraping (113): https://factcheck.kg/prezident-podelilsya-provokaczionnoj-informacziej-o-tekebaeve-proveryaem/
+2026-05-05 14:35:22,557 [master] INFO   [FAKE] Президент поделился провокационной информацией о Текебаеве? Прове
+2026-05-05 14:35:26,559 [master] INFO Scraping (114): https://factcheck.kg/sudit-legko-pochemu-zhenshhiny-ostavlyayut-mladenczev-na-ulicze-na-samom-dele-i-kakie-est-resheniya-problemy/
+2026-05-05 14:35:27,732 [master] INFO   [UNCERTAIN] “Это дети, родившиеся у матерей, которые не имеют возможности вос
+2026-05-05 14:35:31,739 [master] INFO Scraping (115): https://factcheck.kg/kyrgyz-mitingde-atazovdu-koldogondor-buga-chejin-provokacziyalyk-akcziyalarga-katyshkan-faktchek/
+2026-05-05 14:35:32,820 [master] INFO   [UNCERTAIN] «Сторонники» Атазова — участники провокационных митингов. Фактчек
+2026-05-05 14:35:36,822 [master] INFO Scraping (116): https://factcheck.kg/avtor-zakona-o-smi-murat-ukushov-opyat-popalsya-na-etot-raz-na-plagiate-statej-ria-novosti/
+2026-05-05 14:35:37,931 [master] INFO   [FAKE] Напомним, читатели Factcheck.kg знают Мурата Укушова пофактчекинг
+2026-05-05 14:35:41,933 [master] INFO Scraping (117): https://factcheck.kg/2023/07/
+2026-05-05 14:35:42,955 [master] INFO   [FAKE] Месяц:July 2023
+2026-05-05 14:35:46,958 [master] INFO Scraping (118): https://factcheck.kg/fotofejk-taliby-ne-pisali-na-svoem-avtomobile-spasibo-dedu-za-pobedu/
+2026-05-05 14:35:48,012 [master] INFO   [FAKE] Фотофейк: талибы не писали на своем автомобиле «Спасибо деду за п
+2026-05-05 14:35:52,017 [master] INFO Scraping (119): https://factcheck.kg/voennaya-tehnika-na-uliczah-samary-dlya-podavleniya-volnenij-iz-za-koronavirusa-fejk/
+2026-05-05 14:35:53,089 [master] INFO   [FAKE] Военная техника на улицах Самары для подавления волнений из-за ко
+2026-05-05 14:35:57,092 [master] INFO Scraping (120): https://factcheck.kg/kiprskij-sled-strojkompanii-deputata-zhk-zhusupbeka-korgonbaj-uulu/
+2026-05-05 14:35:58,237 [master] INFO   [UNCERTAIN] Почему это важно?Во время правления Курманбека Бакиева Национальн
+2026-05-05 14:36:02,239 [master] INFO Scraping (121): https://factcheck.kg/pro-derevya-tualetnuyu-bumagu-i-gretu-tunberg-prizyvala-li-ekoaktivistka-kitajczev-otkazatsya-ot-palochek-dlya-edy/
+2026-05-05 14:36:03,309 [master] INFO   [FAKE] Про деревья, туалетную бумагу и Грету Тунберг. Призывала ли экоак
+2026-05-05 14:36:07,313 [master] INFO Scraping (122): https://factcheck.kg/chto-izvestno-o-novom-lyambda-variante-koronavirusa/
+2026-05-05 14:36:08,394 [master] INFO   [REAL] Что известно о новом Лямбда-варианте коронавируса?
+2026-05-05 14:36:12,401 [master] INFO Scraping (123): https://factcheck.kg/deputaty-trebuyut-unichtozhit-svoi-deklaraczii-a-vse-chto-nazhito-do-etogo-legalizovat/
+2026-05-05 14:36:13,551 [master] INFO   [UNCERTAIN] Депутаты требуют уничтожить свои декларации, а все что нажито до 
+2026-05-05 14:36:17,561 [master] INFO Scraping (124): https://factcheck.kg/kubatbek-alymbekov-patrioticheskoj-partii-edineniya-kyrgyzstana-my-vyberem-novye-kadry-unichtozhim-starye-kadry-nepravda/
+2026-05-05 14:36:18,601 [master] INFO   [UNCERTAIN] Кубатбек Алымбеков, «Патриотической партии единения Кыргызстана»:
+2026-05-05 14:36:22,605 [master] INFO Scraping (125): https://factcheck.kg/zhanybek-abirov-emgek-my-zhdem-150-tysyach-vakczin-ot-rossijskoj-federaczii/
+2026-05-05 14:36:23,810 [master] INFO   [UNCERTAIN] Жаныбек Абиров, «Эмгек»: Мы ждем 150 тысяч вакцин от Российской Ф
+2026-05-05 14:36:27,810 [master] INFO Scraping (126): https://factcheck.kg/v-kakie-skandaly-byli-vovlecheny-deputaty-v-uhodyashhem-godu/
+2026-05-05 14:36:28,874 [master] INFO   [FAKE] «Уважаемый Садыр Нургожоевич, Камчыбек Кыдыршаевич. Считаю, что в
+2026-05-05 14:36:32,881 [master] INFO Scraping (127): https://factcheck.kg/v-rossii-zapretyat-dvernye-glazki-proveryaem/
+2026-05-05 14:36:33,918 [master] INFO   [FAKE] В России запретят дверные глазки? Проверяем
+2026-05-05 14:36:37,918 [master] INFO Scraping (128): https://factcheck.kg/samoe-staroe-zdanie-vo-franczii-proveryaem/
+2026-05-05 14:36:39,268 [master] INFO   [UNCERTAIN] Самое старое здание во Франции? Проверяем
+2026-05-05 14:36:43,269 [master] INFO Scraping (129): https://factcheck.kg/popolnenie-byudzheta-do-milliarda-somov-kto-v-kyrgyzstane-dobyvaet-chernoe-zoloto/
+2026-05-05 14:36:44,428 [master] INFO   [UNCERTAIN] Пополнение бюджета до миллиарда сомов: кто в Кыргызстане добывает
+2026-05-05 14:36:48,430 [master] INFO Scraping (130): https://factcheck.kg/mnogozhenecz-i-motivator-chto-izvestno-ob-inicziatorah-zakrytiya-fonda-soros-kyrgyzstan/
+2026-05-05 14:36:49,661 [master] INFO   [UNCERTAIN] Многоженец и мотиватор: что известно об инициаторах закрытия Фонд
+2026-05-05 14:36:53,662 [master] INFO Scraping (131): https://factcheck.kg/mihail-gorbachyov-poluchil-grazhdanstvo-ssha-nepravda/
+2026-05-05 14:36:54,770 [master] INFO   [FAKE] Михаил Горбачёв получил гражданство США? Неправда
+2026-05-05 14:36:58,780 [master] INFO Scraping (132): https://factcheck.kg/faktchek-pticzy-narushayut-zakony-fiziki-zavisaya-v-vozduhe/
+2026-05-05 14:36:59,808 [master] INFO   [REAL] Фактчек: Птицы нарушают законы физики, зависая в воздухе?
+2026-05-05 14:37:03,819 [master] INFO Scraping (133): https://factcheck.kg/v-kitae-sozdali-gmo-detej-proveryaem/
+2026-05-05 14:37:04,952 [master] INFO   [UNCERTAIN] «Они ведут нормальную, мирную, безмятежную жизнь. Это их желание,
+2026-05-05 14:37:08,956 [master] INFO Scraping (134): https://factcheck.kg/snova-plagiat-administracziya-prezidenta-skopirovala-zakon-o-smi-s-rossijskogo-zakonodatelstva/
+2026-05-05 14:37:10,642 [master] INFO   [UNCERTAIN] Так, к примеру, в статье №1 разница лишь в первом предложении. В 
+2026-05-05 14:37:14,642 [master] INFO Scraping (135): https://factcheck.kg/chto-svyazyvaet-spikera-parlamenta-s-izvestnoj-peviczej/
+2026-05-05 14:37:15,771 [master] INFO   [UNCERTAIN] Что связывает спикера парламента с известной певицей?
+2026-05-05 14:37:19,772 [master] INFO Scraping (136): https://factcheck.kg/chto-takoe-sdvg-kak-predrassudki-mogut-povliyat-na-nepravilnoe-vospriyatie-i-stigmatizacziyu/
+2026-05-05 14:37:20,861 [master] INFO   [UNCERTAIN] Чтобы получить диагноз СДВГ, симптомы невнимательности и/или гипе
+2026-05-05 14:37:24,862 [master] INFO Scraping (137): https://factcheck.kg/lozh-minzdrava-o-testah-ot-fonda-matraimovyh/
+2026-05-05 14:37:26,066 [master] INFO   [FAKE] Обратите внимание, что Айгуль Жумаканова говорит не о коронавирус
+2026-05-05 14:37:30,071 [master] INFO Scraping (138): https://factcheck.kg/v-sokuluke-iz-za-anomalnoj-zhary-rasplavilsya-svetofor-proveryaem/
+2026-05-05 14:37:31,094 [master] INFO   [UNCERTAIN] Фоточек: В Сокулуке из-за аномальной жары расплавился светофор?
+2026-05-05 14:37:35,105 [master] INFO Scraping (139): https://factcheck.kg/obysk-v-ofise-24-kg-prevyshenie-polnomochij-i-ugroza-pravam-grazhdan-i-smi/
+2026-05-05 14:37:36,314 [master] INFO   [UNCERTAIN] Что касается статьи 407 «Пропаганда войны» УК КР, по которой возб
+2026-05-05 14:37:40,320 [master] INFO Scraping (140): https://factcheck.kg/baktybek-kalmamatov-azattyk-v-kyrgyzstane-nuzhno-provesti-inventarizacziyu-zakonoproektov-nepravda/
+2026-05-05 14:37:41,465 [master] INFO   [UNCERTAIN] Бактыбек Калмаматов, «Азаттык»: «В Кыргызстане нужно провести инв
+2026-05-05 14:37:45,466 [master] INFO Scraping (141): https://factcheck.kg/ukrainczy-mogut-otravlyat-vodu-boepripasy-i-edu-botulotoksinom-eto-pravda/
+2026-05-05 14:37:46,499 [master] INFO   [UNCERTAIN] Украинцы могут отравлять воду, боеприпасы и еду ботулотоксином. Э
+2026-05-05 14:37:50,506 [master] INFO Scraping (142): https://factcheck.kg/vybory-v-bgk-lozh-kandidata-v-deputaty-tyuleevskoj-partii-ak-bata/
+2026-05-05 14:37:51,690 [master] INFO   [UNCERTAIN] Выборы в БГК: история с земельными участками и почему кандидат в 
+2026-05-05 14:37:55,691 [master] INFO Scraping (143): https://factcheck.kg/deputat-zhk-nurbek-alimbekov-skryl-v-deklaraczii-realnye-dohody-rodstvennikov/
+2026-05-05 14:37:56,659 [master] INFO   [UNCERTAIN] Депутат ЖК Нурбек Алимбеков скрыл в декларациях реальные доходы р
+2026-05-05 14:38:00,661 [master] INFO Scraping (144): https://factcheck.kg/vsego-za-sutki-naibolee-postradavshij-vo-vremya-konflikta-histevarz-vospryanul-iz-ruin-proveryaem/
+2026-05-05 14:38:02,018 [master] INFO   [UNCERTAIN] Всего за сутки «наиболее пострадавший» во время конфликта Хистева
+2026-05-05 14:38:06,020 [master] INFO Scraping (145): https://factcheck.kg/prekrashhajte-chernyj-piar-v-otnoshenii-tashieva-chem-izvestny-uchastniki-press-konferenczii-vystupivshie-v-zashhitu-glavy-gknb/
+2026-05-05 14:38:07,230 [master] INFO   [UNCERTAIN] “Прекращайте черный пиар в отношении Ташиева”. Чем известны участ
+2026-05-05 14:38:11,240 [master] INFO Scraping (146): https://factcheck.kg/baktybek-kalmamatov-my-pokupaem-gsm-na-600-mln-dollarov-pravda/
+2026-05-05 14:38:12,527 [master] INFO   [REAL] Бактыбек Калмаматов: Мы покупаем ГСМ на 600 млн долларов. — Правд
+2026-05-05 14:38:16,527 [master] INFO Scraping (147): https://factcheck.kg/2020/07/
+2026-05-05 14:38:17,551 [master] INFO   [UNCERTAIN] Месяц:July 2020
+2026-05-05 14:38:21,555 [master] INFO Scraping (148): https://factcheck.kg/shakiev-takoj-svobody-slova-net-vo-mnogih-stranah-mira-chto-proishodit-so-svobodoj-slova-v-kr/
+2026-05-05 14:38:22,921 [master] INFO   [UNCERTAIN] “Дело в другом: как мы ею пользуемся. За свободой слова необходим
+2026-05-05 14:38:26,922 [master] INFO Scraping (149): https://factcheck.kg/kyrgyzstan-eksportiroval-v-rossiyu-priczelov-dlya-oruzhiya-na-10-mln-somov/
+2026-05-05 14:38:28,042 [master] INFO   [UNCERTAIN] Еще 285 штук на более чем 10 млн отправлены в Россию:
+2026-05-05 14:38:32,043 [master] INFO Scraping (150): https://factcheck.kg/zatraty-na-predstavitelskie-rashody-i-komandirovki-deputatov-vyrosli-na-desyatki-millionov-somov-v-poslednie-gody/
+2026-05-05 14:38:33,167 [master] INFO   [UNCERTAIN] Затраты на представительские расходы и командировки депутатов выр
+2026-05-05 14:38:37,168 [master] INFO Scraping (151): https://factcheck.kg/kompaniya-mera-bishkeka-prodolzhaet-nezakonno-stroit-zhiloj-kompleks-na-territorii-doma-prestarelyh/
+2026-05-05 14:38:38,208 [master] INFO   [FAKE] ОсОО “Romford Trade” (Ромфорд Трейд)  –компания, занимающаяся опт
+2026-05-05 14:38:42,209 [master] INFO Scraping (152): https://factcheck.kg/restoranom-saltanat-vladeet-syn-ministra-energetiki-chto-eshhe-izvestno/
+2026-05-05 14:38:43,302 [master] INFO   [UNCERTAIN] Рестораном «Салтанат» владеет сын министра энергетики. Что еще из
+2026-05-05 14:38:47,305 [master] INFO Scraping (153): https://factcheck.kg/deputat-bgk-alymbek-baktybekov-prodaet-aviatoplivo-v-partnerstve-s-gazprom-neft/
+2026-05-05 14:38:48,594 [master] INFO   [UNCERTAIN] «Одним из ключевых направлений стратегии развития «Газпромнефть-А
+2026-05-05 14:38:52,595 [master] INFO Scraping (154): https://factcheck.kg/kfc-ukrainskie-kurochki-dobro-pozhalovat-v-germaniyu-fejk-ili-pravda/
+2026-05-05 14:38:53,668 [master] INFO   [FAKE] “Это поддельная кампания, в которой незаконно используется логоти
+2026-05-05 14:38:57,670 [master] INFO Scraping (155): https://factcheck.kg/podvergalis-li-zhiteli-donbassa-genoczidu-so-storony-ukrainy/
+2026-05-05 14:38:58,861 [master] INFO   [UNCERTAIN] В своёмобращениио начале военной операции в Донбассе Владимир Пут
+2026-05-05 14:39:02,875 [master] INFO Scraping (156): https://factcheck.kg/ocherednoj-biznes-mimo-nalogovoj-deputatka-ne-ukazala-v-deklaraczii-chetyre-firmy/
+2026-05-05 14:39:03,978 [master] INFO   [UNCERTAIN] Очередной бизнес мимо налоговой: депутатка не указала в деклараци
+2026-05-05 14:39:07,980 [master] INFO Scraping (157): https://factcheck.kg/kyrgyz-bolot-temirov-menen-kamchybek-tashievdin-tireshinin-ma%d2%a3yzy/
+2026-05-05 14:39:09,142 [master] INFO   [UNCERTAIN] Журналист Ыдырыс Исаков пояснил, откуда Болот Темиров получает гр
+2026-05-05 14:39:13,143 [master] INFO Scraping (158): https://factcheck.kg/polzovatel-sadyr-zhaparov-oskorbivshij-dastana-bekesheva-ne-fejkovyj-faktchek/
+2026-05-05 14:39:14,229 [master] INFO   [FAKE] Пользователь “Садыр Жапаров”, оскорбивший Дастана Бекешева, не фе
+2026-05-05 14:39:18,230 [master] INFO Scraping (159): https://factcheck.kg/kak-minprirody-uluchshilo-kachestvo-vozduha-v-bishkeke-videochek/
+2026-05-05 14:39:19,362 [master] INFO   [REAL] «Мы ратифицировали соглашение о предоставлении кредита на 50 млн 
+2026-05-05 14:39:23,364 [master] INFO Scraping (160): https://factcheck.kg/chto-izvestno-o-sude-kotoraya-otpustila-pod-domashnij-arest-podozrevaemogo-v-smerti-ajzy-ulan/
+2026-05-05 14:39:24,525 [master] INFO   [UNCERTAIN] «Судья ссылалась на то, что ранее по делу подавалось встречное за
+2026-05-05 14:39:28,528 [master] INFO Scraping (161): https://factcheck.kg/fotochek-loshad-v-narynskoj-oblasti-s-neobychnym-okrasom/
+2026-05-05 14:39:29,469 [master] INFO   [UNCERTAIN] Фоточек: Лошадь в Нарынской области с необычным окрасом
+2026-05-05 14:39:33,470 [master] INFO Scraping (162): https://factcheck.kg/rkfr-otkazalsya-raskryvat-imya-primova-poluchivshego-samyj-bolshoj-kredit-v-oshe/
+2026-05-05 14:39:34,594 [master] INFO   [UNCERTAIN] Отметим, что в СМИ данные о кредитах для предпринимателей Оша и О
+2026-05-05 14:39:38,596 [master] INFO Scraping (163): https://factcheck.kg/vrio-minobraza-mambetakunov-vladeet-alkokompaniej-podrobnosti-biografii/
+2026-05-05 14:39:39,691 [master] INFO   [UNCERTAIN] Долгие годы работал в различных университетах Кыргызстана и Казах
+2026-05-05 14:39:43,697 [master] INFO Scraping (164): https://factcheck.kg/video-chek-na-kameru-popal-moment-popadaniya-rakety-v-zhiloj-dom-v-harkove-proveryaem/
+2026-05-05 14:39:44,762 [master] INFO   [UNCERTAIN] Видео-чек: На камеру попал момент попадания ракеты в жилой дом в 
+2026-05-05 14:39:48,763 [master] INFO Scraping (165): https://factcheck.kg/povtornye-vybory-po-sverdlovskomu-okrugu-ballotiruyutsya-storonniki-matraimova-i-eks-chinovniki/
+2026-05-05 14:39:49,869 [master] INFO   [UNCERTAIN] Повторные выборы. По Свердловскому округу баллотируются сторонник
+2026-05-05 14:39:53,870 [master] INFO Scraping (166): https://factcheck.kg/otkryvali-ploshhadki-predlagali-menyat-nazvaniya-rajonov-otsuzhivali-mandaty-kakoj-byl-tolk-ot-deputatov-kotorye-povtorno-proshli-v-bgk/
+2026-05-05 14:39:54,988 [master] INFO   [FAKE] Открывали площадки, предлагали менять названия районов, отсуживал
+2026-05-05 14:39:59,000 [master] INFO Scraping (167): https://factcheck.kg/kak-v-kr-na-smenu-svobody-slova-prihodit-propaganda-i-czenzura/
+2026-05-05 14:40:00,084 [master] INFO   [FAKE] “Создавал группы в «Одноклассниках», в Facebook, в Instagram. Я с
+2026-05-05 14:40:04,085 [master] INFO Scraping (168): https://factcheck.kg/rossiya-perehodit-k-strategii-preventivnogo-yadernogo-udara-proveryaem/
+2026-05-05 14:40:05,059 [master] INFO   [UNCERTAIN] «В Штатах есть теория и даже практика, у них в Стратегии, в докум
+2026-05-05 14:40:09,062 [master] INFO Scraping (169): https://factcheck.kg/https-factcheck-kg-ky-kak-partii-manipuliruyut-spiskami-i-zamenyayut-pevczov-na-biznesmenov-pri-okonchatelnom-raspredelenii-mandatov/
+2026-05-05 14:40:10,024 [master] INFO   [UNCERTAIN] Как партии манипулируют списками и заменяют певцов на бизнесменов
+2026-05-05 14:40:14,025 [master] INFO Scraping (170): https://factcheck.kg/novyj-gubernator-talasskoj-oblasti-vladeet-turfirmoj/
+2026-05-05 14:40:15,058 [master] INFO   [UNCERTAIN] Напомним, государственным чиновникамзапрещено заниматься коммерче
+2026-05-05 14:40:19,068 [master] INFO Scraping (171): https://factcheck.kg/bishkekskij-morg-perepolnen-trupami-nepravda/
+2026-05-05 14:40:20,330 [master] INFO   [FAKE] Бишкекский морг переполнен трупами? – Неправда
+2026-05-05 14:40:24,332 [master] INFO Scraping (172): https://factcheck.kg/faktchek-ptichij-gripp-bet-po-evrope/
+2026-05-05 14:40:25,614 [master] INFO   [REAL] «Мы сразу же отреагировали далеко идущими карантинными мерами. Вс
+2026-05-05 14:40:29,615 [master] INFO Scraping (173): https://factcheck.kg/predsedatelyam-verhovnogo-suda-negde-zhit-deklaraczii-2019-2020/
+2026-05-05 14:40:30,706 [master] INFO   [UNCERTAIN] Председателям Верховного суда негде жить, — Декларации 2019-2020
+2026-05-05 14:40:34,709 [master] INFO Scraping (174): https://factcheck.kg/klara-sooronkulova-vy-zadaete-voprosy-kotorye-kasayutsya-raboty-pravitelstva-pravda/
+2026-05-05 14:40:35,790 [master] INFO   [REAL] Клара Сооронкулова: “Вы задаете вопросы, которые касаются работы 
+2026-05-05 14:40:39,791 [master] INFO Scraping (175): https://factcheck.kg/issyk-atinskij-razlom-naskolko-opasno-stroit-doma-v-yuzhnoj-chasti-stoliczy/
+2026-05-05 14:40:41,242 [master] INFO   [UNCERTAIN] “Межведомственная комиссия осуществила проверку соблюдения законо
+2026-05-05 14:40:45,256 [master] INFO Scraping (176): https://factcheck.kg/kompaniya-novogo-mera-stroit-zhilkompleks-kremlevskij-na-territorii-doma-prestarelyh-chto-eshhe-izvestno/
+2026-05-05 14:40:46,200 [master] INFO   [FAKE] “Нур Строй Монтаж” занимается строительством многоэтажных зданий.
+2026-05-05 14:40:50,213 [master] INFO Scraping (177): https://factcheck.kg/finpol-slabo-rassledovat-kak-iranskie-investory-poteryali-800-tysyach-vlozhiv-v-zdanie-zhaparova-i-ego-druzej/
+2026-05-05 14:40:51,428 [master] INFO   [UNCERTAIN] Согласно документам о купле-продаже, в случае отказа продавца от 
+2026-05-05 14:40:55,435 [master] INFO Scraping (178): https://factcheck.kg/meshki-s-zolotom-doma-u-temira-sarieva-nepravda/
+2026-05-05 14:40:56,703 [master] INFO   [UNCERTAIN] Мешки с золотом дома у Темира Сариева? — Неправда
+2026-05-05 14:41:00,706 [master] INFO Scraping (179): https://factcheck.kg/obychnye-mediczinskie-maski-ne-propuskayut-kislorod-nepravda/
+2026-05-05 14:41:01,890 [master] INFO   [REAL] Обычные медицинские маски не пропускают кислород? — Неправда
+2026-05-05 14:41:05,891 [master] INFO Scraping (180): https://factcheck.kg/https-factcheck-kg-profile-visitors-mozhno-li-uvidet-posetitelej-svoej-straniczy-v-facebook/
+2026-05-05 14:41:06,962 [master] INFO   [UNCERTAIN] «Компания «Доктор Веб» предупреждает о появлении в самой популярн
+2026-05-05 14:41:10,964 [master] INFO Scraping (181): https://factcheck.kg/izbiratelnyj-fond-partii-el-%d2%afm%d2%aft%d2%af-popolnili-bezrabotnye-vrachi-i-predprinimateli/
+2026-05-05 14:41:12,062 [master] INFO   [UNCERTAIN] Избирательный фонд партии “Эл Үмүтү” пополнили безработные, врачи
+2026-05-05 14:41:16,063 [master] INFO Scraping (182): https://factcheck.kg/google-trends-rossiyane-nachali-aktivno-interesovatsya-kak-uehat-iz-strany/
+2026-05-05 14:41:17,192 [master] INFO   [REAL] “Это произошло на фоне новостей о грядущей мобилизации и референд
+2026-05-05 14:41:21,195 [master] INFO Scraping (183): https://factcheck.kg/v-turczii-otelerov-zastavlyayut-otmenyat-bronirovaniya-rossijskih-turistov/
+2026-05-05 14:41:22,637 [master] INFO   [REAL] «Вероятно, в TUI Tantur сочли, что у этих компаний есть «санкцион
+2026-05-05 14:41:26,639 [master] INFO Scraping (184): https://factcheck.kg/doma-dlya-postradavshih-na-granicze-stroit-kompaniya-samozahvatchika-kyrgyzaltyna/
+2026-05-05 14:41:27,730 [master] INFO   [UNCERTAIN] Дома для пострадавших на границе строит компания «самозахватчика»
+2026-05-05 14:41:31,732 [master] INFO Scraping (185): https://factcheck.kg/terakt-v-krokus-siti-holle-razbiraem-lozhnye-i-nedokazannye-utverzhdeniya/
+2026-05-05 14:41:32,732 [master] INFO   [FAKE] Однако видео оказалось дипфейком, о чём впоследствии сообщил и са
+2026-05-05 14:41:36,735 [master] INFO Scraping (186): https://factcheck.kg/razvenchivaem-mify-ob-izmenenii-klimata-chto-pravda-a-chto-net/
+2026-05-05 14:41:38,166 [master] INFO   [FAKE] “То есть на земле станет заметно холоднее и наступит новый Миниму
+2026-05-05 15:04:49,150 [master] INFO ======================================================================
+2026-05-05 15:04:49,150 [master] INFO KYRGYZ FAKE NEWS DATASET COLLECTOR
+2026-05-05 15:04:49,150 [master] INFO ======================================================================
+2026-05-05 15:04:49,351 [master] INFO Running scraper: scraper_24kg
+2026-05-05 15:04:49,351 [master] INFO ============================================================
+2026-05-05 15:04:49,351 [master] INFO 24.KG KYRGYZ SCRAPER
+2026-05-05 15:04:49,351 [master] INFO ============================================================
+2026-05-05 15:04:49,351 [master] INFO Fetching page 1: https://24.kg/kyrgyzcha/page_1/
+2026-05-05 15:04:50,138 [master] INFO   → Running total: 56 unique links
+2026-05-05 15:04:51,139 [master] INFO Fetching page 2: https://24.kg/kyrgyzcha/page_2/
+2026-05-05 15:04:51,719 [master] INFO   → Running total: 106 unique links
