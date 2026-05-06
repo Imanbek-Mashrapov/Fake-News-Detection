@@ -26,7 +26,7 @@ import uuid
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [master] %(levelname)s %(message)s",
-    handlers=[logging.FileHandler("collector_master.log"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("logs/collector_master.log"), logging.StreamHandler()],
 )
 log = logging.getLogger("master")
 
@@ -48,33 +48,33 @@ SCHEMA = [
 # ── Source map ────────────────────────────────────────────────────────────────
 SOURCES = {
     "24kg": {
-        "module":   "scraper_24kg",
-        "out_csv":  "24kg_kyrgyz_data.csv",
+        "module":   "source_scripts.scraper_24kg",
+        "out_csv":  "data/24kg_kyrgyz_data.csv",
         "label":    0,
     },
     "azattyk": {
-        "module":   "scraper_azattyk",
-        "out_csv":  "azattyk_kyrgyz_data.csv",
+        "module":   "source_scripts.scraper_azattyk",
+        "out_csv":  "data/azattyk_kyrgyz_data.csv",
         "label":    0,
     },
     "sputnik": {
-        "module":   "scraper_sputnik",
-        "out_csv":  "sputnik_kyrgyz_data.csv",
+        "module":   "source_scripts.scraper_sputnik",
+        "out_csv":  "data/sputnik_kyrgyz_data.csv",
         "label":    0,
     },
     "kaktus": {
-        "module":   "scraper_kaktus",
-        "out_csv":  "kaktus_kyrgyz_data.csv",
+        "module":   "source_scripts.scraper_kaktus",
+        "out_csv":  "data/kaktus_kyrgyz_data.csv",
         "label":    0,
     },
     "saat": {
-        "module": "scraper_saat",
-        "out_csv": "saat_kyrgyz_data.csv",
+        "module": "source_scripts.scraper_saat",
+        "out_csv": "data/saat_kyrgyz_data.csv",
         "label": 0,
     },
     "factcheck": {
-        "module":   "scraper_factcheck",
-        "out_csv":  "factcheck_fake_news.csv",
+        "module":   "source_scripts.scraper_factcheck",
+        "out_csv":  "data/factcheck_fake_news.csv",
         "label":    1,
     },
 }
@@ -202,7 +202,7 @@ def main(sources_to_run: list[str] | None = None, merge_only: bool = False):
     combined = combined.sample(frac=1, random_state=42).reset_index(drop=True)
 
     # ── Save ──────────────────────────────────────────────────────────────────
-    out = "kyrgyz_fake_news_dataset.csv"
+    out = "data/kyrgyz_fake_news_dataset.csv"
     combined.to_csv(out, index=False, encoding="utf-8-sig")
     log.info(f"\n✓ Final dataset saved → {out}")
 
@@ -234,7 +234,6 @@ def main(sources_to_run: list[str] | None = None, merge_only: bool = False):
     return combined
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Collect and merge Kyrgyz fake news dataset")
     parser.add_argument(

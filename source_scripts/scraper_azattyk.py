@@ -20,7 +20,7 @@ from urllib.parse import urljoin
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [azattyk] %(levelname)s %(message)s",
-    handlers=[logging.FileHandler("scraper_azattyk.log"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("logs/scraper_azattyk.log"), logging.StreamHandler()],
 )
 log = logging.getLogger("azattyk")
 
@@ -177,7 +177,7 @@ def main():
         time.sleep(DELAY)
 
     df = pd.DataFrame(results)
-    out = "azattyk_kyrgyz_data.csv"
+    out = "data/azattyk_kyrgyz_data.csv"
     df.to_csv(out, index=False, encoding="utf-8-sig")
     log.info(f"\nSaved {len(df)} articles → {out}")
     return df

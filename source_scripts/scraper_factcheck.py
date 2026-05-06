@@ -34,7 +34,7 @@ from urllib.parse import urljoin
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [factcheck] %(levelname)s %(message)s",
-    handlers=[logging.FileHandler("scraper_factcheck.log"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("logs/scraper_factcheck.log"), logging.StreamHandler()],
 )
 log = logging.getLogger("factcheck")
 
@@ -346,17 +346,17 @@ def main():
         return df_all
 
     # ── Save full results (all verdicts) ──────────────────────────────────────
-    df_all.to_csv("factcheck_all.csv", index=False, encoding="utf-8-sig")
+    df_all.to_csv("data/factcheck_all.csv", index=False, encoding="utf-8-sig")
     log.info(f"Saved all {len(df_all)} articles → factcheck_all.csv")
 
     # ── Save FAKE ONLY (label=1) — the primary dataset for training ───────────
     df_fake = df_all[df_all["label"] == 1].copy()
-    df_fake.to_csv("factcheck_fake_news.csv", index=False, encoding="utf-8-sig")
+    df_fake.to_csv("data/factcheck_fake_news.csv", index=False, encoding="utf-8-sig")
     log.info(f"Saved {len(df_fake)} FAKE articles → factcheck_fake_news.csv")
 
     # ── Save Kyrgyz-language fake news separately ─────────────────────────────
     df_fake_ky = df_fake[df_fake["language"] == "kyrgyz"].copy()
-    df_fake_ky.to_csv("factcheck_fake_kyrgyz.csv", index=False, encoding="utf-8-sig")
+    df_fake_ky.to_csv("data/factcheck_fake_kyrgyz.csv", index=False, encoding="utf-8-sig")
     log.info(f"Saved {len(df_fake_ky)} Kyrgyz-language fake articles → factcheck_fake_kyrgyz.csv")
 
     # ── Summary ───────────────────────────────────────────────────────────────

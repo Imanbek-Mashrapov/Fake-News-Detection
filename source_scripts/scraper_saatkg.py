@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [saat] %(levelname)s %(message)s",
-    handlers=[logging.FileHandler("scraper_saat.log"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("logs/scraper_saat.log"), logging.StreamHandler()],
 )
 log = logging.getLogger("saat")
 
@@ -118,7 +118,7 @@ def main():
         time.sleep(DELAY)
 
     df = pd.DataFrame(results)
-    df.to_csv("saat_kyrgyz_data.csv", index=False, encoding="utf-8-sig")
+    df.to_csv("data/saat_kyrgyz_data.csv", index=False, encoding="utf-8-sig")
     return df
 
 
