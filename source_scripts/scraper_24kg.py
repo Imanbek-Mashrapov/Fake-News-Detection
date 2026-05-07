@@ -24,9 +24,9 @@ log = logging.getLogger("24kg")
 # ── Config ───────────────────────────────────────────────────────────────────
 BASE_URL      = "https://24.kg"
 CATEGORY_URL  = "https://24.kg/kyrgyzcha/"          # Kyrgyz-only section
-TARGET        = 150
+TARGET        = 250
 DELAY         = 2.5                                  # seconds between article requests
-MAX_PAGES     = 20                                   # pagination pages to crawl
+MAX_PAGES     = 40                                   # pagination pages to crawl
 
 HEADERS = {
     "User-Agent": (

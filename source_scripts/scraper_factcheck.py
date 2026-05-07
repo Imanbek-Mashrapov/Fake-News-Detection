@@ -1,24 +1,16 @@
 """
-FactCheck.kg Kyrgyz Fake News Scraper
-======================================
-Scrapes fact-checked articles from factcheck.kg and extracts the
-ORIGINAL FAKE CLAIM being debunked, not the fact-checker's commentary.
+FactCheck.kg Kyrgyz Fake News Scraper  ·  v2 (with Augmentation)
+=================================================================
+Scrapes fact-checked articles from factcheck.kg, extracts the
+ORIGINAL FAKE CLAIM (everything before «редакциясы аныктады»),
+then augments the fake-news set to reach TARGET_FAKE via:
+
+  1. Text Splitting  — long articles split into two logical halves
+  2. Back-translation — Kyrgyz → Russian → Kyrgyz via Helsinki-NLP
+     MarianMT  (uses CPU; no GPU required).
 
 Label: 1 (Fake News)
-Target: 200–300 articles
-
-Strategy:
-  1. Crawl /category/factcheck/ pagination to collect article URLs
-  2. For each article: extract (a) the original fake claim/headline,
-     (b) the full article body, (c) the verdict
-  3. Verdict is extracted from Kyrgyz keywords (жалган, чын, etc.)
-     AND Russian keywords (as factcheck.kg publishes in both languages)
-  4. Only keep articles with a clear FAKE (label=1) verdict
-
-Language note:
-  factcheck.kg publishes some articles in Kyrgyz and some in Russian.
-  Both are included — but we add a `language` field so you can filter.
-  For a purely Kyrgyz dataset, filter where language='kyrgyz'.
+Scrape target: 300 raw articles  →  augment to TARGET_FAKE = 333
 """
 
 import requests
@@ -41,9 +33,17 @@ log = logging.getLogger("factcheck")
 # ── Config ───────────────────────────────────────────────────────────────────
 BASE_URL     = "https://factcheck.kg"
 CATEGORY_URL = "https://factcheck.kg/ky/category/factcheck/"
-TARGET       = 300       # Aim for 300; keep all confirmed-fake ones
-MAX_PAGES    = 100       # factcheck.kg has many archived pages
-DELAY        = 4.0       # Be very respectful — this is a small NGO site
+SCRAPE_TARGET = 10      # raw articles to scrape
+TARGET_FAKE  = 10       # final fake-news rows after augmentation
+MAX_PAGES    = 100
+DELAY        = 4.0
+
+# Minimum body length of the extracted fake claim (chars)
+MIN_BODY_LEN = 80
+# Minimum length to qualify for text-split augmentation
+SPLIT_MIN_LEN = 300
+# Minimum length to qualify for back-translation
+BT_MIN_LEN   = 80
 
 HEADERS = {
     "User-Agent": (
@@ -55,137 +55,217 @@ HEADERS = {
     "Referer": "https://factcheck.kg/",
 }
 
+# ── Stop-phrases that mark where the factcheckers' analysis begins ────────────
+STOP_PHRASES = [
+    "редакциясы аныктады",
+    "редакция аныктады",
+    "выяснила редакция",
+    "проверила редакция",
+    "редакциябыз аныктады",
+    "текшерип аныктады",
+]
 
-# ── Verdict extraction ────────────────────────────────────────────────────────
-
-# Kyrgyz fake/false indicators
+# ── Verdict keywords ──────────────────────────────────────────────────────────
 KY_FAKE_KEYWORDS = [
-    "жалган",           # false/fake
-    "туура эмес",       # incorrect
-    "ырасталган жок",   # not confirmed
-    "далилденген жок",  # not proven
-    "туура эмес маалымат",  # incorrect information
-    "жаңылыш",          # wrong/erroneous
-    "бурмаланган",      # distorted
-    "жасалма",          # fabricated/artificial
-    "фейк",
-    "чындыкка жатпайт",
-    "калп",
-    "калп."
+    "жалган", "туура эмес", "ырасталган жок", "далилденген жок",
+    "туура эмес маалымат", "жаңылыш", "бурмаланган", "жасалма",
+    "фейк", "чындыкка жатпайт", "калп",
 ]
-
-# Kyrgyz true/real indicators
-KY_TRUE_KEYWORDS = [
-    "чын",              # true
-    "туура",            # correct
-    "ырасталды",        # confirmed
-    "далилденди",       # proven
-    "чындык",           # truth
-]
-
-# Russian fake indicators
+KY_TRUE_KEYWORDS = ["чын", "туура", "ырасталды", "далилденди", "чындык"]
 RU_FAKE_KEYWORDS = [
-    "неправда", "ложь", "ложное", "ложью", "выдумка",
-    "вымышленное", "не соответствует действительности",
-    "не подтверждается", "ошибочное", "заблуждение",
-    "миф", "мифом", "фейк", "дезинформация",
+    "неправда", "ложь", "ложное", "выдумка", "вымышленное",
+    "не соответствует действительности", "не подтверждается",
+    "ошибочное", "заблуждение", "миф", "фейк", "дезинформация",
     "манипуляция", "недостоверно",
 ]
+RU_TRUE_KEYWORDS = ["правда", "истина", "подтверждается", "верно", "истинно"]
 
-# Russian true indicators
-RU_TRUE_KEYWORDS = [
-    "правда", "истина", "подтверждается",
-    "соответствует действительности",
-    "верно", "истинно", "правдиво",
-]
 
+# ══════════════════════════════════════════════════════════════════════════════
+# Utility helpers
+# ══════════════════════════════════════════════════════════════════════════════
 
 def detect_language(text: str) -> str:
-    """Detect if text is primarily Kyrgyz or Russian based on character/word patterns."""
-    # Kyrgyz-specific letters not in Russian
+    """Detect Kyrgyz vs Russian by Kyrgyz-specific Unicode characters."""
     kyrgyz_specific = set("өүңғ")
-    kyrgyz_count = sum(1 for c in text.lower() if c in kyrgyz_specific)
-    # If more than 5 Kyrgyz-specific chars → likely Kyrgyz
-    if kyrgyz_count >= 5:
+    if sum(1 for c in text.lower() if c in kyrgyz_specific) >= 5:
         return "kyrgyz"
     return "russian"
 
 
 def extract_verdict(text: str, conclusion: str) -> tuple[int, float]:
-    """
-    Extract verdict from article text.
-    Returns: (label, confidence)
-      label: 1=fake, 0=real, -1=uncertain
-      confidence: 0.0–1.0
-    """
-    search_text = (conclusion + " " + text[:3000]).lower()
-
-    # Count keyword hits
-    ky_fake  = sum(search_text.count(kw) for kw in KY_FAKE_KEYWORDS)
-    ky_true  = sum(search_text.count(kw) for kw in KY_TRUE_KEYWORDS)
-    ru_fake  = sum(search_text.count(kw) for kw in RU_FAKE_KEYWORDS)
-    ru_true  = sum(search_text.count(kw) for kw in RU_TRUE_KEYWORDS)
+    """Return (label, confidence): 1=fake, 0=real, -1=uncertain."""
+    search = (conclusion + " " + text[:3000]).lower()
+    ky_fake = sum(search.count(kw) for kw in KY_FAKE_KEYWORDS)
+    ky_true = sum(search.count(kw) for kw in KY_TRUE_KEYWORDS)
+    ru_fake = sum(search.count(kw) for kw in RU_FAKE_KEYWORDS)
+    ru_true = sum(search.count(kw) for kw in RU_TRUE_KEYWORDS)
 
     fake_score = ky_fake + ru_fake
     true_score = ky_true + ru_true
 
     if fake_score > true_score and fake_score > 0:
-        conf = min(fake_score / max(fake_score + true_score, 1), 1.0)
-        return 1, round(conf, 2)
+        return 1, round(min(fake_score / max(fake_score + true_score, 1), 1.0), 2)
     elif true_score > fake_score and true_score > 0:
-        conf = min(true_score / max(fake_score + true_score, 1), 1.0)
-        return 0, round(conf, 2)
-    else:
-        return -1, 0.0
+        return 0, round(min(true_score / max(fake_score + true_score, 1), 1.0), 2)
+    return -1, 0.0
 
 
 def extract_conclusion(soup: BeautifulSoup, full_text: str) -> str:
-    """
-    Extract the verdict/conclusion section from the article.
-    factcheck.kg typically has a conclusion paragraph with bold text.
-    """
-    # Strategy 1: Look for conclusion section by heading text
-    conclusion_markers_ky = ["жыйынтык", "корутунду", "баа"]
-    conclusion_markers_ru = ["вывод", "заключение", "итог", "результат"]
-
+    markers = ["жыйынтык", "корутунду", "баа", "вывод", "заключение", "итог"]
     for tag in soup.find_all(["h2", "h3", "h4", "strong", "b"]):
-        tag_text = tag.get_text(strip=True).lower()
-        if any(m in tag_text for m in conclusion_markers_ky + conclusion_markers_ru):
-            # Get the next sibling paragraph(s)
-            sibling = tag.find_next_sibling()
-            if sibling:
-                return sibling.get_text(strip=True)[:800]
-
-    # Strategy 2: Last 1000 chars of the article (usually contains conclusion)
+        if any(m in tag.get_text(strip=True).lower() for m in markers):
+            sib = tag.find_next_sibling()
+            if sib:
+                return sib.get_text(strip=True)[:800]
     return full_text[-1000:] if len(full_text) > 1000 else full_text
 
 
-def extract_original_claim(soup: BeautifulSoup, headline: str, full_text: str) -> str:
+def extract_fake_body(soup: BeautifulSoup) -> str:
     """
-    Extract the original FAKE CLAIM being debunked.
-    factcheck.kg often quotes the original claim in blockquotes or special divs.
-    The headline itself is usually the fake claim restatement.
+    Extract ONLY the fake-claim portion of the article —
+    every paragraph before any stop-phrase appears.
+    This avoids leaking the factcheckers' verification style into training data.
     """
-    # Look for blockquote — often contains the original fake claim
-    blockquote = soup.find("blockquote")
-    if blockquote:
-        claim = blockquote.get_text(strip=True)
+    content_div = soup.find("div", class_="entry-content")
+    if not content_div:
+        return ""
+
+    parts: list[str] = []
+    for p in content_div.find_all("p"):
+        text = p.get_text(strip=True)
+        if not text:
+            continue
+        # Stop as soon as we hit a factchecker stop-phrase
+        if any(sp in text for sp in STOP_PHRASES):
+            break
+        parts.append(text)
+
+    return " ".join(parts)
+
+
+def extract_original_claim(soup: BeautifulSoup, headline: str) -> str:
+    """Return blockquote claim if available, else headline."""
+    bq = soup.find("blockquote")
+    if bq:
+        claim = bq.get_text(strip=True)
         if len(claim) > 30:
             return claim
-
-    # Look for a special "claim" div
     for cls in ["claim", "fake-claim", "statement", "teza"]:
         div = soup.find("div", class_=cls)
         if div:
             return div.get_text(strip=True)
-
-    # Fallback: headline is typically the fake claim on factcheck.kg
     return headline
 
 
-# ── Link collection ───────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# Data Augmentation
+# ══════════════════════════════════════════════════════════════════════════════
+
+def split_text_augment(row: dict) -> dict | None:
+    """
+    Text Splitting: if body_text is long enough, return a new record
+    containing the second logical half of the text.
+    The original row keeps the first half.
+    """
+    body = row["body_text"]
+    if len(body) < SPLIT_MIN_LEN:
+        return None
+
+    # Split at mid-sentence boundary (nearest period/exclamation near midpoint)
+    mid = len(body) // 2
+    split_idx = body.rfind(".", 0, mid)
+    if split_idx == -1 or split_idx < 50:
+        split_idx = mid
+
+    second_half = body[split_idx + 1:].strip()
+    if len(second_half) < MIN_BODY_LEN:
+        return None
+
+    new_row = row.copy()
+    new_row["id"] = str(uuid.uuid4())
+    new_row["body_text"] = second_half
+    new_row["headline"] = row["headline"] + " [split]"
+    new_row["augmentation"] = "text_split"
+    # Also trim the original to its first half
+    row["body_text"] = body[:split_idx + 1].strip()
+    row["augmentation"] = "text_split_orig"
+    return new_row
+
+
+def back_translate_augment(rows: list[dict], needed: int) -> list[dict]:
+    """
+    Back-translation: Kyrgyz → Russian → Kyrgyz via Helsinki-NLP MarianMT.
+    Only runs if `transformers` is installed; otherwise logs a warning and skips.
+    Returns `needed` augmented rows (or fewer if not enough qualify).
+    """
+    try:
+        from transformers import MarianMTModel, MarianTokenizer
+    except ImportError:
+        log.warning(
+            "transformers not installed — skipping back-translation. "
+            "Install with: pip install transformers sentencepiece"
+        )
+        return []
+
+    log.info(f"Loading MarianMT models for back-translation (need {needed} rows)…")
+
+    try:
+        # Kyrgyz → Russian
+        ky_ru_name = "Helsinki-NLP/opus-mt-ky-ru"
+        ky_ru_tok  = MarianTokenizer.from_pretrained(ky_ru_name)
+        ky_ru_mdl  = MarianMTModel.from_pretrained(ky_ru_name)
+
+        # Russian → Kyrgyz
+        ru_ky_name = "Helsinki-NLP/opus-mt-ru-ky"
+        ru_ky_tok  = MarianTokenizer.from_pretrained(ru_ky_name)
+        ru_ky_mdl  = MarianMTModel.from_pretrained(ru_ky_name)
+    except Exception as exc:
+        log.warning(f"Could not load MarianMT models: {exc}. Skipping back-translation.")
+        return []
+
+    def translate(text: str, tok, mdl, max_len: int = 512) -> str:
+        """Translate a single text string."""
+        # Truncate to avoid token-limit errors
+        inputs = tok(
+            text[:1000], return_tensors="pt", padding=True,
+            truncation=True, max_length=max_len
+        )
+        translated = mdl.generate(**inputs)
+        return tok.decode(translated[0], skip_special_tokens=True)
+
+    augmented: list[dict] = []
+    candidates = [r for r in rows if len(r.get("body_text", "")) >= BT_MIN_LEN]
+
+    for row in candidates:
+        if len(augmented) >= needed:
+            break
+        try:
+            ru_text  = translate(row["body_text"], ky_ru_tok, ky_ru_mdl)
+            ky_text  = translate(ru_text, ru_ky_tok, ru_ky_mdl)
+
+            if len(ky_text) < MIN_BODY_LEN:
+                continue
+
+            new_row = row.copy()
+            new_row["id"]          = str(uuid.uuid4())
+            new_row["body_text"]   = ky_text
+            new_row["headline"]    = row["headline"] + " [bt]"
+            new_row["augmentation"] = "back_translation"
+            augmented.append(new_row)
+            log.info(f"  [BT] augmented: {new_row['headline'][:60]}")
+        except Exception as exc:
+            log.warning(f"  Back-translation failed for {row['url']}: {exc}")
+
+    log.info(f"Back-translation produced {len(augmented)} augmented rows.")
+    return augmented
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Link collection
+# ══════════════════════════════════════════════════════════════════════════════
+
 def get_article_links(max_pages: int = MAX_PAGES) -> list[str]:
-    """Collect all article links from factcheck.kg/category/factcheck/ pagination."""
     links: set[str] = set()
 
     for page in range(1, max_pages + 1):
@@ -194,17 +274,13 @@ def get_article_links(max_pages: int = MAX_PAGES) -> list[str]:
 
         try:
             resp = requests.get(url, timeout=20, headers=HEADERS)
-
-            # 404 = past the last page
             if resp.status_code == 404:
-                log.info(f"  404 on page {page} — end of pagination.")
+                log.info(f"  404 — end of pagination.")
                 break
             resp.raise_for_status()
-
             soup = BeautifulSoup(resp.text, "html.parser")
             found = 0
 
-            # Primary: <article> tags with links
             for article in soup.find_all("article"):
                 a = article.find("a", href=True)
                 if a:
@@ -214,7 +290,6 @@ def get_article_links(max_pages: int = MAX_PAGES) -> list[str]:
                         links.add(full)
                         found += 1
 
-            # Fallback: any link that looks like a post
             if found == 0:
                 for a in soup.find_all("a", href=True):
                     href = a["href"]
@@ -232,9 +307,8 @@ def get_article_links(max_pages: int = MAX_PAGES) -> list[str]:
                         found += 1
 
             log.info(f"  → {found} new links (total: {len(links)})")
-
             if found == 0:
-                log.info("  No new links — stopping pagination.")
+                log.info("  No new links — stopping.")
                 break
 
             time.sleep(1.5)
@@ -247,70 +321,59 @@ def get_article_links(max_pages: int = MAX_PAGES) -> list[str]:
     return list(links)
 
 
-# ── Article scraper ───────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# Article scraper
+# ══════════════════════════════════════════════════════════════════════════════
+
 def scrape_article(url: str) -> dict | None:
-    """Scrape a single factcheck.kg article and extract verdict."""
     try:
         resp = requests.get(url, timeout=20, headers=HEADERS)
         resp.raise_for_status()
         resp.encoding = "utf-8"
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # ── Headline (= the fake claim title) ────────────────────────────────
+        # ── Headline ──────────────────────────────────────────────────────────
         h1 = soup.find("h1") or soup.find("h2", class_="entry-title")
         headline = h1.get_text(strip=True) if h1 else ""
         if not headline:
             return None
 
-        # ── Full article body ─────────────────────────────────────────────────
+        # ── Fake claim body (before stop-phrase) ──────────────────────────────
+        body_text = extract_fake_body(soup)
+        if len(body_text) < MIN_BODY_LEN:
+            return None
+
+        # ── Full article text (for verdict detection only) ────────────────────
         content = (
             soup.find("div", class_="entry-content")
             or soup.find("article")
             or soup.find("div", class_="post-content")
-            or soup.find("div", class_="content")
         )
-        if not content:
-            return None
-
-        full_text = content.get_text(separator=" ", strip=True)
+        full_text = content.get_text(separator=" ", strip=True) if content else body_text
         if len(full_text) < 150:
             return None
 
-        # ── Conclusion / verdict section ──────────────────────────────────────
-        conclusion = extract_conclusion(soup, full_text)
+        conclusion  = extract_conclusion(soup, full_text)
+        label, conf = extract_verdict(full_text, conclusion)
+        original    = extract_original_claim(soup, headline)
+        lang        = detect_language(full_text)
 
-        # ── Verdict ───────────────────────────────────────────────────────────
-        label, confidence = extract_verdict(full_text, conclusion)
-
-        # ── Original fake claim ───────────────────────────────────────────────
-        original_claim = extract_original_claim(soup, headline, full_text)
-
-        # ── Language detection ────────────────────────────────────────────────
-        lang = detect_language(full_text)
-
-        # ── Date ──────────────────────────────────────────────────────────────
-        date_tag = soup.find("time") or soup.find("span", class_="date") or soup.find("div", class_="date")
-        date_str = (
-            date_tag.get("datetime") or date_tag.get_text(strip=True)
-        ) if date_tag else None
-
-        # ── Evidence URL (factcheck source link) ─────────────────────────────
-        # factcheck.kg usually links to the source being debunked
-        evidence_url = url   # The factcheck article itself is the evidence
+        date_tag = soup.find("time") or soup.find("span", class_="date")
+        date_str = (date_tag.get("datetime") or date_tag.get_text(strip=True)) if date_tag else None
 
         return {
             "id":               str(uuid.uuid4()),
-            "headline":         original_claim,     # The FAKE claim as headline
-            "body_text":        full_text[:3000],   # First 3000 chars of article
-            "conclusion":       conclusion[:500],
+            "headline":         original,
+            "body_text":        body_text,
             "source":           "factcheck.kg",
             "url":              url,
             "date":             date_str,
             "language":         lang,
-            "label":            label,              # 1=fake, 0=real, -1=uncertain
-            "label_confidence": confidence,
-            "evidence_url":     evidence_url,
+            "label":            label,
+            "label_confidence": conf,
+            "evidence_url":     url,
             "source_type":      "fact_check",
+            "augmentation":     "original",
         }
 
     except Exception as exc:
@@ -318,16 +381,22 @@ def scrape_article(url: str) -> dict | None:
         return None
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# Main
+# ══════════════════════════════════════════════════════════════════════════════
+
 def main():
     log.info("=" * 60)
-    log.info("FACTCHECK.KG SCRAPER")
+    log.info("FACTCHECK.KG SCRAPER  v2  (with Augmentation)")
     log.info("=" * 60)
 
-    links   = get_article_links(max_pages=MAX_PAGES)
-    all_articles = []
+    # ── 1. Scrape ─────────────────────────────────────────────────────────────
+    links = get_article_links(max_pages=MAX_PAGES)
+    all_articles: list[dict] = []
 
     for link in links:
+        if len(all_articles) >= SCRAPE_TARGET:
+            break
         log.info(f"Scraping ({len(all_articles)+1}): {link}")
         record = scrape_article(link)
         if record:
@@ -339,40 +408,76 @@ def main():
         time.sleep(DELAY)
 
     df_all = pd.DataFrame(all_articles)
-    log.info(f"\nTotal scraped: {len(df_all)}")
-
     if df_all.empty:
         log.error("No articles scraped. The site may be blocking requests.")
         return df_all
 
-    # ── Save full results (all verdicts) ──────────────────────────────────────
+    # Save full raw results
     df_all.to_csv("data/factcheck_all.csv", index=False, encoding="utf-8-sig")
-    log.info(f"Saved all {len(df_all)} articles → factcheck_all.csv")
+    log.info(f"Saved all {len(df_all)} scraped articles → factcheck_all.csv")
 
-    # ── Save FAKE ONLY (label=1) — the primary dataset for training ───────────
-    df_fake = df_all[df_all["label"] == 1].copy()
-    df_fake.to_csv("data/factcheck_fake_news.csv", index=False, encoding="utf-8-sig")
-    log.info(f"Saved {len(df_fake)} FAKE articles → factcheck_fake_news.csv")
+    # ── 2. Filter: keep FAKE (label=1), Kyrgyz language only ─────────────────
+    df_fake = df_all[(df_all["label"] == 1) & (df_all["language"] == "kyrgyz")].copy()
+    log.info(f"Kyrgyz fake articles after filtering: {len(df_fake)}")
 
-    # ── Save Kyrgyz-language fake news separately ─────────────────────────────
-    df_fake_ky = df_fake[df_fake["language"] == "kyrgyz"].copy()
-    df_fake_ky.to_csv("data/factcheck_fake_kyrgyz.csv", index=False, encoding="utf-8-sig")
-    log.info(f"Saved {len(df_fake_ky)} Kyrgyz-language fake articles → factcheck_fake_kyrgyz.csv")
+    # ── 3. Augmentation ───────────────────────────────────────────────────────
+    augmented_rows: list[dict] = []
 
-    # ── Summary ───────────────────────────────────────────────────────────────
+    # 3a. Text Splitting
+    rows_for_split = df_fake.to_dict("records")
+    split_extras: list[dict] = []
+    for row in rows_for_split:
+        extra = split_text_augment(row)
+        if extra:
+            split_extras.append(extra)
+
+    # Update originals (body_text may have been trimmed in-place by split_text_augment)
+    df_fake = pd.DataFrame(rows_for_split)
+    augmented_rows.extend(split_extras)
+    log.info(f"Text-split augmentation added {len(split_extras)} rows.")
+
+    # Combine original + split
+    df_augmented = pd.concat(
+        [df_fake, pd.DataFrame(augmented_rows)], ignore_index=True
+    )
+    log.info(f"After text splitting: {len(df_augmented)} rows")
+
+    # 3b. Back-translation if still below TARGET_FAKE
+    still_needed = TARGET_FAKE - len(df_augmented)
+    if still_needed > 0:
+        log.info(f"Still need {still_needed} rows — attempting back-translation…")
+        bt_rows = back_translate_augment(
+            df_augmented.to_dict("records"), needed=still_needed
+        )
+        if bt_rows:
+            df_augmented = pd.concat(
+                [df_augmented, pd.DataFrame(bt_rows)], ignore_index=True
+            )
+            log.info(f"After back-translation: {len(df_augmented)} rows")
+    else:
+        log.info("Target already reached — skipping back-translation.")
+
+    # ── 4. Final trimming / shuffling ─────────────────────────────────────────
+    df_augmented = df_augmented.sample(frac=1, random_state=42).reset_index(drop=True)
+    # Cap at TARGET_FAKE to avoid overshoot
+    df_final = df_augmented.head(TARGET_FAKE)
+
+    # ── 5. Save ───────────────────────────────────────────────────────────────
+    df_final.to_csv("data/factcheck_fake_news.csv", index=False, encoding="utf-8-sig")
+    log.info(f"\n✓ Saved {len(df_final)} FAKE rows → factcheck_fake_news.csv")
+
+    # ── 6. Summary ────────────────────────────────────────────────────────────
     log.info("\n" + "=" * 60)
     log.info("SUMMARY")
     log.info("=" * 60)
-    log.info(f"Total articles: {len(df_all)}")
-    log.info(f"  FAKE    (1): {(df_all['label'] == 1).sum()}")
-    log.info(f"  REAL    (0): {(df_all['label'] == 0).sum()}")
-    log.info(f"  UNCERTAIN(-1): {(df_all['label'] == -1).sum()}")
-    log.info(f"Language breakdown of FAKE:")
-    if not df_fake.empty:
-        log.info(f"  Kyrgyz:  {(df_fake['language'] == 'kyrgyz').sum()}")
-        log.info(f"  Russian: {(df_fake['language'] == 'russian').sum()}")
+    log.info(f"Raw scraped:         {len(df_all)}")
+    log.info(f"Kyrgyz fake (raw):   {len(df_fake)}")
+    log.info(f"After augmentation:  {len(df_final)}")
+    aug_counts = df_final.get("augmentation", pd.Series()).value_counts()
+    for aug_type, cnt in aug_counts.items():
+        log.info(f"  {aug_type}: {cnt}")
 
-    return df_fake
+    return df_final
 
 
 if __name__ == "__main__":

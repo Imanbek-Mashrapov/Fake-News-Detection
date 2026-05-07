@@ -579,3 +579,848 @@
 2026-05-05 15:26:11,775 [factcheck] INFO   ✗ Skipped
 2026-05-05 15:26:15,775 [factcheck] INFO Scraping (205): https://factcheck.kg/ky/tiktok-uhodit-iz-ssha-razbiraemsya/
 2026-05-05 15:26:16,950 [factcheck] INFO   [REAL] Tiktok АКШдан кетип жатабы? Текшеребиз
+2026-05-07 00:07:12,649 [factcheck] INFO ============================================================
+2026-05-07 00:07:12,649 [factcheck] INFO FACTCHECK.KG SCRAPER  v2  (with Augmentation)
+2026-05-07 00:07:12,649 [factcheck] INFO ============================================================
+2026-05-07 00:07:12,649 [factcheck] INFO Fetching listing page 1: https://factcheck.kg/ky/category/factcheck/
+2026-05-07 00:07:14,117 [factcheck] INFO   → 25 new links (total: 25)
+2026-05-07 00:07:15,635 [factcheck] INFO Fetching listing page 2: https://factcheck.kg/ky/category/factcheck/page/2/
+2026-05-07 00:07:16,832 [factcheck] INFO   → 2 new links (total: 27)
+2026-05-07 00:07:18,333 [factcheck] INFO Fetching listing page 3: https://factcheck.kg/ky/category/factcheck/page/3/
+2026-05-07 00:07:19,612 [factcheck] INFO   → 13 new links (total: 40)
+2026-05-07 00:07:21,113 [factcheck] INFO Fetching listing page 4: https://factcheck.kg/ky/category/factcheck/page/4/
+2026-05-07 00:07:22,513 [factcheck] INFO   → 11 new links (total: 51)
+2026-05-07 00:07:24,015 [factcheck] INFO Fetching listing page 5: https://factcheck.kg/ky/category/factcheck/page/5/
+2026-05-07 00:07:25,250 [factcheck] INFO   → 11 new links (total: 62)
+2026-05-07 00:07:26,752 [factcheck] INFO Fetching listing page 6: https://factcheck.kg/ky/category/factcheck/page/6/
+2026-05-07 00:07:27,877 [factcheck] INFO   → 12 new links (total: 74)
+2026-05-07 00:07:29,378 [factcheck] INFO Fetching listing page 7: https://factcheck.kg/ky/category/factcheck/page/7/
+2026-05-07 00:07:30,728 [factcheck] INFO   → 12 new links (total: 86)
+2026-05-07 00:07:32,229 [factcheck] INFO Fetching listing page 8: https://factcheck.kg/ky/category/factcheck/page/8/
+2026-05-07 00:07:33,507 [factcheck] INFO   → 12 new links (total: 98)
+2026-05-07 00:07:35,018 [factcheck] INFO Fetching listing page 9: https://factcheck.kg/ky/category/factcheck/page/9/
+2026-05-07 00:07:36,261 [factcheck] INFO   → 11 new links (total: 109)
+2026-05-07 00:07:37,763 [factcheck] INFO Fetching listing page 10: https://factcheck.kg/ky/category/factcheck/page/10/
+2026-05-07 00:07:38,885 [factcheck] INFO   → 11 new links (total: 120)
+2026-05-07 00:07:40,386 [factcheck] INFO Fetching listing page 11: https://factcheck.kg/ky/category/factcheck/page/11/
+2026-05-07 00:07:41,635 [factcheck] INFO   → 10 new links (total: 130)
+2026-05-07 00:07:43,136 [factcheck] INFO Fetching listing page 12: https://factcheck.kg/ky/category/factcheck/page/12/
+2026-05-07 00:07:44,374 [factcheck] INFO   → 11 new links (total: 141)
+2026-05-07 00:07:45,880 [factcheck] INFO Fetching listing page 13: https://factcheck.kg/ky/category/factcheck/page/13/
+2026-05-07 00:07:47,014 [factcheck] INFO   → 10 new links (total: 151)
+2026-05-07 00:07:48,516 [factcheck] INFO Fetching listing page 14: https://factcheck.kg/ky/category/factcheck/page/14/
+2026-05-07 00:07:50,055 [factcheck] INFO   → 11 new links (total: 162)
+2026-05-07 00:07:51,557 [factcheck] INFO Fetching listing page 15: https://factcheck.kg/ky/category/factcheck/page/15/
+2026-05-07 00:07:52,795 [factcheck] INFO   → 10 new links (total: 172)
+2026-05-07 00:07:54,297 [factcheck] INFO Fetching listing page 16: https://factcheck.kg/ky/category/factcheck/page/16/
+2026-05-07 00:07:55,491 [factcheck] INFO   → 11 new links (total: 183)
+2026-05-07 00:07:56,993 [factcheck] INFO Fetching listing page 17: https://factcheck.kg/ky/category/factcheck/page/17/
+2026-05-07 00:07:58,263 [factcheck] INFO   → 10 new links (total: 193)
+2026-05-07 00:07:59,764 [factcheck] INFO Fetching listing page 18: https://factcheck.kg/ky/category/factcheck/page/18/
+2026-05-07 00:08:00,985 [factcheck] INFO   → 11 new links (total: 204)
+2026-05-07 00:08:02,490 [factcheck] INFO Fetching listing page 19: https://factcheck.kg/ky/category/factcheck/page/19/
+2026-05-07 00:08:03,583 [factcheck] INFO   → 10 new links (total: 214)
+2026-05-07 00:08:05,094 [factcheck] INFO Fetching listing page 20: https://factcheck.kg/ky/category/factcheck/page/20/
+2026-05-07 00:08:06,343 [factcheck] INFO   → 11 new links (total: 225)
+2026-05-07 00:08:07,852 [factcheck] INFO Fetching listing page 21: https://factcheck.kg/ky/category/factcheck/page/21/
+2026-05-07 00:08:08,931 [factcheck] INFO   → 10 new links (total: 235)
+2026-05-07 00:08:10,432 [factcheck] INFO Fetching listing page 22: https://factcheck.kg/ky/category/factcheck/page/22/
+2026-05-07 00:08:11,669 [factcheck] INFO   → 11 new links (total: 246)
+2026-05-07 00:08:13,171 [factcheck] INFO Fetching listing page 23: https://factcheck.kg/ky/category/factcheck/page/23/
+2026-05-07 00:08:14,478 [factcheck] INFO   → 10 new links (total: 256)
+2026-05-07 00:08:15,978 [factcheck] INFO Fetching listing page 24: https://factcheck.kg/ky/category/factcheck/page/24/
+2026-05-07 00:08:17,061 [factcheck] INFO   → 11 new links (total: 267)
+2026-05-07 00:08:18,566 [factcheck] INFO Fetching listing page 25: https://factcheck.kg/ky/category/factcheck/page/25/
+2026-05-07 00:08:19,829 [factcheck] INFO   → 10 new links (total: 277)
+2026-05-07 00:08:21,331 [factcheck] INFO Fetching listing page 26: https://factcheck.kg/ky/category/factcheck/page/26/
+2026-05-07 00:08:22,730 [factcheck] INFO   → 11 new links (total: 288)
+2026-05-07 00:08:24,231 [factcheck] INFO Fetching listing page 27: https://factcheck.kg/ky/category/factcheck/page/27/
+2026-05-07 00:08:25,492 [factcheck] INFO   → 10 new links (total: 298)
+2026-05-07 00:08:27,000 [factcheck] INFO Fetching listing page 28: https://factcheck.kg/ky/category/factcheck/page/28/
+2026-05-07 00:08:28,245 [factcheck] INFO   → 10 new links (total: 308)
+2026-05-07 00:08:29,746 [factcheck] INFO Fetching listing page 29: https://factcheck.kg/ky/category/factcheck/page/29/
+2026-05-07 00:08:30,876 [factcheck] INFO   → 11 new links (total: 319)
+2026-05-07 00:08:32,382 [factcheck] INFO Fetching listing page 30: https://factcheck.kg/ky/category/factcheck/page/30/
+2026-05-07 00:08:33,630 [factcheck] INFO   → 10 new links (total: 329)
+2026-05-07 00:08:35,131 [factcheck] INFO Fetching listing page 31: https://factcheck.kg/ky/category/factcheck/page/31/
+2026-05-07 00:08:36,373 [factcheck] INFO   → 11 new links (total: 340)
+2026-05-07 00:08:37,875 [factcheck] INFO Fetching listing page 32: https://factcheck.kg/ky/category/factcheck/page/32/
+2026-05-07 00:08:39,021 [factcheck] INFO   → 11 new links (total: 351)
+2026-05-07 00:08:40,526 [factcheck] INFO Fetching listing page 33: https://factcheck.kg/ky/category/factcheck/page/33/
+2026-05-07 00:08:41,765 [factcheck] INFO   → 10 new links (total: 361)
+2026-05-07 00:08:43,274 [factcheck] INFO Fetching listing page 34: https://factcheck.kg/ky/category/factcheck/page/34/
+2026-05-07 00:08:44,528 [factcheck] INFO   → 11 new links (total: 372)
+2026-05-07 00:08:46,033 [factcheck] INFO Fetching listing page 35: https://factcheck.kg/ky/category/factcheck/page/35/
+2026-05-07 00:08:47,294 [factcheck] INFO   → 10 new links (total: 382)
+2026-05-07 00:08:48,796 [factcheck] INFO Fetching listing page 36: https://factcheck.kg/ky/category/factcheck/page/36/
+2026-05-07 00:08:49,891 [factcheck] INFO   → 11 new links (total: 393)
+2026-05-07 00:08:51,393 [factcheck] INFO Fetching listing page 37: https://factcheck.kg/ky/category/factcheck/page/37/
+2026-05-07 00:08:52,628 [factcheck] INFO   → 11 new links (total: 404)
+2026-05-07 00:08:54,129 [factcheck] INFO Fetching listing page 38: https://factcheck.kg/ky/category/factcheck/page/38/
+2026-05-07 00:08:55,346 [factcheck] INFO   → 10 new links (total: 414)
+2026-05-07 00:08:56,861 [factcheck] INFO Fetching listing page 39: https://factcheck.kg/ky/category/factcheck/page/39/
+2026-05-07 00:08:58,076 [factcheck] INFO   → 11 new links (total: 425)
+2026-05-07 00:08:59,587 [factcheck] INFO Fetching listing page 40: https://factcheck.kg/ky/category/factcheck/page/40/
+2026-05-07 00:09:00,767 [factcheck] INFO   → 11 new links (total: 436)
+2026-05-07 00:09:02,281 [factcheck] INFO Fetching listing page 41: https://factcheck.kg/ky/category/factcheck/page/41/
+2026-05-07 00:09:03,406 [factcheck] INFO   → 11 new links (total: 447)
+2026-05-07 00:09:04,910 [factcheck] INFO Fetching listing page 42: https://factcheck.kg/ky/category/factcheck/page/42/
+2026-05-07 00:09:06,086 [factcheck] INFO   → 10 new links (total: 457)
+2026-05-07 00:09:07,587 [factcheck] INFO Fetching listing page 43: https://factcheck.kg/ky/category/factcheck/page/43/
+2026-05-07 00:09:08,822 [factcheck] INFO   → 11 new links (total: 468)
+2026-05-07 00:09:10,323 [factcheck] INFO Fetching listing page 44: https://factcheck.kg/ky/category/factcheck/page/44/
+2026-05-07 00:09:11,552 [factcheck] INFO   → 10 new links (total: 478)
+2026-05-07 00:09:13,055 [factcheck] INFO Fetching listing page 45: https://factcheck.kg/ky/category/factcheck/page/45/
+2026-05-07 00:09:14,344 [factcheck] INFO   → 11 new links (total: 489)
+2026-05-07 00:09:15,851 [factcheck] INFO Fetching listing page 46: https://factcheck.kg/ky/category/factcheck/page/46/
+2026-05-07 00:09:16,983 [factcheck] INFO   → 11 new links (total: 500)
+2026-05-07 00:09:18,500 [factcheck] INFO Fetching listing page 47: https://factcheck.kg/ky/category/factcheck/page/47/
+2026-05-07 00:09:19,739 [factcheck] INFO   → 11 new links (total: 511)
+2026-05-07 00:09:21,243 [factcheck] INFO Fetching listing page 48: https://factcheck.kg/ky/category/factcheck/page/48/
+2026-05-07 00:09:22,668 [factcheck] INFO   → 10 new links (total: 521)
+2026-05-07 00:09:24,169 [factcheck] INFO Fetching listing page 49: https://factcheck.kg/ky/category/factcheck/page/49/
+2026-05-07 00:09:25,401 [factcheck] INFO   → 11 new links (total: 532)
+2026-05-07 00:09:26,902 [factcheck] INFO Fetching listing page 50: https://factcheck.kg/ky/category/factcheck/page/50/
+2026-05-07 00:09:28,016 [factcheck] INFO   → 11 new links (total: 543)
+2026-05-07 00:09:29,525 [factcheck] INFO Fetching listing page 51: https://factcheck.kg/ky/category/factcheck/page/51/
+2026-05-07 00:09:30,657 [factcheck] INFO   → 10 new links (total: 553)
+2026-05-07 00:09:32,159 [factcheck] INFO Fetching listing page 52: https://factcheck.kg/ky/category/factcheck/page/52/
+2026-05-07 00:09:33,391 [factcheck] INFO   → 11 new links (total: 564)
+2026-05-07 00:09:34,891 [factcheck] INFO Fetching listing page 53: https://factcheck.kg/ky/category/factcheck/page/53/
+2026-05-07 00:09:36,011 [factcheck] INFO   → 11 new links (total: 575)
+2026-05-07 00:09:37,522 [factcheck] INFO Fetching listing page 54: https://factcheck.kg/ky/category/factcheck/page/54/
+2026-05-07 00:09:38,749 [factcheck] INFO   → 10 new links (total: 585)
+2026-05-07 00:09:40,264 [factcheck] INFO Fetching listing page 55: https://factcheck.kg/ky/category/factcheck/page/55/
+2026-05-07 00:09:41,482 [factcheck] INFO   → 11 new links (total: 596)
+2026-05-07 00:09:42,983 [factcheck] INFO Fetching listing page 56: https://factcheck.kg/ky/category/factcheck/page/56/
+2026-05-07 00:09:44,254 [factcheck] INFO   → 11 new links (total: 607)
+2026-05-07 00:09:45,757 [factcheck] INFO Fetching listing page 57: https://factcheck.kg/ky/category/factcheck/page/57/
+2026-05-07 00:09:46,903 [factcheck] INFO   → 9 new links (total: 616)
+2026-05-07 00:09:48,404 [factcheck] INFO Fetching listing page 58: https://factcheck.kg/ky/category/factcheck/page/58/
+2026-05-07 00:09:49,643 [factcheck] INFO   → 10 new links (total: 626)
+2026-05-07 00:09:51,152 [factcheck] INFO Fetching listing page 59: https://factcheck.kg/ky/category/factcheck/page/59/
+2026-05-07 00:09:52,577 [factcheck] INFO   → 11 new links (total: 637)
+2026-05-07 00:09:54,078 [factcheck] INFO Fetching listing page 60: https://factcheck.kg/ky/category/factcheck/page/60/
+2026-05-07 00:09:55,308 [factcheck] INFO   → 10 new links (total: 647)
+2026-05-07 00:09:56,815 [factcheck] INFO Fetching listing page 61: https://factcheck.kg/ky/category/factcheck/page/61/
+2026-05-07 00:09:57,938 [factcheck] INFO   → 11 new links (total: 658)
+2026-05-07 00:09:59,438 [factcheck] INFO Fetching listing page 62: https://factcheck.kg/ky/category/factcheck/page/62/
+2026-05-07 00:10:00,854 [factcheck] INFO   → 11 new links (total: 669)
+2026-05-07 00:10:02,360 [factcheck] INFO Fetching listing page 63: https://factcheck.kg/ky/category/factcheck/page/63/
+2026-05-07 00:10:03,556 [factcheck] INFO   → 11 new links (total: 680)
+2026-05-07 00:10:05,058 [factcheck] INFO Fetching listing page 64: https://factcheck.kg/ky/category/factcheck/page/64/
+2026-05-07 00:10:06,504 [factcheck] INFO   → 11 new links (total: 691)
+2026-05-07 00:10:08,006 [factcheck] INFO Fetching listing page 65: https://factcheck.kg/ky/category/factcheck/page/65/
+2026-05-07 00:10:09,078 [factcheck] INFO   → 11 new links (total: 702)
+2026-05-07 00:10:10,589 [factcheck] INFO Fetching listing page 66: https://factcheck.kg/ky/category/factcheck/page/66/
+2026-05-07 00:10:11,774 [factcheck] INFO   → 12 new links (total: 714)
+2026-05-07 00:10:13,275 [factcheck] INFO Fetching listing page 67: https://factcheck.kg/ky/category/factcheck/page/67/
+2026-05-07 00:10:14,519 [factcheck] INFO   → 11 new links (total: 725)
+2026-05-07 00:10:16,020 [factcheck] INFO Fetching listing page 68: https://factcheck.kg/ky/category/factcheck/page/68/
+2026-05-07 00:10:17,246 [factcheck] INFO   → 11 new links (total: 736)
+2026-05-07 00:10:18,759 [factcheck] INFO Fetching listing page 69: https://factcheck.kg/ky/category/factcheck/page/69/
+2026-05-07 00:10:19,859 [factcheck] INFO   → 10 new links (total: 746)
+2026-05-07 00:10:21,361 [factcheck] INFO Fetching listing page 70: https://factcheck.kg/ky/category/factcheck/page/70/
+2026-05-07 00:10:22,801 [factcheck] INFO   → 11 new links (total: 757)
+2026-05-07 00:10:24,307 [factcheck] INFO Fetching listing page 71: https://factcheck.kg/ky/category/factcheck/page/71/
+2026-05-07 00:10:25,604 [factcheck] INFO   → 13 new links (total: 770)
+2026-05-07 00:10:27,114 [factcheck] INFO Fetching listing page 72: https://factcheck.kg/ky/category/factcheck/page/72/
+2026-05-07 00:10:28,507 [factcheck] INFO   → 11 new links (total: 781)
+2026-05-07 00:10:30,008 [factcheck] INFO Fetching listing page 73: https://factcheck.kg/ky/category/factcheck/page/73/
+2026-05-07 00:10:31,082 [factcheck] INFO   → 12 new links (total: 793)
+2026-05-07 00:10:32,585 [factcheck] INFO Fetching listing page 74: https://factcheck.kg/ky/category/factcheck/page/74/
+2026-05-07 00:10:33,832 [factcheck] INFO   → 11 new links (total: 804)
+2026-05-07 00:10:35,343 [factcheck] INFO Fetching listing page 75: https://factcheck.kg/ky/category/factcheck/page/75/
+2026-05-07 00:10:36,571 [factcheck] INFO   → 10 new links (total: 814)
+2026-05-07 00:10:38,073 [factcheck] INFO Fetching listing page 76: https://factcheck.kg/ky/category/factcheck/page/76/
+2026-05-07 00:10:39,307 [factcheck] INFO   → 13 new links (total: 827)
+2026-05-07 00:10:40,809 [factcheck] INFO Fetching listing page 77: https://factcheck.kg/ky/category/factcheck/page/77/
+2026-05-07 00:10:41,912 [factcheck] INFO   → 12 new links (total: 839)
+2026-05-07 00:10:43,413 [factcheck] INFO Fetching listing page 78: https://factcheck.kg/ky/category/factcheck/page/78/
+2026-05-07 00:10:44,821 [factcheck] INFO   → 12 new links (total: 851)
+2026-05-07 00:10:46,322 [factcheck] INFO Fetching listing page 79: https://factcheck.kg/ky/category/factcheck/page/79/
+2026-05-07 00:10:47,514 [factcheck] INFO   → 12 new links (total: 863)
+2026-05-07 00:10:49,025 [factcheck] INFO Fetching listing page 80: https://factcheck.kg/ky/category/factcheck/page/80/
+2026-05-07 00:10:50,211 [factcheck] INFO   → 12 new links (total: 875)
+2026-05-07 00:10:51,725 [factcheck] INFO Fetching listing page 81: https://factcheck.kg/ky/category/factcheck/page/81/
+2026-05-07 00:10:52,798 [factcheck] INFO   → 3 new links (total: 878)
+2026-05-07 00:10:54,306 [factcheck] INFO Fetching listing page 82: https://factcheck.kg/ky/category/factcheck/page/82/
+2026-05-07 00:10:55,462 [factcheck] INFO   404 — end of pagination.
+2026-05-07 00:10:55,462 [factcheck] INFO Total article links: 878
+2026-05-07 00:10:55,464 [factcheck] INFO Scraping (1): https://factcheck.kg/ky/2022/06/
+2026-05-07 00:10:56,441 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:11:00,444 [factcheck] INFO Scraping (1): https://factcheck.kg/ky/kyrgyz-tez-kabar-sajtyna-mediasyn-ke%d2%a3iri-manipulyacziya-zhana-kesiptik-etikanyn-buzulushu/
+2026-05-07 00:11:01,567 [factcheck] INFO   [FAKE] «Тез кабар» сайтына МЕДИАСЫН: кеңири манипуляция жана кесиптик эт
+2026-05-07 00:11:05,575 [factcheck] INFO Scraping (2): https://factcheck.kg/ky/kto-prihodit-v-belyj-dom-13-neliczepriyatnyh-faktov-o-novom-deputate-nurbeke-murasheve/
+2026-05-07 00:11:06,812 [factcheck] INFO   [REAL] 2014-жылдын февраль айында Улуттук госпиталдын дарыгеринин арызын
+2026-05-07 00:11:10,827 [factcheck] INFO Scraping (3): https://factcheck.kg/ky/ocherednaya-rassylka-ot-moshennikov-v-whatsapp-podarochnye-karty-amazon/
+2026-05-07 00:11:12,041 [factcheck] INFO   [REAL] “Амазондон” белек тууралуу маалымат — фейк
+2026-05-07 00:11:16,047 [factcheck] INFO Scraping (4): https://factcheck.kg/ky/kyrgyz-izhara-akysyn-buu-t%d3%a9l%d3%a9m%d3%a9k/
+2026-05-07 00:11:17,364 [factcheck] INFO   [REAL] ИЖАРА АКЫСЫН БУУ ТӨЛӨМӨК
+2026-05-07 00:11:21,364 [factcheck] INFO Scraping (5): https://factcheck.kg/ky/v-2022-godu-iz-gosbyudzheta-bylo-potracheno-179-millionov-na-aviaperelety-chinovnikov/
+2026-05-07 00:11:23,455 [factcheck] INFO   [FAKE] 2022-жылы аткаминерлердин авиа учууларына  бюджеттен 179 млн сом 
+2026-05-07 00:11:27,458 [factcheck] INFO Scraping (6): https://factcheck.kg/ky/issyk-atinskij-razlom-naskolko-opasno-stroit-doma-v-yuzhnoj-chasti-stoliczy/
+2026-05-07 00:11:29,194 [factcheck] INFO   [REAL] Ысык-Ата жаракасы: борбор калаанын түштүк жагында үйлөрдү салуу к
+2026-05-07 00:11:33,196 [factcheck] INFO Scraping (7): https://factcheck.kg/ky/2019/03/
+2026-05-07 00:11:34,404 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:11:38,416 [factcheck] INFO Scraping (7): https://factcheck.kg/ky/pravda-chto-v-koree-sorevnuyutsya-po-nichegonedelaniyu/
+2026-05-07 00:11:39,725 [factcheck] INFO   [REAL] Түштүк Кореяда бекерчилик боюнча таймаш уюштурулганы чынбы?
+2026-05-07 00:11:43,727 [factcheck] INFO Scraping (8): https://factcheck.kg/ky/policziya-odessy-podtverdila-fakt-smerti-kadyrzhana-batyrova/
+2026-05-07 00:11:45,110 [factcheck] INFO   [REAL] Одессанын полициясы Кадыржан Батыровдун өлүмүн тастыктады
+2026-05-07 00:11:49,111 [factcheck] INFO Scraping (9): https://factcheck.kg/ky/dejstvitelno-li-matraimov-sobiraetsya-kupit-futbolnyj-klub-chelsi/
+2026-05-07 00:11:50,513 [factcheck] INFO   [FAKE] Матраимов Абрамовичтин футбол клубун сатып алабы?
+2026-05-07 00:11:54,515 [factcheck] INFO Scraping (10): https://factcheck.kg/ky/kyrgyz-dagy-bir-etikalyk-kodeks-bul-zholu-genderdik/
+2026-05-07 00:11:55,921 [factcheck] INFO   [REAL] «Журналисттин жалпыга маалымдоо каражаттарынкоомдун мүдөөсүнө, ад
+2026-05-07 00:11:59,923 [factcheck] INFO Scraping (11): https://factcheck.kg/ky/predsedatelyam-verhovnogo-suda-negde-zhit-deklaraczii-2019-2020/
+2026-05-07 00:12:01,426 [factcheck] INFO   [REAL] Турак-жайсыз Жогорку Соттун төрайымдары. Декларацияларды текшереб
+2026-05-07 00:12:05,428 [factcheck] INFO Scraping (12): https://factcheck.kg/ky/2019/02/
+2026-05-07 00:12:07,022 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:12:11,023 [factcheck] INFO Scraping (12): https://factcheck.kg/ky/chto-transliruet-rossijskoe-televidenie-v-kr-i-kak-manipuliruet-mneniem-zritelej/
+2026-05-07 00:12:12,124 [factcheck] INFO   [REAL] “Гуманитардык билими начар Зеленский. Ал өтө аз билет. Ал манкурт
+2026-05-07 00:12:16,126 [factcheck] INFO Scraping (13): https://factcheck.kg/ky/kyrgyz-elektoratty-zhalgan-czifralar-menen-aldoo-2-b%d3%a9l%d2%afm/
+2026-05-07 00:12:17,281 [factcheck] INFO   [REAL] Электоратты жалган цифралар менен алдоо. 2-Бөлүм
+2026-05-07 00:12:21,282 [factcheck] INFO Scraping (14): https://factcheck.kg/ky/boroda-uvelichivaet-v-tysyachu-raz-risk-podhvatit-koronavirus-proveryaem/
+2026-05-07 00:12:22,512 [factcheck] INFO   [FAKE] “Сакал-мурутка байланыштуу ооруну жуктуруп алуу тобокелчилигинин 
+2026-05-07 00:12:26,513 [factcheck] INFO Scraping (15): https://factcheck.kg/ky/evrosoyuz-planiruet-zakupit-vakcziny-dlya-postavki-na-ukrainu-na-50-mln-evro-proveryaem/
+2026-05-07 00:12:27,745 [factcheck] INFO   [REAL] Евробиримдик Украинага жибериш үчүн 50 млн еврого вакцина сатып а
+2026-05-07 00:12:31,748 [factcheck] INFO Scraping (16): https://factcheck.kg/ky/sovetbek-zakirov-aruuzat-el-kutu-programma-regionalnogo-razvitiya-ne-razrabotana-nepravda/
+2026-05-07 00:12:32,845 [factcheck] INFO   [REAL] Советбек Зикиров, “Аруузат-Эл-Куту”:  “Аймактарды өнүктүрүү прогр
+2026-05-07 00:12:36,857 [factcheck] INFO Scraping (17): https://factcheck.kg/ky/abdil-segizbaev-huan-czzyanhun-vozmozhno-inostrannyj-grazhdanin-provereno/
+2026-05-07 00:12:38,041 [factcheck] INFO   [REAL] Абдиль Сегизбаев: “Хуан Цзяньхун чет элдик жаран болушу мүмкүн”. 
+2026-05-07 00:12:42,044 [factcheck] INFO Scraping (18): https://factcheck.kg/ky/milliardy-na-goszakupkah-skolko-zarabotali-farmkompanii-na-gostenderah-i-komu-oni-prinadlezhat/
+2026-05-07 00:12:43,629 [factcheck] INFO   [REAL] Дары-дармекке жумшалган миллиарддар кимдин капчыгына түшкөн? Текш
+2026-05-07 00:12:47,644 [factcheck] INFO Scraping (19): https://factcheck.kg/ky/v-kyrgyzstane-razbrasyvayut-fonariki-so-vzryvnymi-ustrojstvami-proveryaem/
+2026-05-07 00:12:48,893 [factcheck] INFO   [FAKE] «Бул билдирүүлөр жалган. Жооптуу шаардык кызматтар билим берүү ме
+2026-05-07 00:12:52,897 [factcheck] INFO Scraping (20): https://factcheck.kg/ky/biznes-glavy-minselhoza-i-ego-semi-myasokombinat-elektroenergiya-ohrannoe-agentstvo/
+2026-05-07 00:12:54,128 [factcheck] INFO   [REAL] Эт комбинаты, электр энергиясы, коопсуздук агенттиги. Айыл чарба 
+2026-05-07 00:12:58,130 [factcheck] INFO Scraping (21): https://factcheck.kg/ky/video-na-kotorom-yakoby-taliby-zabirayut-maloletnyuyu-devochku-dlya-vstupleniya-v-brak-staroe/
+2026-05-07 00:12:59,314 [factcheck] INFO   [REAL] Талибдер жаш кызды алып кетиштиби? Чуулгандуу видеону текшеребиз
+2026-05-07 00:13:03,316 [factcheck] INFO Scraping (22): https://factcheck.kg/ky/fakchtek-madumarov-ne-pervyj-na-sahaline/
+2026-05-07 00:13:04,462 [factcheck] INFO   [REAL] Мадумаров Сахалинде жеңди деген маалымат — фейк
+2026-05-07 00:13:08,463 [factcheck] INFO Scraping (23): https://factcheck.kg/ky/passazhirov-snimayut-s-aviarejsov-za-neuplatu-shtrafa-po-bezopasnomu-gorodu-proveryaem/
+2026-05-07 00:13:09,775 [factcheck] INFO   [REAL] “Коопсуз шаар” долбоору боюнча айып пул төлөбөгөндөр өлкөдөн чыга
+2026-05-07 00:13:13,782 [factcheck] INFO Scraping (24): https://factcheck.kg/ky/panika-po-hantavirusu-manipulyacziya-v-smi-hantavirus-ne-predstavlyaet-epidemiologicheskoj-opasnosti/
+2026-05-07 00:13:15,023 [factcheck] INFO   [FAKE] Бирок, алардын көбү хантавирус бир адамдан башка адамга жукпай ту
+2026-05-07 00:13:19,023 [factcheck] INFO Scraping (25): https://factcheck.kg/ky/videochek-nlo-nad-cholpon-atoj-pravda-ili-net/
+2026-05-07 00:13:20,247 [factcheck] INFO   [FAKE] Видеочек: Чолпон-Атанын үстүндө БУО – чынбы же калппы?
+2026-05-07 00:13:24,259 [factcheck] INFO Scraping (26): https://factcheck.kg/ky/glava-voz-ne-vakczinirovalsya-proveryaem/
+2026-05-07 00:13:25,696 [factcheck] INFO   [REAL] БДССУнун башчысы вакцина алган эмеспи? Текшеребиз
+2026-05-07 00:13:29,704 [factcheck] INFO Scraping (27): https://factcheck.kg/ky/na-dvuh-stulyah-deputaty-vystupavshie-protiv-zapada-reshili-vstupit-v-gruppy-druzhby-s-parlamentami-ssha-i-kanady/
+2026-05-07 00:13:31,005 [factcheck] INFO   [REAL] “Бул мыйзамды кайра көтөрүп чыгып, аны комитетте экинчи окутууда 
+2026-05-07 00:13:35,007 [factcheck] INFO Scraping (28): https://factcheck.kg/ky/lozh-minzdrava-o-testah-ot-fonda-matraimovyh/
+2026-05-07 00:13:36,220 [factcheck] INFO   [REAL] Саламаттык сактоо министрлигинин Матраимовдордун тести боюнча кал
+2026-05-07 00:13:40,221 [factcheck] INFO Scraping (29): https://factcheck.kg/ky/vse-svoi-kakie-imeyutsya-rodstvennye-svyazi-v-bolshoj-politike/
+2026-05-07 00:13:41,516 [factcheck] INFO   [REAL] Бардыгы өзүбүздүкү. Чоң саясаттагы тууганчылык
+2026-05-07 00:13:45,518 [factcheck] INFO Scraping (30): https://factcheck.kg/ky/bakievskie-kadry-v-sovremennoj-vlasti-ministry-gubernator-spiker-parlamenta/
+2026-05-07 00:13:46,893 [factcheck] INFO   [REAL] Бакиевдин кадрлары азыркы бийликте: министрлер, губернатор, парла
+2026-05-07 00:13:50,896 [factcheck] INFO Scraping (31): https://factcheck.kg/ky/neopoznannyj-obekt-v-nebe-moskvy-ili-obychnoe-fizicheskoe-yavlenie-vyyasnyaem/
+2026-05-07 00:13:52,198 [factcheck] INFO   [REAL] Үндөн да ылдам болгон импулстуу плазма агымдарынын белгилүү бир ш
+2026-05-07 00:13:56,203 [factcheck] INFO Scraping (32): https://factcheck.kg/ky/video-chek-v-set-vylozhili-kadry-tonushhego-krejsera-moskva-proveryaem/
+2026-05-07 00:13:57,571 [factcheck] INFO   [REAL] Сууга чөккөн “Москва” аскердик кемеси тартылган видеону текшереби
+2026-05-07 00:14:01,582 [factcheck] INFO Scraping (33): https://factcheck.kg/ky/kyrgyz-bolot-temirov-menen-kamchybek-tashievdin-tireshinin-ma%d2%a3yzy/
+2026-05-07 00:14:02,673 [factcheck] INFO   [REAL] Журналист Ыдырыс Исаков Болот Темировдун каржы булактары тууралуу
+2026-05-07 00:14:06,674 [factcheck] INFO Scraping (34): https://factcheck.kg/ky/indeks-doveriya-naseleniya-k-ministerstvu-soczrazvitiya-vozros-na-17-za-gody-pravleniya-ulukbeka-kochkorova-nepravda/
+2026-05-07 00:14:07,951 [factcheck] INFO   [REAL] Кочкоровдун тушунда министирликке болгон ишеним жогоруладыбы?
+2026-05-07 00:14:11,954 [factcheck] INFO Scraping (35): https://factcheck.kg/ky/klara-sooronkulova-reforma-azygaliev-skazal-chto-nado-vyrezat-botanicheskij-sad/
+2026-05-07 00:14:13,017 [factcheck] INFO   [REAL] Factcheck.kgбул маалыматты текшерип көрүп, Уланбек Азыгалиев 2019
+2026-05-07 00:14:17,018 [factcheck] INFO Scraping (36): https://factcheck.kg/ky/musoropererabatyvayushhij-zavod-v-bishkeke-mnogomillionnyj-proekt-bez-vidimyh-rezultatov/
+2026-05-07 00:14:18,346 [factcheck] INFO   [REAL] Бишкектеги таштандыны кайра иштетүүчү завод: жыйынтыгы байкалбага
+2026-05-07 00:14:22,361 [factcheck] INFO Scraping (37): https://factcheck.kg/ky/shtraf-za-ispolzovanie-interneta-ilona-maska-v-rossii-nepravda/
+2026-05-07 00:14:23,671 [factcheck] INFO   [REAL] Илон Масктын интернетин колдонгондорго айып пул салынабы?
+2026-05-07 00:14:27,679 [factcheck] INFO Scraping (38): https://factcheck.kg/ky/kyrgyz-daniyar-isanov-zhamanga-zhar-salsa%d2%a3-zhamandyk-ketpejt-bashy%d2%a3an/
+2026-05-07 00:14:28,967 [factcheck] INFO   [REAL] Данияр ИСАНОВ: Жаманга жар салсаң, жамандык кетпейт башыңан
+2026-05-07 00:14:32,975 [factcheck] INFO Scraping (39): https://factcheck.kg/ky/kyrgyz-faktchek-100-mi%d2%a3-somduk-boorsoktun-dajyny-zhok-tenderdegi-m%d2%afch%d2%afl%d2%afsht%d2%afk/
+2026-05-07 00:14:34,186 [factcheck] INFO   [UNCERTAIN] Фактчек: 100 миң сомдук боорсоктун дайыны жок. Тендердеги мүчүлүш
+2026-05-07 00:14:38,196 [factcheck] INFO Scraping (40): https://factcheck.kg/ky/kyrgyz-kyrgyzstanda-chyndygynda-ele-%d3%a9l%d2%afm-de%d2%a3geeli-eaeb-%d3%a9lk%d3%a9l%d3%a9r%d2%afn%d3%a9-salyshtyrmaluu-t%d3%a9m%d3%a9n/
+2026-05-07 00:14:39,467 [factcheck] INFO   [REAL] КЫРГЫЗСТАНДА ЧЫНДЫГЫНДА ЭЛЕ ӨЛҮМ ДЕҢГЭЭЛИ ЕАЭБ ӨЛКӨЛӨРҮНӨ САЛЫШТЫ
+2026-05-07 00:14:43,483 [factcheck] INFO Scraping (41): https://factcheck.kg/ky/kak-rossiya-zashhishhaet-russkij-yazyk-v-kyrgyzstane/
+2026-05-07 00:14:44,739 [factcheck] INFO   [REAL] “Бизде азыркыга чейин айрым айрым конуштардын аталыштары башка ти
+2026-05-07 00:14:48,750 [factcheck] INFO Scraping (42): https://factcheck.kg/ky/faktchek-pentagon-dolzhen-byt-gotov-k-boyu-s-kitaem-uzhe-segodnya-vecherom/
+2026-05-07 00:14:50,114 [factcheck] INFO   [REAL] Фактчек: Пентагон Кытай менен согушка “бүгүн кечинде” эле даяр бо
+2026-05-07 00:14:54,116 [factcheck] INFO Scraping (43): https://factcheck.kg/ky/besplatnaya-obuv-ot-adidas-ili-pochemu-ne-stoit-doveryat-rassylkam-po-messendzheram/
+2026-05-07 00:14:55,379 [factcheck] INFO   [REAL] Аdidas фирмасынан акысыз бут кийим же тиркемелерден келген маалым
+2026-05-07 00:14:59,387 [factcheck] INFO Scraping (44): https://factcheck.kg/ky/tret-vyzdorovevshih-ot-koronavirusa-snova-popadaet-v-bolniczu-ne-dokazano/
+2026-05-07 00:15:00,611 [factcheck] INFO   [REAL] “Эң негизгиси, изилдөө “узак ковидге” даярдануу керектигин көрсөт
+2026-05-07 00:15:04,613 [factcheck] INFO Scraping (45): https://factcheck.kg/ky/chto-takoe-dipfejki-i-pochemu-oni-opasny/
+2026-05-07 00:15:05,840 [factcheck] INFO   [FAKE] Дипфейктер деген эмне жана эмнеси менен алар коркунучтуу?
+2026-05-07 00:15:09,842 [factcheck] INFO Scraping (46): https://factcheck.kg/ky/kyrgyz-tazhik-sajty-kyrgyzstanda-meningit-tuuraluu-fejk-zharyyalady/
+2026-05-07 00:15:11,087 [factcheck] INFO   [FAKE] ТАЖИК САЙТЫ КЫРГЫЗСТАНДА МЕНИНГИТ ТУУРАЛУУ ФЕЙК ЖАРЫЯЛАДЫ
+2026-05-07 00:15:15,092 [factcheck] INFO Scraping (47): https://factcheck.kg/ky/ssha-ispugalis-planov-rossii-chto-ne-tak-s-novostyami-o-strahe-ameriki-pered-rossijskimi-sverhzvukovymi-raketami/
+2026-05-07 00:15:16,454 [factcheck] INFO   [REAL] АКШ чындап эле Орусиянын пландарынан коркобу? Орусиянын гипер ылд
+2026-05-07 00:15:20,456 [factcheck] INFO Scraping (48): https://factcheck.kg/ky/2022/01/
+2026-05-07 00:15:21,636 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:15:25,638 [factcheck] INFO Scraping (48): https://factcheck.kg/ky/nezakonnoe-stroitelstvo-v-kirgizii-1-kto-za-etim-stoit/
+2026-05-07 00:15:27,062 [factcheck] INFO   [REAL] Киргизия-1 жаңы конушундагы мыйзамсыз курулуштун артында ким тура
+2026-05-07 00:15:31,066 [factcheck] INFO Scraping (49): https://factcheck.kg/ky/novyj-gubernator-talasskoj-oblasti-vladeet-turfirmoj/
+2026-05-07 00:15:32,242 [factcheck] INFO   [UNCERTAIN] Талас облусунун жаңы губернатору турфирмага ээлик кылат
+2026-05-07 00:15:36,244 [factcheck] INFO Scraping (50): https://factcheck.kg/ky/klara-sooronkulova-vy-zadaete-voprosy-kotorye-kasayutsya-raboty-pravitelstva-pravda/
+2026-05-07 00:15:37,571 [factcheck] INFO   [REAL] Клара Сооронкулова: “Сиз өкмөткө тиешелүү суроолорду берип атасыз
+2026-05-07 00:15:41,574 [factcheck] INFO Scraping (51): https://factcheck.kg/ky/kyrgyz-prezidenttin-nasyya-tuuraluu-ajtkany-chyndykka-dal-kelbejt-faktchek/
+2026-05-07 00:15:42,838 [factcheck] INFO   [REAL] Президенттин насыя тууралуу айтканы чындыкка дал келбейт. Фактчек
+2026-05-07 00:15:46,847 [factcheck] INFO Scraping (52): https://factcheck.kg/ky/klara-sooronkulova-svat-glavy-gknb-ostaetsya-odnim-iz-samyh-bogatyh-sudej-polupravda/
+2026-05-07 00:15:47,968 [factcheck] INFO   [REAL] Клара Сооронкулова: УКМК башчысынын кудасы — сот системасындагы э
+2026-05-07 00:15:51,970 [factcheck] INFO Scraping (53): https://factcheck.kg/ky/chto-svyazyvaet-spikera-parlamenta-s-izvestnoj-peviczej/
+2026-05-07 00:15:53,241 [factcheck] INFO   [UNCERTAIN] Төрага менен Анжеликанын кандай байланышы бар?
+2026-05-07 00:15:57,243 [factcheck] INFO Scraping (54): https://factcheck.kg/ky/temirlan-sultanbekov-dvazhdy-sovral-vo-vremya-debatov/
+2026-05-07 00:15:58,573 [factcheck] INFO   [REAL] Темирлан Султанбековдун түз эфирдеги калпы
+2026-05-07 00:16:02,584 [factcheck] INFO Scraping (55): https://factcheck.kg/ky/pravda-li-chto-v-latvii-zapretili-prazdnovat-den-pobedy/
+2026-05-07 00:16:03,867 [factcheck] INFO   [REAL] 2004-жылы Латвия Евробиримдикке мүчө болуп кирип, “Европа күнү” к
+2026-05-07 00:16:07,879 [factcheck] INFO Scraping (56): https://factcheck.kg/ky/fejki-i-manipulyaczii-vo-vremya-vizita-putina-v-kyrgyzstan/
+2026-05-07 00:16:08,950 [factcheck] INFO   [REAL] Путиндин Кыргызстанга келген учурда жайылган фейктер жана манипул
+2026-05-07 00:16:12,952 [factcheck] INFO Scraping (57): https://factcheck.kg/ky/yaponskim-studentam-i-shkolnikam-zapreshheno-krasit-volosy/
+2026-05-07 00:16:14,219 [factcheck] INFO   [REAL] Японияда окуучулар менен студенттерге чач боегонго тыюу салынабы?
+2026-05-07 00:16:18,220 [factcheck] INFO Scraping (58): https://factcheck.kg/ky/imushhestvo-atambaeva-skolko-zemli-skryl-byvshij-prezident/
+2026-05-07 00:16:19,533 [factcheck] INFO   [REAL] Атамбаевдин жашырган мүлкү. Атайын иликтөө
+2026-05-07 00:16:23,535 [factcheck] INFO Scraping (59): https://factcheck.kg/ky/kazahi-zabili-do-smerti-treh-arabov-kto-i-zachem-opublikoval-fejk-novost/
+2026-05-07 00:16:24,960 [factcheck] INFO   [REAL] «Казактардын ур-токмогунан үч араб көз жумду». Жалган маалыматты 
+2026-05-07 00:16:28,961 [factcheck] INFO Scraping (60): https://factcheck.kg/ky/v-gosdume-predlozhili-razdavat-zemli-rossii-evropejczam-i-amerikanczam-proveryaem/
+2026-05-07 00:16:30,314 [factcheck] INFO   [REAL] Билдирүүдө “Адилет Россия – Чындык үчүн” (“Справедливая Россия – 
+2026-05-07 00:16:34,316 [factcheck] INFO Scraping (61): https://factcheck.kg/ky/franczuzy-potrebovali-pozhiznennogo-zaklyucheniya-dlya-zelenskogo-proveryaem/
+2026-05-07 00:16:35,445 [factcheck] INFO   [REAL] “Интернет колдонуучулардын көпчүлүгү бул конфликтте Батыш күнөөлү
+2026-05-07 00:16:39,462 [factcheck] INFO Scraping (62): https://factcheck.kg/ky/2020/02/
+2026-05-07 00:16:40,671 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:16:44,672 [factcheck] INFO Scraping (62): https://factcheck.kg/ky/korotkij-faktchek-tom-henks-zarazilsya-koronavirusom/
+2026-05-07 00:16:46,210 [factcheck] INFO   [REAL] Чакан фактчек. Том Хэнкс коронавируска кабылды
+2026-05-07 00:16:50,213 [factcheck] INFO Scraping (63): https://factcheck.kg/ky/kyrgyz-mitingde-atazovdu-koldogondor-buga-chejin-provokacziyalyk-akcziyalarga-katyshkan-faktchek/
+2026-05-07 00:16:51,880 [factcheck] INFO   [FAKE] Митингде Атазовду колдогондор буга чейин провокациялык акцияларга
+2026-05-07 00:16:55,897 [factcheck] INFO Scraping (64): https://factcheck.kg/ky/kyrgyz-aprel-tv-t-matsakovdun-orduna-a-beshimovdun-s%d2%afr%d3%a9t%d2%afn-k%d3%a9rs%d3%a9t%d2%afp-katuu-zha%d2%a3yldy/
+2026-05-07 00:16:57,581 [factcheck] INFO   [FAKE] “Апрель ТВ” Т. Матсаковдун ордуна А. Бешимовдун сүрөтүн көрсөтүп,
+2026-05-07 00:17:01,582 [factcheck] INFO Scraping (65): https://factcheck.kg/ky/2018/09/
+2026-05-07 00:17:02,814 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:17:06,822 [factcheck] INFO Scraping (65): https://factcheck.kg/ky/2024/12/
+2026-05-07 00:17:08,093 [factcheck] INFO   ✗ Skipped
+2026-05-07 00:17:12,094 [factcheck] INFO Scraping (65): https://factcheck.kg/ky/ejnshtejn-predskazal-pokolenie-idiotov/
+2026-05-07 00:17:13,442 [factcheck] INFO   [REAL] Эйнштейн кемчонтойлордун заманын эскерткенби?
+2026-05-07 00:17:17,448 [factcheck] INFO Scraping (66): https://factcheck.kg/ky/uzbekistan-postroit-plyazh-v-rajone-kempir-abadskogo-vodohranilishha-za-250-mlrd-sum-proveryaem/
+2026-05-07 00:17:19,385 [factcheck] INFO   [REAL] Бирок Өзбекстан Кемпирровот районунда 250 млрд сумга сууга түшчу 
+2026-05-07 00:17:23,386 [factcheck] INFO Scraping (67): https://factcheck.kg/ky/kak-zashhitit-whatsapp-ot-vzloma-i-chto-delat-esli-akkaunt-vse-zhe-vzlomali-sovety-po-bezopasnosti/
+2026-05-07 00:17:25,119 [factcheck] INFO   [REAL] WhatsApp’ты бузуп кирүүдөн кантип коргосо болот жана болбой эле а
+2026-05-07 00:17:29,120 [factcheck] INFO Scraping (68): https://factcheck.kg/ky/faktchek-zayavleniya-kitajskogo-posla-o-psevdonezavisimosti-postsovetskih-stran-kakie-dokumenty-dokazyvayut-ego-nepravotu/
+2026-05-07 00:17:30,347 [factcheck] INFO   [UNCERTAIN] “Мурдагы Советтер Союзунун курамындагы республикалар эл аралык ук
+2026-05-07 00:17:34,348 [factcheck] INFO Scraping (69): https://factcheck.kg/ky/srochnoe-obrashhenie-k-kollegam-zhurnalistam-kyrgyzstana-i-tadzhikistana/
+2026-05-07 00:17:35,659 [factcheck] INFO   [REAL] Зыян келтирбе!”. Кыргыз өлкөсүнүн медиа коомчулугу эки өлкөнүн жу
+2026-05-07 00:17:39,668 [factcheck] INFO Scraping (70): https://factcheck.kg/ky/papa-rimskij-czeluet-ruku-rotshildu-nepravda/
+2026-05-07 00:17:40,808 [factcheck] INFO   [FAKE] Рим папасынын Ротшильдге сый көрсөткөнү жалган
+2026-05-07 01:26:19,446 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/italyanskaya-mafiya-besplatno-razdaet-produkty-maloimushhim-semyam-pravda/
+2026-05-07 01:26:20,022 [factcheck] WARNING Failed https://factcheck.kg/ky/italyanskaya-mafiya-besplatno-razdaet-produkty-maloimushhim-semyam-pravda/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/italyanskaya-mafiya-besplatno-razdaet-produkty-maloimushhim-semyam-pravda/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000259860D20D0>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 01:26:20,141 [factcheck] INFO   ✗ Skipped
+2026-05-07 01:26:24,283 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/2021/02/
+2026-05-07 01:26:24,283 [factcheck] WARNING Failed https://factcheck.kg/ky/2021/02/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/2021/02/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025987187550>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 01:26:24,283 [factcheck] INFO   ✗ Skipped
+2026-05-07 01:26:28,287 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/podarki-ot-tajnogo-santy-ili-kak-neizvestnye-sponsory-zadarivayut-gosorgany/
+2026-05-07 01:26:28,290 [factcheck] WARNING Failed https://factcheck.kg/ky/podarki-ot-tajnogo-santy-ili-kak-neizvestnye-sponsory-zadarivayut-gosorgany/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/podarki-ot-tajnogo-santy-ili-kak-neizvestnye-sponsory-zadarivayut-gosorgany/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598720D490>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 01:26:28,290 [factcheck] INFO   ✗ Skipped
+2026-05-07 01:26:32,291 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/kyrgyz-%e2%80%8bt%d2%afsht%d2%afk-koreyada-koronavirustan-ajykkandardan-virus-kajra-tabylgany-chyndyk-birok-anyn-sebebi-belgisiz/
+2026-05-07 01:26:32,294 [factcheck] WARNING Failed https://factcheck.kg/ky/kyrgyz-%e2%80%8bt%d2%afsht%d2%afk-koreyada-koronavirustan-ajykkandardan-virus-kajra-tabylgany-chyndyk-birok-anyn-sebebi-belgisiz/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/kyrgyz-%E2%80%8Bt%D2%AFsht%D2%AFk-koreyada-koronavirustan-ajykkandardan-virus-kajra-tabylgany-chyndyk-birok-anyn-sebebi-belgisiz/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598720ED50>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 01:26:32,294 [factcheck] INFO   ✗ Skipped
+2026-05-07 02:49:15,218 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/kanatnaya-doroga-v-bishkeke-kto-kogda-i-za-kakuyu-summu-postroit/
+2026-05-07 02:49:15,309 [factcheck] WARNING Failed https://factcheck.kg/ky/kanatnaya-doroga-v-bishkeke-kto-kogda-i-za-kakuyu-summu-postroit/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/kanatnaya-doroga-v-bishkeke-kto-kogda-i-za-kakuyu-summu-postroit/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000259871E1410>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 02:49:15,313 [factcheck] INFO   ✗ Skipped
+2026-05-07 02:49:19,320 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/upala-v-reku-fejk-video-ob-utonuvshej-shkolnicze/
+2026-05-07 02:49:19,320 [factcheck] WARNING Failed https://factcheck.kg/ky/upala-v-reku-fejk-video-ob-utonuvshej-shkolnicze/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/upala-v-reku-fejk-video-ob-utonuvshej-shkolnicze/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598720F7D0>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 02:49:19,320 [factcheck] INFO   ✗ Skipped
+2026-05-07 02:49:23,324 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/voz-obyavila-rossijskuyu-vakczinu-ot-koronavirusa-bezopasnoj-i-effektivnoj-nepravda/
+2026-05-07 02:49:23,324 [factcheck] WARNING Failed https://factcheck.kg/ky/voz-obyavila-rossijskuyu-vakczinu-ot-koronavirusa-bezopasnoj-i-effektivnoj-nepravda/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/voz-obyavila-rossijskuyu-vakczinu-ot-koronavirusa-bezopasnoj-i-effektivnoj-nepravda/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598720C910>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 02:49:23,324 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:24,026 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/s-rozhdestvom-coca-cola-daet-besplatnye-podarki-faktchek/
+2026-05-07 14:08:24,233 [factcheck] WARNING Failed https://factcheck.kg/ky/s-rozhdestvom-coca-cola-daet-besplatnye-podarki-faktchek/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/s-rozhdestvom-coca-cola-daet-besplatnye-podarki-faktchek/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598720C0D0>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:24,319 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:28,393 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/v-sankt-peterburge-prodazha-dollara-dostigla-300-rublej-proveryaem/
+2026-05-07 14:08:28,402 [factcheck] WARNING Failed https://factcheck.kg/ky/v-sankt-peterburge-prodazha-dollara-dostigla-300-rublej-proveryaem/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/v-sankt-peterburge-prodazha-dollara-dostigla-300-rublej-proveryaem/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025987187510>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:28,404 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:32,408 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/muzhchina-s-golym-torsom-odin-iz-sponsorov-predvybornoj-kampanii-s-zhaparova-on-pozhertvoval-66-mln-somov/
+2026-05-07 14:08:32,425 [factcheck] WARNING Failed https://factcheck.kg/ky/muzhchina-s-golym-torsom-odin-iz-sponsorov-predvybornoj-kampanii-s-zhaparova-on-pozhertvoval-66-mln-somov/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/muzhchina-s-golym-torsom-odin-iz-sponsorov-predvybornoj-kampanii-s-zhaparova-on-pozhertvoval-66-mln-somov/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000259871E0A50>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:32,427 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:36,430 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/v-zagovore-protiv-chelovechestva-priznalsya-odin-iz-sozdatelej-vakcziny-ot-covid-19-proveryaem/
+2026-05-07 14:08:36,432 [factcheck] WARNING Failed https://factcheck.kg/ky/v-zagovore-protiv-chelovechestva-priznalsya-odin-iz-sozdatelej-vakcziny-ot-covid-19-proveryaem/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/v-zagovore-protiv-chelovechestva-priznalsya-odin-iz-sozdatelej-vakcziny-ot-covid-19-proveryaem/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000259871E3310>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:36,432 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:40,433 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/skrytaya-ugroza-dejstvitelno-li-u-kyrgyzstanczev-sedyat-mozg-i-pechen-proveryaem-informacziyu/
+2026-05-07 14:08:40,435 [factcheck] WARNING Failed https://factcheck.kg/ky/skrytaya-ugroza-dejstvitelno-li-u-kyrgyzstanczev-sedyat-mozg-i-pechen-proveryaem-informacziyu/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/skrytaya-ugroza-dejstvitelno-li-u-kyrgyzstanczev-sedyat-mozg-i-pechen-proveryaem-informacziyu/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002598726F590>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:40,435 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:44,436 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/fotofejk-kadyr-malikov-s-plakatom-pro-islam/
+2026-05-07 14:08:44,436 [factcheck] WARNING Failed https://factcheck.kg/ky/fotofejk-kadyr-malikov-s-plakatom-pro-islam/: HTTPSConnectionPool(host='factcheck.kg', port=443): Max retries exceeded with url: /ky/fotofejk-kadyr-malikov-s-plakatom-pro-islam/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000259EAAE1690>: Failed to resolve 'factcheck.kg' ([Errno 11001] getaddrinfo failed)"))
+2026-05-07 14:08:44,436 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:08:48,440 [factcheck] INFO Scraping (71): https://factcheck.kg/ky/faktchek-informacziya-podtverdilas-desyatnikov-grazhdanin-rf/
+2026-05-07 14:08:50,518 [factcheck] INFO   [FAKE] Фактчек. Маалымат чын болуп чыкты: Десятников – РФ жараны.
+2026-05-07 14:08:54,520 [factcheck] INFO Scraping (72): https://factcheck.kg/ky/batken-otprazdnoval-nooruz-vtroe-dorozhe-bishkeka-ugadajte-gde-prazdnoval-prezident/
+2026-05-07 14:08:56,157 [factcheck] INFO   [UNCERTAIN] Ноорузду майрамдоого бийлик Баткенде 8.3 млн сом, Бишкекте 2.6 мл
+2026-05-07 14:09:00,158 [factcheck] INFO Scraping (73): https://factcheck.kg/ky/dvojnik-bakieva-proveryaem-kto-zapechatlen-na-fotografii/
+2026-05-07 14:09:01,707 [factcheck] INFO   [REAL] Бакиевге түспөлдөш адам Кумтөрдө иштери чын
+2026-05-07 14:09:05,708 [factcheck] INFO Scraping (74): https://factcheck.kg/ky/vicze-premer-surabaldieva-poholodanie-pomozhet-v-borbe-s-covid-19-ne-dokazano/
+2026-05-07 14:09:07,328 [factcheck] INFO   [REAL] Сурабалдиеванын суукта коронавирус басаңдайт деген маалыматы дали
+2026-05-07 14:09:11,329 [factcheck] INFO Scraping (75): https://factcheck.kg/ky/2020/11/
+2026-05-07 14:09:12,655 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:09:16,658 [factcheck] INFO Scraping (75): https://factcheck.kg/ky/2022/09/
+2026-05-07 14:09:17,860 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:09:21,861 [factcheck] INFO Scraping (75): https://factcheck.kg/ky/manipulyaczii-s-byudzhetom-zayavlenie-sokratim-rashody-na-chinovnikov-na-14-mlrd-fakt-rashody-vyrastut-na-49-mlrd/
+2026-05-07 14:09:23,227 [factcheck] INFO   [FAKE] Каржы министри чиновниктердин чыгашасы кыскарат деди эле, бирок ч
+2026-05-07 14:09:27,229 [factcheck] INFO Scraping (76): https://factcheck.kg/ky/faktchek-v-afganistane-proizoshla-vspyshka-neizvestnogo-zabolevaniya/
+2026-05-07 14:09:28,559 [factcheck] INFO   [REAL] Фактчек: Ооганстанда белгисиз оорунун очогу пайда болдубу?
+2026-05-07 14:09:32,560 [factcheck] INFO Scraping (77): https://factcheck.kg/ky/byvshie-osuzhdennye-chinovniki-kandidaty-v-deputaty-kto-hozyaeva-domofonnyh-kompanij-bishkeka/
+2026-05-07 14:09:33,954 [factcheck] INFO   [REAL] Керектөөчү товардын (иштин, кызматтын) иш жүзүндө алынган саны үч
+2026-05-07 14:09:37,956 [factcheck] INFO Scraping (78): https://factcheck.kg/ky/kyrgyz-akylbek-zhaparovdun-doktorluk-dissertacziyasy-plagiat-teksherebiz/
+2026-05-07 14:09:39,445 [factcheck] INFO   [REAL] «Акылбек Жапаровдун докторлук диссертациясы плагиат». Текшеребиз
+2026-05-07 14:09:43,446 [factcheck] INFO Scraping (79): https://factcheck.kg/ky/baktybek-kalmamatov-azattyk-kyrgyzstan-importozavisimyj-na-95-nepravda/
+2026-05-07 14:09:44,768 [factcheck] INFO   [REAL] Бактыбек Калмаматов, “Азаттык”: “Кыргызстанда импорт 95%ды түзөт”
+2026-05-07 14:09:48,769 [factcheck] INFO Scraping (80): https://factcheck.kg/ky/pravda-li-chto-vinogradom-sorta-shajn-muskat-kormyat-svinej/
+2026-05-07 14:09:50,226 [factcheck] INFO   [REAL] «Бул жылы күн розасына суроо-талап жок.»«Түшүм мол болду, бирок 2
+2026-05-07 14:09:54,234 [factcheck] INFO Scraping (81): https://factcheck.kg/ky/kak-nami-manipuliruyut-vidy-dezinformaczii-i-sposoby-borby-s-nej/
+2026-05-07 14:09:55,887 [factcheck] INFO   [FAKE] Бизди кантип алдашат: жалган маалыматтардын түрлөрү жана алар мен
+2026-05-07 14:09:59,900 [factcheck] INFO Scraping (82): https://factcheck.kg/ky/prizy-k-135-letiyu-coca-cola-novaya-rassylka-ot-moshennikov-v-whatsapp/
+2026-05-07 14:10:01,411 [factcheck] INFO   [REAL] Factcheck.kg маалымат коопсуздугу үчүн бул шилтемеден өтүүнү суну
+2026-05-07 14:10:05,412 [factcheck] INFO Scraping (83): https://factcheck.kg/ky/urmat-nasykulov-reforma-70-gorozhan-eto-peshehody-30-avtomobilisty/
+2026-05-07 14:10:06,890 [factcheck] INFO   [REAL] “Биз элден алардын көйгөйлөрү тууралуу сурап чыктык. Эл жолдун же
+2026-05-07 14:10:10,893 [factcheck] INFO Scraping (84): https://factcheck.kg/ky/horoshie-propagandisty-bot-fermy-i-fabriki-trollej-diskussiya-v-smi-iz-za-rassledovaniya-chekit-media/
+2026-05-07 14:10:12,456 [factcheck] INFO   [UNCERTAIN] “Чекит.медиа” редакциясы 2020-жылы “Кыргызстандагы Интерньюс” сун
+2026-05-07 14:10:16,458 [factcheck] INFO Scraping (85): https://factcheck.kg/ky/faktchek-v-ssha-hotyat-zablokirovat-tiktok/
+2026-05-07 14:10:18,018 [factcheck] INFO   [REAL] Рэйдин айтымында, кытайлыктар тиркеменин сунуштоо алгоритмин көзө
+2026-05-07 14:10:22,019 [factcheck] INFO Scraping (86): https://factcheck.kg/ky/2024/02/
+2026-05-07 14:10:23,510 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:10:27,514 [factcheck] INFO Scraping (86): https://factcheck.kg/ky/elektronnoe-priglashenie-na-vojnu-eto-kosnetsya-vseh-kyrgyzstanczev-s-rossijskim-grazhdanstvom/
+2026-05-07 14:10:29,112 [factcheck] INFO   [REAL] Согушка электрондук чакыруу. Ал орусиянын жарандыгы бар бардык кы
+2026-05-07 14:10:33,113 [factcheck] INFO Scraping (87): https://factcheck.kg/ky/https-factcheck-kg-ky-kak-partii-manipuliruyut-spiskami-i-zamenyayut-pevczov-na-biznesmenov-pri-okonchatelnom-raspredelenii-mandatov/
+2026-05-07 14:10:34,872 [factcheck] INFO   [UNCERTAIN] Шайлоодогу манипуляция: акыркы тизмек кандай өзгөрдү?
+2026-05-07 14:10:38,873 [factcheck] INFO Scraping (88): https://factcheck.kg/ky/dogovor-o-svobode-slova/
+2026-05-07 14:10:40,691 [factcheck] INFO   [REAL] СӨЗ ЭРКИНДИГИ БОЮНЧА КЕЛИШИМ
+2026-05-07 14:10:44,693 [factcheck] INFO Scraping (89): https://factcheck.kg/ky/vladelczy-domashnih-pitomczev-bolee-ustojchivy-k-koronavirusu-ne-dokazano/
+2026-05-07 14:10:46,226 [factcheck] INFO   [REAL] «Биздин байкашыбызга караганда арабыздан илдет табылса да, мышык 
+2026-05-07 14:10:50,228 [factcheck] INFO Scraping (90): https://factcheck.kg/ky/pro-derevya-tualetnuyu-bumagu-i-gretu-tunberg-prizyvala-li-ekoaktivistka-kitajczev-otkazatsya-ot-palochek-dlya-edy/
+2026-05-07 14:10:51,806 [factcheck] INFO   [REAL] Грета Тунберг кытай элин таякчалардан баш тартууга чакырганбы? Те
+2026-05-07 14:10:55,807 [factcheck] INFO Scraping (91): https://factcheck.kg/ky/dvizhenie-taliban-prizyvaet-rossiyu-i-ukrainu-k-miru-pravda/
+2026-05-07 14:10:57,656 [factcheck] INFO   [REAL] “Ислам Эмирлиги бейтарап тышкы саясатына ылайык, чыр-чатакты эки 
+2026-05-07 14:11:01,657 [factcheck] INFO Scraping (92): https://factcheck.kg/ky/2022/03/
+2026-05-07 14:11:03,123 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:11:07,139 [factcheck] INFO Scraping (92): https://factcheck.kg/ky/koronavirus-peredaetsya-na-rasstoyanii-do-4-metrov-pravda-no-chastichno/
+2026-05-07 14:11:08,650 [factcheck] INFO   [UNCERTAIN] Айрым учурда коронавирус 4 метрге чейинки аралыкта жугат — чындык
+2026-05-07 14:11:12,665 [factcheck] INFO Scraping (93): https://factcheck.kg/ky/fejk-pro-mstitelnogo-pensionera/
+2026-05-07 14:11:14,220 [factcheck] INFO   [REAL] Кекчил пенсионердин жалган окуясы
+2026-05-07 14:11:18,221 [factcheck] INFO Scraping (94): https://factcheck.kg/ky/chto-izvestno-o-sude-kotoraya-otpustila-pod-domashnij-arest-podozrevaemogo-v-smerti-ajzy-ulan/
+2026-05-07 14:11:19,738 [factcheck] INFO   [REAL] “Судьянын түшүндүрүүсү боюнча, мурда бул иш боюнча каршы арыз бер
+2026-05-07 14:11:23,751 [factcheck] INFO Scraping (95): https://factcheck.kg/ky/videochek-v-tortah-soderzhatsya-tabletki-vyzyvayushhie-paralich-proveryaem/
+2026-05-07 14:11:25,283 [factcheck] INFO   [FAKE] “Жебегиле жана сатып албагыла!!! Сураныч, досторуңар жана топтор 
+2026-05-07 14:11:29,285 [factcheck] INFO Scraping (96): https://factcheck.kg/ky/deputaty-30-let-nazad-i-sejchas-kak-izmenilsya-kachestvennyj-sostav/
+2026-05-07 14:11:30,877 [factcheck] INFO   [REAL] Улан Бакасов, анынөмүр таржымалыбоюнча, депутат болгонго чейин 17
+2026-05-07 14:11:34,879 [factcheck] INFO Scraping (97): https://factcheck.kg/ky/gubernator-sogdijskoj-oblasti-na-fotografii-s-vooruzhennymi-pravda/
+2026-05-07 14:11:36,353 [factcheck] INFO   [UNCERTAIN] Согд облусунун губернатору ​куралчандар менен сүрөткө түшкөн
+2026-05-07 14:11:40,356 [factcheck] INFO Scraping (98): https://factcheck.kg/ky/imya-mera-bishkeka-nochyu-ischezlo-iz-registraczionnyh-dokumentov-ego-strojkompanii/
+2026-05-07 14:11:42,078 [factcheck] INFO   [REAL] “Менин юристтерим Юстиция министрлигине тиешелүү документтерди та
+2026-05-07 14:11:46,094 [factcheck] INFO Scraping (99): https://factcheck.kg/ky/minkultury-otklonilo-prosbu-eltr-o-blokirovke-sajta-politkliniki/
+2026-05-07 14:11:47,605 [factcheck] INFO   [REAL] Маданият министрлиги ЭлТРдин “ПолитКлиниканын” сайтын бөгөттөө өт
+2026-05-07 14:11:51,607 [factcheck] INFO Scraping (100): https://factcheck.kg/ky/tadzhikistan-poluchil-modernizirovannye-tanki-proveryaem/
+2026-05-07 14:11:53,139 [factcheck] INFO   [REAL] Министрликтин маалыматы боюнча, эскирген техникаларды алмаштыруу 
+2026-05-07 14:11:57,140 [factcheck] INFO Scraping (101): https://factcheck.kg/ky/tiktok-uhodit-iz-ssha-razbiraemsya/
+2026-05-07 14:11:58,713 [factcheck] INFO   [REAL] Tiktok АКШдан кетип жатабы? Текшеребиз
+2026-05-07 14:12:02,722 [factcheck] INFO Scraping (102): https://factcheck.kg/ky/kyrgyzstan-otkazyvalsya-ot-peregovorov-s-tadzhikskoj-storonoj-nepravda/
+2026-05-07 14:12:04,274 [factcheck] INFO   [REAL] Кыргызстан тажик тарап менен сүйлөшүүлөрдөн качып жаттыбы? Калп
+2026-05-07 14:12:08,275 [factcheck] INFO Scraping (103): https://factcheck.kg/ky/shutku-adahana-madumarova-vydali-za-skandalnuyu-czitatu-dnya/
+2026-05-07 14:12:09,831 [factcheck] INFO   [REAL] Мадумаровдун “жарым-жартылай тамашасы” чуу жаратты
+2026-05-07 14:12:13,848 [factcheck] INFO Scraping (104): https://factcheck.kg/ky/pochemu-lyudi-sklonny-verit-teoriyam-zagovora-i-fejkam/
+2026-05-07 14:12:15,495 [factcheck] INFO   [FAKE] Чындыгында,учак асманда учуп бараткандаанын моторлору абага колдо
+2026-05-07 14:12:19,501 [factcheck] INFO Scraping (105): https://factcheck.kg/ky/kakie-kresla-doma-u-izvestnoj-ekoaktivistki-grety-tunberg-proveryaem/
+2026-05-07 14:12:21,142 [factcheck] INFO   [FAKE] “Кымбат баалуу эмеректердин фонунда “уурдалган балалык” жана “уур
+2026-05-07 14:12:25,144 [factcheck] INFO Scraping (106): https://factcheck.kg/ky/videochek-devushka-hotela-sdelat-selfi-i-upala-v-lavu/
+2026-05-07 14:12:26,702 [factcheck] INFO   [REAL] Видеочек: Кыз селфи кылам деп лавага кулап кеттиби?
+2026-05-07 14:12:30,706 [factcheck] INFO Scraping (107): https://factcheck.kg/ky/iznasilovanie-nesovershennoletnego-proizoshlo-v-respublike-altaj-a-ne-v-altajskom-krae/
+2026-05-07 14:12:32,396 [factcheck] INFO   [REAL] Factcheck.kg  Кош-Агач райондук сотунун базасын карап чыгып, тиеш
+2026-05-07 14:12:36,410 [factcheck] INFO Scraping (108): https://factcheck.kg/ky/boty-ne-otdyhayut-czifrovaya-fabrika-fejkov-revolyucziya-na-rynke-politicheskogo-piara/
+2026-05-07 14:12:38,160 [factcheck] INFO   [FAKE] Жыйынтыгында биз фабрикада иштеген кызматкердин бирин кепке тартт
+2026-05-07 14:12:42,162 [factcheck] INFO Scraping (109): https://factcheck.kg/ky/mediakritika-kak-goskanaly-osvetili-miting-reakcziya-3-0/
+2026-05-07 14:12:43,596 [factcheck] INFO   [FAKE] Медиакритика: Как госканалы осветили митинг #Reакция 3.0
+2026-05-07 14:12:47,597 [factcheck] INFO Scraping (110): https://factcheck.kg/ky/soznatelnoe-unizhenie-zhenshhin-ili-obychnyj-religioznyj-obryad/
+2026-05-07 14:12:49,114 [factcheck] INFO   [REAL] Аялдарды атайлап басынтуубу же диний ырымбы?
+2026-05-07 14:12:53,121 [factcheck] INFO Scraping (111): https://factcheck.kg/ky/2023/03/
+2026-05-07 14:12:54,551 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:12:58,552 [factcheck] INFO Scraping (111): https://factcheck.kg/ky/https-factcheck-kg-rozygrysh-ot-kumtora-k-30-letiyu-k-kompanii-fejk-ili-pravda/
+2026-05-07 14:13:00,200 [factcheck] INFO   [REAL] “Кумтөр” 30 жылдыгына карата белектерди ойноткону – фейк маалымат
+2026-05-07 14:13:04,205 [factcheck] INFO Scraping (112): https://factcheck.kg/ky/kompaniya-novogo-mera-stroit-zhilkompleks-kremlevskij-na-territorii-doma-prestarelyh-chto-eshhe-izvestno/
+2026-05-07 14:13:05,683 [factcheck] INFO   [REAL] “Нур Строй Монтаж” ЖЧКсы көп кабаттуу үйлөрдү куруу менен алектен
+2026-05-07 14:13:09,686 [factcheck] INFO Scraping (113): https://factcheck.kg/ky/faktchek-franczuzy-na-protestnyh-marshah-prizyvayut-ostanovit-vooruzhenie-ukrainy/
+2026-05-07 14:13:11,039 [factcheck] INFO   [REAL] Фактчек: Нааразылык марштарына чыккан француздар Украинага курал-
+2026-05-07 14:13:15,039 [factcheck] INFO Scraping (114): https://factcheck.kg/ky/2021/12/
+2026-05-07 14:13:16,483 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:13:20,484 [factcheck] INFO Scraping (114): https://factcheck.kg/ky/kyrgyz-ysyk-k%d3%a9ld%d3%a9-zhylkylardyn-oorugany-chyn-birok-alardan-koronavirus-anyktalgan-zhok/
+2026-05-07 14:13:22,033 [factcheck] INFO   [REAL] Ысык-Көлдө жылкылардын ооруганы чын. Бирок алардан коронавирус ан
+2026-05-07 14:13:26,045 [factcheck] INFO Scraping (115): https://factcheck.kg/ky/kyrgyz-tashievdin-hansarajy-tuuraluu-5-fakt/
+2026-05-07 14:13:27,552 [factcheck] INFO   [REAL] «Үй Кыдырша Ташиев 31-көчөсүндө жайгашкан […] Ал жерге атам үй са
+2026-05-07 14:13:31,554 [factcheck] INFO Scraping (116): https://factcheck.kg/ky/chto-izvestno-pro-kompanii-kotorye-sobirayutsya-stroit-musoropererabatyvayushhij-zavod-v-bishkeke/
+2026-05-07 14:13:33,155 [factcheck] INFO   [REAL] Бишкекте таштандыны кайра иштетүүчү заводду кургусу келген компан
+2026-05-07 14:13:37,156 [factcheck] INFO Scraping (117): https://factcheck.kg/ky/pentagon-otkryl-otdel-po-izucheniyu-anomalij-svyazannyh-s-nlo-proveryaem/
+2026-05-07 14:13:38,672 [factcheck] INFO   [REAL] Пентагон БУОго байланыштуу аномалияларды изилдөө боюнча бөлүм ачт
+2026-05-07 14:13:42,683 [factcheck] INFO Scraping (118): https://factcheck.kg/ky/ajmen-kasenov-29-graniczy-s-uzbekistanom-i-47-s-tadzhikistanom-ne-delimitirovany-polupravda/
+2026-05-07 14:13:44,245 [factcheck] INFO   [REAL] Аймен Касенов: Өзбекстан менен чек арабыз 29%, Тажикстан менен 47
+2026-05-07 14:13:48,247 [factcheck] INFO Scraping (119): https://factcheck.kg/ky/2023/01/
+2026-05-07 14:13:49,745 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:13:53,747 [factcheck] INFO Scraping (119): https://factcheck.kg/ky/kaliforniya-obyavila-defolt-proveryaem/
+2026-05-07 14:13:55,289 [factcheck] INFO   [REAL] Калифорния дефолт жарыяладыбы? Текшеребиз
+2026-05-07 14:13:59,301 [factcheck] INFO Scraping (120): https://factcheck.kg/ky/zhanybek-abirov-emgek-my-zhdem-150-tysyach-vakczin-ot-rossijskoj-federaczii/
+2026-05-07 14:14:00,686 [factcheck] INFO   [UNCERTAIN] Жаныбек Абиров, “Эмгек”: Биз Россиядан 150 миң доза вакцина күтүп
+2026-05-07 14:14:04,701 [factcheck] INFO Scraping (121): https://factcheck.kg/ky/2023/10/
+2026-05-07 14:14:06,198 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:14:10,200 [factcheck] INFO Scraping (121): https://factcheck.kg/ky/chetvertaya-volna-koronavirusa-v-ssha-proveryaem/
+2026-05-07 14:14:11,671 [factcheck] INFO   [REAL] АКШда коронавирустун төртүнчү толкуну башталдыбы? — Текшеребиз
+2026-05-07 14:14:15,672 [factcheck] INFO Scraping (122): https://factcheck.kg/ky/krupnye-biznesmeny-proshli-v-parlament-po-odnomandatnym-okrugam/
+2026-05-07 14:14:17,259 [factcheck] INFO   [REAL] Бир мандаттуу округдардан бажы кызматкерлери, бизнесмендер жана а
+2026-05-07 14:14:21,260 [factcheck] INFO Scraping (123): https://factcheck.kg/ky/restoranom-saltanat-vladeet-syn-ministra-energetiki-chto-eshhe-izvestno/
+2026-05-07 14:14:22,806 [factcheck] INFO   [REAL] “Салатанат” рестораны энергетика министринин уулуна таандык. Мини
+2026-05-07 14:14:26,807 [factcheck] INFO Scraping (124): https://factcheck.kg/ky/mozhno-li-sprognozirovat-zemletryasenie-skazhutsya-li-zemletryaseniya-v-turczii-i-sirii-na-kyrgyzstane-net-ne-otrazyatsya/
+2026-05-07 14:14:28,549 [factcheck] INFO   [REAL] “Эртеби-кечпи бул чөлкөмдө (Түркиянын түштүгү жана борбору, Иорда
+2026-05-07 14:14:32,551 [factcheck] INFO Scraping (125): https://factcheck.kg/ky/videofejk-s-afganskimi-boevikami-napravlyayushhimisya-v-isfaru/
+2026-05-07 14:14:34,148 [factcheck] INFO   [FAKE] Афган согушкерлеринин Исфарага жөнөгөнү тууралуу тасма – фейк
+2026-05-07 14:14:38,150 [factcheck] INFO Scraping (126): https://factcheck.kg/ky/v-ssha-arestovali-sozdatelya-koronavirusa-fejk-charlz-liber-zaderzhan-po-drugomu-obvineniyu/
+2026-05-07 14:14:39,863 [factcheck] INFO   [FAKE] АКШда коронавирустун жаратуучусу камакка алынды деген маалымат — 
+2026-05-07 14:14:43,865 [factcheck] INFO Scraping (127): https://factcheck.kg/ky/nashi-grazhdane-ne-mogut-popolnit-schet-partij-iz-za-rubezha-pravda/
+2026-05-07 14:14:45,403 [factcheck] INFO   [REAL] Саясий партиялардын эсебине каражат которулбай жаткандыгы чын
+2026-05-07 14:14:49,405 [factcheck] INFO Scraping (128): https://factcheck.kg/ky/ostorozhno-moshenniki-i-podarochnye-podpiski-na-telegram-premium/
+2026-05-07 14:14:51,131 [factcheck] INFO   [FAKE] Этият болгула! Шылуундар жана Telegram Premium’га жазылууга «беле
+2026-05-07 14:14:55,134 [factcheck] INFO Scraping (129): https://factcheck.kg/ky/nasa-po-zakonam-fiziki-pchely-ne-dolzhny-letat-no-pchely-ob-etom-ne-znayut-pravda/
+2026-05-07 14:14:56,510 [factcheck] INFO   [UNCERTAIN] NASA: физиканын мыйзамдары боюнча аарылар учпашы керек, бирок аар
+2026-05-07 14:15:00,511 [factcheck] INFO Scraping (130): https://factcheck.kg/ky/v-whatsapp-rassylayut-fotografii-boev-v-evrejskih-poseleniyah-kotorye-mogut-vzlomat-vash-telefon-proveryaem/
+2026-05-07 14:15:02,131 [factcheck] INFO   [REAL] WhatsApp’та cиздин телефонуңузга бузуп кире алган еврей конуштары
+2026-05-07 14:15:06,133 [factcheck] INFO Scraping (131): https://factcheck.kg/ky/mozhet-li-perecz-chili-prodlit-zhizn-cheloveka-ne-dokazano/
+2026-05-07 14:15:07,709 [factcheck] INFO   [REAL] Чили калемпири адам өмүрүн узартабы?
+2026-05-07 14:15:11,719 [factcheck] INFO Scraping (132): https://factcheck.kg/ky/avtor-zakona-o-smi-murat-ukushov-opyat-popalsya-na-etot-raz-na-plagiate-statej-ria-novosti/
+2026-05-07 14:15:13,228 [factcheck] INFO   [REAL] ЖМК жөнүндө мыйзамдын автору кайра кармалды. Бул жолу РИА-Новости
+2026-05-07 14:15:17,230 [factcheck] INFO Scraping (133): https://factcheck.kg/ky/kyrgyz-elektoratty-zhalgan-czifralar-menen-aldoo-1-b%d3%a9l%d2%afm/
+2026-05-07 14:15:18,763 [factcheck] INFO   [REAL] Электоратты жалган цифралар менен алдоо. 1-Бөлүм
+2026-05-07 14:15:22,769 [factcheck] INFO Scraping (134): https://factcheck.kg/ky/kak-moshenniki-ispolzuyut-dipfejki-i-pohishhayut-dengi-factcheck/
+2026-05-07 14:15:24,576 [factcheck] INFO   [FAKE] Кантип шылуундар дипфейктерди колдонуп, акчаны уурдашууда? Factch
+2026-05-07 14:15:28,578 [factcheck] INFO Scraping (135): https://factcheck.kg/ky/razdacha-deneg-nuzhdayushhimsya-ot-organizaczii-islamskogo-sotrudnichestva-proveryaem/
+2026-05-07 14:15:30,213 [factcheck] INFO   [FAKE] Ислам кызматташуу уюму жардамга муктаждарга акча берип жатабы? Те
+2026-05-07 14:15:34,214 [factcheck] INFO Scraping (136): https://factcheck.kg/ky/chatgpt-obsuzhdaet-poraboshhenie-mira-proveryaem/
+2026-05-07 14:15:35,228 [factcheck] INFO   [FAKE] ChatGPT дүйнө элин кулга айлантууну талкуулап жатабы? Текшеребиз
+2026-05-07 14:15:39,236 [factcheck] INFO Scraping (137): https://factcheck.kg/ky/upravdelami-prezidenta-zakupit-60-planshetov-ekshn-kameru-i-mnogoe-drugoe-na-9-mln-somov/
+2026-05-07 14:15:40,393 [factcheck] INFO   [REAL] Калган каражат ар кандай аккумуляторлорго, кнопкаларга, жарык бер
+2026-05-07 14:15:44,396 [factcheck] INFO Scraping (138): https://factcheck.kg/ky/uchenye-obnaruzhili-naturalnyj-produkt-ubivayushhij-koronavirus-manipulyacziya/
+2026-05-07 14:15:45,445 [factcheck] INFO   [REAL] Коронавирусту өлтүргөн табигый продукт табылды деген маалымат — м
+2026-05-07 14:15:49,453 [factcheck] INFO Scraping (139): https://factcheck.kg/ky/faktchek-ptichij-gripp-mutiruet-voz-zhdet-novoj-pandemii-a-ssha-uskorenno-razrabatyvayut-vakczinu/
+2026-05-07 14:15:50,742 [factcheck] INFO   [REAL] Фактчек: Куш тумоосу мутация болуп жатабы, БДССУ жаңы пандемияны 
+2026-05-07 14:15:54,743 [factcheck] INFO Scraping (140): https://factcheck.kg/ky/faktchek-chinovnik-apparata-prezidenta-proczitiroval-gitlera-obsuzhdaya-zakon-o-smi/
+2026-05-07 14:15:56,014 [factcheck] INFO   [FAKE] “Йозеф Геббельс ким экенин баарыңар билет болушуңар керек – пропа
+2026-05-07 14:16:00,017 [factcheck] INFO Scraping (141): https://factcheck.kg/ky/v-avstralii-chislo-smertej-ot-koronavirusa-uvelichilos-v-desyatki-raz/
+2026-05-07 14:16:01,234 [factcheck] INFO   [REAL] Австралияда таажычан вирустан өлгөндөрдүн саны он эселеп өстүбү?
+2026-05-07 14:16:05,245 [factcheck] INFO Scraping (142): https://factcheck.kg/ky/sbezhal-li-farid-niyazov-iz-strany/
+2026-05-07 14:16:06,410 [factcheck] INFO   [FAKE] Фарид Ниязов өлкөдөн качып кеттиби?
+2026-05-07 14:16:10,420 [factcheck] INFO Scraping (143): https://factcheck.kg/ky/2018/11/
+2026-05-07 14:16:11,198 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:16:15,201 [factcheck] INFO Scraping (143): https://factcheck.kg/ky/rossijskij-soldat-popavshij-v-plen-v-ukraine-rodom-iz-kyrgyzstana-faktchek/
+2026-05-07 14:16:16,499 [factcheck] INFO   [REAL] Украинада туткунга түшкөн орус аскери Кыргызстандан экени чын. Фа
+2026-05-07 14:16:20,500 [factcheck] INFO Scraping (144): https://factcheck.kg/ky/faktchek-kto-priletel-v-kyrgyzstan-na-chastnom-samolete-s-maldiv-ne-amanda-turgunova/
+2026-05-07 14:16:21,754 [factcheck] INFO   [FAKE] Мальдив аралдарынан Аманда Тургунова учуп келген жок. Анда ким?
+2026-05-07 14:16:25,756 [factcheck] INFO Scraping (145): https://factcheck.kg/ky/chto-izvestno-ob-ordere-na-arest-putina-i-arestuyut-li-ego-v-kyrgyzstane/
+2026-05-07 14:16:27,341 [factcheck] INFO   [REAL] “Биз аларды бир аз эсине келишсин деп Москва облусунун аймагына а
+2026-05-07 14:16:31,342 [factcheck] INFO Scraping (146): https://factcheck.kg/ky/2022/02/
+2026-05-07 14:16:32,790 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:16:36,793 [factcheck] INFO Scraping (146): https://factcheck.kg/ky/2021/01/
+2026-05-07 14:16:38,491 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:16:42,493 [factcheck] INFO Scraping (146): https://factcheck.kg/ky/faktchek-pochemu-policziya-izbivaet-passazhirov-v-metro/
+2026-05-07 14:16:44,032 [factcheck] INFO   [REAL] Фактчек. Полиция жүргүнчүлөргө эмнеге кол көтөрдү?
+2026-05-07 14:16:48,034 [factcheck] INFO Scraping (147): https://factcheck.kg/ky/kyrgyzstan-v-razy-narastil-eksport-voennoj-tehniki-v-rossiyu-samolety-chasti-letatelnyh-apparatov-optika/
+2026-05-07 14:16:50,156 [factcheck] INFO   [REAL] Кыргызстан Орусияга аскердик техниканын: учактардын, учак тетикте
+2026-05-07 14:16:54,158 [factcheck] INFO Scraping (148): https://factcheck.kg/ky/stat-deputatami-parlamenta-hotyat-pochti-400-bezrabotnyh/
+2026-05-07 14:16:55,722 [factcheck] INFO   [UNCERTAIN] Депутаттыкка аттангандардын 400гө чукулун жумушсуздар түзөт
+2026-05-07 14:16:59,723 [factcheck] INFO Scraping (149): https://factcheck.kg/ky/eksport-posudomoechnyh-mashin-iz-kyrgyzstana-v-rossiyu-vyros-na-26-tysyach-proczentov-i-sostavil-51-mln-vsego-za-pyat-mesyaczev-analiz-etoj-i-drugih-eksportnyh-anomalij/
+2026-05-07 14:17:01,293 [factcheck] INFO   [UNCERTAIN] Ошентип быйыл бул товардын экспорту 260 эсе же 25 854%га өскөн.
+2026-05-07 14:17:05,295 [factcheck] INFO Scraping (150): https://factcheck.kg/ky/spravki-o-vakczinaczii-nedostatochno-pri-vezde-v-kyrgyzstan-chto-nuzhno-eshhe/
+2026-05-07 14:17:06,844 [factcheck] INFO   [REAL] Кыргызстанга кирүү үчүн эмделүү жетишсизби?
+2026-05-07 14:17:10,846 [factcheck] INFO Scraping (151): https://factcheck.kg/ky/mihail-gorbachyov-poluchil-grazhdanstvo-ssha-nepravda/
+2026-05-07 14:17:12,413 [factcheck] INFO   [REAL] Михаил Горбачев АКШ жарандыгын алды деген маалымат — фейк
+2026-05-07 14:17:16,420 [factcheck] INFO Scraping (152): https://factcheck.kg/ky/podarok-na-novyj-god-sadyr-zhaparov-planiruet-priobresti-samolet/
+2026-05-07 14:17:17,996 [factcheck] INFO   [REAL] Жаңы жылга белек. Садыр Жапаров учак сатып алганы жатат
+2026-05-07 14:17:22,007 [factcheck] INFO Scraping (153): https://factcheck.kg/ky/grazhdanam-rossii-zapretili-sdavat-ekzamen-po-anglijskomu-yazyku-toefl/
+2026-05-07 14:17:23,561 [factcheck] INFO   [REAL] Орусиянын жарандарына TOEFL англис тил экзаменин тапшырууга тыюу 
+2026-05-07 14:17:27,566 [factcheck] INFO Scraping (154): https://factcheck.kg/ky/category/factcheck/factchekkr/
+2026-05-07 14:17:29,148 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:17:33,151 [factcheck] INFO Scraping (154): https://factcheck.kg/ky/polet-prezidenta-v-shotlandiyu-obojdetsya-primerno-v-19-8-mln-somov/
+2026-05-07 14:17:34,778 [factcheck] INFO   [REAL] Президенттин Шотландияга болгон сапарына болжол менен 19.8 млн со
+2026-05-07 14:17:38,780 [factcheck] INFO Scraping (155): https://factcheck.kg/ky/deputaty-trebuyut-unichtozhit-svoi-deklaraczii-a-vse-chto-nazhito-do-etogo-legalizovat/
+2026-05-07 14:17:40,466 [factcheck] INFO   [REAL] Депутаттар декларацияларын жок кылууну, а мурда топтогон байлыгын
+2026-05-07 14:17:44,469 [factcheck] INFO Scraping (156): https://factcheck.kg/ky/2019/05/
+2026-05-07 14:17:45,910 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:17:49,911 [factcheck] INFO Scraping (156): https://factcheck.kg/ky/fejkovaya-informacziya-i-pochemu-eyu-delyatsya/
+2026-05-07 14:17:51,477 [factcheck] INFO   [FAKE] Жалган маалымат жана эмне үчүн эл аны менен бөлүшөт?
+2026-05-07 14:17:55,478 [factcheck] INFO Scraping (157): https://factcheck.kg/ky/manipulyaczii-o-pokazatelyah-detskoj-smertnosti-v-kyrgyzstane/
+2026-05-07 14:17:56,987 [factcheck] INFO   [REAL] Балдар өлүмүнө тиешелүү статистика кантип бурмаланган?
+2026-05-07 14:18:00,995 [factcheck] INFO Scraping (158): https://factcheck.kg/ky/domysly-lenta-ru-lavrov-ne-govoril-chto-kyrgyzstan-podderzhivaet-speczoperacziyu-moskvy/
+2026-05-07 14:18:02,805 [factcheck] INFO   [REAL] “Украинадагы кырдаалга тынчсыздануу менен көз салып турабыз. Бири
+2026-05-07 14:18:06,808 [factcheck] INFO Scraping (159): https://factcheck.kg/ky/biznes-zulushevyh-chast-2-svyaz-s-eks-prokurorom/
+2026-05-07 14:18:08,500 [factcheck] INFO   [REAL] Зулушевдердин бизнеси, мурдагы прокурор менен байланышы
+2026-05-07 14:18:12,505 [factcheck] INFO Scraping (160): https://factcheck.kg/ky/v-uzbekistane-pospela-pomidor-vakczina-ot-covid-19-pravda-ili-fejk/
+2026-05-07 14:18:14,020 [factcheck] INFO   [REAL] Өзбекстанда COVID-19га каршы помидор-вакцина бышып калды. Чынбы ж
+2026-05-07 14:18:18,027 [factcheck] INFO Scraping (161): https://factcheck.kg/ky/ocherednaya-draka-shkolnicz-v-kyrgyzstane-fejk/
+2026-05-07 14:18:19,568 [factcheck] INFO   [FAKE] Кыргызстандык кыздардын мушташы тууралуу тасма – фейк
+2026-05-07 14:18:23,569 [factcheck] INFO Scraping (162): https://factcheck.kg/ky/chto-delaet-s-nami-kofe-zashhishhaet-mozg-ili-vyzyvaet-rak/
+2026-05-07 14:18:25,158 [factcheck] INFO   [REAL] Кофе ден-соолукту бекемдейби же рак илдетин козгойбу? Текшеребиз
+2026-05-07 14:18:29,163 [factcheck] INFO Scraping (163): https://factcheck.kg/ky/2019/09/
+2026-05-07 14:18:30,700 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:18:34,701 [factcheck] INFO Scraping (163): https://factcheck.kg/ky/professor-saudovskogo-universiteta-byl-prigovoren-k-smertnoj-kazni-proveryaem/
+2026-05-07 14:18:36,346 [factcheck] INFO   [REAL] “Реформаларды колдогон сауд университетинин профессору Авад Аль-К
+2026-05-07 14:18:40,347 [factcheck] INFO Scraping (164): https://factcheck.kg/ky/2021/09/
+2026-05-07 14:18:41,756 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:18:45,759 [factcheck] INFO Scraping (164): https://factcheck.kg/ky/kitajskij-premer-molitsya-v-mecheti-proveryaem/
+2026-05-07 14:18:47,338 [factcheck] INFO   [UNCERTAIN] Кытайдын премьер-министри мечитке барып, намаз окудубу? Текшереби
+2026-05-07 14:18:51,343 [factcheck] INFO Scraping (165): https://factcheck.kg/ky/vybory-v-bgk-lozh-kandidata-v-deputaty-tyuleevskoj-partii-ak-bata/
+2026-05-07 14:18:53,024 [factcheck] INFO   [REAL] “Ак Бата” партиясынын мүчөсү “Түлеевдин жер мафиясы” иликтөөсүндө
+2026-05-07 14:18:57,025 [factcheck] INFO Scraping (166): https://factcheck.kg/ky/informacziya-o-tom-chto-italiya-stala-musulmanskoj-stranoj-fejk/
+2026-05-07 14:18:58,716 [factcheck] INFO   [FAKE] Италия толугу менен ислам динин кабыл алды деген маалымат фейк
+2026-05-07 14:19:02,718 [factcheck] INFO Scraping (167): https://factcheck.kg/ky/zhenishbek-bajguttiev-u-nas-vsego-6-zemel-prigodny-dlya-selhoz-deyatelnosti-ne-schitaya-pastbishh-pravda/
+2026-05-07 14:19:04,355 [factcheck] INFO   [REAL] Жеңишбек Байгуттиев: Бизде жайыттарды эске албаганда, айыл чарба 
+2026-05-07 14:19:08,366 [factcheck] INFO Scraping (168): https://factcheck.kg/ky/draka-s-uchastiem-kyrgyzstanczev-v-turczii/
+2026-05-07 14:19:09,888 [factcheck] INFO   [FAKE] Түркияда кыргызстандыктар катышкан мушташ
+2026-05-07 14:19:13,890 [factcheck] INFO Scraping (169): https://factcheck.kg/ky/baktybek-kalmamatov-my-pokupaem-gsm-na-600-mln-dollarov-pravda/
+2026-05-07 14:19:15,382 [factcheck] INFO   [REAL] Бактыбек Калмаматов: Биз күйүүчү майды 600 млн долларга сатып ала
+2026-05-07 14:19:19,384 [factcheck] INFO Scraping (170): https://factcheck.kg/ky/fejk-o-proizvodstve-iskusstvennogo-myasa-v-kitae/
+2026-05-07 14:19:20,889 [factcheck] INFO   [FAKE] Кытайда жасалма этти өндүрүү боюнча фейк
+2026-05-07 14:19:24,890 [factcheck] INFO Scraping (171): https://factcheck.kg/ky/a-v-sudi-kto-idet-chast-1-ya/
+2026-05-07 14:19:26,556 [factcheck] INFO   [REAL] “БИЗ КӨПЧҮЛҮК ОРУНДАР ЖОГОРКУ БИЙЛИКТИН ЧИНОВНИКТЕРИ, ТАКТАП АЙТК
+2026-05-07 14:19:30,564 [factcheck] INFO Scraping (172): https://factcheck.kg/ky/eshhe-odin-god-prezidentstva-sadyra-zhaparova-kak-obstoyat-dela-s-obeshhaniyami/
+2026-05-07 14:19:32,148 [factcheck] INFO   [REAL] “Силерге иш шарттары түзүлүүдө. Бир жыл мурун чыдай тургула деп с
+2026-05-07 14:19:36,150 [factcheck] INFO Scraping (173): https://factcheck.kg/ky/10558-2/
+2026-05-07 14:19:37,660 [factcheck] INFO   [REAL] Саякатчы чымчык. Фотомонтажбы же чындыкпы? Текшеребиз
+2026-05-07 14:19:41,665 [factcheck] INFO Scraping (174): https://factcheck.kg/ky/top-10-samyh-bogatyh-deputatov-vi-i-vii-sozyva-zhogorku-kenesha/
+2026-05-07 14:19:43,242 [factcheck] INFO   [REAL] Жогорку Кеңештин VI жана VII чакырылышындагы эң бай депутаттардын
+2026-05-07 14:19:47,246 [factcheck] INFO Scraping (175): https://factcheck.kg/ky/https-factcheck-kg-obrazovannye-i-bezrabotnye-kto-hochet-popast-v-bgk-1/
+2026-05-07 14:19:48,797 [factcheck] INFO   [REAL] “Туран” партиясында бир гана кандидат иштейт. Башка партиялардачы
+2026-05-07 14:19:52,810 [factcheck] INFO Scraping (176): https://factcheck.kg/ky/pochemu-otrk-osvetil-miting-reakcziya-3-0/
+2026-05-07 14:19:54,371 [factcheck] INFO   [REAL] КТРК эмне себептен  #Reакция 3.0 митингин чагылдырган?
+2026-05-07 14:19:58,376 [factcheck] INFO Scraping (177): https://factcheck.kg/ky/mediakritika-stati-sentralasia-news-o-kitajskih-ohrannikah-investorov-iz-knr/
+2026-05-07 14:19:59,815 [factcheck] INFO   [REAL] Кыргызстандагы кытайлык күзөттү чагылдырган макалаларга МЕДИАСЫН
+2026-05-07 14:20:03,818 [factcheck] INFO Scraping (178): https://factcheck.kg/ky/kyrgyz-%e2%80%8broza-otunbaevany-ajyptagan-postko-zhaparovdun-akkauntunan-zhaktyruu-belgisi-koyulup-b%d3%a9l%d2%afsh%d2%aflg%d3%a9n%d2%af-chyndyk/
+2026-05-07 14:20:05,292 [factcheck] INFO   [REAL] Отунбаеваны айыптаган постко Жапаровдун аккаунтунан жактыруу белг
+2026-05-07 14:20:09,303 [factcheck] INFO Scraping (179): https://factcheck.kg/ky/manipulyaczii-premer-ministra-s-cziframi-o-rabochih-mestah/
+2026-05-07 14:20:10,723 [factcheck] INFO   [REAL] Премьер-министр жумуш орундары тууралуу цифра менен манипуляция ж
+2026-05-07 14:20:14,725 [factcheck] INFO Scraping (180): https://factcheck.kg/ky/dzhamilya-dzhamanbaeva-novyj-ombudsmen-no-kakie-kandidaty-ballotirovalis-na-etot-post/
+2026-05-07 14:20:16,206 [factcheck] INFO   [REAL] Жамиля Жаманбаева – жаңы акыйкатчы, бул кызматка дагы ким талапке
+2026-05-07 14:20:20,207 [factcheck] INFO Scraping (181): https://factcheck.kg/ky/vybornyj-faktchek-kolichestvo-razvodov-i-detej-sirot-rastet-pravda/
+2026-05-07 14:20:21,667 [factcheck] INFO   [REAL] Ажырашуулардын жана жетим балдардын саны өсүүдө — чындык
+2026-05-07 14:20:25,673 [factcheck] INFO Scraping (182): https://factcheck.kg/ky/ezhegodno-v-mire-unichtozhaetsya-do-100-mln-akul-i-v-etom-vinovaty-sovremennye-vakcziny-ot-covid-19/
+2026-05-07 14:20:27,201 [factcheck] INFO   [REAL] 100 млн акуланын өлүмүнө Covid-19га каршы вакцина себепкерби?
+2026-05-07 14:20:31,207 [factcheck] INFO Scraping (183): https://factcheck.kg/ky/glava-mid-avstrii-dopustil-postepennoe-snyatie-sankczij-s-rossii-proveryaem/
+2026-05-07 14:20:32,784 [factcheck] INFO   [FAKE] Австриянын тышкы иштер министрлиги Орусиядан санкцияларды акырынд
+2026-05-07 14:20:36,787 [factcheck] INFO Scraping (184): https://factcheck.kg/ky/ocherednoe-neizvestnoe-nauke-sushhestvo-nepravda/
+2026-05-07 14:20:38,508 [factcheck] INFO   [FAKE] Сүрөттөгү табышмактуу жанды текшеребиз
+2026-05-07 14:20:42,520 [factcheck] INFO Scraping (185): https://factcheck.kg/ky/povtornye-vybory-po-sverdlovskomu-okrugu-ballotiruyutsya-storonniki-matraimova-i-eks-chinovniki/
+2026-05-07 14:20:44,123 [factcheck] INFO   [REAL] Свердлов районунан кайра шайлоого мурдагы чиновниктер жана Матраи
+2026-05-07 14:20:48,136 [factcheck] INFO Scraping (186): https://factcheck.kg/ky/2023/05/
+2026-05-07 14:20:49,599 [factcheck] INFO   ✗ Skipped
+2026-05-07 14:20:53,603 [factcheck] INFO Scraping (186): https://factcheck.kg/ky/czitata-lva-tolstogo-ob-islame-fejk/
+2026-05-07 14:20:55,168 [factcheck] INFO   [REAL] Лев Толстойдун Ислам тууралуу пикири жалганбы?
+2026-05-07 14:20:59,170 [factcheck] INFO Scraping (187): https://factcheck.kg/ky/rotshild-hozyain-mira-nepravda/
+2026-05-07 14:21:00,761 [factcheck] INFO   [FAKE] Дүйнөнү Ротшильд аттуу жаран башкарат деген маалымат — фейк
+2026-05-07 14:21:04,765 [factcheck] INFO Scraping (188): https://factcheck.kg/ky/v-uzbekistane-zaplatyat-po-50-za-kazhdyj-kilogramm-sbroshennogo-vesa-proveryaem/
+2026-05-07 14:21:06,294 [factcheck] INFO   [REAL] Өзбекстанда салмак таштаган чиновниктерге компенсация төлөнөбү? Т
+2026-05-07 14:21:10,295 [factcheck] INFO Scraping (189): https://factcheck.kg/ky/v-kyrgyzstane-bolee-legko-perenosimyj-shtamm-virusa-nepravda/
+2026-05-07 14:21:11,843 [factcheck] INFO   [REAL] Кыргызстандагы вирусту жеңүү жолу жеңилирээк — жалган
+2026-05-07 14:21:15,849 [factcheck] INFO Scraping (190): https://factcheck.kg/ky/kazahstan-priostanovil-tranzit-rossijskogo-uglya-proveryaem/
+2026-05-07 14:21:17,389 [factcheck] INFO   [REAL] Казакстан орус көмүрүн ташып өткөрүүгө тыюу салдыбы? Текшеребиз
+2026-05-07 14:21:21,398 [factcheck] INFO Scraping (191): https://factcheck.kg/ky/zhena-deputata-zhk-muradila-sydykova-vyigryvaet-gostendery-na-stroitelstvo/
+2026-05-07 14:21:22,957 [factcheck] INFO   [REAL] osoo.kg, негиздөөчү документтер
+2026-05-07 14:21:26,972 [factcheck] INFO Scraping (192): https://factcheck.kg/ky/dipfejki-kak-zashhitit-sebya/
+2026-05-07 14:21:28,659 [factcheck] INFO   [FAKE] Дипфейктер: кантип сактанса болот?
+2026-05-07 14:21:32,662 [factcheck] INFO Scraping (193): https://factcheck.kg/ky/bolezn-x-mozhet-vyzvat-smertej-v-20-raz-bolshe-chem-pandemiya-koronavirusa-proveryaem/
+2026-05-07 14:21:33,888 [factcheck] INFO   [REAL] «X оорусу» таажычан вирустун пандемиясына салыштырмалуу 20 эсе кө
+2026-05-07 14:22:16,109 [factcheck] INFO ============================================================
+2026-05-07 14:22:16,109 [factcheck] INFO FACTCHECK.KG SCRAPER  v2  (with Augmentation)
+2026-05-07 14:22:16,109 [factcheck] INFO ============================================================
+2026-05-07 14:22:16,110 [factcheck] INFO Fetching listing page 1: https://factcheck.kg/ky/category/factcheck/
+2026-05-07 14:22:17,355 [factcheck] INFO   → 25 new links (total: 25)
+2026-05-07 14:22:18,856 [factcheck] INFO Fetching listing page 2: https://factcheck.kg/ky/category/factcheck/page/2/
+2026-05-07 14:22:20,086 [factcheck] INFO   → 2 new links (total: 27)
+2026-05-07 14:22:21,589 [factcheck] INFO Fetching listing page 3: https://factcheck.kg/ky/category/factcheck/page/3/
+2026-05-07 14:22:22,870 [factcheck] INFO   → 13 new links (total: 40)
+2026-05-07 14:22:24,373 [factcheck] INFO Fetching listing page 4: https://factcheck.kg/ky/category/factcheck/page/4/
+2026-05-07 14:22:25,629 [factcheck] INFO   → 11 new links (total: 51)
+2026-05-07 14:22:27,131 [factcheck] INFO Fetching listing page 5: https://factcheck.kg/ky/category/factcheck/page/5/
+2026-05-07 14:22:28,213 [factcheck] INFO   → 11 new links (total: 62)
+2026-05-07 14:22:29,714 [factcheck] INFO Fetching listing page 6: https://factcheck.kg/ky/category/factcheck/page/6/
+2026-05-07 14:22:31,196 [factcheck] INFO   → 12 new links (total: 74)
+2026-05-07 14:22:32,699 [factcheck] INFO Fetching listing page 7: https://factcheck.kg/ky/category/factcheck/page/7/
+2026-05-07 14:22:34,309 [factcheck] INFO   → 12 new links (total: 86)
+2026-05-07 14:22:35,812 [factcheck] INFO Fetching listing page 8: https://factcheck.kg/ky/category/factcheck/page/8/
+2026-05-07 14:22:37,021 [factcheck] INFO   → 12 new links (total: 98)
+2026-05-07 14:22:38,524 [factcheck] INFO Fetching listing page 9: https://factcheck.kg/ky/category/factcheck/page/9/
+2026-05-07 14:22:39,881 [factcheck] INFO   → 11 new links (total: 109)
+2026-05-07 14:22:41,382 [factcheck] INFO Fetching listing page 10: https://factcheck.kg/ky/category/factcheck/page/10/
+2026-05-07 14:22:42,997 [factcheck] INFO   → 11 new links (total: 120)
+2026-05-07 14:22:44,498 [factcheck] INFO Fetching listing page 11: https://factcheck.kg/ky/category/factcheck/page/11/
+2026-05-07 14:22:46,119 [factcheck] INFO   → 10 new links (total: 130)
+2026-05-07 14:22:47,620 [factcheck] INFO Fetching listing page 12: https://factcheck.kg/ky/category/factcheck/page/12/
+2026-05-07 14:22:49,282 [factcheck] INFO   → 11 new links (total: 141)
+2026-05-07 14:22:50,784 [factcheck] INFO Fetching listing page 13: https://factcheck.kg/ky/category/factcheck/page/13/
+2026-05-07 14:22:52,339 [factcheck] INFO   → 10 new links (total: 151)
+2026-05-07 14:22:53,842 [factcheck] INFO Fetching listing page 14: https://factcheck.kg/ky/category/factcheck/page/14/
+2026-05-07 14:22:55,402 [factcheck] INFO   → 11 new links (total: 162)
+2026-05-07 14:22:56,904 [factcheck] INFO Fetching listing page 15: https://factcheck.kg/ky/category/factcheck/page/15/
+2026-05-07 14:22:58,466 [factcheck] INFO   → 10 new links (total: 172)
+2026-05-07 14:22:59,981 [factcheck] INFO Fetching listing page 16: https://factcheck.kg/ky/category/factcheck/page/16/
+2026-05-07 14:23:01,694 [factcheck] INFO   → 11 new links (total: 183)
+2026-05-07 14:23:03,208 [factcheck] INFO Fetching listing page 17: https://factcheck.kg/ky/category/factcheck/page/17/
+2026-05-07 14:23:05,218 [factcheck] INFO   → 10 new links (total: 193)
+2026-05-07 14:23:06,720 [factcheck] INFO Fetching listing page 18: https://factcheck.kg/ky/category/factcheck/page/18/
+2026-05-07 14:23:08,319 [factcheck] INFO   → 11 new links (total: 204)
+2026-05-07 14:23:09,831 [factcheck] INFO Fetching listing page 19: https://factcheck.kg/ky/category/factcheck/page/19/
+2026-05-07 14:23:11,378 [factcheck] INFO   → 10 new links (total: 214)
+2026-05-07 14:23:12,879 [factcheck] INFO Fetching listing page 20: https://factcheck.kg/ky/category/factcheck/page/20/
+2026-05-07 14:23:14,480 [factcheck] INFO   → 11 new links (total: 225)
+2026-05-07 14:23:15,996 [factcheck] INFO Fetching listing page 21: https://factcheck.kg/ky/category/factcheck/page/21/
+2026-05-07 14:23:17,534 [factcheck] INFO   → 10 new links (total: 235)
+2026-05-07 14:23:19,037 [factcheck] INFO Fetching listing page 22: https://factcheck.kg/ky/category/factcheck/page/22/
+2026-05-07 14:23:20,620 [factcheck] INFO   → 11 new links (total: 246)
+2026-05-07 14:23:22,121 [factcheck] INFO Fetching listing page 23: https://factcheck.kg/ky/category/factcheck/page/23/
+2026-05-07 14:23:23,721 [factcheck] INFO   → 10 new links (total: 256)
+2026-05-07 14:23:25,231 [factcheck] INFO Fetching listing page 24: https://factcheck.kg/ky/category/factcheck/page/24/
+2026-05-07 14:23:26,786 [factcheck] INFO   → 11 new links (total: 267)
+2026-05-07 14:23:28,287 [factcheck] INFO Fetching listing page 25: https://factcheck.kg/ky/category/factcheck/page/25/
+2026-05-07 14:23:30,399 [factcheck] INFO   → 10 new links (total: 277)
+2026-05-07 14:23:31,905 [factcheck] INFO Fetching listing page 26: https://factcheck.kg/ky/category/factcheck/page/26/
+2026-05-07 14:23:33,453 [factcheck] INFO   → 11 new links (total: 288)
+2026-05-07 14:23:34,956 [factcheck] INFO Fetching listing page 27: https://factcheck.kg/ky/category/factcheck/page/27/
+2026-05-07 14:23:36,529 [factcheck] INFO   → 10 new links (total: 298)
+2026-05-07 14:23:38,042 [factcheck] INFO Fetching listing page 28: https://factcheck.kg/ky/category/factcheck/page/28/
+2026-05-07 14:23:39,755 [factcheck] INFO   → 10 new links (total: 308)
+2026-05-07 14:23:41,265 [factcheck] INFO Fetching listing page 29: https://factcheck.kg/ky/category/factcheck/page/29/
+2026-05-07 14:23:42,883 [factcheck] INFO   → 11 new links (total: 319)
+2026-05-07 14:23:44,387 [factcheck] INFO Fetching listing page 30: https://factcheck.kg/ky/category/factcheck/page/30/
+2026-05-07 14:23:46,008 [factcheck] INFO   → 10 new links (total: 329)
+2026-05-07 14:23:47,509 [factcheck] INFO Fetching listing page 31: https://factcheck.kg/ky/category/factcheck/page/31/
+2026-05-07 14:23:49,277 [factcheck] INFO   → 11 new links (total: 340)
+2026-05-07 14:23:50,779 [factcheck] INFO Fetching listing page 32: https://factcheck.kg/ky/category/factcheck/page/32/
+2026-05-07 14:23:52,185 [factcheck] INFO   → 11 new links (total: 351)
+2026-05-07 14:23:53,692 [factcheck] INFO Fetching listing page 33: https://factcheck.kg/ky/category/factcheck/page/33/
+2026-05-07 14:23:54,939 [factcheck] INFO   → 10 new links (total: 361)
+2026-05-07 14:23:56,440 [factcheck] INFO Fetching listing page 34: https://factcheck.kg/ky/category/factcheck/page/34/
+2026-05-07 14:23:58,049 [factcheck] INFO   → 11 new links (total: 372)
+2026-05-07 14:23:59,557 [factcheck] INFO Fetching listing page 35: https://factcheck.kg/ky/category/factcheck/page/35/
+2026-05-07 14:24:00,780 [factcheck] INFO   → 10 new links (total: 382)
+2026-05-07 14:24:02,293 [factcheck] INFO Fetching listing page 36: https://factcheck.kg/ky/category/factcheck/page/36/
+2026-05-07 14:24:03,370 [factcheck] INFO   → 11 new links (total: 393)
+2026-05-07 14:24:04,875 [factcheck] INFO Fetching listing page 37: https://factcheck.kg/ky/category/factcheck/page/37/
+2026-05-07 14:24:06,096 [factcheck] INFO   → 11 new links (total: 404)
+2026-05-07 14:24:07,603 [factcheck] INFO Fetching listing page 38: https://factcheck.kg/ky/category/factcheck/page/38/
+2026-05-07 14:24:08,800 [factcheck] INFO   → 10 new links (total: 414)
+2026-05-07 14:24:10,303 [factcheck] INFO Fetching listing page 39: https://factcheck.kg/ky/category/factcheck/page/39/
+2026-05-07 14:24:12,044 [factcheck] INFO   → 11 new links (total: 425)
+2026-05-07 14:24:13,551 [factcheck] INFO Fetching listing page 40: https://factcheck.kg/ky/category/factcheck/page/40/
+2026-05-07 14:24:15,115 [factcheck] INFO   → 11 new links (total: 436)
+2026-05-07 14:24:16,617 [factcheck] INFO Fetching listing page 41: https://factcheck.kg/ky/category/factcheck/page/41/
+2026-05-07 14:24:18,281 [factcheck] INFO   → 11 new links (total: 447)
+2026-05-07 14:24:19,781 [factcheck] INFO Fetching listing page 42: https://factcheck.kg/ky/category/factcheck/page/42/
+2026-05-07 14:24:21,380 [factcheck] INFO   → 10 new links (total: 457)
+2026-05-07 14:24:22,882 [factcheck] INFO Fetching listing page 43: https://factcheck.kg/ky/category/factcheck/page/43/
+2026-05-07 14:24:24,526 [factcheck] INFO   → 11 new links (total: 468)
+2026-05-07 14:24:26,040 [factcheck] INFO Fetching listing page 44: https://factcheck.kg/ky/category/factcheck/page/44/
+2026-05-07 14:24:27,747 [factcheck] INFO   → 10 new links (total: 478)
+2026-05-07 14:24:29,251 [factcheck] INFO Fetching listing page 45: https://factcheck.kg/ky/category/factcheck/page/45/
+2026-05-07 14:24:30,979 [factcheck] INFO   → 11 new links (total: 489)
+2026-05-07 14:24:32,481 [factcheck] INFO Fetching listing page 46: https://factcheck.kg/ky/category/factcheck/page/46/
+2026-05-07 14:24:34,362 [factcheck] INFO   → 11 new links (total: 500)
+2026-05-07 14:24:35,865 [factcheck] INFO Fetching listing page 47: https://factcheck.kg/ky/category/factcheck/page/47/
+2026-05-07 14:24:37,723 [factcheck] INFO   → 11 new links (total: 511)
+2026-05-07 14:24:39,225 [factcheck] INFO Fetching listing page 48: https://factcheck.kg/ky/category/factcheck/page/48/
+2026-05-07 14:24:40,808 [factcheck] INFO   → 10 new links (total: 521)
+2026-05-07 14:24:42,322 [factcheck] INFO Fetching listing page 49: https://factcheck.kg/ky/category/factcheck/page/49/
+2026-05-07 14:24:43,945 [factcheck] INFO   → 11 new links (total: 532)
+2026-05-07 14:24:45,453 [factcheck] INFO Fetching listing page 50: https://factcheck.kg/ky/category/factcheck/page/50/
+2026-05-07 14:24:47,271 [factcheck] INFO   → 11 new links (total: 543)
+2026-05-07 14:24:48,772 [factcheck] INFO Fetching listing page 51: https://factcheck.kg/ky/category/factcheck/page/51/
+2026-05-07 14:24:50,329 [factcheck] INFO   → 10 new links (total: 553)
+2026-05-07 14:24:51,831 [factcheck] INFO Fetching listing page 52: https://factcheck.kg/ky/category/factcheck/page/52/
+2026-05-07 14:24:53,377 [factcheck] INFO   → 11 new links (total: 564)
+2026-05-07 14:24:54,879 [factcheck] INFO Fetching listing page 53: https://factcheck.kg/ky/category/factcheck/page/53/
+2026-05-07 14:24:56,438 [factcheck] INFO   → 11 new links (total: 575)
+2026-05-07 14:24:57,939 [factcheck] INFO Fetching listing page 54: https://factcheck.kg/ky/category/factcheck/page/54/
+2026-05-07 14:24:59,540 [factcheck] INFO   → 10 new links (total: 585)
+2026-05-07 14:25:01,056 [factcheck] INFO Fetching listing page 55: https://factcheck.kg/ky/category/factcheck/page/55/
+2026-05-07 14:25:02,713 [factcheck] INFO   → 11 new links (total: 596)
+2026-05-07 14:25:04,225 [factcheck] INFO Fetching listing page 56: https://factcheck.kg/ky/category/factcheck/page/56/
+2026-05-07 14:25:05,832 [factcheck] INFO   → 11 new links (total: 607)
+2026-05-07 14:25:07,335 [factcheck] INFO Fetching listing page 57: https://factcheck.kg/ky/category/factcheck/page/57/
+2026-05-07 14:25:08,852 [factcheck] INFO   → 9 new links (total: 616)
+2026-05-07 14:25:10,363 [factcheck] INFO Fetching listing page 58: https://factcheck.kg/ky/category/factcheck/page/58/
+2026-05-07 14:25:11,915 [factcheck] INFO   → 10 new links (total: 626)
+2026-05-07 14:25:13,417 [factcheck] INFO Fetching listing page 59: https://factcheck.kg/ky/category/factcheck/page/59/
+2026-05-07 14:25:15,075 [factcheck] INFO   → 11 new links (total: 637)
+2026-05-07 14:25:16,591 [factcheck] INFO Fetching listing page 60: https://factcheck.kg/ky/category/factcheck/page/60/
+2026-05-07 14:25:18,169 [factcheck] INFO   → 10 new links (total: 647)
+2026-05-07 14:25:19,672 [factcheck] INFO Fetching listing page 61: https://factcheck.kg/ky/category/factcheck/page/61/
+2026-05-07 14:25:21,223 [factcheck] INFO   → 11 new links (total: 658)
+2026-05-07 14:25:22,725 [factcheck] INFO Fetching listing page 62: https://factcheck.kg/ky/category/factcheck/page/62/
+2026-05-07 14:25:24,280 [factcheck] INFO   → 11 new links (total: 669)
+2026-05-07 14:25:25,790 [factcheck] INFO Fetching listing page 63: https://factcheck.kg/ky/category/factcheck/page/63/
+2026-05-07 14:25:27,362 [factcheck] INFO   → 11 new links (total: 680)
+2026-05-07 14:25:28,864 [factcheck] INFO Fetching listing page 64: https://factcheck.kg/ky/category/factcheck/page/64/
+2026-05-07 14:25:30,408 [factcheck] INFO   → 11 new links (total: 691)
+2026-05-07 14:25:31,910 [factcheck] INFO Fetching listing page 65: https://factcheck.kg/ky/category/factcheck/page/65/
+2026-05-07 14:25:33,447 [factcheck] INFO   → 11 new links (total: 702)
+2026-05-07 14:25:34,963 [factcheck] INFO Fetching listing page 66: https://factcheck.kg/ky/category/factcheck/page/66/
+2026-05-07 14:25:36,368 [factcheck] INFO   → 12 new links (total: 714)
+2026-05-07 14:25:37,883 [factcheck] INFO Fetching listing page 67: https://factcheck.kg/ky/category/factcheck/page/67/
+2026-05-07 14:25:39,484 [factcheck] INFO   → 11 new links (total: 725)
+2026-05-07 14:25:40,997 [factcheck] INFO Fetching listing page 68: https://factcheck.kg/ky/category/factcheck/page/68/
+2026-05-07 14:25:42,681 [factcheck] INFO   → 11 new links (total: 736)
+2026-05-07 14:25:44,182 [factcheck] INFO Fetching listing page 69: https://factcheck.kg/ky/category/factcheck/page/69/
+2026-05-07 14:25:45,751 [factcheck] INFO   → 10 new links (total: 746)
+2026-05-07 14:25:47,257 [factcheck] INFO Fetching listing page 70: https://factcheck.kg/ky/category/factcheck/page/70/
+2026-05-07 14:25:48,817 [factcheck] INFO   → 11 new links (total: 757)
+2026-05-07 14:25:50,328 [factcheck] INFO Fetching listing page 71: https://factcheck.kg/ky/category/factcheck/page/71/
+2026-05-07 14:25:51,894 [factcheck] INFO   → 13 new links (total: 770)
+2026-05-07 14:25:53,399 [factcheck] INFO Fetching listing page 72: https://factcheck.kg/ky/category/factcheck/page/72/
+2026-05-07 14:25:55,155 [factcheck] INFO   → 11 new links (total: 781)
+2026-05-07 14:25:56,656 [factcheck] INFO Fetching listing page 73: https://factcheck.kg/ky/category/factcheck/page/73/
+2026-05-07 14:25:58,219 [factcheck] INFO   → 12 new links (total: 793)
+2026-05-07 14:25:59,733 [factcheck] INFO Fetching listing page 74: https://factcheck.kg/ky/category/factcheck/page/74/
+2026-05-07 14:26:01,291 [factcheck] INFO   → 11 new links (total: 804)
+2026-05-07 14:26:02,804 [factcheck] INFO Fetching listing page 75: https://factcheck.kg/ky/category/factcheck/page/75/
+2026-05-07 14:26:05,101 [factcheck] INFO   → 10 new links (total: 814)
+2026-05-07 14:26:06,613 [factcheck] INFO Fetching listing page 76: https://factcheck.kg/ky/category/factcheck/page/76/
+2026-05-07 14:26:08,203 [factcheck] INFO   → 13 new links (total: 827)
+2026-05-07 14:26:09,718 [factcheck] INFO Fetching listing page 77: https://factcheck.kg/ky/category/factcheck/page/77/
+2026-05-07 14:26:11,549 [factcheck] INFO   → 12 new links (total: 839)
+2026-05-07 14:26:13,050 [factcheck] INFO Fetching listing page 78: https://factcheck.kg/ky/category/factcheck/page/78/
+2026-05-07 14:26:15,067 [factcheck] INFO   → 12 new links (total: 851)
+2026-05-07 14:26:16,569 [factcheck] INFO Fetching listing page 79: https://factcheck.kg/ky/category/factcheck/page/79/
+2026-05-07 14:26:18,135 [factcheck] INFO   → 12 new links (total: 863)
+2026-05-07 14:26:19,651 [factcheck] INFO Fetching listing page 80: https://factcheck.kg/ky/category/factcheck/page/80/
+2026-05-07 14:26:21,235 [factcheck] INFO   → 12 new links (total: 875)
+2026-05-07 14:26:22,735 [factcheck] INFO Fetching listing page 81: https://factcheck.kg/ky/category/factcheck/page/81/
+2026-05-07 14:26:24,308 [factcheck] INFO   → 3 new links (total: 878)
+2026-05-07 14:26:25,809 [factcheck] INFO Fetching listing page 82: https://factcheck.kg/ky/category/factcheck/page/82/
+2026-05-07 14:26:27,300 [factcheck] INFO   404 — end of pagination.
+2026-05-07 14:26:27,300 [factcheck] INFO Total article links: 878
+2026-05-07 14:26:27,302 [factcheck] INFO Scraping (1): https://factcheck.kg/ky/otkryvali-ploshhadki-predlagali-menyat-nazvaniya-rajonov-otsuzhivali-mandaty-kakoj-byl-tolk-ot-deputatov-kotorye-povtorno-proshli-v-bgk/
+2026-05-07 14:26:28,748 [factcheck] INFO   [UNCERTAIN] Шаардык кеңешке кайрадан өткөн депутаттар буга чейин эмне иш жаса
+2026-05-07 14:26:32,751 [factcheck] INFO Scraping (2): https://factcheck.kg/ky/informacziya-o-tom-chto-turcziya-peredast-kyrgyzstanu-bespilotniki-fejk/
+2026-05-07 14:26:34,267 [factcheck] INFO   [FAKE] Түркия Кыргызстанга учкучу жок учактарды берет деген маалымат жал
+2026-05-07 14:26:38,268 [factcheck] INFO Scraping (3): https://factcheck.kg/ky/ssha-isklyuchil-ramzana-kadyrova-iz-sankczionnogo-spiska-proveryaem/
+2026-05-07 14:26:40,034 [factcheck] INFO   [REAL] АКШ Рамзан Кадыровду санкциялык тизмектен чыгарып салдыбы? Текшер
+2026-05-07 14:26:44,036 [factcheck] INFO Scraping (4): https://factcheck.kg/ky/otvetstvennaya-dolzhnost-nelzya-otstranyat-proveryaem-slova-tashieva/
+2026-05-07 14:26:45,528 [factcheck] INFO   [REAL] “Жоопкерчиликтүү кызматта турам, четтегенге болбойт” – Ташиевдин 
+2026-05-07 14:26:49,530 [factcheck] INFO Scraping (5): https://factcheck.kg/ky/ocherednoj-plagiat-mekenchil-el-skopirovala-programmu-u-edinoj-rossii-i-uzbekskoj-partii-adolat/
+2026-05-07 14:26:51,193 [factcheck] INFO   [REAL] “Мекенчил Эл” партиясы өзбекстандык жана россиялык партиялардын п
+2026-05-07 14:26:55,195 [factcheck] INFO Scraping (6): https://factcheck.kg/ky/apparat-prezidenta-oboshelsya-byudzhetu-v-1-mlrd-somov-eto-v-sem-raz-bolshe-zaplanirovannogo/
+2026-05-07 14:26:56,804 [factcheck] INFO   [REAL] Президенттик Аппараттын чыгымдары 1 млрд сомдон ашык. Бул пландал
+2026-05-07 14:27:00,807 [factcheck] INFO Scraping (7): https://factcheck.kg/ky/meshki-s-zolotom-doma-u-temira-sarieva-nepravda/
+2026-05-07 14:27:02,309 [factcheck] INFO   [FAKE] Темир Сариевдин үйүнөн табылган алтын тууралуу маалымат — фейк
+2026-05-07 14:27:06,319 [factcheck] INFO Scraping (8): https://factcheck.kg/ky/nad-kaaboj-ne-sposobny-letat-samolety-i-pticzy-proveryaem/
+2026-05-07 14:27:07,944 [factcheck] INFO   [REAL] Каабанын үстүнөн учактар жана куштар учалбайбы? Текшеребиз
+2026-05-07 14:27:11,947 [factcheck] INFO Scraping (9): https://factcheck.kg/ky/sobaka-s-chelovecheskim-liczom-sushhestvuet-proveryaem/
+2026-05-07 14:27:13,383 [factcheck] INFO   [REAL] Yogi the dog with a human-like face(https://t.co/geQc8nzg7z…)pic.
+2026-05-07 14:27:17,394 [factcheck] INFO Scraping (10): https://factcheck.kg/ky/kyrgyzstan-eksportiroval-v-rossiyu-priczelov-dlya-oruzhiya-na-10-mln-somov/
+2026-05-07 14:27:19,014 [factcheck] INFO   [UNCERTAIN] Кыргызстан Орусияга куралдардын мээлөө дүрбүлөрүн 10 млн сомго эк
+2026-05-07 14:27:23,042 [factcheck] INFO Saved all 10 scraped articles → factcheck_all.csv
+2026-05-07 14:27:23,061 [factcheck] INFO Kyrgyz fake articles after filtering: 2
+2026-05-07 14:27:23,066 [factcheck] INFO Text-split augmentation added 1 rows.
+2026-05-07 14:27:23,070 [factcheck] INFO After text splitting: 3 rows
+2026-05-07 14:27:23,070 [factcheck] INFO Still need 7 rows — attempting back-translation…
+2026-05-07 14:27:23,070 [factcheck] WARNING transformers not installed — skipping back-translation. Install with: pip install transformers sentencepiece
+2026-05-07 14:27:23,079 [factcheck] INFO 
+✓ Saved 3 FAKE rows → factcheck_fake_news.csv
+2026-05-07 14:27:23,079 [factcheck] INFO 
+============================================================
+2026-05-07 14:27:23,079 [factcheck] INFO SUMMARY
+2026-05-07 14:27:23,079 [factcheck] INFO ============================================================
+2026-05-07 14:27:23,079 [factcheck] INFO Raw scraped:         10
+2026-05-07 14:27:23,079 [factcheck] INFO Kyrgyz fake (raw):   2
+2026-05-07 14:27:23,079 [factcheck] INFO After augmentation:  3
+2026-05-07 14:27:23,087 [factcheck] INFO   original: 1
+2026-05-07 14:27:23,087 [factcheck] INFO   text_split_orig: 1
+2026-05-07 14:27:23,088 [factcheck] INFO   text_split: 1

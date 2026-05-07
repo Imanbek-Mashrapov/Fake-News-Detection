@@ -22,9 +22,9 @@ CATEGORIES = [
     "https://saat.kg/ekonomika/",
 ]
 
-TARGET = 150
-DELAY = 2.5
-MAX_PAGES = 20
+TARGET = 250
+DELAY = 3.5
+MAX_PAGES = 40
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",

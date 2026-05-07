@@ -28,8 +28,8 @@ log = logging.getLogger("sputnik")
 # ── Config ───────────────────────────────────────────────────────────────────
 BASE_URL     = "https://sputnik.kg"
 CATEGORY_URL = "https://sputnik.kg/news/"
-TARGET       = 150
-MAX_PAGES    = 15
+TARGET       = 250
+MAX_PAGES    = 45
 DELAY        = 5.0    # Sputnik is strict; 5s avoids rate-limiting
 
 HEADERS = {

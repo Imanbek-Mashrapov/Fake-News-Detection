@@ -28,8 +28,8 @@ log = logging.getLogger("azattyk")
 BASE_URL     = "https://www.azattyk.org"
 # /kg/ is the Kyrgyz-language news listing; /a/ URLs are individual articles
 NEWS_URL     = "https://www.azattyk.org/news"
-TARGET       = 150
-MAX_PAGES    = 20
+TARGET       = 250
+MAX_PAGES    = 50
 DELAY        = 3.0    # azattyk can be slow; respect the server
 
 HEADERS = {
