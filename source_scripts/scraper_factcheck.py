@@ -1,18 +1,3 @@
-"""
-FactCheck.kg Kyrgyz Fake News Scraper  ·  v2 (with Augmentation)
-=================================================================
-Scrapes fact-checked articles from factcheck.kg, extracts the
-ORIGINAL FAKE CLAIM (everything before «редакциясы аныктады»),
-then augments the fake-news set to reach TARGET_FAKE via:
-
-  1. Text Splitting  — long articles split into two logical halves
-  2. Back-translation — Kyrgyz → Russian → Kyrgyz via Helsinki-NLP
-     MarianMT  (uses CPU; no GPU required).
-
-Label: 1 (Fake News)
-Scrape target: 300 raw articles  →  augment to TARGET_FAKE = 333
-"""
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -22,7 +7,6 @@ import logging
 import re
 from urllib.parse import urljoin
 
-# ── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [factcheck] %(levelname)s %(message)s",
@@ -30,19 +14,16 @@ logging.basicConfig(
 )
 log = logging.getLogger("factcheck")
 
-# ── Config ───────────────────────────────────────────────────────────────────
+
 BASE_URL     = "https://factcheck.kg"
 CATEGORY_URL = "https://factcheck.kg/ky/category/factcheck/"
-SCRAPE_TARGET = 10      # raw articles to scrape
-TARGET_FAKE  = 10       # final fake-news rows after augmentation
-MAX_PAGES    = 100
+SCRAPE_TARGET = 400      
+TARGET_FAKE  = 500       
+MAX_PAGES    = 200
 DELAY        = 4.0
 
-# Minimum body length of the extracted fake claim (chars)
 MIN_BODY_LEN = 80
-# Minimum length to qualify for text-split augmentation
 SPLIT_MIN_LEN = 300
-# Minimum length to qualify for back-translation
 BT_MIN_LEN   = 80
 
 HEADERS = {
@@ -55,7 +36,6 @@ HEADERS = {
     "Referer": "https://factcheck.kg/",
 }
 
-# ── Stop-phrases that mark where the factcheckers' analysis begins ────────────
 STOP_PHRASES = [
     "редакциясы аныктады",
     "редакция аныктады",
@@ -65,25 +45,15 @@ STOP_PHRASES = [
     "текшерип аныктады",
 ]
 
-# ── Verdict keywords ──────────────────────────────────────────────────────────
 KY_FAKE_KEYWORDS = [
     "жалган", "туура эмес", "ырасталган жок", "далилденген жок",
     "туура эмес маалымат", "жаңылыш", "бурмаланган", "жасалма",
     "фейк", "чындыкка жатпайт", "калп",
 ]
 KY_TRUE_KEYWORDS = ["чын", "туура", "ырасталды", "далилденди", "чындык"]
-RU_FAKE_KEYWORDS = [
-    "неправда", "ложь", "ложное", "выдумка", "вымышленное",
-    "не соответствует действительности", "не подтверждается",
-    "ошибочное", "заблуждение", "миф", "фейк", "дезинформация",
-    "манипуляция", "недостоверно",
-]
-RU_TRUE_KEYWORDS = ["правда", "истина", "подтверждается", "верно", "истинно"]
 
 
-# ══════════════════════════════════════════════════════════════════════════════
-# Utility helpers
-# ══════════════════════════════════════════════════════════════════════════════
+
 
 def detect_language(text: str) -> str:
     """Detect Kyrgyz vs Russian by Kyrgyz-specific Unicode characters."""
@@ -98,11 +68,9 @@ def extract_verdict(text: str, conclusion: str) -> tuple[int, float]:
     search = (conclusion + " " + text[:3000]).lower()
     ky_fake = sum(search.count(kw) for kw in KY_FAKE_KEYWORDS)
     ky_true = sum(search.count(kw) for kw in KY_TRUE_KEYWORDS)
-    ru_fake = sum(search.count(kw) for kw in RU_FAKE_KEYWORDS)
-    ru_true = sum(search.count(kw) for kw in RU_TRUE_KEYWORDS)
 
-    fake_score = ky_fake + ru_fake
-    true_score = ky_true + ru_true
+    fake_score = ky_fake
+    true_score = ky_true
 
     if fake_score > true_score and fake_score > 0:
         return 1, round(min(fake_score / max(fake_score + true_score, 1), 1.0), 2)

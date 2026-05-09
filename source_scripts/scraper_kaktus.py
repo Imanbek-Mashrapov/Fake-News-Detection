@@ -28,7 +28,7 @@ log = logging.getLogger("kaktus")
 BASE_URL  = "https://kaktus.media"
 # Kaktus.media has a /ky/ section for Kyrgyz-language content
 KY_URL    = "https://kaktus.media/ky/"
-TARGET    = 150
+TARGET    = 10
 MAX_PAGES = 20
 DELAY     = 3.0
 

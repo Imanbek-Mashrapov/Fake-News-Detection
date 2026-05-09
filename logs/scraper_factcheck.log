@@ -1424,3 +1424,11 @@
 2026-05-07 14:27:23,087 [factcheck] INFO   original: 1
 2026-05-07 14:27:23,087 [factcheck] INFO   text_split_orig: 1
 2026-05-07 14:27:23,088 [factcheck] INFO   text_split: 1
+2026-05-09 00:13:21,388 [factcheck] INFO ============================================================
+2026-05-09 00:13:21,389 [factcheck] INFO FACTCHECK.KG SCRAPER  v2  (with Augmentation)
+2026-05-09 00:13:21,389 [factcheck] INFO ============================================================
+2026-05-09 00:13:21,389 [factcheck] INFO Fetching listing page 1: https://factcheck.kg/ky/category/factcheck/
+2026-05-09 00:13:22,118 [factcheck] INFO   → 25 new links (total: 25)
+2026-05-09 00:13:23,620 [factcheck] INFO Fetching listing page 2: https://factcheck.kg/ky/category/factcheck/page/2/
+2026-05-09 00:13:24,401 [factcheck] INFO   → 2 new links (total: 27)
+2026-05-09 00:13:25,902 [factcheck] INFO Fetching listing page 3: https://factcheck.kg/ky/category/factcheck/page/3/
